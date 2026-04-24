@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+	<ThingDef ParentName="RH2_BuildingBase">
+    <defName>RH2_MissionBoard</defName>
+    <label>mission board</label>
+    <description>A mission board to look for new missions.</description>
+    <graphicData>
+      <texPath>Things/Building/Board/MissionBoard</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.5,2.5)</drawSize>
+      <!--<damageData>
+        <rect>(0,0,3,1.8)</rect>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>-->
+      <!--<shadowData>
+        <volume>(3,0.5,2)</volume>
+      </shadowData>-->
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <blockWind>true</blockWind>
+	<rotatable>true</rotatable>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+	  <Mass>12</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>0.9</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+	<stuffCategories>
+	  <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	 <costStuffCount>100</costStuffCount>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+		<building>
+			<ai_chillDestination>true</ai_chillDestination>
+		</building>
+    <comps>
+      <li Class="ReinforcementCall.CompProperties_MissionBoardRC">
+		<doableQuests>
+			<OpportunitySite_BanditCamp>Search and destroy bandit camp</OpportunitySite_BanditCamp>
+			<OpportunitySite_ItemStash>Search for an item stash</OpportunitySite_ItemStash>
+			<OpportunitySite_PrisonerWillingToJoin>Search radio signals for a prisoner rescue</OpportunitySite_PrisonerWillingToJoin>
+			<OpportunitySite_DownedRefugee>Search and rescue for downed refugees</OpportunitySite_DownedRefugee>
+			<OpportunitySite_PeaceTalks>Search for a peace talks opportunity</OpportunitySite_PeaceTalks>
+			<ThreatReward_Raid_Joiner>Offer sanctuary to chased refugees</ThreatReward_Raid_Joiner>
+		</doableQuests>
+		<doableMissions>
+			<OrbitalTraderArrival>Request for an orbital trader arrival</OrbitalTraderArrival>
+			<!-- RansomDemand removed: requires faction parameter that mission board doesn't provide, causes NullRef -->
+			<GiveQuest_Random>Search for a random mission</GiveQuest_Random>
+		</doableMissions>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,1693 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+        <!-- ================================== M1 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_M1Helmet_Vietnam</defName>
+    <label>M1 helmet</label>
+    <description>The M1 helmet is a combat helmet that was used by the U.S. military from World War II until 1985, when it was succeeded by the PASGT helmet. The M1 helmet has become an icon of the US military, with its design inspiring other militaries around the world.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/M1VN</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>18</costStuffCount>
+    <costList>
+      <Compaste>13</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/M1/M1Vietnam_Clean</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Jungle_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+        <li>RH2_MSF_Helmet</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+        <!-- ================================== FAST BUMP ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_ProTecPrime_PizzaTime</defName>
+    <label>ProTec Prime (Pizza Time)</label>
+    <description>Proven protection, proven style. A favorite across every sport, the prime Certified helmet features our classic styling with our durable ABS hard shell and EPS liner for impact protection, compression molded pads and 11 open vents to keep you cool.\n\nThe ProTec Prime helmet is originally a non-ballistic model, however this specific version has been adapted for ballistic use.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/ProTec_Prime_PizzaTime</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.95</Mass>
+      <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>17</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/ProTec_Prime/ProTec_Prime_PizzaTime</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  
+    	<!-- ================================== EXFIL Ballistic ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_EXFILBallisticHelmet_Tan</defName>
+    <label>EXFIL® ballistic helmet</label>
+    <description>The EXFIL® Ballistic features a hybrid composite shell for increased strength and a unique geometry for optimal fit. An innovative, boltless CAM FIT™ retention quickly adjusts to individual head shapes, providing comfort and stability.\n\nThe EXFIL Ballistic helmet is produced by Team Wendy.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/EXFIL_Ballistic_Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>21</costStuffCount>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>23</costStuffCount>
+    <costList>
+      <Compaste>9</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Kevlar>23</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/EXFIL/EXFIL_Ballistic_Helmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>    	
+  
+  <!-- ================================== 3M F70 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_3MF70HighCut_Tan</defName>
+    <label>F70 HC ballistic helmet</label>
+    <description>The 3M™ Ballistic Helmet F70 (Foxtrot series) is flexible for use in multiple threat environments. The F70 is an integrated and configurable helmet designed for broad use from military combat missions, special forces operations and law enforcement tactical operations.\n\nThe 3M F70 Ballistic helmet is produced by 3M.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/3MF70HighCut</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>24</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>24</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/F70/3MF70HighCut</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      	<!-- ================================== EXFIL Ballistic ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_FLUXBallisticHelmet_Raid</defName>
+    <label>FLUX ballistic helmet</label>
+    <description>The FLUX Ballistic is the cornerstone of the innovative FLUX helmet system. This helmet was specifically designed to give you the highest level of safety, comfort and modularity currently available in a modern ballistic helmet. The lightweight shell is constructed of high performance polyethylene fibers, and features an undercutting geometric profile that follows the natural shape of your head providing exceptional stability and coverage.\n\nThe FLUX Ballistic helmet is produced by MTEK. The word FLUX is an acronym for Future, Lightweight, Undercut, eXpandable and is derived from latin fluxus, meaning "flow".</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/FLUX_Ballistic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>22</costStuffCount>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>22</costStuffCount>
+    <costList>
+      <Compaste>8</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Kevlar>22</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/FLUX/FLUX_Ballistic</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Multi_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>     
+
+  <!-- TOR-D -->
+  
+    <!-- ==================================  TOR-D ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_UaRmsTORD_Tan</defName>
+    <label>TOR-D ballistic helmet</label>
+    <description>TOR-D is the light version of ballistic helmet TOR. Helmet form with special side cutouts provides additional facilities for using active headphones and radio headset. It is intended for individual protection of the soldiers of airborne forces and special divisions from traumas and wounds, and for installing special equipment.Provides the head protection at falling or hitting, under the impact of an explosive wave, small fragments and ricochets, under a hit of pistol bullets and other small-arms bullets spent. Produced by UaRms.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/TOR_D_Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>24</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>24</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/TOR/TOR_D_Helmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>    
+
+  <!-- VestGuard FAST -->
+  
+    <!-- ================================== SF151 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_VestGuardFAST_Black</defName>
+    <label>SF151 ballistic helmet</label>
+    <description>The Ops-Core Future Assault Shell Technology (FAST) Helmet, also known as the FAST helmet, is a combat helmet used by special operations forces and law enforcement organizations.
+
+The FAST helmet series is characteristic for its shell shape – ear cut geometry which extends critical coverage over the rear occipital bone without load carrier interference, and optimizes weight distribution for increased stability, integration, balance, and improved comfort.\n\nThe SF151 Ballistic helmet is produced by VestGuard, their own version of the FAST helmet. SF stands for "Special Forces".</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/VestGuard_SF151_Black</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>25</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/SF151/VestGuard_SF151_Black</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  <!-- Ops Core FAST series -->
+  
+    <!-- ================================== FAST LE ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_OpsCoreFAST_Tan</defName>
+    <label>FAST ballistic helmet</label>
+    <description>The Ops-Core Future Assault Shell Technology (FAST) Helmet, also known as the FAST helmet, is a combat helmet used by special operations forces and law enforcement organizations.
+
+The FAST helmet series is characteristic for its shell shape – ear cut geometry which extends critical coverage over the rear occipital bone without load carrier interference, and optimizes weight distribution for increased stability, integration, balance, and improved comfort.\n\nThe FAST LE Ballistic helmet is produced by Ops Core.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/OpsCoreFAST_LE_Tan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>26</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>26</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/FAST/OpsCoreFAST_LE_Tan</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      <!-- ================================== FAST LE ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_OpsCoreFAST_SF</defName>
+    <label>FAST (SF) ballistic helmet</label>
+    <description>The Ops-Core Future Assault Shell Technology (FAST) Helmet, also known as the FAST helmet, is a combat helmet used by special operations forces and law enforcement organizations.
+
+The FAST helmet series is characteristic for its shell shape – ear cut geometry which extends critical coverage over the rear occipital bone without load carrier interference, and optimizes weight distribution for increased stability, integration, balance, and improved comfort.\n\nThe FAST LE Ballistic helmet is produced by Ops Core, this modified variant is used as a loadout by Special Forces.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/OpsCoreFAST_LE_RAT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>1.2</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>23</costStuffCount>
+    <costList>
+      <Compaste>9</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Kevlar>22</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/FAST/OpsCoreFAST_LE_RAT</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      <!-- ================================== FAST BUMP ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_OpsCoreFASTBUMP_Multicam</defName>
+    <label>FAST BUMP ballistic helmet</label>
+    <description>The Ops-Core Future Assault Shell Technology (FAST) Helmet, also known as the FAST helmet, is a combat helmet used by special operations forces and law enforcement organizations.
+
+The FAST helmet series is characteristic for its shell shape – ear cut geometry which extends critical coverage over the rear occipital bone without load carrier interference, and optimizes weight distribution for increased stability, integration, balance, and improved comfort.\n\nThe FAST BUMP helmet is produced by Ops Core, it is originally a non-ballistic model, however this specific version has been adapted for ballistic use.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/FASTBUMP_Multicam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.95</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>23</costStuffCount>
+    <costList>
+      <Compaste>9</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Kevlar>22</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/FASTBUMP/FASTBUMP_Multicam</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Multi_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+        <!-- ================================== FAST Carbon ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_OpsCoreFASTCarbon_Grey</defName>
+    <label>FAST Carbon ballistic helmet</label>
+    <description>The Ops-Core Future Assault Shell Technology (FAST) Helmet, also known as the FAST helmet, is a combat helmet used by special operations forces and law enforcement organizations.
+
+The FAST helmet series is characteristic for its shell shape – ear cut geometry which extends critical coverage over the rear occipital bone without load carrier interference, and optimizes weight distribution for increased stability, integration, balance, and improved comfort.\n\nThe FAST Carbon helmet is produced by Ops Core, it is originally a non-ballistic model, however this specific version has been adapted for ballistic use.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/OpsCoreFAST_Carbon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.95</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>22</costStuffCount>
+    <costList>
+      <Compaste>8</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Kevlar>21</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/FASTCARBON/OpsCoreFAST_Carbon</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ================================== MICH 2000 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_MICH2000_CAG</defName>
+    <label>MICH TC-2000 helmet (CAG)</label>
+    <description>The Modular Integrated Communications Helmet (MICH) is a U.S. combat helmet and one of several used by the nation's military. It was developed to be the next generation of protective combat helmets for use by the U.S. Army.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/MICH2000_CAG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>2.1</Mass>
+      <StuffEffectMultiplierArmor>0.80</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>27</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Kevlar>27</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/MICH2000/MICH2000_CAG</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  
+    <!-- ================================== MICH 2000 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_MICH2000_AmericanSniper</defName>
+    <label>MICH TC-2000 helmet</label>
+    <description>The Modular Integrated Communications Helmet (MICH) is a U.S. combat helmet and one of several used by the nation's military. It was developed to be the next generation of protective combat helmets for use by the U.S. Army.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/MICH2000_SEAL</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>2.1</Mass>
+      <StuffEffectMultiplierArmor>0.80</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>26</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>26</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/MICH2000/MICH2000_SEAL</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+    <!-- ================================== Mk 6 DDPM ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Mk6BallisticHelmet_DDPM</defName>
+    <label>Mk 6 helmet (D DPM)</label>
+    <description>The Mk 6 helmet is a type of combat helmet that was the standard of the British Armed Forces as well as another supplied helmet of the UN during peacekeeping operations. The Mk 6 replaced the Mk IV helmet (more correctly titled - Helmet Steel MK IV, General Service) in army service and the RAC helmet in naval service. The jump in MK numbers is thought due to the confusion surrounding the MK IV helmet using the MK V lining, introduced in 1959. The MK 6, introduced into service from the 1980s, is designed to accept modern ear protection, Bowman personal radios, and respirators. The helmet is manufactured by NP Aerospace, and is reported to have an "almost unlimited service life" by the manufacturer.\n\nThis version has a Desert Disruptive Pattern Material (DPM) helmet cover.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/MK6_DDPM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.50</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>24</costStuffCount>
+    <costList>
+      <Compaste>9</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>23</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/Mk6/MK6_DDPM</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>      
+  
+  <!-- ================================== Mk 6 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Mk6BallisticHelmet_Olive</defName>
+    <label>Mk 6 helmet</label>
+    <description>The Mk 6 helmet is a type of combat helmet that was the standard of the British Armed Forces as well as another supplied helmet of the UN during peacekeeping operations. The Mk 6 replaced the Mk IV helmet (more correctly titled - Helmet Steel MK IV, General Service) in army service and the RAC helmet in naval service. The jump in MK numbers is thought due to the confusion surrounding the MK IV helmet using the MK V lining, introduced in 1959. The MK 6, introduced into service from the 1980s, is designed to accept modern ear protection, Bowman personal radios, and respirators. The helmet is manufactured by NP Aerospace, and is reported to have an "almost unlimited service life" by the manufacturer.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/MK6_Normal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.50</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>24</costStuffCount>
+    <costList>
+      <Compaste>9</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>23</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/Mk6/MK6_Normal</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>    
+  
+  <!-- ================================== Mk 6A ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Mk6ABallisticHelmet_Black</defName>
+    <label>Mk 6A helmet</label>
+    <description>In 2005, the Mk 6 began to be replaced by an evolution of the original design, the Mk 6A helmet. NP Aerospace also manufactures the Mk 6A. Although it looks very similar to the Mk 6, the Mk 6A has enhanced ballistic protection and is marginally heavier than the earlier model.[7] The two variants can be easily distinguished from each other when the cover is removed, as the material of the Mk 6 is olive green whilst the Mk 6A is black.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/MK6A_Normal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>25</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/Mk6/MK6A_Normal</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ================================== Mk 7 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Mk7BallisticHelmet_Tan</defName>
+    <label>Mk 7 helmet</label>
+    <description>The Mk 7 helmet was a general issue combat helmet that the British Armed Forces was supplied by NP Aerospace. Officially known as the GS (General Service) Mark 7 combat helmet. It replaced the previous Mk 6A helmet and Mk 6 helmet, introduced in 2005 and 1982 respectively.
+
+The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requirement). The new helmet offers the same ballistic protection as the Mk6A helmet, but its new shape allows a soldier to lie flat and shoot straight, without the rear rim digging into the body armour and tipping the front rim over their eyes.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/Mk7_Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>2.3</Mass>
+      <StuffEffectMultiplierArmor>0.80</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>27</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Kevlar>27</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/Mk7/Mk7_Helmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  <!-- PASGT HELMETS -->
+  
+    	<!-- ================================== PAS101 VestGuard ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_VestGuardPASGT_Black</defName>
+    <label>PAS101 ballistic helmet</label>
+    <description>Personnel Armor System for Ground Troops is a combat helmet and ballistic vest that was used by the United States military from the early 1980s until the mid-2000s, when the helmet and vest were succeeded by the Lightweight Helmet (LWH), Modular Integrated Communications Helmet (MICH), and Interceptor body armor (IBA) respectively. \n\nThe PAS101 Ballistic helmet is produced by VestGuard, their own version of the PASGT helmet, lighter than the original design essentially making it closer to the "LWH" Lightweight Helmet.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/PAS101_Black</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>19</costStuffCount>
+    <costList>
+      <Compaste>14</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/PAS101/PAS101_Black</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      	<!-- ================================== PAS101 VestGuard PRESS ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_VestGuardPASGT_PRESS</defName>
+    <label>PAS101 ballistic helmet (navy)</label>
+    <description>Personnel Armor System for Ground Troops is a combat helmet and ballistic vest that was used by the United States military from the early 1980s until the mid-2000s, when the helmet and vest were succeeded by the Lightweight Helmet (LWH), Modular Integrated Communications Helmet (MICH), and Interceptor body armor (IBA) respectively. \n\nThe PAS101 Ballistic helmet is produced by VestGuard, their own version of the PASGT helmet, lighter than the original design essentially making it closer to the "LWH" Lightweight Helmet.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/PAS101_PRESS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>19</costStuffCount>
+    <costList>
+      <Compaste>14</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/PAS101/PAS101_PRESS</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>      	
+  
+  <!-- ================================== PASGT ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_PASGT_Tan</defName>
+    <label>PASGT ballistic helmet</label>
+    <description>Personnel Armor System for Ground Troops is a combat helmet and ballistic vest that was used by the United States military from the early 1980s until the mid-2000s, when the helmet and vest were succeeded by the Lightweight Helmet (LWH), Modular Integrated Communications Helmet (MICH), and Interceptor body armor (IBA) respectively. \n\nThe PASGT Ballistic helmet is of the original design used by the US Military during the gulf war period.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/PASGT_Tan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.67</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.21</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.03</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>21</costStuffCount>
+    <costList>
+      <Compaste>15</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/PASGT/PASGT_Tan</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  <!-- ================================== PASGT ENVO ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_PASGT_ENVO</defName>
+    <label>PASGT ballistic helmet (ENVO)</label>
+    <description>Personnel Armor System for Ground Troops is a combat helmet and ballistic vest that was used by the United States military from the early 1980s until the mid-2000s, when the helmet and vest were succeeded by the Lightweight Helmet (LWH), Modular Integrated Communications Helmet (MICH), and Interceptor body armor (IBA) respectively. \n\nThis PASGT Ballistic helmet is produced by ENVO, their own version of the PASGT helmet is lighter than the original design essentially making it closer to the "LWH" Lightweight Helmet.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/PASGT_ENVO</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>19</costStuffCount>
+    <costList>
+      <Compaste>14</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/PASGT/PASGT_ENVO</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      	<!-- ================================== LWH USMC ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_LWH_DMARPAT</defName>
+    <label>LWH helmet (D MARPAT)</label>
+    <description>Personnel Armor System for Ground Troops is a combat helmet and ballistic vest that was used by the United States military from the early 1980s until the mid-2000s, when the helmet and vest were succeeded by the Lightweight Helmet (LWH), Modular Integrated Communications Helmet (MICH), and Interceptor body armor (IBA) respectively. \n\nThe PAS101 Ballistic helmet is produced by VestGuard, their own version of the PASGT helmet, lighter than the original design essentially making it closer to the "LWH" Lightweight Helmet.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/LWH_DMARPAT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>18</costStuffCount>
+    <costList>
+      <Compaste>13</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/LWH/LWH_DMARPAT</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>      	
+  
+    <!-- ================================== MICH 2000 ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_ACH_UCP</defName>
+    <label>ACH helmet (UCP)</label>
+    <description>The Advanced Combat Helmet (ACH) is the United States Army's current combat helmet, used since the early 2000s. It was developed by the United States Army Soldier Systems Center,[1] the U.S. Army Special Operations Command,[2] and the U.S. Army Research Laboratory[3] to be the next generation of protective combat helmets for use by the American ground forces. The ACH is derived from the Modular Integrated Communications Helmet.[4] The ACH is currently in the process of being phased out and replaced by the Enhanced Combat Helmet (ECH), an improvement upon the ACH derived from its design. And later being replaced by the Integrated Head Protection System.\n\nThis version is in the Universal Camo Pattern (UCP).</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/ACH_UCP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>2.1</Mass>
+      <StuffEffectMultiplierArmor>0.80</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3.0</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>27</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>26</Kevlar>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/ACH/ACH_UCP</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  <!-- ================================== LWH USMC ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_LZSH2DTM_Olive</defName>
+    <label>LZSH 2DTM helmet</label>
+    <description>During the modern age in Russia, military personnel of the internal troops, as well as police and special forces, required reliable and effective means of protection. At the beginning of 2000, active development of such gear was carried out and in the end LShZ-2DT helmet was introduced, and then its upgraded version — "Vulkan" helmet.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/LZSH_2DTM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9500</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>0.80</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.04</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>23</costStuffCount>
+    <costList>
+      <Compaste>16</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <SyntheticFibers>8</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/LZSH_2DTM/LZSH_2DTM</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      <!-- ================================== STSh-81 ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_STSh81_Helmet</defName>
+    <label>STSh-81 helmet</label>
+    <description>The Sfera (Russian:Сфера) (Sphere), officially called STSh-81, are bullet resistant combat helmets of titanium and steel manufactured with protective GOST rating of 2. They are worn by the Internal Troops of the Interior Ministry in the Soviet Union and its successor state Russia. These helmets continue to be used today by the police and special purpose troops.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/STSh81</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.67</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.21</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.03</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <costList>
+      <Compaste>15</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/STSh81/STSh81</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+    <!-- ================================== 6B48 ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_6B48_Helmet</defName>
+    <label>6B48 helmet</label>
+    <description>The 6B48 helmet (6Б48) - created for tank crews in the Russian Armed Forces. The 6B46 (6Б46) was issued as part of the Ratnik program. Ratnik (Russian: Ратник; Warrior) is a Russian future infantry combat system. It is designed to improve the connectivity and combat effectiveness of combat personnel in the Russian Armed Forces.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Helmet/6b48</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.1</Mass>
+      <StuffEffectMultiplierArmor>0.68</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.21</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <costList>
+      <Compaste>14</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/6B48/6b48</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+</Defs>

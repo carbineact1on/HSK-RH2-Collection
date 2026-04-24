@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!--========================================= Scarves =============================================-->
+  
+    		   <!-- Shemagh Scarf -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Shemagh_511BlazeWrap</defName>
+    <label>Blaze wrap scarf</label>
+    <description>The keffiyeh or kufiya also known as shemagh is a traditional Middle Eastern headdress fashioned from a square scarf, usually made of cotton. It is commonly found in arid regions as it provides protection from sunburn, dust and sand.\n\nThis brand of shemagh comes from the 5.11 Blaze series.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Headgear/Scarf/5.11_BlazeWrap_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.90</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+	  <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+	  <SocialImpact>0.05</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+	    <li>Neck</li>
+	    <!--<li>Teeth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Scarf/5.11_BlazeWrap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialAdvanced</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	  <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+	  
+	<drawData>
+	    <dataNorth>
+          <layer>40</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>40</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>40</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>40</layer>
+        </dataWest>
+	</drawData>
+	  
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

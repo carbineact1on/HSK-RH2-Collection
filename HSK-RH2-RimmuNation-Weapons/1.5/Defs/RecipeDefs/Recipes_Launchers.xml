@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Launchers ==================== -->
+
+	<!-- RPG-7 (WoodLog) -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_RPG7</defName>
+		<label>Build RPG-7</label>
+		<description>Builds an RPG-7 rocket-propelled grenade launcher.</description>
+		<jobString>Building RPG-7.</jobString>
+		<workAmount>22000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>22</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+      <li>Woody</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNGun_RPG7_RocketLauncher>1</RNGun_RPG7_RocketLauncher>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>Leathers</li>
+      <li>Woody</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>Rockets_C1</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- M79 Grenade Launcher (WoodLog) -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_M79</defName>
+		<label>Build M79 Grenade Launcher</label>
+		<description>Builds an M79 break-action grenade launcher.</description>
+		<jobString>Building M79 Grenade Launcher.</jobString>
+		<workAmount>20000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+      <li>Woody</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNGun_M79_GrenadeLauncher>1</RNGun_M79_GrenadeLauncher>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>Leathers</li>
+      <li>Woody</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>Rockets_C1</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- HK69A1 (Plastic) -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_HK69A1</defName>
+		<label>Build HK69A1</label>
+		<description>Builds an HK69A1 grenade launcher.</description>
+		<jobString>Building HK69A1.</jobString>
+		<workAmount>23000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>22</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNGun_HK69A1_GrenadeLauncher>1</RNGun_HK69A1_GrenadeLauncher>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>Rockets_C1</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- M72 LAW (Plastic) -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_M72LAW</defName>
+		<label>Build M72 LAW</label>
+		<description>Builds an M72 LAW disposable anti-tank rocket launcher.</description>
+		<jobString>Building M72 LAW.</jobString>
+		<workAmount>25000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>24</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>24</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNGun_M72LAW_RocketLauncher>1</RNGun_M72LAW_RocketLauncher>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>Rockets_C1</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- NLAW (Plastic) -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_NLAW</defName>
+		<label>Build NLAW</label>
+		<description>Builds an NLAW fire-and-forget anti-tank missile system.</description>
+		<jobString>Building NLAW.</jobString>
+		<workAmount>28000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>26</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>26</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNGun_NLAW_RocketLauncher>1</RNGun_NLAW_RocketLauncher>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>Rockets_C1</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- FGM-148 Javelin (Plastic) -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_Javelin</defName>
+		<label>Build FGM-148 Javelin</label>
+		<description>Builds an FGM-148 Javelin fire-and-forget anti-tank missile.</description>
+		<jobString>Building FGM-148 Javelin.</jobString>
+		<workAmount>30000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>28</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>28</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNGun_FGM148Javelin_RocketLauncher>1</RNGun_FGM148Javelin_RocketLauncher>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>Rockets_C1</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

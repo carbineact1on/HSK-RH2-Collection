@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== Shotgun Recipes ==================== -->
+  <!-- WeaponCraftingWorkTable, GasOperation, Crafting 6 -->
+
+  <!-- AA-12 (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AA12_Shotgun</defName>
+    <label>Build AA-12</label>
+    <description>Build AA-12.</description>
+    <jobString>Building AA-12.</jobString>
+    <workAmount>16000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_AA12_Shotgun>1</RNGun_AA12_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Model 870 MCS (Old - WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Remington870MCS_Shotgun</defName>
+    <label>Build Model 870 MCS</label>
+    <description>Build Model 870 MCS.</description>
+    <jobString>Building Model 870 MCS.</jobString>
+    <workAmount>13000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_Remington870MCS_Shotgun>1</RNGun_Remington870MCS_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- SPAS-12 (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_SPAS12_Shotgun</defName>
+    <label>Build SPAS-12</label>
+    <description>Build SPAS-12.</description>
+    <jobString>Building SPAS-12.</jobString>
+    <workAmount>15000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_SPAS12_Shotgun>1</RNGun_SPAS12_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Model 1897 (Old - WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Model1897_Shotgun</defName>
+    <label>Build Model 1897</label>
+    <description>Build Model 1897.</description>
+    <jobString>Building Model 1897.</jobString>
+    <workAmount>12000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>16</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>15</count></li>
+    </ingredients>
+    <products><RNGun_Model1897_Shotgun>1</RNGun_Model1897_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- IZh-43 double-barreled (Old - WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_IZh43_Shotgun</defName>
+    <label>Build IZh-43 double-barreled</label>
+    <description>Build IZh-43 double-barreled.</description>
+    <jobString>Building IZh-43 double-barreled.</jobString>
+    <workAmount>12500</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>16</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_IZh43_Shotgun>1</RNGun_IZh43_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Benelli Montefeltro (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_BenelliMontefeltro_Shotgun</defName>
+    <label>Build Benelli Montefeltro</label>
+    <description>Build Benelli Montefeltro.</description>
+    <jobString>Building Benelli Montefeltro.</jobString>
+    <workAmount>14500</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>13</count></li>
+    </ingredients>
+    <products><RNGun_BenelliMontefeltro_Shotgun>1</RNGun_BenelliMontefeltro_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Mossberg 500 (Old - WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Mossberg500_Shotgun</defName>
+    <label>Build Mossberg 500</label>
+    <description>Build Mossberg 500.</description>
+    <jobString>Building Mossberg 500.</jobString>
+    <workAmount>13000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>13</count></li>
+    </ingredients>
+    <products><RNGun_Mossberg500_Shotgun>1</RNGun_Mossberg500_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Saiga-12 (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Saiga12_Shotgun</defName>
+    <label>Build Saiga-12</label>
+    <description>Build Saiga-12.</description>
+    <jobString>Building Saiga-12.</jobString>
+    <workAmount>15000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_Saiga12_Shotgun>1</RNGun_Saiga12_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- USAS-12 (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_USAS12_Shotgun</defName>
+    <label>Build USAS-12</label>
+    <description>Build USAS-12.</description>
+    <jobString>Building USAS-12.</jobString>
+    <workAmount>16000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <products><RNGun_USAS12_Shotgun>1</RNGun_USAS12_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Spartan Marine (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_SpartanMarine_Shotgun</defName>
+    <label>Build Spartan Marine</label>
+    <description>Build Spartan Marine.</description>
+    <jobString>Building Spartan Marine.</jobString>
+    <workAmount>14000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>12</count></li>
+    </ingredients>
+    <products><RNGun_SpartanMarine_Shotgun>1</RNGun_SpartanMarine_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M1014 (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M1014_Shotgun</defName>
+    <label>Build M1014</label>
+    <description>Build M1014.</description>
+    <jobString>Building M1014.</jobString>
+    <workAmount>15000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>13</count></li>
+    </ingredients>
+    <products><RNGun_M1014_Shotgun>1</RNGun_M1014_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M1014-SD (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M1014SD_Shotgun</defName>
+    <label>Build M1014-SD</label>
+    <description>Build M1014-SD.</description>
+    <jobString>Building M1014-SD.</jobString>
+    <workAmount>15500</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_M1014SD_Shotgun>1</RNGun_M1014SD_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Stoeger Coach Gun (Old - WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_StoegerCoachGun_Shotgun</defName>
+    <label>Build Stoeger Coach Gun</label>
+    <description>Build Stoeger Coach Gun.</description>
+    <jobString>Building Stoeger Coach Gun.</jobString>
+    <workAmount>12000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>15</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_StoegerCoachGun_Shotgun>1</RNGun_StoegerCoachGun_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Pancor Jackhammer (Modern - Plastic) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_PancorJackhammer_Shotgun</defName>
+    <label>Build Pancor Jackhammer</label>
+    <description>Build Pancor Jackhammer.</description>
+    <jobString>Building Pancor Jackhammer.</jobString>
+    <workAmount>16000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>Shotgun_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_PancorJackhammer_Shotgun>1</RNGun_PancorJackhammer_Shotgun></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

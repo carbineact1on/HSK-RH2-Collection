@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <JoyGiverDef>
+    <defName>RedHorse_ListenToRadio</defName>
+    <giverClass>RedHorse.JoyGiver_ListenToBuilding</giverClass>
+    <baseChance>3.5</baseChance>
+    <canDoWhileInBed>true</canDoWhileInBed>
+    <thingDefs>
+      <li>RH_MusicRadio</li>
+    </thingDefs>
+    <jobDef>RedHorse_ListenToMusicPlayer</jobDef>
+    <joyKind>Meditative</joyKind>
+    <requiredCapacities>
+      <li>Hearing</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+</Defs>

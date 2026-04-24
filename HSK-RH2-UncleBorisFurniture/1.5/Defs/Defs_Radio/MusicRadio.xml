@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH_MusicRadio</defName>
+    <label>Cassette radio</label>
+    <description>An electronic radio that plays music.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Building/Joy/Radio/radio</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(0.95,0.95)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+	<rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>	
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Plastic>10</Plastic>
+      <ElectronicComponents>1</ElectronicComponents>
+    </costList>
+	<designationCategory>Misc</designationCategory>
+	<tickerType>Normal</tickerType>
+    <comps>
+      <li Class="RedHorse.CompProperties_MusicPlayer">
+	    <isRadio>true</isRadio>
+	  </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <!--<startElectricalFires>true</startElectricalFires>-->
+        <basePowerConsumption>10</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+	
+    <building>
+      <isEdifice>false</isEdifice>
+  	  <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+    </building>
+	
+    <clearBuildingArea>false</clearBuildingArea>
+    <size>(1,1)</size>
+	
+	<researchPrerequisites>
+      <li>Telecommunications_C1</li>
+    </researchPrerequisites>
+	
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+	
+  </ThingDef>
+
+
+</Defs>

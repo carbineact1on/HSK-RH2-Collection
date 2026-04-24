@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Add Uncle Boris TVs to Television subcategory -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_TV"]/defNames</xpath>
+		<value>
+			<li>RH2_Panasonic_Television</li>
+			<li>RH2_Panasonic_LCDTelevision</li>
+			<li>RH2_Xbox360_GameConsole</li>
+		</value>
+	</Operation>
+
+	<!-- Add Uncle Boris generators to Convectional Power subcategory -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_ConvectionalPower"]/defNames</xpath>
+		<value>
+			<li>RH2_DEFENDER1_Generator</li>
+			<li>RH2_DEWEY2KW_Generator</li>
+			<li>RH2_FIRMAN3650_Generator</li>
+			<li>RH2_MEP007B_Generator</li>
+		</value>
+	</Operation>
+
+	<!-- Add Uncle Boris chairs to Seats subcategory -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Seats"]/defNames</xpath>
+		<value>
+			<li>RH2_FoldingChair</li>
+			<li>RH2_CanvasChair</li>
+		</value>
+	</Operation>
+
+	<!-- Add Uncle Boris lounge armchair to Comfortable Seats subcategory -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_ComfortableSeats"]/defNames</xpath>
+		<value>
+			<li>RH2_LoungeArmchair</li>
+		</value>
+	</Operation>
+
+	<!-- Add Uncle Boris dresser/wardrobe/footlocker/endtable to Cloth Lockers subcategory -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_ClothLockers"]/defNames</xpath>
+		<value>
+			<li>RH2_LampEndTable</li>
+		</value>
+	</Operation>
+
+	<!-- Add Uncle Boris lamps to Electric Lamps subcategory -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Lamps"]/defNames</xpath>
+		<value>
+			<li>RH2_Floodlight_Big</li>
+			<li>RH2_MiniFloodlight</li>
+			<li>RH2_HolmoFloorLamp</li>
+		</value>
+	</Operation>
+
+</Patch>

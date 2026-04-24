@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Wasing -->
+
+  <ThingDef ParentName="RH2_Backpack_UltraLight">
+    <defName>RNApparel_Backpack_Wasing</defName>
+    <label>Wasing pack</label>
+    <description>The Wasing Hydration Pack. This backpack allows the wearer to carry up to 20 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/WASING_Hydration</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/Wasing/WASING_Hydration</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.60,0.60)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.60,0.60)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.50,0.50)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(0.80,0.80)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(0.80,0.80)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>IndustrialMilitaryAdvanced</li>	
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>140</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.30</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>20</CarryingCapacity>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

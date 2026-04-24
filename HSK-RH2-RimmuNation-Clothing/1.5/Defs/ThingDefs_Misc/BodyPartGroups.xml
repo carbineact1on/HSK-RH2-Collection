@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Adding this since bodypartgroups for ears dont exist in vanilla -->
+  
+    <BodyPartGroupDef>
+    <defName>RH2_Ears</defName>
+    <label>ears</label>
+    <listOrder>197.5</listOrder>
+  </BodyPartGroupDef>    
+  
+  <BodyPartGroupDef>
+    <defName>RH2_Neck</defName>
+    <label>neck</label>
+    <listOrder>197.5</listOrder>
+  </BodyPartGroupDef> 
+  
+  <BodyPartGroupDef>
+    <defName>RH2_Jaw</defName>
+    <label>jaw</label>
+    <listOrder>197.5</listOrder>
+  </BodyPartGroupDef>
+
+</Defs>

@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Tactical Jacket -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_TacticalJacket_TACVASEN</defName>
+    <description>A tough tactical jacket to stop scrapes and bruises, designed for use in the field. It is able to keep one warm in chilly weather, also has armpit zips to cool off in the heat unlike other traditional jackets.\n\nThis brand of tactical jacket is of the TACVASEN series.</description>
+    <label>softshell jacket</label>
+    <graphicData>
+      <texPath>Things/Apparel/Tops/TACVASEN/TACVASEN_Male_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToMake>8500</WorkToMake>
+      <Mass>1.75</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/TACVASEN/TACVASEN</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+  
+    <!-- Tactical Jacket -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Hoodie_FruitOfTheLoom</defName>
+    <description>A tough sweatshirt with a hood to stop scrapes and bruises. It is able to keep one warm in chilly weather.\n\nThis brand of tactical jacket is of the Fruit Of The Loom series.</description>
+    <label>hoodie jacket</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/Hoodie</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.75</Mass>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/Hoodie/Hoodie</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+  
+  
+  
+  <!-- Norweigan Shirt -->
+  
+  
+    <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_NorweiganShirt_Pullover</defName>
+    <description>Norweigan shirt or "Norgi" top is a very popular cold weather shirt due to its extreme warmth and reliability. It has been widely used as a standard issue wet and warm kit by the military.</description>
+    <label>Norweigan shirt</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/NorweiganShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>9500</WorkToMake>
+      <Mass>1.6</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/NorweiganShirt/NorweiganShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+  
+  
+  
+  <!-- 5.11 POLO -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_PoloShirt_511Tactical</defName>
+    <description>A polo shirt is a form of shirt with a collar, a placket neckline with two or three buttons, and an optional pocket. \n\nThis brand of polo shirts is of the 5.11 tactical series.</description>
+    <label>polo shirt</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/TacticalPolo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.32</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/TacticalPolo/TacticalPolo</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+    <!-- Crye Gen 2 -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_UBACShirt_CryeG2Uniform</defName>
+    <description>The rapid assault shirt is a form of shirt designed to be worn under body armour for hot conditions, a breathable and quick dry layer for the torso and arm sleeves with pockets and velcro patches. \n\nThis brand of Under Body Armor Clothing is of the Crye Gen-2 series.</description>
+    <label>Crye G2 uniform</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/CryeGen2_Multicam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.5</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.37</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/Crye_G2/CryeGen2_Multicam</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Multi_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+  </ThingDef>
+  
+    <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_UBACShirt_511RapidAssault</defName>
+    <description>The rapid assault shirt is a form of shirt designed to be worn under body armour for hot conditions, a breathable and quick dry layer for the torso and arm sleeves with pockets and velcro patches. \n\nThis brand of rapid assault shirts is of the 5.11 tactical series.</description>
+    <label>rapid assault shirt</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/511RapidAssaultShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.5</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.27</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.17</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/RapidAssaultShirt/511RapidAssaultShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Multi_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+  </ThingDef>
+  
+  <!-- GORKA 3 -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Jacket_GORKA3Jacket</defName>
+    <description>Gorka 3 Suit Bars is a Russian special forces military uniform suit designed for mountain divisions (the word "Gorka" originates from Russian word "mountain"). This BDU first appeared in the Soviet army during the Afghanistan war, then widely use during Chechen wars and other conflicts. It is mainly used by special forces (spetsnaz) of MVD, FSB, VDV (airborne), GRU.</description>
+    <label>GORKA 3 jacket</label>
+    <graphicData>
+      <texPath>Things/Apparel/Tops/GORKA3/GORKA3_Male_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToMake>8500</WorkToMake>
+      <Mass>1.5</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/GORKA3/GORKA3</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+  </ThingDef>  
+  
+  
+    <!-- BLACKHAWK! Pursuit shirt -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Shirt_BlackhawkPursuit</defName>
+    <description>A combat shirt is a flame resistant shirt with collars designed to be worn under body armour or as a type of uniform. \n\nThis brand of combat shirts is of the BLACKHAWK! pursuit shirt series.</description>
+    <label>pursuit shirt</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/Blackhawk_PursuitShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.32</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+		<li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/BLACKHAWKPursuitShirt/Blackhawk_PursuitShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+      <!-- Brandit Flight Suit -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_FlightSuit_Brandit</defName>
+    <description>A flight suit is a full-body garment, worn while flying aircraft such as military airplanes, gliders and helicopters. These suits are generally made to keep the wearer warm, as well as being practical (plenty of pockets), and durable (including fire retardant). Its appearance is usually similar to a jumpsuit. A military flight suit may also show rank insignia. It is sometimes used as a combat uniform in close quarters battle or visit, board, search, and seizure situations, for its practicality. \n\nThis brand of flight suit is of the Brandit series.</description>
+    <label>flight suit</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/Brandit_FlightSuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>135</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.45</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.29</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+		<li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/BranditFlightSuit/Brandit_FlightSuit</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- Season 7 -->  
+  
+  <!-- Suit Shirt -->
+  
+    <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_TankTop_Generic</defName>
+    <description>A sleeveless shirt is a shirt manufactured without sleeves, or whose sleeves have been cut off. Depending on the style, they can be worn as undershirts, worn by athletes in sports such as track and field and triathlon, or as casual wear.</description>
+    <label>tank top</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/UASportsTank</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>110</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.14</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/Sports_TankTop/UASportsTank</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+  
+  
+  <!-- Suit Shirt -->
+  
+    <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_ButtonShirt_Generic</defName>
+    <description>A dress shirt, button shirt, button-front, button-front shirt, or button-up shirt is a garment with a collar and a full-length opening at the front, which is fastened using buttons or shirt studs. A button-down or button-down shirt is a dress shirt which has a button-down collar – a collar having the ends fastened to the shirt with buttons.\n\nA dress shirt is normally made from woven cloth, and is often accompanied by a tie, jacket, suit, or formalwear, but a dress shirt may also be worn more casually.</description>
+    <label>button shirt</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/SuitShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.32</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>	
+	<equippedStatOffsets>
+	  <SocialImpact>0.05</SocialImpact>
+	  <TradePriceImprovement>0.02</TradePriceImprovement>
+	  <NegotiationAbility>0.02</NegotiationAbility>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/SuitShirt/SuitShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <min>(231, 237, 237)</min>
+          <max>(226, 229, 246)</max>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <min>(255, 234, 248)</min>
+          <max>(250, 193, 208)</max>
+        </li>   		
+		<li>
+          <weight>4</weight>
+          <min>(77, 71, 64)</min>
+          <max>(97, 48, 38)</max>
+        </li>  		
+		<li>
+          <weight>4</weight>
+          <min>(230, 255, 184)</min>
+          <max>(152, 217, 33)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(209, 221, 237)</only>
+        </li>
+        <li>
+          <weight>9</weight>
+          <only>(128, 128, 128)</only>
+        </li>        
+		<li>
+          <weight>9</weight>
+          <only>(46, 46, 46)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(254, 253, 251)</min>
+          <max>(249, 249, 255)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(255, 233, 201)</min>
+          <max>(255, 171, 48)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(255, 173, 173)</min>
+          <max>(189, 30, 30)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(239, 222, 255)</min>
+          <max>(148, 101, 191)</max>
+        </li>		
+		<li>
+          <weight>7</weight>
+          <min>(255, 252, 194)</min>
+          <max>(255, 203, 48)</max>
+        </li>		
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+    <!-- Hawaiian Shirt -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_HawaiianShirt_Generic</defName>
+    <description>The aloha shirt, also referred to as a Hawaiian shirt, is a style of dress shirt originating in Hawaii. They are collared and buttoned dress shirts, usually short-sleeved and made from printed fabric. They are often worn untucked, but can also be worn tucked into the waist of trousers. They are worn casually or as informal business attire in Hawaii.</description>
+    <label>Hawaiian shirt</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/HawaiianShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.32</Mass>
+      <StuffEffectMultiplierArmor>0.21</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/HawaiianShirt/HawaiianShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <min>(49, 133, 249)</min>
+          <max>(35, 42, 172)</max>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <min>(164, 226, 247)</min>
+          <max>(53, 178, 208)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(193, 238, 121)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(236, 77, 55)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(213, 128, 183)</min>
+          <max>(225, 5, 141)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(246, 224, 114)</min>
+          <max>(242, 241, 186)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(243, 135, 2)</min>
+          <max>(211, 29, 11)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(190, 137, 33)</min>
+          <max>(225, 168, 29)</max>
+        </li>		
+		<li>
+          <weight>7</weight>
+          <min>(230, 222, 220)</min>
+          <max>(161, 143, 141)</max>
+        </li>		
+		<li>
+          <weight>7</weight>
+          <min>(171, 182, 103)</min>
+          <max>(27, 174, 120)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+      <!-- Hawaiian Shirt -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_DesignerShirt_Boss</defName>
+    <description>Designer clothing is expensive luxury clothing considered to be high quality and haute couture for the general public, made by, or carrying the label of, a well-known fashion designer.</description>
+    <label>designer shirt</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/BossShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>0.30</Mass>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/BossShirt/BossShirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <min>(49, 133, 249)</min>
+          <max>(35, 42, 172)</max>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <min>(164, 226, 247)</min>
+          <max>(53, 178, 208)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(193, 238, 121)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(236, 77, 55)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(213, 128, 183)</min>
+          <max>(225, 5, 141)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(246, 224, 114)</min>
+          <max>(242, 241, 186)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(243, 135, 2)</min>
+          <max>(211, 29, 11)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(190, 137, 33)</min>
+          <max>(225, 168, 29)</max>
+        </li>		
+		<li>
+          <weight>7</weight>
+          <min>(230, 222, 220)</min>
+          <max>(161, 143, 141)</max>
+        </li>		
+		<li>
+          <weight>7</weight>
+          <min>(171, 182, 103)</min>
+          <max>(27, 174, 120)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+      <!-- ACU UCP -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_ACU_UCP</defName>
+    <description>A combat uniform, field uniform, or battledress, is a type of uniform used in combat, as opposed to dress uniforms worn in functions and parades. In American English, the term fatigues is often used, originally being a term for soldiers' work uniforms. 
+	
+The combat uniform is generally camouflaged, either in monochrome such as a shade of green or brown to approximate the background, or in a disruptive pattern.\n\nThis version of uniform is a Universal Camo Pattern (UCP) Army Combat Uniform (ACU).</description>
+    <label>ACU (UCP)</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/ACU_UCP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+	  <MaxHitPoints>140</MaxHitPoints>
+	  <WorkToMake>3000</WorkToMake>
+      <Mass>1.2</Mass>
+      <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.65</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/ACU/ACU_UCP</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryBasic</li>-->
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  
+
+  
+    <!-- BDU DMARPAT -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_BDU_DMARPAT</defName>
+    <description>A combat uniform, field uniform, or battledress, is a type of uniform used in combat, as opposed to dress uniforms worn in functions and parades. In American English, the term fatigues is often used, originally being a term for soldiers' work uniforms. 
+	
+The combat uniform is generally camouflaged, either in monochrome such as a shade of green or brown to approximate the background, or in a disruptive pattern.\n\nThis version of uniform is a Desert Marine Pattern (MARPAT) Battle Dress Uniform (BDU).</description>
+    <label>BDU (D MARPAT)</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/BDU_DMARPAT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+	  <MaxHitPoints>135</MaxHitPoints>
+	  <WorkToMake>2500</WorkToMake>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/BDU/BDU_DMARPAT</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryBasic</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+      <!-- UBAC DDPM -->
+  
+  
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_UBACShirt_DDPM</defName>
+    <description>A combat uniform, field uniform, or battledress, is a type of uniform used in combat, as opposed to dress uniforms worn in functions and parades. In American English, the term fatigues is often used, originally being a term for soldiers' work uniforms. 
+	
+The combat uniform is generally camouflaged, either in monochrome such as a shade of green or brown to approximate the background, or in a disruptive pattern.\n\nThis version of uniform is an Under Body Armor Clothing (UBAC) in Desert Disruptive Pattern Material (DPM)</description>
+    <label>UBAC (D DPM)</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Tops/UBAC_DDPM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.75</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.27</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.17</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Tops/UBAC/UBAC_DDPM</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+  </ThingDef>
+  
+</Defs>

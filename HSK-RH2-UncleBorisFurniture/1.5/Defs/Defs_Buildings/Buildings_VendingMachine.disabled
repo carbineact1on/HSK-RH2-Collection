@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="RH2_PropBase">
+    <defName>RH2_VendingMachine</defName>
+    <label>vending machine</label>
+    <description>placeholder.</description>
+    <size>(1,1)</size>
+    <statBases>
+	  <Mass>0.5</Mass>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>1600</WorkToBuild>
+      <Beauty>4</Beauty>
+    </statBases>
+    <costStuffCount>8</costStuffCount>
+    <uiIconScale>0.7</uiIconScale>
+    <uiIconOffset>(0, 0.02)</uiIconOffset>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/Props/Trashcan_south</texPath>
+      <drawSize>(1.5,1.5)</drawSize>
+	</graphicData>
+	<tickerType>Normal</tickerType>
+	<comps>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>50</basePowerConsumption>
+		</li>
+		<li Class="Vending.CompProperties_VendingMachine">
+			<traderKind>Caravan_Outlander_BulkGoods</traderKind>
+			<refreshStockInTicks>420000</refreshStockInTicks>
+		</li>
+	</comps>
+  </ThingDef>
+ 
+</Defs>

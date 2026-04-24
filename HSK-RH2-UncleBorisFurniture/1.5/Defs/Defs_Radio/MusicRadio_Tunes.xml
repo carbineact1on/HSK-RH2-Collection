@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+   <!-- STALKER -->
+
+ <RedHorse.TuneDef>
+    <defName>RedHorse_GS_BanditRadio</defName>  
+    <label>Bandit radio</label>
+	<artist>STALKER</artist>
+	<durationTime>1836</durationTime>
+	<sustain>True</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode> 
+	<context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>	  
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radio_Music/Bandit_Radio</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>6</min>
+          <max>6</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </RedHorse.TuneDef>
+  
+   <!-- PORTAL -->
+ 
+  <RedHorse.TuneDef>
+    <defName>RedHorse_GS_PortalRadio</defName>  
+    <label>Still Alive</label>
+	<artist>GLaDOS</artist>
+	<durationTime>860</durationTime>
+	<sustain>True</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode> 
+	<context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>	  
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radio_Music/Portal_Radio</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>5</min>
+          <max>5</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </RedHorse.TuneDef>
+  
+    <!-- Source Rock -->
+ 
+  <RedHorse.TuneDef>
+    <defName>RedHorse_GS_CountryRock</defName>  
+    <label>Country rock</label>
+	<artist>Source music</artist>
+	<durationTime>400</durationTime>
+	<sustain>True</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode> 
+	<context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>	  
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radio_Music/Source_Radio</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>5</min>
+          <max>5</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </RedHorse.TuneDef>     
+  
+      <!-- Source Latin -->
+ 
+  <RedHorse.TuneDef>
+    <defName>RedHorse_GS_Latin</defName>  
+    <label>Latin</label>
+	<artist>Source music</artist>
+	<durationTime>440</durationTime>
+	<sustain>True</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode> 
+	<context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>	  
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radio_Music/Latin_Radio</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>5</min>
+          <max>5</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </RedHorse.TuneDef>     
+  
+        <!-- Source Flamenco -->
+ 
+  <RedHorse.TuneDef>
+    <defName>RedHorse_GS_Flamenco</defName>  
+    <label>Flamenco</label>
+	<artist>Source music</artist>
+	<durationTime>680</durationTime>
+	<sustain>True</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode> 
+	<context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>	  
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radio_Music/Flamenco</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>5</min>
+          <max>5</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </RedHorse.TuneDef>   
+  
+  <!-- Classical -->
+ 
+  <RedHorse.TuneDef>
+    <defName>RedHorse_GS_ClassicalRadio</defName>  
+    <label>Nostalgic</label>
+	<artist>Miguel Berkemeier</artist>
+	<durationTime>1240</durationTime>
+	<sustain>True</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode> 
+	<context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>	  
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Radio_Music/Classical_Radio</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>5</min>
+          <max>5</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </RedHorse.TuneDef> 
+  
+
+ </Defs> 

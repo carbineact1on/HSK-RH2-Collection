@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ECHO Chainsaw (Industrial) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RHMelee_ECHO_Chainsaw']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>16</Weapon_Parts>
+        <ComponentIndustrial>5</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+</Patch>

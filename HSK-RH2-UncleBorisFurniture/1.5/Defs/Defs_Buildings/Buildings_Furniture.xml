@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+        <!--============================== Dressers ==============================-->
+
+  <!-- DISABLED: Footlocker
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>RH2_ClassicFootlocker</defName>
+    <label>footlocker</label>
+    <description>A classic military footlocker. Gives a small comfort bonus to a nearby bed. Placing more than one dresser near the same bed has no effect.</description>
+    <graphicData>
+      <texPath>Things/Building/Bed/Footlocker</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+       <drawSize>(1,0.5)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <pathCost>20</pathCost>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<colorPerStuff>
+      <li>
+        <stuff>WoodLog</stuff>
+        <color>(77, 104, 85)</color>
+      </li>
+    </colorPerStuff>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>5</Mass>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>2</maxDistance>
+      </li>
+    </comps>
+  </ThingDef>
+  -->
+
+          <!--============================== Dresser mil crate ==============================-->
+
+  <!-- DISABLED: Military Crate Dresser
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>RH2_MilitaryCrateDresser</defName>
+    <label>military crate dresser</label>
+    <description>A heavy duty military crate re-purposed as a dresser. Gives a small comfort bonus to a nearby bed. Placing more than one dresser near the same bed has no effect.</description>
+    <graphicData>
+      <texPath>Things/Building/Bed/MilCrate</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+       <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <pathCost>20</pathCost>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<colorPerStuff>
+      <li>
+        <stuff>WoodLog</stuff>
+        <color>(77, 104, 85)</color>
+      </li>
+    </colorPerStuff>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>60</costStuffCount>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>15</Mass>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>0.4</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <size>(2,1)</size>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Beds_C3</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>6</maxDistance>
+		<mustBePlacedAdjacentCardinalToBedHead>false</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+  </ThingDef>
+  -->
+
+<!-- End Table -->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>RH2_LampEndTable</defName>
+    <label>modern end table</label>
+    <description>A small bedside table with a lamp which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Building/Bed/LampEndtable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <pathCost>30</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>30</costStuffCount>
+	<stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Beds_C2</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(255, 241, 201)</glowColor>
+      </li>
+	
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+  </ThingDef>
+  
+  <!-- Wardrobe -->
+  <!-- DISABLED: Wardrobe (Closet2x2)
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>RH2_DoubleWardrobe</defName>
+    <label>wardrobe</label>
+    <description>A wardrobe or armoire is a standing closet used for storing clothes. The earliest wardrobe was a chest, and it was not until some degree of luxury was attained in regal palaces and the castles of powerful nobles that separate accommodation was provided for the apparel of the great. Placing more than one wardrobe near the same bed has no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Building/Bed/Closet2x2</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>100</costStuffCount>
+	<stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<size>(2,1)</size>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.10</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>6</maxDistance>
+        <mustBePlacedAdjacentCardinalToBedHead>false</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+  </ThingDef>
+  -->
+
+<!-- Table -->
+
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>RH2_FoldingTable1x2c</defName>
+    <label>folding table (1x2)</label>
+    <graphicData>
+      <texPath>Things/Building/Table/FoldingTable2x1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>3</Beauty>
+    </statBases>
+    <size>(1,2)</size>
+    <costStuffCount>20</costStuffCount>
+  </ThingDef>
+
+<!-- Chairs -->
+
+  <ThingDef ParentName="RH2_ArtableFurnitureBase">
+    <defName>RH2_FoldingChair</defName>
+    <label>folding chair</label>
+    <description>A comfortable and attractive folding chair. Can be used at tables, work stations, and elsewhere.</description>
+    <graphicData>
+      <texPath>Things/Building/Chair/FoldingChair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.75,1.75)</drawSize>
+      <damageData>
+        <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+        <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+        <rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+        <rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+      </damageData>
+      <shadowData>
+        <volume>(0.23, 0.26, 0.23)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+      <Comfort>0.70</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>42</costStuffCount>
+    <pathCost>30</pathCost>
+    <designationHotKey>Misc7</designationHotKey>
+    <fillPercent>0.35</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>Tables_B2</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+   <!--======================= Folding cot ==============================-->
+
+  
+  <ThingDef ParentName="RH2_ArtableFurnitureBase">
+    <defName>RH2_CanvasChair</defName>
+    <label>canvas chair</label>
+    <description>Highly portable folding chair, comfortable to sit on.</description>
+    <graphicData>
+      <texPath>Things/Building/Chair/CanvasChair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.25,1.25)</drawSize>
+      <!--<damageData>
+        <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+        <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+        <rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+        <rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+      </damageData>
+      <shadowData>
+        <volume>(0.23, 0.26, 0.23)</volume>
+      </shadowData>-->
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>700</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>0.5</Flammability>
+      <Beauty>8</Beauty>
+      <Comfort>0.75</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+	  <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	<colorPerStuff>
+      <li>
+        <stuff>Cloth</stuff>
+        <color>(77, 104, 85)</color>
+      </li>
+    </colorPerStuff>
+	<costStuffCount>25</costStuffCount>
+    <pathCost>30</pathCost>
+    <fillPercent>0.35</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>Tables_B2</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <!-- Lounge Armchair -->
+  
+   <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>RH2_LoungeArmchair</defName>
+    <label>lounge armchair</label>
+    <description>A large, soft, comfy seat. Great for relaxation. Can be used at tables, work stations, and elsewhere.</description>
+    <graphicData>
+      <texPath>Things/Building/Chair/LoungeChair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.75,1.75)</drawSize>
+      <damageData>
+        <rectN>(0,0,1,0.703125)</rectN>
+        <rectS>(0.09375,0,0.84375,1)</rectS>
+        <rectE>(0,0,0.84375,0.625)</rectE>
+        <rectW>(0.15625,0,0.84375,0.625)</rectW>
+      </damageData>
+      <shadowData>
+        <volume>(0.3, 0.33, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.9</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+      <Comfort>0.82</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+    <costStuffCount>80</costStuffCount>
+    <pathCost>30</pathCost>
+    <fillPercent>0.40</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <building>
+      <isSittable>true</isSittable>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+  </ThingDef>
+
+
+</Defs>

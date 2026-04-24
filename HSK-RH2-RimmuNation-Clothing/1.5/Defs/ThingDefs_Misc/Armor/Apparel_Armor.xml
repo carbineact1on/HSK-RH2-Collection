@@ -1,0 +1,1707 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+      <!-- ======================================= AAC V2 =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_FirstSpearAACV2_Multicam</defName>
+    <label>AAC V2 body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the First Spear AAC V2 Multicam body armor, designed for maritime operations.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/FirstSpear_AACV2_Multicam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>4.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>32</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>18</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/FirstSpear_AAC_V2/FirstSpear_AACV2_Multicam</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Multi_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>     
+  
+      <!-- ======================================= 5.11 TacTec =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_511TacTec_Tan</defName>
+    <label>5.11 TacTec body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the 5.11 TacTec.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/511TacTec_Tan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>4.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>4</SyntheticFibers>
+      <Kevlar>15</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/511TacTec_Tan/511TacTec_Tan</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>     
+
+
+  <!-- ======================================= DDT Ghost =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_DDTGhost_ODGreen</defName>
+    <label>DDT Ghost body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the DDT Patriot Ghost.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/DDTGhost_Olive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>33</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>19</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/DDTGhost_Olive/DDTGhost_Olive</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>    
+  
+  <!-- ======================================= Warrior DCS =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_WarriorDCS_ODGreen</defName>
+    <label>Warrior DCS body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the Warrior DCS by Elite Ops.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/WDCS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>34</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>20</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/Warrior_DCS/WDCS</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  <!-- ======================================= EVS =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_ENVOVestSystem_Grey</defName>
+    <label>EVS body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the ENVO Vest System.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/ENVO_VestSystem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>33</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>18</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/ENVO_VestSystem/ENVO_VestSystem</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+    
+  
+  
+        <!-- ======================================= Flyye FCPC =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_FlyyeFCPC_Multicam</defName>
+    <label>Flyye CPCV body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the Flyye Field Compact Plate Carrier Vest (CPCV).</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/Flyye_FCPC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>4.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>31</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>4</SyntheticFibers>
+      <Kevlar>16</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/Flyye_FCPC/Flyye_FCPC</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>     
+  
+  
+  <!-- ======================================= Osprey DPM =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_OspreyMk3_DDPM</defName>
+    <label>Osprey Mk 3 body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the Osprey Mk 3 with a desert DPM cover.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/OspreyMk3</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>285</MaxHitPoints>
+      <Mass>4.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.12</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>38</costStuffCount>
+    <costList>
+      <Compaste>14</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+      <Kevlar>24</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/Osprey_Mk3_DDPM/OspreyMk3</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  
+    <!-- ======================================= OTV =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_OTV_Tan</defName>
+    <label>OTV body armour</label>
+    <description>The Interceptor Multi-Threat Body Armor System (IBA) is a bullet-resistant vest that was used by the United States Armed Forces during the 2000s, with some limited usage into the mid-2010s. The IBA and its design replaced the older standardized fragmentation protective Personnel Armor System for Ground Troops (PASGT) body armor system that was designed in the late 1970s and introduced in the early 1980s.
+
+The IBA system consists of its core component: the outer tactical vest (OTV), which can optionally be worn with a throat protector, groin protector, and biceps (or deltoid) protector. The latter three auxiliary protectors are removable from the main vest, which can be worn alone.\n\nThis plate carrier variant is the Outer Tactical Vest, used by US Military and originally produced by Point Blank.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/OTV_Tan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.13</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <Compaste>15</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+      <Kevlar>26</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/PointBlank_OTV/OTV_Tan</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+      <!-- ======================================= OTV =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_IOTV_UCP</defName>
+    <label>IOTV gen 2 body armour</label>
+    <description>The Improved Outer Tactical Vest (IOTV) is an enhanced version of, and a replacement for, the older Outer Tactical Vest (OTV) variant of the Interceptor Body Armor, as fielded by the United States Army. The IOTV is compatible with the Deltoid and Auxiliary Protector System (DAPS) components, ESAPI (Enhanced Small Arms Protective Insert), Enhanced Side Ballistic Inserts (ESBI), as well as the OTV's groin protector. It has a flame-resistant stand-alone shirt known as the Army Combat Shirt designed specifically for use with the IOTV, used by US Military and originally produced by Point Blank.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/IOTV_UCP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>310</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.12</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>42</costStuffCount>
+    <costList>
+      <Compaste>16</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <SyntheticFibers>8</SyntheticFibers>
+      <Kevlar>28</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/PointBlank_IOTV_Gen2/IOTV_UCP</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+      <!-- ======================================= MTV =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_MTV_Tan</defName>
+    <label>MTV body armour</label>
+    <description>The Modular Tactical Vest (MTV or MoTaV) is a ballistic vest originally adopted by the United States Marine Corps in 2006. The MTV was designed as a solution to shortcomings in the decade-old Interceptor Body Armor (IBA) and was selected after a rigorous proposal and examination process by the Marine Corps. The MTV provides better protection levels than the IBA, although it uses the same Small Arms Protective Insert (SAPI) plates.\n\nThis plate carrier variant is the Modular Tactical Vest, used by the USMC and produced by Protective Products International.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/MTV</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>310</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.13</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>41</costStuffCount>
+    <costList>
+      <Compaste>15</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+      <Kevlar>27</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/PPI_MTV/MTV</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+    <!-- ======================================= Vestguard CT101 =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_VestguardCT101_Navy</defName>
+    <label>VestGuard CT101 body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the VestGuard Covert Tactical.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/VG_CT101</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>275</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>37</costStuffCount>
+    <costList>
+      <Compaste>13</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+      <Kevlar>22</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/VestGuard_CT101/VG_CT101</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef> 
+  
+
+  
+    <!-- ======================================= Vestguard QRX =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_VestguardOT103_Navy</defName>
+    <label>VestGuard OT103 body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the VestGuard Quick Overt Tactical ELITE.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/VG_OT103</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>310</MaxHitPoints>
+      <Mass>5.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.07</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.14</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <Compaste>15</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+      <Kevlar>26</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/VestGuard_OT103/VG_OT103</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  <!-- ======================================= Vestguard QRA =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_VestguardQRA_Black</defName>
+    <label>VestGuard QRA101 body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the VestGuard Quick Release Advanced.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/VG_QuickRelease</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>275</MaxHitPoints>
+      <Mass>4.2</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>36</costStuffCount>
+    <costList>
+      <Compaste>13</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+      <Kevlar>21</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/VestGuard_QRA/VG_QuickRelease</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+  <!-- ======================================= Vestguard QRX =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_VestguardQRX_Black</defName>
+    <label>VestGuard QRX101 body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the VestGuard Quick Release Xtreme.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/VestGuard_Xtreme</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>275</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>36</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+      <Kevlar>21</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/VestGuard_QRX/VestGuard_Xtreme</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+    <!-- ======================================= Dragon Skin =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_PinnacleArmor_DragonSkin</defName>
+    <label>Dragon Skin body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis body armour variant is the Dragon Skin armour formerly produced by the Pinnacle armor company. It is heavier than most body armours, though it provides a better protection due to it's unique lattice system that resembles a Dragon's scale for it's inner armour plates.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/DragonSkin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>320</MaxHitPoints>
+      <Mass>8</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.21</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>42</costStuffCount>
+    <costList>
+      <Compaste>16</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <SyntheticFibers>8</SyntheticFibers>
+      <Kevlar>28</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/Dragonskin/DragonSkin</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      <!-- ======================================= PASGT =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_PASGTVest_Olive</defName>
+    <label>PASGT body armour</label>
+    <description>Personnel Armor System for Ground Troops (PASGT, pronounced /ˈpæzɡət/ PAZ-gət) is a combat helmet and ballistic vest that was used by the United States military from the early 1980s until the mid-2000s, when the helmet and vest were succeeded by the Lightweight Helmet (LWH), Modular Integrated Communications Helmet (MICH), and Interceptor Body Armor (IBA) respectively.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/PASGT_OD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8500</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>7</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.13</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>39</costStuffCount>
+    <costList>
+      <Compaste>14</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+      <Kevlar>25</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/PASGT/PASGT_OD</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+        <!-- ======================================= Viper Lazer SOPC =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_ViperLazerSOPC_Tan</defName>
+    <label>Viper Lazer SOPC body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the Viper Lazer Special Ops Plate Carrier.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/VL_SOPC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>240</MaxHitPoints>
+      <Mass>2.8</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>4</SyntheticFibers>
+      <Kevlar>15</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/ViperLazer_SOPC/VL_SOPC</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>     
+  
+          <!-- ======================================= Point Blank ASPC =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_PointBlankASPC_Black</defName>
+    <label>Point Blank ASPC body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the Point Blank Active Shooter Plate Carrier.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/PointBlank_ASPC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>5.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>31</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>16</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/PointBlank_ASPC/PointBlank_ASPC</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>   
+  
+    <!-- ======================================= Point blank FAS-TC =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_PointBlankFASTC_CoyoteBrown</defName>
+    <label>Point Blank FAS-TC body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the Point Blank FAS-TC body armor.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/FAS_TC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>34</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>20</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/PointBlank_FAS_TC/FAS_TC</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+      <!-- ======================================= Point blank FAS-TC =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_LBTMPC_Tan</defName>
+    <label>LBT MPC body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the London Bridge Trading (LBT) Modular Plate Carrier (MPC).</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/LBT_MPC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>34</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>19</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/LondonBridgeTrading_MPC/LBT_MPC</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>  
+  
+          <!-- ======================================= LBT G3 =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_LBTG3_Multicam</defName>
+    <label>LBT G3 body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the London Bridge Trading Gen 3 body armor.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/LBT_G3</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>4.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>32</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>17</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/LondonBridgeTrading_G3/LBT_G3</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>   
+  
+            <!-- ======================================= AR500 Veritas =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_AR500Veritas_Brown</defName>
+    <label>AR500 Veritas body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the AR500 Veritas.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/AR500_Veritas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>5.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>31</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>4</SyntheticFibers>
+      <Kevlar>16</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/AR500_Veritas/AR500_Veritas</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef> 
+  
+  
+            <!-- ======================================= MBC Fantom/Phantom =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_MBCFantom_Black</defName>
+    <label>MBC Fantom body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the MBC LLC "Fantom" Plate Carrier, produced by a Russian company.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/FantomMBC_Black</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>265</MaxHitPoints>
+      <Mass>5.7</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.02</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+      <Compaste>13</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+      <Kevlar>21</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/MBCLLC_Fantom/FantomMBC_Black</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>   
+          
+		  
+		  <!-- ======================================= PACA Low Viz =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_PACALVC_Tan</defName>
+    <label>PACA LVC body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the PACA Low Visibility Carrier variant.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/PACA_LowViz</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>5.0</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>31</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>16</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/PACA_LowViz/PACA_LowViz</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>   		  
+  
+  <!-- ======================================= PACA Low Viz =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_BristolBodyArmor_Olive</defName>
+    <label>Bristol body armour</label>
+    <description>Body armor, also known as body armour, personal armor/armour, or a suit/coat of armour, is protective clothing designed to absorb or deflect physical attacks. Historically used to protect military personnel, today it is used by various types of armed factions (industrial type in particular), security guards or mercenaries, and occasionally ordinary townsfolk.\n\nThis plate carrier variant is the Bristol Body Armor variant, known to have been used by British armed forces and the SAS during Operation Nimrod along with the Arktis assault vest worn over.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/BristolBodyArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Mass>5.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>33</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <SyntheticFibers>5</SyntheticFibers>
+      <Kevlar>18</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/BristolBodyArmor/BristolBodyArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>   
+  
+      <!-- ======================================= Defender-2 =======================================-->
+  
+  <ThingDef ParentName="RH2_ArmorMachineableBase">
+    <defName>RNApparel_Defender2_Tan</defName>
+    <label>Defender 2 body armour</label>
+    <description>The Defender 2 Body Armor sometimes shortened to D2 is a body armor of Russian origin. The D2 body armor has kevlar inserts as well as two pockets on both the front and back which allow for added ballistic inserts. The soft armour is capable of protection at GOST 2 standards, while the plates in conjunction with the soft armor are capable of the 4 or 5th level. (Unclear, sources contradict)
+
+It also has a removable neck protector which is held onto the front with velcro. The vest has some adjustability with its velcro cummerbund. It has been produced in a variety of colors and patterns with some modern versions featuring molle webbing.</description>
+    <techLevel>Industrial</techLevel>
+<graphicData>
+      <texPath>Things/Apparel/Display/Armour/DefTwo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>4.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.13</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+      <Compaste>13</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+      <Kevlar>22</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/Defender_2/DefTwo</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef> 
+
+</Defs>

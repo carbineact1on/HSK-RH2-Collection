@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  <Operation Class="PatchOperationSequence">
+  	<success>Always</success>
+  	<operations>
+		
+		<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="ThreatReward_SiteThreat_Joiner"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<ThreatReward_SiteThreat_Joiner>Offer sanctuary for those in hiding from unknown threats</ThreatReward_SiteThreat_Joiner>
+      	</value>
+    	</li>
+
+		<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="PawnLend"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<PawnLend>Offer to lend colonists to other factions</PawnLend>
+      	</value>
+    	</li>		
+		
+		<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="Hospitality_Joiners"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<Hospitality_Joiners>Offer to host guests and lodgers</Hospitality_Joiners>
+      	</value>
+    	</li>		
+		
+		<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="Hospitality_Animals"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<Hospitality_Animals>Offer to babysit pets</Hospitality_Animals>
+      	</value>
+    	</li>	
+	
+    	<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="Hospitality_Prisoners"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<Hospitality_Prisoners>Offer to warden prisoners of other factions</Hospitality_Prisoners>
+      	</value>
+    	</li>    	
+		
+	    <li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="ThreatReward_Raid_MiscReward"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<ThreatReward_Raid_MiscReward>Offer security work for local caravans</ThreatReward_Raid_MiscReward>
+      	</value>
+    	</li>		
+		
+		<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="ThreatReward_MechPods_MiscReward"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<ThreatReward_MechPods_MiscReward>Offer to neutralize mech clusters for friendlies</ThreatReward_MechPods_MiscReward>
+      	</value>
+    	</li>		
+		
+		<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="ThreatReward_Infestation_ItemPod"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<ThreatReward_Infestation_ItemPod>Offer to destroy infestations for friendlies</ThreatReward_Infestation_ItemPod>
+      	</value>
+    	</li>				
+		
+		<li Class="PatchOperationTest">
+      	<xpath>*/QuestScriptDef[defName="ThreatReward_SiteThreat_ItemPod"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableQuests</xpath>
+      	<value>
+        	<ThreatReward_SiteThreat_ItemPod>Offer to face unknown threats for friendlies</ThreatReward_SiteThreat_ItemPod>
+      	</value>
+    	</li>			
+		
+		
+  	</operations>
+	</Operation>
+
+</Patch>

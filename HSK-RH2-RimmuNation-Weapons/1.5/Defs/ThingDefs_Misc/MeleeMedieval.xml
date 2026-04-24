@@ -1,0 +1,1173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- Machete -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Spetsnaz_Machete</defName>
+    <label>machete (spetsnaz)</label>
+    <description>A machete is a broad blade used either as an agricultural implement similar to an axe, or in combat like a long-bladed knife. The blade is typically 30 to 45 centimetres (12 to 18 in) long and usually under 3 millimetres (0.12 in) thick. In the Spanish language, the word is possibly a diminutive form of the word macho, which was used to refer to sledgehammers.\n\nThis variant is the Russian Spetsnaz machete and helps with plant work speed and harvest yields.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/SpetsnazMachete</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.8</PlantWorkSpeed>
+	  <PlantHarvestYield>0.5</PlantHarvestYield>
+    </equippedStatOffsets>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.70</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>40</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- Machete -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_TOPS_Machete</defName>
+    <label>machete (TOPS)</label>
+    <description>A machete is a broad blade used either as an agricultural implement similar to an axe, or in combat like a long-bladed knife. The blade is typically 30 to 45 centimetres (12 to 18 in) long and usually under 3 millimetres (0.12 in) thick. In the Spanish language, the word is possibly a diminutive form of the word macho, which was used to refer to sledgehammers.\n\nThis variant is the Tactical OPS Steel Eagle machete and helps with plant work speed and harvest yields.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/TOPS_Machete</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.8</PlantWorkSpeed>
+	  <PlantHarvestYield>0.5</PlantHarvestYield>
+    </equippedStatOffsets>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.70</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>50</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  <!-- Machete -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_GerberGator_Machete</defName>
+    <label>machete (Gerber)</label>
+    <description>A machete is a broad blade used either as an agricultural implement similar to an axe, or in combat like a long-bladed knife. The blade is typically 30 to 45 centimetres (12 to 18 in) long and usually under 3 millimetres (0.12 in) thick. In the Spanish language, the word is possibly a diminutive form of the word macho, which was used to refer to sledgehammers.\n\nThis variant is the Gerber Gator machete and helps with plant work speed and harvest yields.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Gerber_GatorMachete</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.8</PlantWorkSpeed>
+	  <PlantHarvestYield>0.5</PlantHarvestYield>
+    </equippedStatOffsets>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.70</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>55</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  
+    <!-- Machete -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Kukri_Machete</defName>
+    <label>machete (Kukri)</label>
+    <description>The kukri (English: /ˈkʊkri/) or khukuri (Nepali: खुकुरी, pronounced [kʰukuri]) is a type of machete originating from the Indian subcontinent, and is traditionally associated with the Nepali-speaking Gurkhas of Nepal and India. The knife has a distinct recurve in its blade. It serves multiple purposes as a melee weapon and also as a regular cutting tool throughout most of South Asia. The blade has traditionally served the role of a basic utility knife for the Gurkhas.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Kukri_Machete</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.8</PlantWorkSpeed>
+	  <PlantHarvestYield>0.5</PlantHarvestYield>
+    </equippedStatOffsets>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.70</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>60</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  <!-- Tomahawk -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_USMC_Tomahawk</defName>
+    <label>tomahawk (USMC)</label>
+    <description>A tomahawk is a type of single-handed axe native to the many Indigenous peoples and nations of North America, traditionally resembling a hatchet with a straight shaft. The term came into the English language in the 17th century as an adaptation of the Powhatan (Virginian Algonquian) word. Tomahawks were general-purpose tools used by Native Americans and later the European colonials with whom they traded, and often employed as a hand-to-hand weapon.\n\nThis variant is the USMC Tomahawk.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/USMC_Tomahawk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.60</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	
+		
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.85</PlantWorkSpeed>
+    </equippedStatOffsets>
+	
+	<costList>
+      <Steel>45</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.75</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>  
+  
+  <!-- Tomahawk -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Gerber_Tomahawk</defName>
+    <label>tomahawk (Gerber)</label>
+    <description>A tomahawk is a type of single-handed axe native to the many Indigenous peoples and nations of North America, traditionally resembling a hatchet with a straight shaft. The term came into the English language in the 17th century as an adaptation of the Powhatan (Virginian Algonquian) word. Tomahawks were general-purpose tools used by Native Americans and later the European colonials with whom they traded, and often employed as a hand-to-hand weapon.\n\nThis variant is the Gerber Tomahawk.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Gerber_Tomahawk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.55</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.85</PlantWorkSpeed>
+    </equippedStatOffsets>
+	
+	<costList>
+      <Steel>45</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+    <!-- Hand Axe -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Roughneck_Handaxe</defName>
+    <label>hand axe (Roughneck)</label>
+    <description>An axe (sometimes ax in American English; see spelling differences) is an implement that has been used for millennia to shape, split and cut wood, to harvest timber, as a weapon, and as a ceremonial or heraldic symbol. The axe has many forms and specialised uses but generally consists of an axe head with a handle, or helve.\n\nThis variant of axe is the Roughneck Hand Axe.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/HandAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.56</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.75</PlantWorkSpeed>
+    </equippedStatOffsets>
+	
+	<costList>
+      <Steel>45</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.75</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+      <!-- Hand Axe -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_GerberSurvival_Axe</defName>
+    <label>survival axe (Gerber)</label>
+    <description>An axe (sometimes ax in American English; see spelling differences) is an implement that has been used for millennia to shape, split and cut wood, to harvest timber, as a weapon, and as a ceremonial or heraldic symbol. The axe has many forms and specialised uses but generally consists of an axe head with a handle, or helve.\n\nThis variant of axe is the Gerber Bear Grylls Survival Axe.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/GerberSurvivalAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.56</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.75</PlantWorkSpeed>
+    </equippedStatOffsets>
+	
+	<costList>
+      <Steel>45</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.95</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+    <!-- Fire Axe -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Fire_Axe</defName>
+    <label>fire axe</label>
+    <description>An axe (sometimes ax in American English; see spelling differences) is an implement that has been used for millennia to shape, split and cut wood, to harvest timber, as a weapon, and as a ceremonial or heraldic symbol. The axe has many forms and specialised uses but generally consists of an axe head with a handle, or helve.\n\nThis variant of axe is the Fire Axe.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/FireAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.85</PlantWorkSpeed>
+    </equippedStatOffsets>
+	
+	<costList>
+      <Steel>25</Steel>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>  
+  
+  
+      <!-- Wood/Felling Axe -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Felling_Axe</defName>
+    <label>felling axe</label>
+    <description>An axe (sometimes ax in American English; see spelling differences) is an implement that has been used for millennia to shape, split and cut wood, to harvest timber, as a weapon, and as a ceremonial or heraldic symbol. The axe has many forms and specialised uses but generally consists of an axe head with a handle, or helve.\n\nThis variant of axe is the Felling Axe.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/WoodAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.6</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.85</PlantWorkSpeed>
+    </equippedStatOffsets>
+	
+	<costList>
+      <Steel>30</Steel>
+      <WoodLog>35</WoodLog>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>3.3</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>  
+  
+    <!-- ICE AXE -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_DMMFly_IceAxe</defName>
+    <label>ice axe (DMM Fly)</label>
+    <description>An ice axe is a multi-purpose hiking and climbing tool used by mountaineers in both the ascent and descent of routes that involve frozen conditions with snow or ice. An ice axe can be held and employed in a number of different ways, depending on the terrain encountered. In its simplest role, the ice axe is used like a walking stick in the uphill hand, the mountaineer holding the head in the center.\n\nThis variant is the DMM Fly ice axe.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/DMMFly_IceAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+	
+	<equippedStatOffsets>
+	  <MiningSpeed>0.25</MiningSpeed>
+    </equippedStatOffsets>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.55</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>45</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  
+  <!-- Katana -->
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Manganese_Wakizashi</defName>
+    <label>wakizashi (Manganese)</label>
+    <description>A wakizashi is a traditional Japanese sword distinguished by its shorter length compared to a katana, featuring a curved, single-edged blade and a guard. Often wielded by samurai as a secondary weapon, the wakizashi was worn alongside the katana and used for close combat or as a backup in feudal Japan. Originating during the Muromachi period, some wakizashi were repurposed from longer swords, their blades shortened for versatility and ease of use in battle.\n\nThis version is the Manganese Wakizashi.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Manganese_Wakizashi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>1.8</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>57</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>  
+  
+  <!-- Katana -->
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Mizutori_Katana</defName>
+    <label>katana (Mizutori)</label>
+    <description>A katana is a Japanese sword characterized by a curved, single-edged blade with a circular or squared guard and long grip to accommodate two hands. Developed later than the tachi, it was used by samurai in feudal Japan and worn with the blade facing upward. Since the Muromachi period, many old tachi were cut from the root and shortened, and the blade at the root was crushed and converted into katana.\n\nThis version is the Cold Steel Mizutori.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Mizutori_Katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>65</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  
+      <!-- Katana Hanzo -->
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Hanzo_Katana</defName>
+    <label>katana (Hanzo)</label>
+    <description>A katana is a Japanese sword characterized by a curved, single-edged blade with a circular or squared guard and long grip to accommodate two hands. Developed later than the tachi, it was used by samurai in feudal Japan and worn with the blade facing upward. Since the Muromachi period, many old tachi were cut from the root and shortened, and the blade at the root was crushed and converted into katana.\n\nThis version is a custom made, legendary Hattori Hanzo style katana.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Hanzo_Katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>3.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>67</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.75</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.65</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  
+    <!-- Katana -->
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Fudoshin_Katana</defName>
+    <label>katana (Fudoshin)</label>
+    <description>A katana is a Japanese sword characterized by a curved, single-edged blade with a circular or squared guard and long grip to accommodate two hands. Developed later than the tachi, it was used by samurai in feudal Japan and worn with the blade facing upward. Since the Muromachi period, many old tachi were cut from the root and shortened, and the blade at the root was crushed and converted into katana.\n\nThis version is the Fudoshin custom made katana.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Fudoshin_Katana</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>65</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+    <!-- Yan Mao Dao -->
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Yanmaodao_Saber</defName>
+    <label>Yanmaodao</label>
+    <description>The Yanmaodao (Chinese: 雁毛刀; lit. 'goose-quill saber') is a type of dao used as a standard military weapon during the Ming Dynasty and middle Qing Dynasty (1368–1800). The blade is straight until the curve begins around the center of percussion along the last 1/4 or so of the blade approaching the tip. The center of percussion is the point on the blade with the least vibration on hard contact, the spot on the blade that transmits the most power to the target in a hard chop.\n\nThis version is the Dynasty Forge Yanmaodao.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Yanmaodao</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>70</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  <!-- Spathe -->
+  
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_Maximus_Spatha</defName>
+    <label>spatha</label>
+    <description>The spatha was a type of straight and long sword, measuring between 0.5 and 1 m (19.7 and 39.4 in), with a handle length between 18 and 20 cm (7.1 and 7.9 in), in use in the territory of the Roman Empire during the 1st to 6th centuries AD. Later swords, from the 7th to 10th centuries, like the Viking swords, are recognizable derivatives and sometimes subsumed under the term spatha.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Maximus_Spatha</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>75</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+  <!-- Machete -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>RNMeleeWeapon_ZKiller_Sword</defName>
+    <label>sword (Z Killer)</label>
+    <description>A sword is an edged, bladed weapon intended for manual cutting or thrusting. Its blade, longer than a knife or dagger, is attached to a hilt and can be straight or curved. A thrusting sword tends to have a straighter blade with a pointed tip. A slashing sword is more likely to be curved and to have a sharpened cutting edge on one or both sides of the blade. Many swords are designed for both thrusting and slashing.\n\nThis variant is the "Zombie Killer" sword made in the modern era, initially designed to be a gimmick for fans of the horror genre.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/ZKiller_Sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <!--<costStuffCount>50</costStuffCount>-->
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+	
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>0.5</PlantWorkSpeed>
+	  <PlantHarvestYield>0.3</PlantHarvestYield>
+    </equippedStatOffsets>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>0.70</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <!--<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>-->
+	<costList>
+      <Steel>50</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  
+</Defs>

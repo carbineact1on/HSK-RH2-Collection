@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- LBT 0101JJ -->
+
+  <ThingDef ParentName="RH2_Backpack_HeavyLight">
+    <defName>RNApparel_Backpack_LBT0101JJ</defName>
+    <label>LBT jump pack</label>
+    <description>The LBT 0101JJ "Enhanced Warfighter Jump Pack" from the London Bridge Trading company. This backpack allows the wearer to carry up to 50 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/LBT_0101JJ</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/LondonBridgeTrading/LBT_0101JJ</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.90,0.90)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.90,0.90)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.70,0.70)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(1.0,1.0)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(1.0,1.0)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>IndustrialMilitaryAdvanced</li>	
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>225</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.65</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.75</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>50</CarryingCapacity>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>	
+  
+</Defs>

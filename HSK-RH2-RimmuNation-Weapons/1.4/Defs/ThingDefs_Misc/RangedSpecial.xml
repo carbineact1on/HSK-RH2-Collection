@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseWeapon" Name="RN_OrbitalWeaponBase" Abstract="True">
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponSpecial/OrbitalTargeter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <Mass>0.2</Mass>
+      <Beauty>-3</Beauty>
+      <Flammability>0.5</Flammability>
+	  	
+		<WorkToMake>85000</WorkToMake>
+		<costList>
+		<Steel>55</Steel>
+		<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+    </statBases>
+	
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+    </thingSetMakerTags>
+	
+		<recipeMaker>
+		      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+	  <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>MultiAnalyzer</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+
+		
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelNoQualityBase" Name="RN_OrbitalUtilityBase" Abstract="True">
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponSpecial/OrbitalTargeter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.2</Mass>
+      <Beauty>-3</Beauty>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tickerType>Normal</tickerType>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+    </thingSetMakerTags>
+    <apparel>
+      <scoreOffset>4</scoreOffset>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+	
+	<resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>false</burnableByRecipe>
+    <drawGUIOverlay>false</drawGUIOverlay>
+	
+  </ThingDef>
+
+  <ThingDef ParentName="RN_OrbitalUtilityBase">
+    <defName>RN_SOFLAM_AirSupport</defName>
+    <label>SOFLAM</label>
+    <description>The AN/PEQ-1 also known as a Special Operations Forces Laser Acquisition Marker (SOFLAM or SOF-LAM) is a U.S. military laser designator designed for use by special operations forces, under more rugged field conditions.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Air_Support/SOFLAM</texPath>
+      <drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Item/Equipment/Air_Support/SOFLAM_Worn</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north>
+          <male>  <offset>(0.25, -0.25)</offset> </male>
+          <female><offset>(0.25,-0.25)</offset> </female>
+          <thin>  <offset>(0.15,-0.25)</offset> </thin>
+          <hulk>  <offset>(0.25,-0.3)</offset> </hulk>
+          <fat>   <offset>(0.45,-0.25)</offset> </fat>
+        </north>
+        <south>
+          <male>  <offset>(-0.3, -0.25)</offset> </male>
+          <female><offset>(-0.3,-0.25)</offset> </female>
+          <thin>  <offset>(-0.2,-0.25)</offset> </thin>
+          <hulk>  <offset>(-0.3,-0.3)</offset> </hulk>
+          <fat>   <offset>(-0.5,-0.25)</offset> </fat>
+        </south>
+        <east>
+          <offset>(-0.05,-0.3)</offset>
+        </east>
+		<west>
+          <offset>(-0.05,-0.3)</offset>
+        </west>
+
+        <male>  <scale>(0.4,0.4)</scale> </male>
+        <female><scale>(0.4,0.4)</scale> </female>
+        <thin>  <scale>(0.4,0.4)</scale> </thin>
+        <hulk>  <scale>(0.4,0.4)</scale> </hulk>
+        <fat>   <scale>(0.4,0.4)</scale> </fat>
+      </wornGraphicData>
+    </apparel>
+    <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Bombardment</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>OrbitalTargeter_Aiming</soundAiming>
+        <soundCast>OrbitalTargeter_Fire</soundCast>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

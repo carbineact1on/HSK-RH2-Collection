@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Expanded Framework</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+        <operations>
+	<li Class="PatchOperationAdd"> 
+	<xpath>/Defs/ThingDef[
+	defName="RNMeleeWeapon_Manganese_Wakizashi" or 
+	defName="RNMeleeWeapon_Spetsnaz_Machete" or 
+	defName="RNMeleeWeapon_TOPS_Machete" or 
+	defName="RNMeleeWeapon_GerberGator_Machete" or 
+	defName="RNMeleeWeapon_Kukri_Machete" or 
+	defName="RNMeleeWeapon_Roughneck_Handaxe" or 
+	defName="RNMeleeWeapon_GerberSurvival_Axe" or 
+	defName="RNMeleeWeapon_Maximus_Spatha" or 
+	defName="RNMeleeWeapon_EickhornRecondoIV_Knife" or 
+	defName="RNMeleeWeapon_KABAR_Knife" or 
+	defName="RNMeleeWeapon_M3Trench_Knife" or 
+	defName="RNMeleeWeapon_FirstBlood_Knife" or 
+	defName="RNMeleeWeapon_GerberSurvival_Knife" or 
+	defName="RNMeleeWeapon_M9Bayonet_Knife" or 
+	defName="RNMeleeWeapon_Tanto_Sword" or
+	defName="RNMeleeWeapon_Karambit_Knife" or 
+	defName="RNGun_ColtCobra_Revolver" or 
+	defName="RNGun_Model36_Revolver" or 
+	defName="RNGun_ColtPython_Revolver" or 
+	defName="RNGun_MP412REX_Revolver" or 
+	defName="RNGun_M1911_Pistol" or 
+	defName="RNGun_Glock17_Pistol" or 
+	defName="RNGun_Glock18_Pistol" or 
+	defName="RNGun_Glock34CombatMaster_Pistol" or 
+	defName="RNGun_STI2011CombatMaster_Pistol" or 
+	defName="RNGun_M9A1_Pistol" or 
+	defName="RNGun_SpringfieldXD_Pistol" or 
+	defName="RNGun_Makarov_Pistol" or 
+	defName="RNGun_P320_Pistol" or 
+	defName="RNGun_P226_Pistol" or 
+	defName="RNGun_FiveSeven_Pistol" or 
+	defName="RNGun_USP45_Pistol" or 
+	defName="RNGun_STK100_Pistol" or 
+	defName="RNGun_Uzi_SMG" or 
+	defName="RNGun_MAC11_SMG" or 
+	defName="RNGun_SkorpionVZ61_SMG" or 
+	defName="RNGun_DesertEagle_Pistol" or 
+	defName="RNGun_FiveSevenSD_Pistol" or 
+	defName="RNGun_Glock17SD_Pistol" or 
+	defName="RNGun_M1911Silverballer_Pistol" or 
+	defName="RNGun_P226SD_Pistol" or 
+	defName="RNGun_USPS45_Pistol"]</xpath>
+	<value>
+        <modExtensions>
+	<li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+        </li>
+        </modExtensions>
+	</value>
+	</li>
+        </operations>
+    </match>
+</Operation>
+
+</Patch>

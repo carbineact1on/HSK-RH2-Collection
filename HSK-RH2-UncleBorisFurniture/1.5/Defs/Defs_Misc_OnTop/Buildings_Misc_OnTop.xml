@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Desk Lamp Base -->
+
+  <ThingDef Abstract="True" Name="RH2_LampBase" ParentName="BuildingBase">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>14</pathCost>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>true</rotatable>
+    <uiIconOffset>(0, 0.03)</uiIconOffset>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <researchPrerequisites>
+      <li>Light_C1</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <!-- Desk Lamp -->
+  
+    <ThingDef Abstract="True" Name="RH2_DeskLampBase" ParentName="RH2_LampBase">
+    <graphicData>
+      <texPath>Things/Building/Light/Desk_Lamp/DeskLamp</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <costList>
+      <Glass>3</Glass>
+      <Plastic>5</Plastic>
+      <ElectronicComponents>1</ElectronicComponents>
+    </costList>
+    <statBases>
+      <Mass>1.0</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+    </comps>
+	<designationCategory>Misc</designationCategory>
+	<clearBuildingArea>false</clearBuildingArea>
+	
+	<building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+	  <isEdifice>false</isEdifice>
+  	  <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RH2_DeskLampBase" >
+    <defName>RH2_DeskLamplight</defName>
+    <label>desk lamp</label>
+    <description>Floodlights are broad-beamed, high-intensity artificial lights. They are often used to illuminate outdoor playing fields while an outdoor sports event is being held during low-light conditions. People need light to move and work at full speed.</description>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef> 
+  
+  <!-- Laptop Comms Console -->
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>RH2_LaptopCommsConsole</defName>
+    <label>Laptop comms console</label>
+    <description>Allows radio contact with other factions and orbital traders.</description>
+    <thingClass>Building_CommsConsole</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Laptop/Laptop</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(0.9,0.9)</drawSize>
+    </graphicData>
+	
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+	
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.3</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <Mass>2.0</Mass>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>0.6</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+	  <isEdifice>false</isEdifice>
+  	  <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+    </building>
+    <costList>
+      <Plastic>20</Plastic>
+      <Electronics>3</Electronics>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+
+    <clearBuildingArea>false</clearBuildingArea>
+	
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>75</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Telecommunications_C1</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+  </ThingDef>
+
+</Defs>

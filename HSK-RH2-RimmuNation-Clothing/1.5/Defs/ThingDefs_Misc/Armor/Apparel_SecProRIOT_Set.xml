@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Helmets -->
+  
+    <!-- ================================== Galac-Tac Helmet ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_SecProHelmet_Riot</defName>
+    <label>SecPro riot helmet</label>
+    <description>A riot helmet is part of the riot suit, designed specially to absorb the impact of blunt for trauma and often accompanied by a ballistic face protection to cover the wearer's face in the event of a violent confrontation.\n\nThis brand of riot suit is from the SecPro line.</description>
+    <techLevel>Industrial</techLevel>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/Helmet/SecPro_RiotHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>145</MaxHitPoints>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>26</costStuffCount>
+    <costList>
+      <Compaste>11</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Kevlar>24</Kevlar>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/SecPro_RiotHelmet/SecPro_RiotHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      <!-- ======================================= Juggernaut =======================================-->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_RiotSuit_SecPro</defName>
+    <label>riot suit</label>
+    <description>Riot armour or riot gear is a part of a body armor set designed to protect the user from blunt force trauma and sharp objects in the event of a violent confrontation. It's a piece of equipment often covering as much parts of the body as possible, specialised in riot control for security or other prison personnel trained to deal with riots.\n\nThis brand of riot suit is from the SecPro line.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Armour/SecPro_RiotGear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>6.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <Compaste>14</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <SyntheticFibers>7</SyntheticFibers>
+      <Kevlar>28</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/SecPro_RiotGear/SecPro_RiotGear</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+</Defs>

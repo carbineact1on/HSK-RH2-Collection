@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- ========== C14 Timberwolf ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_C14Timberwolf_Sniper</defName>
+		<statBases>
+			<Mass>7.10</Mass>
+			<RangedWeapon_Cooldown>1.24</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.62</SightsEfficiency>
+			<ShotSpread>0.03</ShotSpread>
+			<SwayFactor>1.64</SwayFactor>
+			<Bulk>13.00</Bulk>
+			<WorkToMake>36000</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>23</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_338Lapua_FMJ</defaultProjectile>
+			<warmupTime>1.75</warmupTime>
+			<range>72</range>
+			<soundCast>RNShot_GenericBoltSniper_II</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>5</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_338Lapua</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<!-- No additional CE weaponTags needed -->
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- ========== Desert Tech HTI ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_DesertTechHTI_AMR</defName>
+		<statBases>
+			<Mass>9.09</Mass>
+			<RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.55</SightsEfficiency>
+			<ShotSpread>0.03</ShotSpread>
+			<SwayFactor>1.86</SwayFactor>
+			<Bulk>12.52</Bulk>
+			<WorkToMake>40000</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>11</Weapon_Parts>
+			<ComponentIndustrial>11</ComponentIndustrial>
+			<ComponentAdvanced>15</ComponentAdvanced>
+			<Plastic>24</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
+			<warmupTime>3.6</warmupTime>
+			<range>71</range>
+			<soundCast>RNShot_Generic50Bolt</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>5</magazineSize>
+			<reloadTime>4.5</reloadTime>
+			<ammoSet>AmmoSet_50BMG</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<!-- No additional CE weaponTags needed -->
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- ========== GOL Magnum ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_GOLMagnum_Sniper</defName>
+		<statBases>
+			<Mass>6.00</Mass>
+			<RangedWeapon_Cooldown>1.24</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.65</SightsEfficiency>
+			<ShotSpread>0.03</ShotSpread>
+			<SwayFactor>1.67</SwayFactor>
+			<Bulk>13.30</Bulk>
+			<WorkToMake>33500</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>22</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_300WinchesterMagnum_FMJ</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>70</range>
+			<soundCast>RNShotGOL</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>5</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_300WinchesterMagnum</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>CE_AI_Rifle</li>
+		</weaponTags>
+
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- ========== L96A1 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_L96A1_Sniper</defName>
+		<statBases>
+			<Mass>6.50</Mass>
+			<RangedWeapon_Cooldown>1.24</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.48</SightsEfficiency>
+			<ShotSpread>0.04</ShotSpread>
+			<SwayFactor>1.32</SwayFactor>
+			<Bulk>12.80</Bulk>
+			<WorkToMake>30500</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>22</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>68</range>
+			<soundCast>RNShot_L96A1Sn</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>10</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>CE_AI_Rifle</li>
+		</weaponTags>
+
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- ========== M24A2 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_M24A2_Sniper</defName>
+		<statBases>
+			<Mass>7.10</Mass>
+			<RangedWeapon_Cooldown>1.24</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.5</SightsEfficiency>
+			<ShotSpread>0.05</ShotSpread>
+			<SwayFactor>1.35</SwayFactor>
+			<Bulk>11.92</Bulk>
+			<WorkToMake>30000</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>21</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>68</range>
+			<soundCast>RNShot_GenericBoltSniper</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>5</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>CE_AI_Rifle</li>
+		</weaponTags>
+
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- ========== M40A5 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_M40A5_Sniper</defName>
+		<statBases>
+			<Mass>7.50</Mass>
+			<RangedWeapon_Cooldown>1.24</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.52</SightsEfficiency>
+			<ShotSpread>0.04</ShotSpread>
+			<SwayFactor>1.40</SwayFactor>
+			<Bulk>12.24</Bulk>
+			<WorkToMake>30000</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>21</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>69</range>
+			<soundCast>RNShotM40Sniper</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>10</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<!-- No additional CE weaponTags needed -->
+
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- ========== Intervention AMR ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_M200Intervention_AMR</defName>
+		<statBases>
+			<Mass>15.20</Mass>
+			<RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.6</SightsEfficiency>
+			<ShotSpread>0.02</ShotSpread>
+			<SwayFactor>2.06</SwayFactor>
+			<Bulk>12.87</Bulk>
+			<WorkToMake>42500</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>12</Weapon_Parts>
+			<ComponentIndustrial>11</ComponentIndustrial>
+			<ComponentAdvanced>15</ComponentAdvanced>
+			<Plastic>25</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_408CheyenneTactical_FMJ</defaultProjectile>
+			<warmupTime>2.4</warmupTime>
+			<range>72</range>
+			<soundCast>RNShotIntervention</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>7</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_408CheyenneTactical</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>Bipod_AMR</li>
+			<li>CE_AI_SR</li>
+		</weaponTags>
+
+		<!-- No additional CE weaponTags needed -->
+
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- ========== M700 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>RNGun_M700SAICS_Sniper</defName>
+		<statBases>
+			<Mass>7.50</Mass>
+			<RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.53</SightsEfficiency>
+			<ShotSpread>0.04</ShotSpread>
+			<SwayFactor>1.40</SwayFactor>
+			<Bulk>12.24</Bulk>
+			<WorkToMake>31500</WorkToMake>
+		</statBases>
+		<costList>
+			<Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>22</Plastic>
+		</costList>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<warmupTime>1.9</warmupTime>
+			<range>69</range>
+			<soundCast>RNShot_SRSSD</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ammoConsumedPerShotCount>1</ammoConsumedPerShotCount>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>10</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+
+		<!-- No additional CE weaponTags needed -->
+
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<!-- == Shared patches for firearm melee tools == -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[
+			defName="RNGun_C14Timberwolf_Sniper" or
+			defName="RNGun_DesertTechHTI_AMR" or
+			defName="RNGun_GOLMagnum_Sniper" or
+			defName="RNGun_L96A1_Sniper" or
+			defName="RNGun_M24A2_Sniper" or
+			defName="RNGun_M40A5_Sniper" or
+			defName="RNGun_M200Intervention_AMR" or
+			defName="RNGun_M700SAICS_Sniper"
+			]/tools </xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TerrainDef Name="RH2_FloorBase" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  <!-- ================= Tiles ================= -->
+  
+   <TerrainDef  ParentName="RH2_FloorBase">
+    <defName>ChipboardWood_Floor</defName>
+    <label>chipboard floor</label>
+    <renderPrecedence>70</renderPrecedence>
+    <description>A varnished chipboard wood flooring for that quick and easy housing build. While it is low cost, it takes longer to lay due to it's varnishing, and far more flammable than normal woodern floors.</description>
+    <texturePath>Things/Building/Wall/Floor/PlywoodFloor</texturePath>
+    <burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <color>(215, 158, 77)</color>
+	<isPaintable>true</isPaintable>
+    <statBases>
+	<Beauty>1</Beauty>
+      <WorkToBuild>90</WorkToBuild>
+      <Flammability>0.44</Flammability>
+    </statBases>
+    <costList>
+      <WoodLog>1</WoodLog>
+    </costList>
+    <constructEffect>ConstructWood</constructEffect>
+  </TerrainDef>
+
+</Defs>

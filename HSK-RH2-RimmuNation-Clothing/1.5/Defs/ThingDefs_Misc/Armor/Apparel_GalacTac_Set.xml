@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Helmets -->
+  
+    <!-- ================================== Galac-Tac Helmet ====================================-->
+  
+    <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_GalacTacFAST_Tan</defName>
+    <label>Galac-Tac helmet</label>
+    <description>Part of the Galac-Tac body armour set, the Galac-Tac Heavy Gunner helmet is based on the FAST helmet design with mandible and visor add-ons that can be upgraded with ballistic protection for the face. The Galac-Tac armor is a series of modern body armour and helmets that notably have its design loosely based on Mandalorian armour. It was sponsored by the AR500 Body Armor company and have their ballistic technology implemented within the Galac-Tac armour systems.</description>
+    <techLevel>Industrial</techLevel>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/Helmet/GalacTac_Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>2.3</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>	
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+      <Compaste>10</Compaste>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Kevlar>23</Kevlar>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/GalacTac/GalacTac_Helmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+      <!-- ======================================= Juggernaut =======================================-->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_GalacTecBodyArmour_Tan</defName>
+    <label>Galac-Tac body armour</label>
+    <description>The Galac-Tac armor is a series of modern body armour and helmets that notably have its design loosely based on Mandalorian armour. It was sponsored by the AR500 Body Armor company and have their ballistic technology implemented within the Galac-Tac armour systems.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Armour/GalacTac</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>275</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.07</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.39</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>38</costStuffCount>
+    <costList>
+      <Compaste>13</Compaste>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <SyntheticFibers>6</SyntheticFibers>
+      <Kevlar>25</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/GalacTac/GalacTac</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+</Defs>

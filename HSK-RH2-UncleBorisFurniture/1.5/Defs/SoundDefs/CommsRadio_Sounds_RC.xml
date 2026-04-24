@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+
+
+	<SoundDef>
+    <defName>AmbientRedPhoneRC</defName>  
+    <sustain>True</sustain>  
+    <eventNames />  
+    <maxVoices>2</maxVoices>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CP_UI/ColdWar_BellTheme</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>      
+        <sustainLoopDurationRange>
+          <min>0</min>        
+          <max>0</max>
+        </sustainLoopDurationRange>      
+        <sustainAttack>5</sustainAttack>      
+        <sustainRelease>5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>PickUpRedPhoneRC</defName>
+    <!--<context>MapOnly</context>--> 
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+	   <onCamera>True</onCamera>    
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Red_Phone/RedPhone_Pickup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40</min>
+          <max>40</max>
+        </volumeRange>
+        <distRange>
+          <min>75</min>
+          <max>75</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>FreeReinforcementsOneShotRC</defName>
+    <!--<context>MapOnly</context>-->
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+	   <onCamera>True</onCamera>    
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Red_Phone/Patrol_2</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40</min>
+          <max>40</max>
+        </volumeRange>
+        <distRange>
+          <min>75</min>
+          <max>75</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>MediumReinforcementsOneShotRC</defName>
+    <!--<context>MapOnly</context>-->
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+	   <onCamera>True</onCamera>    
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Red_Phone/QRF_2</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40</min>
+          <max>40</max>
+        </volumeRange>
+        <distRange>
+          <min>75</min>
+          <max>75</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>StrongReinforcementsOneShotRC</defName>
+    <!--<context>MapOnly</context>--> 
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+	   <onCamera>True</onCamera>    
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Red_Phone/HQRF_3</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40</min>
+          <max>40</max>
+        </volumeRange>
+        <distRange>
+          <min>75</min>
+          <max>75</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+</Defs>

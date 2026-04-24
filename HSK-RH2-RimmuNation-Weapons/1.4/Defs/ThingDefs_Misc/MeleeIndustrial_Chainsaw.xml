@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+	<!-- Chainsaw + Parent -->
+	<!-- USE TOOLS/CAPACITIES TO MAKE CUSTOM MELEE SOUNDS (Thank you to O-Negative) -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>RHMelee_ECHO_Chainsaw</defName>
+		<label>Chainsaw (ECHO)</label>
+		<description>A chainsaw (or chain saw) is a portable gasoline-, electric-, or battery-powered saw that cuts with a set of teeth attached to a rotating chain driven along a guide bar. It is used in activities such as tree felling, limbing, bucking, pruning, cutting firebreaks in wildland fire suppression, and harvesting of firewood. Chainsaws with specially designed bar-and-chain combinations have been developed as tools for use in chainsaw art and chainsaw mills.\n\nThis brand is of the ECHO line of industrial chainsaws and helps with plant work speed.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/ECHOChainsaw</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<weaponTags>
+		  <li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<soundInteract>RHInteract_GenericChainsaw</soundInteract>
+		
+	<equippedStatOffsets>
+	  <PlantWorkSpeed>2.0</PlantWorkSpeed>
+    </equippedStatOffsets>
+		
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<MarketValue>900</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		<costList>
+		  <Steel>50</Steel>
+		  <ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<!--<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>-->
+		</recipeMaker>
+		<tools>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>RHMelee_GenericChainsawSlash</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>0.75</cooldownTime>
+		  </li>
+		  <li>
+			<label>blade</label>
+			<capacities>
+			  <li>RHMelee_GenericChainsawStab</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>0.80</cooldownTime>
+		  </li>
+		</tools>
+    </ThingDef>
+  
+</Defs>

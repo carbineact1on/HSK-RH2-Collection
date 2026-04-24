@@ -1,0 +1,1732 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+    <!-- ================================= Big Irons ==================================== -->
+  
+          <!-- ================================= Cobra Guy Never Dies ==================================== -->
+  
+
+  <ThingDef ParentName="RNMakeableRevolver">
+    <defName>RNGun_ColtCobra_Revolver</defName>
+    <label>Colt Cobra</label>
+    <description>The Colt Cobra is a lightweight, aluminum-framed, double-action short-barrelled revolver, not to be confused with the Colt King Cobra. 
+	
+The Cobra was chambered in .38 Special, .38 New police, .32 Colt New Police, and .22 LR. It holds six shots of ammunition and was sold by Colt from 1950 until 1981.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Colt_Cobra</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>1.0</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+	  <li>RN_ColtCobra</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_38Special_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25</range>
+        <soundCast>RNShotColtPython</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+            <!-- ================================= Model 36 ==================================== -->
+  
+
+  <ThingDef ParentName="RNMakeableRevolver">
+    <defName>RNGun_Model36_Revolver</defName>
+    <label>S&amp;W Model 36</label>
+    <description>The Smith &amp; Wesson Model 36 (also known as the Chief's Special) is a revolver chambered for .38 Special. It is one of several models of J-frame revolvers. It was introduced in 1950, and is still in production in the classic blued Model 36 and the stainless steel Model 60.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Model36</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>1.0</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.39</AccuracyMedium>
+      <AccuracyLong>0.29</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+	  <li>RN_Model36</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_38Special_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25</range>
+        <soundCast>RNShotColtPython</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+          <!-- ================================= Python ==================================== -->
+  
+
+  <ThingDef ParentName="RNMakeableRevolver">
+    <defName>RNGun_ColtPython_Revolver</defName>
+    <label>Colt Python</label>
+    <description>The Colt Python is a .357 Magnum caliber revolver formerly manufactured by Colt's Manufacturing Company of Hartford, Connecticut. It is sometimes referred to as a "Combat Magnum". It was first introduced in 1955, the same year as Smith and Wesson's M29 .44 Magnum. 
+	
+Now discontinued, the Colt Python was intended for the premium revolver market segment.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Colt_Python</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.81</AccuracyTouch>
+      <AccuracyShort>0.77</AccuracyShort>
+      <AccuracyMedium>0.46</AccuracyMedium>
+      <AccuracyLong>0.36</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+	  <li>RN_ColtPython</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_357_Revolver</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>RNShotColtPython</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+          <!-- ================================= REX ==================================== -->
+  
+
+  <ThingDef ParentName="RNMakeableRevolver">
+    <defName>RNGun_MP412REX_Revolver</defName>
+    <label>MP-412 REX</label>
+    <description>The MP-412 REX (Revolver for Export; Russian: MP-412 РЕКС) is a Russian double-action/single-action revolver designed by the state-owned Izhevsk Mechanical Plant (IZHMEKH), with a break-action chamber and an automatic ejector, chambered for the .357 Magnum round.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/MP412_REX</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.72</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.38</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+	  <li>RN_MP412REX</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_357_Revolver</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26</range>
+        <soundCast>RNShotRevolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+ <!-- ================================= 1911 Ol' Reliable ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_M1911_Pistol</defName>
+    <label>M1911A1</label>
+    <description>The M1911 also known as the Browning Pistol is a single-action, semi-automatic, magazine-fed, recoil-operated pistol chambered for the .45 ACP cartridge. It served as the standard-issue sidearm for the United States Armed Forces from 1911 to 1986. It was widely used in World War I, World War II, the Korean War, and the Vietnam War as well as the Soviet–Afghan War.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/M1911</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>    
+	</graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_M1911</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShot1911P</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+   <!-- ================================= 1911 Ol' Reliable ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_M1911Silverballer_Pistol</defName>
+    <label>M1911 Silverballer</label>
+    <description>The M1911 also known as the Browning Pistol is a single-action, semi-automatic, magazine-fed, recoil-operated pistol chambered for the .45 ACP cartridge. It served as the standard-issue sidearm for the United States Armed Forces from 1911 to 1986. It was widely used in World War I, World War II, the Korean War, and the Vietnam War as well as the Soviet–Afghan War.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/M1911Silver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>    
+	</graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_M1911_Silverballer</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.73</AccuracyTouch>
+      <AccuracyShort>0.63</AccuracyShort>
+      <AccuracyMedium>0.48</AccuracyMedium>
+      <AccuracyLong>0.39</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotSupressed_III</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+       <!-- ================================= Glock Spaghetti, mom's glocketti ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_Glock17_Pistol</defName>
+    <label>Glock 17</label>
+    <description>The Glock pistol is a series of polymer-framed, short recoil-operated, locked-breech semi-automatic pistols designed and produced by Austrian Glock Ges.m.b.H.. It entered Austrian military and police service by 1982 after it was the top performer in reliability and safety tests.
+	
+Glocks are also popular firearms among civilians for recreational and competition shooting, home and self-defense, and concealed carry or open carry.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Glock_17</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_Glock17</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.84</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotGlock17</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+    
+       <!-- ================================= Glock 17 SD ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_Glock17SD_Pistol</defName>
+    <label>Glock 17-SD</label>
+    <description>The Glock pistol is a series of polymer-framed, short recoil-operated, locked-breech semi-automatic pistols designed and produced by Austrian Glock Ges.m.b.H.. It entered Austrian military and police service by 1982 after it was the top performer in reliability and safety tests.
+	
+Glocks are also popular firearms among civilians for recreational and competition shooting, home and self-defense, and concealed carry or open carry.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Glock17SD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.90</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_Glock17SD</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.78</AccuracyTouch>
+      <AccuracyShort>0.67</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.39</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>27.9</range>
+        <soundCast>RNShotSupressed_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+  
+         <!-- ================================= Glock 18 ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_Glock18_Pistol</defName>
+    <label>Glock 18</label>
+    <description>The Glock pistol is a series of polymer-framed, short recoil-operated, locked-breech semi-automatic pistols designed and produced by Austrian Glock Ges.m.b.H.. It entered Austrian military and police service by 1982 after it was the top performer in reliability and safety tests.
+	
+Glocks are also popular firearms among civilians for recreational and competition shooting, home and self-defense, and concealed carry or open carry.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Glock_18</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_Glock18</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.27</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+		<ticksBetweenBurstShots>5.5</ticksBetweenBurstShots>
+		<burstShotCount>3</burstShotCount>
+        <soundCast>RNShotGlock17</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+       <!-- ================================= John Wick's Glock 34 ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_Glock34CombatMaster_Pistol</defName>
+    <label>Glock 34 Combat Master</label>
+    <description>The Glock 34 is a competition version of the Glock 17. It is similar to its predecessor, the Glock 17L, but with a slightly shorter slide and barrel, to meet the maximum size requirements for many sanctioned action pistol sporting events.
+	
+The Glock 34 Combat Master has been beautifully tuned from the original version at Taran Tactical Innovations. This particular version was used by a legendary assassin known as "Baba Yaga".</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Glock_34_CombatMaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <!--<li>SimpleGun</li>-->
+	  <li>RN_Glock34_CM</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.48</AccuracyMedium>
+      <AccuracyLong>0.38</AccuracyLong>
+      <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>	  
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MMAP_Pistol</defaultProjectile>
+        <warmupTime>0.25</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotPistol_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>       
+  
+  <!-- ================================= John Wick's STI 2011 ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_STI2011CombatMaster_Pistol</defName>
+    <label>STI 2011 Combat Master</label>
+    <description>Manufactured by an American firearm company based in Georgetown, Texas. The STI 2011® are modular M1911-style semi-automatic pistols designed for competition, duty and self-defense. All firearms are designed, engineered, and handcrafted in Texas with 100% American materials and parts.
+	
+The STI 2011 Combat Master has been beautifully tuned from the original version at Taran Tactical Innovations. This particular version was used by a legendary assassin known as "Baba Yaga".</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/2011_CombatMaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <!--<li>SimpleGun</li>-->
+	  <li>RN_STI2011_CM</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.89</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.39</AccuracyLong>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>	  
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MMAP_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>27.9</range>
+        <soundCast>RNShotPistol_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+     <!-- ================================= M9 Spaghetti, mom's beretti ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_M9A1_Pistol</defName>
+    <label>M9A1</label>
+    <description>The Beretta M9 — officially the Pistol, Semiautomatic, 9mm, M9 — is the designation for the Beretta 92FS semi-automatic pistol by the United States Armed Forces. The M9 was adopted by the United States military as their service pistol in 1985.
+
+The M9 won a competition in the 1980s to replace the M1911A1 as the primary sidearm of the U.S. military, beating many other contenders, and only narrowly defeating the SIG P226 for cost reasons.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/M9A1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_M9</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.84</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>RNPistolShot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+             <!-- ================================= SpringfieldXD ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_SpringfieldXD_Pistol</defName>
+    <label>XD-M</label>
+    <description>The HS2000 (Hrvatski Samokres (Croatian Pistol)), or XD (X-treme Duty) are a series of semi-automatic pistol that are polymer-framed and striker-fired. 
+	
+Manufactured in the city of Karlovac, Croatia by HS Produkt (formerly I.M. Metal), the Springfield Armory XD, XDM, or XD-S is the marketing name for the weapon, which is licensed and sold in the United States by Springfield Armory, Inc.
+
+This version is chambered in .45 ACP.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Springfield_XD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_HS2000</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.0</Mass>
+      <AccuracyTouch>0.81</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.31</AccuracyLong>	  	  
+      <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>RNShot_SpringfieldXD</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+           <!-- ================================= Makarov ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_Makarov_Pistol</defName>
+    <label>Makarov</label>
+    <description>The Makarov pistol or PM (Russian: Пистолет Макарова, Pistolet Makarova, literally Makarov's Pistol) is a Russian semi-automatic pistol. Under the project leadership of Nikolay Fyodorovich Makarov, it became the Soviet Union's standard military and police side arm in 1951.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Makarov</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_Makarov</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.84</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MMMakarov_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>RNPistolShot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+         <!-- ================================= P320 ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_P320_Pistol</defName>
+    <label>P320</label>
+    <description>The SIG Sauer P320 is a modular design of semi-automatic pistol made by Sig Sauer, Inc. of Exeter, New Hampshire and SIG Sauer GmbH of Eckernförde, Germany.
+	
+On 19 January 2017, it was announced that a customized version of the SIG Sauer P320 had won the United States Army's XM17 Modular Handgun System competition.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/P320</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_P320</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.84</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.44</AccuracyMedium>
+      <AccuracyLong>0.33</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>RNShotPistol_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+           <!-- ================================= P226 ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_P226_Pistol</defName>
+    <label>P226</label>
+    <description>The SIG Sauer P226 is a full-sized, service-type pistol made by SIG Sauer. It is chambered for the 9×19mm Parabellum, .40 S&amp;W, .357 SIG, and .22 Long Rifle. It is essentially the same basic design of the SIG Sauer P220, but developed to use higher capacity, double stack magazines in place of the single stack magazines of the P220.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/P226</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_P226</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.34</AccuracyLong>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotPistol_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+             <!-- ================================= P226 SD ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_P226SD_Pistol</defName>
+    <label>P226 SD</label>
+    <description>The SIG Sauer P226 is a full-sized, service-type pistol made by SIG Sauer. It is chambered for the 9×19mm Parabellum, .40 S&amp;W, .357 SIG, and .22 Long Rifle. It is essentially the same basic design of the SIG Sauer P220, but developed to use higher capacity, double stack magazines in place of the single stack magazines of the P220.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/P226-SD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.90</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_P226</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.78</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.52</AccuracyMedium>
+      <AccuracyLong>0.42</AccuracyLong>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotSupressed_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+               <!-- ================================= FiveSeven ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_FiveSeven_Pistol</defName>
+    <label>FN Five-seven</label>
+    <description>The FN Five-seven, trademarked as the Five-seven, is a semi-automatic pistol designed and manufactured by FN Herstal in Belgium. The pistol is named for its 5.7-mm (.224 in) bullet diameter, and the trademark capitalization style is intended to emphasize the manufacturer's initials—FN.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/FiveSeven</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_FiveSeven</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.79</AccuracyTouch>
+      <AccuracyShort>0.69</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_57_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>RNShotFiveSeven</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+                 <!-- ================================= FiveSeven ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_FiveSevenSD_Pistol</defName>
+    <label>FN Five-seven SD</label>
+    <description>The FN Five-seven, trademarked as the Five-seven, is a semi-automatic pistol designed and manufactured by FN Herstal in Belgium. The pistol is named for its 5.7-mm (.224 in) bullet diameter, and the trademark capitalization style is intended to emphasize the manufacturer's initials—FN.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/FiveSeven-SD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.95</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_FiveSevenSD</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.7</Mass>
+      <AccuracyTouch>0.72</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.52</AccuracyMedium>
+      <AccuracyLong>0.43</AccuracyLong>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_57_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotSupressed_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+           <!-- ================================= USP 45 ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_USP45_Pistol</defName>
+    <label>USP 45</label>
+    <description>The USP (Universelle Selbstladepistole or "universal self-loading pistol") is a semi-automatic pistol developed in Germany by Heckler and Koch GmbH (HK) of Oberndorf am Neckar as a replacement for the P7 series of handguns.
+	
+This USP version is chambered in .45 ACP.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/USP_45</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <!--<li>SimpleGun</li>-->
+	  <li>RN_USP45</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.69</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.34</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>RNShot_1911Hellfighter</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+             <!-- ================================= USP-S 45 ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_USPS45_Pistol</defName>
+    <label>USP-S 45</label>
+    <description>The USP (Universelle Selbstladepistole or "universal self-loading pistol") is a semi-automatic pistol developed in Germany by Heckler and Koch GmbH (HK) of Oberndorf am Neckar as a replacement for the P7 series of handguns.
+	
+This USP version is chambered in .45 ACP.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/USPS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.90</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <weaponTags>
+      <!--<li>SimpleGun</li>-->
+	  <li>RN_USP45</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.73</AccuracyTouch>
+      <AccuracyShort>0.62</AccuracyShort>
+      <AccuracyMedium>0.52</AccuracyMedium>
+      <AccuracyLong>0.41</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotSupressed_III</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+         <!-- ================================= Glock Spaghetti, mom's glocketti ==================================== -->
+
+  
+  
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_STK100_Pistol</defName>
+    <label>STK 100</label>
+    <description>The STK 100 is a striker fired pistol developed by Rock Island Armoury as a competitor and improvement from the Glock series. It boasts a lighter frame and less cost of resources to manufacture while maintaining the same reliability and durability of it's predecessor.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/STK100</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_STK100</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.85</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.31</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>26</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNShotGlock17</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+          
+
+		  <!-- ================================= Juean Deag, The Desert Eagle ==================================== -->
+
+ 
+  <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_DesertEagle_Pistol</defName>
+    <label>Desert Eagle</label>
+    <description>The MRI Desert Eagle is a semi-automatic handgun notable for chambering the largest centerfire cartridge of any magazine-fed, self-loading pistol. Magnum Research Inc. (MRI) designed and developed the Desert Eagle. The design was refined and the pistols were manufactured by Israel Military Industries until 1995, when MRI shifted the manufacturing contract to Saco Defense in Saco, Maine. In 1998, MRI moved manufacturing back to IMI, which later commercialized its small arms branch under the name Israel Weapon Industries.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/Desert_Eagle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>RN_DesertEagle</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.44</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_50_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26.9</range>
+        <soundCast>RNDeagleShot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+    <!-- ================================= PT92 ==================================== -->
+  
+    <ThingDef ParentName="RNMakeablePistol">
+    <defName>RNGun_PT92SF_Pistol</defName>
+    <label>PT92 SF</label>
+    <description>The Taurus PT92 is a double action/single action, 9mm, double-stack magazine-fed, short recoil-operated, semi-automatic pistol manufactured by Taurus in the former Beretta factory in São Paulo, Brazil.\n\nThis version comes in a Special Forces (SF) configuration.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Handgun/PT_92_SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <weaponTags>
+      <!--<li>SimpleGun</li>-->
+	  <li>RN_PT92SF</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.77</AccuracyShort>
+      <AccuracyMedium>0.49</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MMAP_Pistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>27.9</range>
+        <soundCast>RNShotSupressed_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

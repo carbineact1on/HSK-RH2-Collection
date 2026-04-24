@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================= Knives ================================= -->
+
+  <!-- Eickhorn Recondo IV -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_EickhornRecondoIV_Knife</defName>
+    <label>Build combat knife (Eickhorn Recondo IV)</label>
+    <description>Build combat knife (Eickhorn Recondo IV).</description>
+    <jobString>Building combat knife (Eickhorn Recondo IV).</jobString>
+    <workAmount>4000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_EickhornRecondoIV_Knife>1</RNMeleeWeapon_EickhornRecondoIV_Knife></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- KABAR -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_KABAR_Knife</defName>
+    <label>Build combat knife (KABAR)</label>
+    <description>Build combat knife (KABAR).</description>
+    <jobString>Building combat knife (KABAR).</jobString>
+    <workAmount>4500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_KABAR_Knife>1</RNMeleeWeapon_KABAR_Knife></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Boker M3 Trench Knife -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_M3Trench_Knife</defName>
+    <label>Build combat knife (Boker M3)</label>
+    <description>Build combat knife (Boker M3).</description>
+    <jobString>Building combat knife (Boker M3).</jobString>
+    <workAmount>4500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_M3Trench_Knife>1</RNMeleeWeapon_M3Trench_Knife></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- First Blood -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_FirstBlood_Knife</defName>
+    <label>Build survival knife (First Blood)</label>
+    <description>Build survival knife (First Blood).</description>
+    <jobString>Building survival knife (First Blood).</jobString>
+    <workAmount>5500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_FirstBlood_Knife>1</RNMeleeWeapon_FirstBlood_Knife></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Gerber Survival Knife -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_GerberSurvival_Knife</defName>
+    <label>Build survival knife (Gerber)</label>
+    <description>Build survival knife (Gerber).</description>
+    <jobString>Building survival knife (Gerber).</jobString>
+    <workAmount>4000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_GerberSurvival_Knife>1</RNMeleeWeapon_GerberSurvival_Knife></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M9 Bayonet -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_M9Bayonet_Knife</defName>
+    <label>Build combat knife (M9 Bayonet)</label>
+    <description>Build combat knife (M9 Bayonet).</description>
+    <jobString>Building combat knife (M9 Bayonet).</jobString>
+    <workAmount>5000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>11</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_M9Bayonet_Knife>1</RNMeleeWeapon_M9Bayonet_Knife></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Tanto -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Tanto_Sword</defName>
+    <label>Build Tanto</label>
+    <description>Build Tanto.</description>
+    <jobString>Building Tanto.</jobString>
+    <workAmount>5500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Tanto_Sword>1</RNMeleeWeapon_Tanto_Sword></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Karambit -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Karambit_Knife</defName>
+    <label>Build Karambit</label>
+    <description>Build Karambit.</description>
+    <jobString>Building Karambit.</jobString>
+    <workAmount>4500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Karambit_Knife>1</RNMeleeWeapon_Karambit_Knife></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ================================= Machetes ================================= -->
+
+  <!-- Spetsnaz Machete -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Spetsnaz_Machete</defName>
+    <label>Build machete (spetsnaz)</label>
+    <description>Build machete (spetsnaz).</description>
+    <jobString>Building machete (spetsnaz).</jobString>
+    <workAmount>5000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Spetsnaz_Machete>1</RNMeleeWeapon_Spetsnaz_Machete></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- TOPS Machete -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_TOPS_Machete</defName>
+    <label>Build machete (TOPS)</label>
+    <description>Build machete (TOPS).</description>
+    <jobString>Building machete (TOPS).</jobString>
+    <workAmount>5500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_TOPS_Machete>1</RNMeleeWeapon_TOPS_Machete></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Gerber Gator Machete -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_GerberGator_Machete</defName>
+    <label>Build machete (Gerber)</label>
+    <description>Build machete (Gerber).</description>
+    <jobString>Building machete (Gerber).</jobString>
+    <workAmount>6000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>14</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_GerberGator_Machete>1</RNMeleeWeapon_GerberGator_Machete></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Kukri Machete -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Kukri_Machete</defName>
+    <label>Build machete (Kukri)</label>
+    <description>Build machete (Kukri).</description>
+    <jobString>Building machete (Kukri).</jobString>
+    <workAmount>7000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Kukri_Machete>1</RNMeleeWeapon_Kukri_Machete></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ================================= Tomahawks/Axes ================================= -->
+
+  <!-- USMC Tomahawk -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_USMC_Tomahawk</defName>
+    <label>Build tomahawk (USMC)</label>
+    <description>Build tomahawk (USMC).</description>
+    <jobString>Building tomahawk (USMC).</jobString>
+    <workAmount>5500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_USMC_Tomahawk>1</RNMeleeWeapon_USMC_Tomahawk></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Gerber Tomahawk -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Gerber_Tomahawk</defName>
+    <label>Build tomahawk (Gerber)</label>
+    <description>Build tomahawk (Gerber).</description>
+    <jobString>Building tomahawk (Gerber).</jobString>
+    <workAmount>5000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>11</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Gerber_Tomahawk>1</RNMeleeWeapon_Gerber_Tomahawk></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Roughneck Hand Axe -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Roughneck_Handaxe</defName>
+    <label>Build hand axe (Roughneck)</label>
+    <description>Build hand axe (Roughneck).</description>
+    <jobString>Building hand axe (Roughneck).</jobString>
+    <workAmount>5500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Roughneck_Handaxe>1</RNMeleeWeapon_Roughneck_Handaxe></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Gerber Survival Axe -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_GerberSurvival_Axe</defName>
+    <label>Build survival axe (Gerber)</label>
+    <description>Build survival axe (Gerber).</description>
+    <jobString>Building survival axe (Gerber).</jobString>
+    <workAmount>6000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>13</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_GerberSurvival_Axe>1</RNMeleeWeapon_GerberSurvival_Axe></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Fire Axe (needs WoodLog) -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Fire_Axe</defName>
+    <label>Build fire axe</label>
+    <description>Build fire axe.</description>
+    <jobString>Building fire axe.</jobString>
+    <workAmount>7000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter><categories><li>Woody</li></categories></filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Fire_Axe>1</RNMeleeWeapon_Fire_Axe></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Felling Axe (needs WoodLog) -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Felling_Axe</defName>
+    <label>Build felling axe</label>
+    <description>Build felling axe.</description>
+    <jobString>Building felling axe.</jobString>
+    <workAmount>8000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter><categories><li>Woody</li></categories></filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Felling_Axe>1</RNMeleeWeapon_Felling_Axe></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- DMM Fly Ice Axe -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_DMMFly_IceAxe</defName>
+    <label>Build ice axe (DMM Fly)</label>
+    <description>Build ice axe (DMM Fly).</description>
+    <jobString>Building ice axe (DMM Fly).</jobString>
+    <workAmount>6500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>13</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_DMMFly_IceAxe>1</RNMeleeWeapon_DMMFly_IceAxe></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ================================= Swords ================================= -->
+
+  <!-- Manganese Wakizashi -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Manganese_Wakizashi</defName>
+    <label>Build wakizashi (Manganese)</label>
+    <description>Build wakizashi (Manganese).</description>
+    <jobString>Building wakizashi (Manganese).</jobString>
+    <workAmount>8000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>7</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Manganese_Wakizashi>1</RNMeleeWeapon_Manganese_Wakizashi></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Mizutori Katana -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Mizutori_Katana</defName>
+    <label>Build katana (Mizutori)</label>
+    <description>Build katana (Mizutori).</description>
+    <jobString>Building katana (Mizutori).</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Mizutori_Katana>1</RNMeleeWeapon_Mizutori_Katana></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Hanzo Katana -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Hanzo_Katana</defName>
+    <label>Build katana (Hanzo)</label>
+    <description>Build katana (Hanzo).</description>
+    <jobString>Building katana (Hanzo).</jobString>
+    <workAmount>14000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Hanzo_Katana>1</RNMeleeWeapon_Hanzo_Katana></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Fudoshin Katana -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Fudoshin_Katana</defName>
+    <label>Build katana (Fudoshin)</label>
+    <description>Build katana (Fudoshin).</description>
+    <jobString>Building katana (Fudoshin).</jobString>
+    <workAmount>10000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Fudoshin_Katana>1</RNMeleeWeapon_Fudoshin_Katana></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Yanmaodao Saber -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Yanmaodao_Saber</defName>
+    <label>Build Yanmaodao</label>
+    <description>Build Yanmaodao.</description>
+    <jobString>Building Yanmaodao.</jobString>
+    <workAmount>12000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>9</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>22</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Yanmaodao_Saber>1</RNMeleeWeapon_Yanmaodao_Saber></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Spatha -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Maximus_Spatha</defName>
+    <label>Build spatha</label>
+    <description>Build spatha.</description>
+    <jobString>Building spatha.</jobString>
+    <workAmount>9000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>7</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>7</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Maximus_Spatha>1</RNMeleeWeapon_Maximus_Spatha></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Z Killer Sword -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_ZKiller_Sword</defName>
+    <label>Build sword (Z Killer)</label>
+    <description>Build sword (Z Killer).</description>
+    <jobString>Building sword (Z Killer).</jobString>
+    <workAmount>8500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>7</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_ZKiller_Sword>1</RNMeleeWeapon_ZKiller_Sword></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ================================= Blunt ================================= -->
+
+  <!-- Baseball Bat -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_Baseball_Bat</defName>
+    <label>Build baseball bat</label>
+    <description>Build baseball bat.</description>
+    <jobString>Building baseball bat.</jobString>
+    <workAmount>3000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>3</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_Baseball_Bat>1</RNMeleeWeapon_Baseball_Bat></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Brooklyn Smasher -->
+  <RecipeDef>
+    <defName>Build_RNMeleeWeapon_BrooklynSmasher_Bat</defName>
+    <label>Build baseball bat (Brooklyn Smasher)</label>
+    <description>Build baseball bat (Brooklyn Smasher).</description>
+    <jobString>Building baseball bat (Brooklyn Smasher).</jobString>
+    <workAmount>4000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products><RNMeleeWeapon_BrooklynSmasher_Bat>1</RNMeleeWeapon_BrooklynSmasher_Bat></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Melee_C1</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ================================= Chainsaw ================================= -->
+
+  <!-- ECHO Chainsaw -->
+  <RecipeDef>
+    <defName>Build_RHMelee_ECHO_Chainsaw</defName>
+    <label>Build Chainsaw (ECHO)</label>
+    <description>Build Chainsaw (ECHO).</description>
+    <jobString>Building Chainsaw (ECHO).</jobString>
+    <workAmount>12000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RHMelee_ECHO_Chainsaw>1</RHMelee_ECHO_Chainsaw></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Machining</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

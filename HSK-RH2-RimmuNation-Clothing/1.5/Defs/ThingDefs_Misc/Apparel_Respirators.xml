@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--============ Gasmask ========-->
+  
+    <!-- P-1944 -->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Gasmask_P1944WWI</defName>
+    <label>P-1944 gas mask</label>
+    <description>A gasmask, also known as a respirator, is a form of headgear designed to cover the face and protect the wearer's respiratory system from being affected by a chemical attack. Depending on style, either the full face is covered, or just the nose and mouth area of the face.\n\nThis version is a commonwealth P1944 gasmask from the great war era.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Respirator/Gasmask_P1944</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plastic>10</Plastic>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>15</Cloth>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.76</ToxicEnvironmentResistance>  
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<bodyPartGroups>
+		<li>Mouth</li>
+		<li>Eyes</li>
+	</bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Respirator/Gasmask_P1944</wornGraphicPath>
+      
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef>        
+  
+  <!-- S6 -->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Gasmask_S6NBC</defName>
+    <label>S6 NBC respirator</label>
+    <description>A gasmask, also known as a respirator, is a form of headgear designed to cover the face and protect the wearer's respiratory system from being affected by a chemical attack. Depending on style, either the full face is covered, or just the nose and mouth area of the face.\n\nThis version is an S6 NBC Respirator, the service respirator of British Armed forces during the 1960s-1980s.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Respirator/S6Mask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plastic>10</Plastic>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>15</Cloth>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.85</ToxicEnvironmentResistance>  
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<bodyPartGroups>
+		<li>Mouth</li>
+		<li>Eyes</li>
+	</bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Respirator/S6Mask</wornGraphicPath>
+      
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef>    
+  
+    <!-- S6 -->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Gasmask_S10NBC</defName>
+    <label>S10 NBC respirator</label>
+    <description>A gasmask, also known as a respirator, is a form of headgear designed to cover the face and protect the wearer's respiratory system from being affected by a chemical attack. Depending on style, either the full face is covered, or just the nose and mouth area of the face.\n\nThis version is an S10 NBC Respirator, the service respirator of British Armed forces during the 1990s-2011.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Respirator/S10</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plastic>10</Plastic>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>15</Cloth>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.85</ToxicEnvironmentResistance>  
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	 <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+     <immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<bodyPartGroups>
+		<li>Mouth</li>
+		<li>Eyes</li>
+	</bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Respirator/S10_Normal</wornGraphicPath>
+      
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef> 
+  
+    <!--============ Russia ========-->
+  
+    <!-- GP-5 -->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Gasmask_GP5Soviet</defName>
+    <label>GP-5 gas mask</label>
+    <description>A gasmask, also known as a respirator, is a form of headgear designed to cover the face and protect the wearer's respiratory system from being affected by a chemical attack. Depending on style, either the full face is covered, or just the nose and mouth area of the face.\n\nThis version is a soviet GP-5 gasmask from the cold war era.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Respirator/GP5</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plastic>10</Plastic>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>15</Cloth>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Mass>0.75</Mass>
+      <StuffEffectMultiplierArmor>0.26</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.84</ToxicEnvironmentResistance>  
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	 <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <bodyPartGroups>
+        <li>FullHead</li>
+        <!--<li>UpperHead</li>
+		<li>Eyes</li>
+        <li>Neck</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Respirator/GP5</wornGraphicPath>
+      <!---->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef>
+
+  <!--============ Yugoslavia ========-->
+  
+    <!-- M1 -->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Gasmask_M1Yugoslavian</defName>
+    <label>M1 gas mask</label>
+    <description>A gasmask, also known as a respirator, is a form of headgear designed to cover the face and protect the wearer's respiratory system from being affected by a chemical attack. Depending on style, either the full face is covered, or just the nose and mouth area of the face.\n\nThis version is a Yugoslavian M1 gasmask.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Respirator/M1Mask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plastic>10</Plastic>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>15</Cloth>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>  
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	 <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<bodyPartGroups>
+		<li>Mouth</li>
+		<li>Eyes</li>
+	</bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Respirator/M1Mask</wornGraphicPath>
+      
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef>     
+  
+  <!--============ Others ========-->
+  
+    <!-- MSA -->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Gasmask_MSAMillenium</defName>
+    <label>MSA millenium gas mask</label>
+    <description>A gasmask, also known as a respirator, is a form of headgear designed to cover the face and protect the wearer's respiratory system from being affected by a chemical attack. Depending on style, either the full face is covered, or just the nose and mouth area of the face.\n\nThis version is an MSA Millenium gasmask.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Respirator/SGEMillenium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>Armor_C1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plastic>10</Plastic>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>15</Cloth>
+      <ReinforcedGlass>3</ReinforcedGlass>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.31</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.90</ToxicEnvironmentResistance>  
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	 <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<bodyPartGroups>
+		<li>Mouth</li>
+		<li>Eyes</li>
+	</bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Respirator/SGEMillenium</wornGraphicPath>
+      
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		<renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef>     
+  
+</Defs>

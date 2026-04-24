@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Spetsnaz Machete -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Spetsnaz_Machete']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>7</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- TOPS Machete -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_TOPS_Machete']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>7</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Gerber Gator Machete -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_GerberGator_Machete']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>8</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Kukri Machete -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Kukri_Machete']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>9</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- USMC Tomahawk -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_USMC_Tomahawk']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>8</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Gerber Tomahawk -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Gerber_Tomahawk']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>8</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Roughneck Hand Axe -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Roughneck_Handaxe']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>8</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Gerber Survival Axe -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_GerberSurvival_Axe']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>8</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Fire Axe -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Fire_Axe']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>9</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+        <WoodLog>15</WoodLog>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Felling Axe -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Felling_Axe']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>10</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+        <WoodLog>18</WoodLog>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- DMM Fly Ice Axe -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_DMMFly_IceAxe']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>9</Weapon_Parts>
+        <ComponentIndustrial>2</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Manganese Wakizashi -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Manganese_Wakizashi']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>11</Weapon_Parts>
+        <ComponentIndustrial>2</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Mizutori Katana -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Mizutori_Katana']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>14</Weapon_Parts>
+        <ComponentIndustrial>2</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Hanzo Katana (legendary!) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Hanzo_Katana']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>18</Weapon_Parts>
+        <ComponentIndustrial>3</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Fudoshin Katana -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Fudoshin_Katana']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>14</Weapon_Parts>
+        <ComponentIndustrial>2</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Yanmaodao Saber -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Yanmaodao_Saber']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>14</Weapon_Parts>
+        <ComponentIndustrial>2</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Maximus Spatha -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Maximus_Spatha']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>14</Weapon_Parts>
+        <ComponentIndustrial>2</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Z Killer Sword (modern gimmick sword, slightly less advanced) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_ZKiller_Sword']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>8</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+</Patch>

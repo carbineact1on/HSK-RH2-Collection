@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Military Style Backpacks -->
+
+	<!-- MOLLE 2 -->
+
+  <ThingDef ParentName="RH2_Backpack_Heavy">
+    <defName>RNApparel_Backpack_MOLLE2UCP</defName>
+    <label>MOLLE 2 rucksack (UCP)</label>
+    <description>The MOLLE 2 rucksack in UCP camo. This backpack allows the wearer to carry up to 75 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/Molle2_UCP</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/MOLLE2/Molle2_UCP</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.90,0.90)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.90,0.90)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.80,0.80)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(1.00,1.00)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(1.00,1.00)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>IndustrialMilitaryAdvanced</li>
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>325</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2.0</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>75</CarryingCapacity>
+	<MoveSpeed>-0.12</MoveSpeed>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>	
+  
+  	<!-- Berghaus Vulcan IV -->
+
+  <ThingDef ParentName="RH2_Backpack_Heavy">
+    <defName>RNApparel_Backpack_BerghausVulcanIV</defName>
+    <label>Vulcan IV bergen</label>
+    <description>The Berghaus Vulcan IV bergen. This backpack allows the wearer to carry up to 70 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/Berghaus_Vulcan_4</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/Berghaus/Berghaus_Vulcan_4</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.90,0.90)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.90,0.90)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.80,0.80)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(1.00,1.00)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(1.00,1.00)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>IndustrialMilitaryAdvanced</li>
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2.0</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>70</CarryingCapacity>
+	<MoveSpeed>-0.10</MoveSpeed>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+
+	<!-- AZIMUT SS -->
+
+  <ThingDef ParentName="RH2_Backpack_Heavy">
+    <defName>RNApparel_Backpack_AzimutSSKangaroo</defName>
+    <label>Azimut SS rucksack</label>
+    <description>The Azimut SS Kangaroo rucksack. This backpack allows the wearer to carry up to 70 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/Kangaroo_Backpack</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/Azimut_SS/Kangaroo_Backpack</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.90,0.90)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.90,0.90)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.80,0.80)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(1.00,1.00)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(1.00,1.00)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>IndustrialMilitaryAdvanced</li>
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2.0</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>70</CarryingCapacity>
+	<MoveSpeed>-0.10</MoveSpeed>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>  
+  
+  <!-- Berghaus Vulcan IV -->
+
+  <ThingDef ParentName="RH2_Backpack_Heavy">
+    <defName>RNApparel_Backpack_NorthFaceTerra65L</defName>
+    <label>Terra 65 rucksack</label>
+    <description>The North Face Terra 65 rucksack. This backpack allows the wearer to carry up to 65 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/Terra65</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/North_Face/Terra65</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.80,0.80)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.80,0.80)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.70,0.70)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(0.90,0.90)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(0.90,0.90)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>IndustrialMilitaryAdvanced</li>
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>285</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2.0</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>65</CarryingCapacity>
+	<MoveSpeed>-0.07</MoveSpeed>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>	
+
+</Defs>

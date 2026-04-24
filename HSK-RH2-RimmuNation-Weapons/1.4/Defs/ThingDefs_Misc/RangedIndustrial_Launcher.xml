@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Base RN Launcher -->
+	<ThingDef Name="RH2_BaseMakeableGun" ParentName="BaseGun" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>Gunsmithing</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Projectile -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>RNBullet_40mm_Grenade</defName>
+		<label>40x46mm grenade round</label>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(248, 202, 116)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>RN2Bomb</damageDef>
+			<!-- Use default damage from explosion def -->
+			<explosionRadius>1.9</explosionRadius>
+			<speed>40</speed>
+			<flyOverhead>true</flyOverhead>
+			<stoppingPower>2</stoppingPower>
+		</projectile>
+	</ThingDef>
+
+	<!-- RPG -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>RNBullet_RPG7_Rocket</defName>
+		<label>RPG-7 rocket</label>
+		<graphicData>
+			<texPath>Things/Projectile/RPG7_Rocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>RN2Bomb</damageDef>
+			<explosionRadius>2.5</explosionRadius>
+			<speed>60</speed>
+			<damageAmountBase>180</damageAmountBase>
+			<stoppingPower>4</stoppingPower>
+			<armorPenetrationBase>2</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- M72 -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>RNBullet_M72HEAT_Rocket</defName>
+		<label>66mm HEAT rocket</label>
+		<graphicData>
+			<texPath>Things/Projectile/66mm_M72_HEAT</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>RN2Bomb</damageDef>
+			<explosionRadius>2.5</explosionRadius>
+			<speed>60</speed>
+			<damageAmountBase>120</damageAmountBase>
+			<stoppingPower>4</stoppingPower>
+			<armorPenetrationBase>1.8</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- NLAW -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>RNBullet_NLAW_Warhead</defName>
+		<label>HEAT warhead</label>
+		<graphicData>
+			<texPath>Things/Projectile/NLAW_Rocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>RN2Bomb</damageDef>
+			<explosionRadius>2.9</explosionRadius>
+			<speed>60</speed>
+			<damageAmountBase>240</damageAmountBase>
+			<stoppingPower>7</stoppingPower>
+			<armorPenetrationBase>4</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- Javelin -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>RNBullet_Javelin_Warhead</defName>
+		<label>Tandem-charge HEAT warhead</label>
+		<graphicData>
+			<texPath>Things/Projectile/Javelin_Rocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>RN2Bomb</damageDef>
+			<explosionRadius>3.9</explosionRadius>
+			<speed>55</speed>
+			<flyOverhead>true</flyOverhead>
+			<damageAmountBase>600</damageAmountBase>
+			<stoppingPower>6</stoppingPower>
+			<armorPenetrationBase>8</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- ================================= BIG GAUN! ==================================== -->
+
+	<!-- ================================= RPG-7 ==================================== -->
+
+	<ThingDef ParentName="RNMakeableRocketLauncher">
+		<defName>RNGun_RPG7_RocketLauncher</defName>
+		<label>RPG-7</label>
+		<description>The RPG-7 (Russian: РПГ-7) is a portable, reusable, unguided, shoulder-launched, anti-tank rocket-propelled grenade launcher. Originally the RPG-7 (Ручной Противотанковый Гранатомёт – Ruchnoy Protivotankoviy Granatomyot – Hand-held anti-tank grenade launcher) and its predecessor, the RPG-2, were designed by the Soviet Union; it is now manufactured by the Russian company Bazalt. The weapon has the GRAU index (Russian armed forces index) 6G3.
+
+The ruggedness, simplicity, low cost, and effectiveness of the RPG-7 has made it the most widely used anti-armor weapon in the world. It is re-usable.</description>
+		<tickerType>Normal</tickerType>
+
+		<equippedAngleOffset>40</equippedAngleOffset>
+
+		<graphicData>
+			<texPath>Things/Item/Equipment/Launcher/RPG7</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.10</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>6.5</Mass>
+			<RangedWeapon_Cooldown>7.6</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>GunSingleUse</li>
+			<li>RN_RPG7</li>
+		</weaponTags>
+
+		<recipeMaker>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_RPG7_Rocket</defaultProjectile>
+				<forcedMissRadius>0.9</forcedMissRadius>
+				<warmupTime>3.2</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>40</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>RNShotRPG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast><!-- Changed due to 1.1 -->
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+</comps>
+	</ThingDef>
+
+	<!-- ================================= M79 ==================================== -->
+
+	<ThingDef ParentName="RNMakeableGrenadeLauncher">
+		<defName>RNGun_M79_GrenadeLauncher</defName>
+		<label>M79 Grenade launcher</label>
+		<description>The M79 grenade launcher is a single-shot, shoulder-fired, break-action grenade launcher that fires a 40×46mm grenade, which uses what the US Army calls the High-Low Propulsion System to keep recoil forces low, and first appeared during the Vietnam War. Because of its distinctive report, it has earned the nicknames of "Thumper", "Thump-Gun", "Bloop Tube", "Big Ed", "Elephant Gun," and "Blooper" among American soldiers as well as "Can Cannon" in reference to the grenade size; Australian units referred to it as the "Wombat Gun". The M79 can fire a wide variety of 40 mm rounds, including explosive, anti-personnel, smoke, buckshot, flechette (pointed steel projectiles with a vaned tail for stable flight), and illumination. While largely replaced by the M203, the M79 has remained in service in many units worldwide in niche roles.</description>
+		<tickerType>Normal</tickerType>
+
+		<equippedAngleOffset>40</equippedAngleOffset>
+
+		<graphicData>
+			<texPath>Things/Item/Equipment/Launcher/M79</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>850</MarketValue>
+			<WorkToMake>38000</WorkToMake>
+			<Mass>3.5</Mass>
+			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>GunSingleUse</li>
+			<li>RN_M79</li>
+		</weaponTags>
+
+		<recipeMaker>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_40mm_Grenade</defaultProjectile>
+				<forcedMissRadius>0.8</forcedMissRadius>
+				<warmupTime>3</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>32</range>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>RNShotGL</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast><!-- Changed due to 1.1 -->
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<!--<li Class="CompProperties_Explosive">
+        <explosiveRadius>5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>-->
+</comps>
+	</ThingDef>
+
+
+	<!-- ================================= HK69A1 ==================================== -->
+
+	<ThingDef ParentName="RNMakeableGrenadeLauncher">
+		<defName>RNGun_HK69A1_GrenadeLauncher</defName>
+		<label>HK69A1</label>
+		<description>The HK69A1 is a 40 mm grenade launcher developed and produced by the German arms manufacturer Heckler and Koch (HK). The weapon was designed to engage enemy troops and strongpoints out to a distance of 350 m; it can also be used to deploy smoke grenades and illumination flares.</description>
+		<tickerType>Normal</tickerType>
+
+		<graphicData>
+			<texPath>Things/Item/Equipment/Launcher/HK69</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<equippedAngleOffset>40</equippedAngleOffset>
+
+		<statBases>
+			<MarketValue>700</MarketValue>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>2.0</Mass>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>GunSingleUse</li>
+			<li>RN_HK69A1</li>
+		</weaponTags>
+
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_40mm_Grenade</defaultProjectile>
+				<forcedMissRadius>0.8</forcedMissRadius>
+				<warmupTime>2</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>28.9</range>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>RNShotGL</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast><!-- Changed due to 1.1 -->
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<!--<li Class="CompProperties_Explosive">
+        <explosiveRadius>5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>-->
+</comps>
+	</ThingDef>
+
+	<!-- ================================= M72 LAWWW ==================================== -->
+
+	<ThingDef ParentName="RNMakeableOneTimeUseLauncher">
+		<defName>RNGun_M72LAW_RocketLauncher</defName>
+		<label>M72 LAW</label>
+		<description>The M72 LAW (Light Anti-Tank Weapon), also referred to as the Light Anti-Armor Weapon or LAW as well as LAWS Light Anti-Armor Weapons System) is a portable one-shot 66-mm unguided anti-tank weapon. It is one-time use.</description>
+		<tickerType>Normal</tickerType>
+
+		<equippedAngleOffset>40</equippedAngleOffset>
+
+		<graphicData>
+			<texPath>Things/Item/Equipment/Launcher/M72LAW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>2.5</Mass>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>125</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>GunSingleUse</li>
+			<li>RN_M72LAW</li>
+		</weaponTags>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_M72HEAT_Rocket</defaultProjectile>
+				<forcedMissRadius>1.0</forcedMissRadius>
+				<warmupTime>3.5</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>40.9</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>RNShotLauncher</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast><!-- Changed due to 1.1 -->
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>5</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ================================= MBT LAW ==================================== -->
+
+	<ThingDef ParentName="RNMakeableOneTimeUseLauncher">
+		<defName>RNGun_NLAW_RocketLauncher</defName>
+		<label>NLAW</label>
+		<description>The Next generation Light Anti-tank Weapon (NLAW) or the Next Generation Light Anti-Armour Weapon, also known as the MBT LAW or the RB 57, is a fire-and-forget, lightweight shoulder-fired, and disposable (single-use) line of sight (LOS) missile system, designed for infantry use.
+	
+The missile is using a soft-launch system and is guided by predicted line of sight (PLOS). It can carry out an overfly top attack (OTA) on an armoured vehicle, or a direct attack (DA) on structures and non-armoured vehicles.</description>
+		<tickerType>Normal</tickerType>
+
+		<equippedAngleOffset>40</equippedAngleOffset>
+
+		<graphicData>
+			<texPath>Things/Item/Equipment/Launcher/NLAW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.10</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<WorkToMake>50000</WorkToMake>
+			<Mass>7</Mass>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<!--<li>Gun</li>-->
+			<li>RN_MBTLAW</li>
+		</weaponTags>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>SingleUseWeapon</li>
+		</thingSetMakerTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_NLAW_Warhead</defaultProjectile>
+				<forcedMissRadius>1.0</forcedMissRadius>
+				<warmupTime>4.5</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>35.9</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>RNShotLauncher</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast><!-- Changed due to 1.1 -->
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+</comps>
+	</ThingDef>
+
+	<!-- ================================= Javelin ==================================== -->
+
+	<ThingDef ParentName="RNMakeableOneTimeUseLauncher">
+		<defName>RNGun_FGM148Javelin_RocketLauncher</defName>
+		<label>FGM-148 Javelin</label>
+		<description>The FGM-148 Javelin is an American man-portable fire-and-forget anti-tank missile fielded to replace the M47 Dragon anti-tank missile in US service. (One-time use only, this version of Javelin has to be disposed of after one use.)
+	
+It uses an automatic infrared guidance that allows the user to seek cover immediately after launch, as opposed to wired-guided systems. The Javelin's HEAT warhead is capable of defeating modern tanks by attacking them from above, and is also useful against fortifications in a direct attack flight.</description>
+		<tickerType>Normal</tickerType>
+
+		<equippedAngleOffset>42</equippedAngleOffset>
+
+		<graphicData>
+			<texPath>Things/Item/Equipment/Launcher/FMG-148_Javelin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.20</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<WorkToMake>65000</WorkToMake>
+			<Mass>12</Mass>
+			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+		</statBases>
+
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<!--<li>Gun</li>-->
+			<li>RN_Javelin</li>
+		</weaponTags>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>SingleUseWeapon</li>
+		</thingSetMakerTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_Javelin_Warhead</defaultProjectile>
+				<forcedMissRadius>1.0</forcedMissRadius>
+				<warmupTime>4.5</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>55.9</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>RNShotJavelin</soundCast>
+				<soundAiming>RNJavelinAiming</soundAiming>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast><!-- Changed due to 1.1 -->
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>false</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+		</comps>
+	</ThingDef>
+
+</Defs>

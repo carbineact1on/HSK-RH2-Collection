@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Eickhorn Recondo IV Knife -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_EickhornRecondoIV_Knife']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>6</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- KABAR Knife -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_KABAR_Knife']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>6</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- M3 Trench Knife -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_M3Trench_Knife']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>6</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- First Blood Survival Knife -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_FirstBlood_Knife']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>7</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Gerber Survival Knife -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_GerberSurvival_Knife']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>4</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- M9 Bayonet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_M9Bayonet_Knife']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>7</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Tanto -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Tanto_Sword']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>7</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Karambit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName='RNMeleeWeapon_Karambit_Knife']/costList</xpath>
+    <value>
+      <costList>
+        <Weapon_Parts>4</Weapon_Parts>
+        <ComponentIndustrial>1</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+</Patch>

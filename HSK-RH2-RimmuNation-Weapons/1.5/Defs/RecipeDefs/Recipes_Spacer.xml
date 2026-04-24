@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Spacer Weapons ==================== -->
+
+	<!-- Auger Mk II -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_AugerMkII</defName>
+		<label>Build Auger Mk II</label>
+		<description>Builds an Auger Mk II transient radiation rifle.</description>
+		<jobString>Building Auger Mk II.</jobString>
+		<workAmount>36000</workAmount>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasma_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNSci_AugerMkII>1</RNSci_AugerMkII>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasma_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>MechWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- BM003 Razor -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_BM003Razor</defName>
+		<label>Build BM003 Razor</label>
+		<description>Builds a BM003 Razor charged assault rifle.</description>
+		<jobString>Building BM003 Razor.</jobString>
+		<workAmount>32000</workAmount>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasma_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNSci_BM003Razor>1</RNSci_BM003Razor>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasma_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>MechWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Longbow 1S-1K -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_RN_Longbow1S1K</defName>
+		<label>Build Longbow 1S-1K</label>
+		<description>Builds a Longbow 1S-1K energy rail sniper weapon.</description>
+		<jobString>Building Longbow 1S-1K.</jobString>
+		<workAmount>40000</workAmount>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasma_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<RNSci_Longbow1S1K>1</RNSci_Longbow1S1K>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasma_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>MechWeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

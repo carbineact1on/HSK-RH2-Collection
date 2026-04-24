@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+	<JobDef>
+	<defName>RedHorse_PlayMusicPlayer</defName>
+	<driverClass>RedHorse.JobDriver_PlayMusicPlayer</driverClass>
+	<reportString>tuning in music player.</reportString>
+	</JobDef>
+	
+	
+  <JobDef>
+    <defName>RedHorse_ListenToMusicPlayer</defName>
+    <driverClass>RedHorse.JobDriver_ListenToMusicPlayer</driverClass>
+    <reportString>listening to music player.</reportString>
+    <joyDuration>8000</joyDuration>
+    <joyMaxParticipants>8</joyMaxParticipants>
+    <joyGainRate>1.2</joyGainRate>
+    <joyKind>Meditative</joyKind>
+  </JobDef>
+
+   <JobDef>
+	<defName>RedHorse_PlayAndListenToMusicPlayer</defName>
+    <driverClass>RedHorse.JobDriver_AutoPlayListenToMusicPlayer</driverClass>
+    <reportString>listening to music player.</reportString>
+    <joyDuration>8000</joyDuration>
+    <joyMaxParticipants>8</joyMaxParticipants>
+    <joyGainRate>1.2</joyGainRate>
+    <joyKind>Meditative</joyKind>
+  </JobDef> 
+	
+  <JobDef>
+    <defName>RedHorse_TurnOffMusicPlayer</defName>
+    <driverClass>RedHorse.JobDriver_TurnOffMusicPlayer</driverClass>
+    <reportString>turning off music player.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>RedHorse_TradeWith</defName>
+    <driverClass>Vending.JobDriver_TradeWith</driverClass>
+    <reportString>trading with TargetA.</reportString>
+  </JobDef>
+  
+</Defs>

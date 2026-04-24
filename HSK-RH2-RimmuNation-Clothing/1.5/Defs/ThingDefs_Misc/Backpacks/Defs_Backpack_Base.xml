@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- RH2 Backpack Base -->
+
+  <ThingDef Name="RH2_BackpackBase" ParentName="ApparelIndustrialSimpleBase" Abstract="True">
+	<techLevel>Industrial</techLevel> 
+	<tradeability>All</tradeability>
+	<resourceReadoutPriority>Middle</resourceReadoutPriority>
+	
+	<graphicData>
+      <graphicClass>Graphic_Single</graphicClass>	
+    </graphicData>		
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>	
+      </wornGraphicData>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>RH2_Backpack</li>
+      </tags>
+	  <defaultOutfitTags>
+		<li>Soldier</li>
+	  </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <tradeTags>
+      <li>RH2_Backpack</li>
+    </tradeTags>
+    <thingCategories>
+      <li>RNApparel_Belts</li>
+    </thingCategories>	
+  </ThingDef>	
+  
+  
+  <!-- RH2 Backpack Base -->
+
+  <ThingDef Name="RH2_BackpackMakeableBase" ParentName="ApparelIndustrialBase" Abstract="True">
+	<techLevel>Industrial</techLevel>
+	<tradeability>All</tradeability>
+	<resourceReadoutPriority>Middle</resourceReadoutPriority>
+	<recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+	<graphicData>
+      <graphicClass>Graphic_Single</graphicClass>	
+    </graphicData>		
+    <apparel>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>	
+      </wornGraphicData>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>RH2_Backpack</li>
+      </tags>
+	  <defaultOutfitTags>
+		<li>Soldier</li>
+	  </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <tradeTags>
+      <li>RH2_Backpack</li>
+    </tradeTags>
+    <thingCategories>
+      <li>RNApparel_Belts</li>
+    </thingCategories>	
+  </ThingDef>	
+  
+  <!---->
+  
+  <ThingDef Name="RH2_Backpack_Heavy" ParentName="RH2_BackpackMakeableBase" Abstract="True">
+
+    <statBases>
+  <MarketValue>400</MarketValue>
+  </statBases>
+  	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef>   
+  
+  <ThingDef Name="RH2_Backpack_HeavyLight" ParentName="RH2_BackpackMakeableBase" Abstract="True">
+
+    <statBases>
+  <MarketValue>350</MarketValue>
+  </statBases>
+  	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef> 
+    
+  <ThingDef Name="RH2_Backpack_MediumHeavy" ParentName="RH2_BackpackMakeableBase" Abstract="True">
+
+    <statBases>
+  <MarketValue>300</MarketValue>
+  </statBases>
+  	<generateCommonality>0.35</generateCommonality>
+	<generateAllowChance>0.35</generateAllowChance>  
+  </ThingDef>   
+  
+  <ThingDef Name="RH2_Backpack_MediumLight" ParentName="RH2_BackpackMakeableBase" Abstract="True">
+
+    <statBases>
+  <MarketValue>200</MarketValue>
+  </statBases>
+  	<generateCommonality>0.35</generateCommonality>
+	<generateAllowChance>0.35</generateAllowChance>  
+	
+  </ThingDef>   <ThingDef Name="RH2_Backpack_Medium" ParentName="RH2_BackpackMakeableBase" Abstract="True">
+
+    <statBases>
+  <MarketValue>250</MarketValue>
+  </statBases>
+  	<generateCommonality>0.25</generateCommonality>
+	<generateAllowChance>0.25</generateAllowChance>  
+  </ThingDef>   
+  
+  <ThingDef Name="RH2_Backpack_Light" ParentName="RH2_BackpackMakeableBase" Abstract="True">
+
+    <statBases>
+  <MarketValue>125</MarketValue>
+  </statBases>
+  	<generateCommonality>0.35</generateCommonality>
+	<generateAllowChance>0.35</generateAllowChance>  
+  </ThingDef>   
+  
+  <ThingDef Name="RH2_Backpack_UltraLight" ParentName="RH2_BackpackMakeableBase" Abstract="True">
+
+    <statBases>
+  <MarketValue>75</MarketValue>
+  </statBases>
+  	<generateCommonality>0.35</generateCommonality>
+	<generateAllowChance>0.4</generateAllowChance>  
+  </ThingDef> 
+
+<!-- Backpacks are separate in case anything goes wrong. I don't want parse failure and me not being able to narrow down why there's an error. This is why they are broken up. -->
+
+</Defs>

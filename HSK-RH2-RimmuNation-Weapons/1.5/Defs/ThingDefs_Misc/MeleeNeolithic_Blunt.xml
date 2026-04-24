@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Baseball Bat -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>RNMeleeWeapon_Baseball_Bat</defName>
+    <label>baseball bat</label>
+    <description>A baseball bat is a smooth wooden or metal club used in the sport of baseball to hit the ball after it is thrown by the pitcher. By regulation it may be no more than 2.75 inches (7.0 cm) in diameter at the thickest part and no more than 42 inches (1.067 m) in length. Although historically bats approaching 3 pounds (1.4 kg) were swung, modern bats of 33 ounces (0.94 kg) are more common, topping out at 34 ounces (0.96 kg) to 36 ounces (1.0 kg)</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Baseball_Bat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>1.0</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- Baseball Bat -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>RNMeleeWeapon_BrooklynSmasher_Bat</defName>
+    <label>baseball bat (Brooklyn Smasher)</label>
+    <description>A baseball bat is a smooth wooden or metal club used in the sport of baseball to hit the ball after it is thrown by the pitcher. By regulation it may be no more than 2.75 inches (7.0 cm) in diameter at the thickest part and no more than 42 inches (1.067 m) in length. Although historically bats approaching 3 pounds (1.4 kg) were swung, modern bats of 33 ounces (0.94 kg) are more common, topping out at 34 ounces (0.96 kg) to 36 ounces (1.0 kg)\n\nThis version of baseball bat is of the Cold Steel Brooklyn Smasher line.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Brooklyn_Smasher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>1.4</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+	<costList>
+      <WoodLog>55</WoodLog>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+      <Crafting>3</Crafting>
+	  </skillRequirements>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  
+</Defs>

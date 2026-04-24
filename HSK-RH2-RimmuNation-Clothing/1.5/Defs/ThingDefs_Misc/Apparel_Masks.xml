@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============ Balaclavas ========-->
+  
+    <!-- Balaclava -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Balaclava_EXF</defName>
+    <label>balaclava (EXF)</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally (UK slang) or ski mask (US slang), is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth. Depending on style and how it is worn, only the eyes, mouth and nose, or just the front of the face are unprotected.\n\nThis version is the Team Wendy EXF line of balaclavas.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/Balaclava_EXF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	
+      <bodyPartGroups>
+        <li>Neck</li>
+        <!--<li>Teeth</li>
+        <li>Mouth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Balaclava/Balaclava_EXF</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+       <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	  <renderSkipFlags>
+        <li>Hair</li>
+        <li>Beard</li>
+      </renderSkipFlags>
+	  	
+		<drawData>
+	    <dataNorth>
+          <layer>60</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>60</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>60</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>60</layer>
+        </dataWest>
+		</drawData>
+		
+    </apparel>
+	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef>    
+  
+  <!-- Balaclava 511 -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Balaclava_511M</defName>
+    <label>balaclava (5.11)</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally (UK slang) or ski mask (US slang), is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth. Depending on style and how it is worn, only the eyes, mouth and nose, or just the front of the face are unprotected.\n\nThis version is the 5.11 line of balaclavas.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/Balaclava_511</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	
+      <bodyPartGroups>
+        <li>Neck</li>
+        <!--<li>Teeth</li>
+        <li>Mouth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Balaclava/Balaclava_511</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	<renderSkipFlags>
+        <li>Hair</li>
+        <li>Beard</li>
+      </renderSkipFlags>
+	  
+	  	<drawData>
+	    <dataNorth>
+          <layer>60</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>60</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>60</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>60</layer>
+        </dataWest>
+		</drawData>
+		
+    </apparel>
+	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef>  
+  
+  
+  <!-- Balaclava Aikuer -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Balaclava_AikuerSkull</defName>
+    <label>balaclava (Aikuer skull)</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally (UK slang) or ski mask (US slang), is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth. Depending on style and how it is worn, only the eyes, mouth and nose, or just the front of the face are unprotected.\n\nThis version is the Aikuer skull face line of balaclavas.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/Balaclava_AikuerSkull</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	
+      <bodyPartGroups>
+        <li>Neck</li>
+        <!--<li>Teeth</li>
+        <li>Mouth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Balaclava/Balaclava_AikuerSkull</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	<renderSkipFlags>
+        <li>Hair</li>
+        <li>Beard</li>
+      </renderSkipFlags>
+	  
+	  	<drawData>
+	    <dataNorth>
+          <layer>60</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>60</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>60</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>60</layer>
+        </dataWest>
+		</drawData>
+	  
+    </apparel>
+	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef> 
+  
+    <!-- Balaclava Reaper -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Balaclava_Reaper</defName>
+    <label>balaclava (Reaper)</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally (UK slang) or ski mask (US slang), is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth. Depending on style and how it is worn, only the eyes, mouth and nose, or just the front of the face are unprotected.\n\nThis version is custom painted with a reaper pattern.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/Balaclava_Hangman</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	
+      <bodyPartGroups>
+        <li>Neck</li>
+        <!--<li>Teeth</li>
+        <li>Mouth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Balaclava/Balaclava_Hangman</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	<renderSkipFlags>
+        <li>Hair</li>
+        <li>Beard</li>
+      </renderSkipFlags>
+	  
+	  	<drawData>
+	    <dataNorth>
+          <layer>60</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>60</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>60</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>60</layer>
+        </dataWest>
+		</drawData>
+	  
+    </apparel>
+	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef>     
+  
+  <!-- Balaclava Clown -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Balaclava_Clown</defName>
+    <label>balaclava (Clown)</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally (UK slang) or ski mask (US slang), is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth. Depending on style and how it is worn, only the eyes, mouth and nose, or just the front of the face are unprotected.\n\nThis version is custom painted with a clown pattern.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/Balaclava_Clown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	
+      <bodyPartGroups>
+        <li>Neck</li>
+        <!--<li>Teeth</li>
+        <li>Mouth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Balaclava/Balaclava_Clown</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	<renderSkipFlags>
+        <li>Hair</li>
+        <li>Beard</li>
+      </renderSkipFlags>
+	  
+	  	<drawData>
+	    <dataNorth>
+          <layer>60</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>60</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>60</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>60</layer>
+        </dataWest>
+		</drawData>
+	  
+    </apparel>
+	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef> 
+  
+  <!-- Balaclava Highlander -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Balaclava_Highlander</defName>
+    <label>balaclava (Highlander)</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally (UK slang) or ski mask (US slang), is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth. Depending on style and how it is worn, only the eyes, mouth and nose, or just the front of the face are unprotected.\n\nThis version is the Highlander face line of balaclavas.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/Balaclava_Highlander</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	
+      <bodyPartGroups>
+        <li>Neck</li>
+        <!--<li>Teeth</li>
+        <li>Mouth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Balaclava/Balaclava_Highlander</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>	  
+	<!--<useWornGraphicMask>true</useWornGraphicMask>-->
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	<renderSkipFlags>
+        <li>Hair</li>
+        <li>Beard</li>
+      </renderSkipFlags>
+	  
+	  	<drawData>
+	    <dataNorth>
+          <layer>60</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>60</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>60</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>60</layer>
+        </dataWest>
+		</drawData>
+	  
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef>
+  
+    <!-- Balaclava Aikuer -->
+  
+  <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_Balaclava_CheekiBreeki</defName>
+    <label>balaclava (Cheeki Breeki)</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally (UK slang) or ski mask (US slang), is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth. Depending on style and how it is worn, only the eyes, mouth and nose, or just the front of the face are unprotected.\n\nThis version is the Cheeki Breeki line of balaclavas by Gopnik Tactical.</description>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/Balaclava_CheekiBreeki</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.05</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	
+      <bodyPartGroups>
+        <li>Neck</li>
+        <!--<li>Teeth</li>
+        <li>Mouth</li>-->
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/Balaclava/Balaclava_CheekiBreeki</wornGraphicPath>
+      <!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Black_Set</li>
+      </tags>	  
+	<useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	<renderSkipFlags>
+        <li>Hair</li>
+        <li>Beard</li>
+      </renderSkipFlags>
+	  
+	  	<drawData>
+	    <dataNorth>
+          <layer>60</layer>
+        </dataNorth>	    
+		<dataSouth>
+          <layer>60</layer>
+        </dataSouth>		
+		<dataEast>
+          <layer>60</layer>
+        </dataEast>		
+		<dataWest>
+          <layer>60</layer>
+        </dataWest>
+		</drawData>
+	  
+    </apparel>
+	<generateCommonality>0.10</generateCommonality>
+	<generateAllowChance>0.10</generateAllowChance>  
+  </ThingDef> 
+  
+</Defs>

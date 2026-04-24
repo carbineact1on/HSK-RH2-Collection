@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_EickhornRecondoIV_Knife</defName>
+		<label>combat knife (Eickhorn Recondo IV)</label>
+    <techLevel>Medieval</techLevel>
+		<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis combat knife is of the Eickhorn Recondo IV variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/EickhornRecondo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_RecondoKnife</li>
+    </weaponTags>
+    <!--<costStuffCount>30</costStuffCount>-->
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+	<costList>
+      <Steel>30</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+	
+	<!-- GREASE GUN KABAR BY MY SIIIIDE -->
+	
+	  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_KABAR_Knife</defName>
+		<label>combat knife (KABAR)</label>
+    <techLevel>Medieval</techLevel>
+		<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis combat knife is of the KABAR variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/KABAR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_KABARKnife</li>
+    </weaponTags>
+	<costList>
+      <Steel>35</Steel>
+    </costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+	
+		<!-- M3 Trench Knife -->
+	
+	  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_M3Trench_Knife</defName>
+		<label>combat knife (Boker M3)</label>
+    <techLevel>Medieval</techLevel>
+		<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis combat knife is of the Boker Plus M3 Trench Knife variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/M3TrenchKnife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_M3TrenchKnife</li>
+    </weaponTags>
+	<costList>
+      <Steel>35</Steel>
+    </costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+	
+	<!-- Mission.. Accomplished. -->
+	
+		  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_FirstBlood_Knife</defName>
+		<label>survival knife (First Blood)</label>
+    <techLevel>Medieval</techLevel>
+		<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis survival knife is of the First Blood variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/FirstBlood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_FirstBloodKnife</li>
+    </weaponTags>
+	<costList>
+      <Steel>40</Steel>
+    </costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+
+	<!-- GERBER -->
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_GerberSurvival_Knife</defName>
+		<label>survival knife (Gerber)</label>
+    <techLevel>Medieval</techLevel>
+		<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis survival knife is of the Gerber Bear Grylls variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/GerberSurvivalKnife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_Gerber</li>
+    </weaponTags>
+    <!--<costStuffCount>30</costStuffCount>-->
+		<statBases>
+			<WorkToMake>1500</WorkToMake>
+			<Mass>0.35</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+	<costList>
+      <Steel>30</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+	
+		<!-- Mission.. Accomplished. -->
+	
+		  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_M9Bayonet_Knife</defName>
+		<label>combat knife (M9 Bayonet)</label>
+    <techLevel>Medieval</techLevel>
+		<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis combat knife is of the M9 Bayonet variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/M9Bayonet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_BayonetKnife</li>
+    </weaponTags>
+	<costList>
+      <Steel>40</Steel>
+    </costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+	
+	<!-- Tanto -->
+	
+	  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_Tanto_Sword</defName>
+		<label>Tanto</label>
+    <techLevel>Medieval</techLevel>
+		<description>A tantō (短刀, "short sword") is one of the traditionally made Japanese swords (nihonto) that were worn by the samurai class of feudal Japan. The tantō dates to the Heian period, when it was mainly used as a weapon but evolved in design over the years to become more ornate. Tantō were used in traditional martial arts (tantojutsu). The term has seen a resurgence in the West since the 1980s as a point style of modern tactical knives, designed for piercing or stabbing.\n\nThis tanto knife is of the Cold Steel variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/Tanto</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_Tanto</li>
+    </weaponTags>
+    <!--<costStuffCount>30</costStuffCount>-->
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+	<costList>
+      <Steel>37</Steel>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+	
+	<!-- Karambit -->
+	
+	  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RNMeleeWeapon_Karambit_Knife</defName>
+		<label>Karambit</label>
+    <techLevel>Medieval</techLevel>
+		<description>The karambit or kerambit (as used in Indonesian), kurambik or karambiak (both from the Minangkabau language) is a small Indonesian curved knife resembling a claw from Minangkabau people of West Sumatra.\n\nThis karambit knife is of the Cold Steel Tiger variant.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Melee/Tiger_Karambit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>RN_TigerKarambit</li>
+    </weaponTags>
+	<costList>
+      <Steel>30</Steel>
+    </costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<!--<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>-->
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+		<!--<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>-->
+	</ThingDef>
+
+</Defs>

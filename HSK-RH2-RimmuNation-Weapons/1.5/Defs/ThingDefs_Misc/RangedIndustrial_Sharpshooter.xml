@@ -1,0 +1,2006 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================= SHARPSHOOTAH ==================================== -->
+  
+            <!-- ================================= Intervention AMR ==================================== -->
+
+  <ThingDef ParentName="RNMakeableAMR">
+    <defName>RNGun_M200Intervention_AMR</defName>
+    <label>M200 Intervention</label>
+    <description>The CheyTac Intervention is an American bolt-action sniper rifle manufactured by CheyTac LLC, which can also be classified as an anti-materiel rifle. It is fed by a 7-round detachable single-stack magazine (an optional 5-round magazine is also available). 
+	
+It is specifically chambered in either .408 Chey Tac or .375 Chey Tac ammunition.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/M200_Intervention</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>55000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.42</AccuracyTouch>
+      <AccuracyShort>0.61</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.96</AccuracyLong>
+      <RangedWeapon_Cooldown>2.55</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_408Cheyenne_Sniper</defaultProjectile>
+        <warmupTime>3.55</warmupTime>
+        <range>48</range>
+        <soundCast>RNShotIntervention</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Intervention</li>
+    </weaponTags>
+  </ThingDef>
+  
+      <!-- ================================= M82A1 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableAMR">
+    <defName>RNGun_M82A1_AMR</defName>
+    <label>M82A1</label>
+    <description>The Barrett M82, standardized by the U.S. military as the M107, is a recoil-operated, semi-automatic anti-materiel sniper system developed by the American Barrett Firearms Manufacturing company. Despite its designation as an anti-materiel rifle, it is used by some armed forces as an anti-personnel system. 
+	
+It is also called the Light Fifty for its .50 BMG (12.7×99mm NATO) chambering and significantly lighter weight compared to previous applications.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/M82A1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.59</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.94</AccuracyLong>
+      <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>67</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_50BMG_Sniper</defaultProjectile>
+        <warmupTime>4.0</warmupTime>
+        <range>51.9</range>
+        <soundCast>RNShot50Cal</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_AMR</li>
+	  <li>RN_M82A1</li>
+    </weaponTags>
+  </ThingDef>
+  
+        <!-- ================================= Desert Tech HTI AMR ==================================== -->
+
+  <ThingDef ParentName="RNMakeableAMR">
+    <defName>RNGun_DesertTechHTI_AMR</defName>
+    <label>Desert Tech HTI</label>
+    <description>The design of the HTI is largely based on the SRS-A1, scaled up to handle larger cartridges.
+
+Barrels on the HTI can be changed within 60 seconds, allowing the chambering to be easily changed or worn out barrels to be quickly replaced. The chamberings currently available from Desert Tech are .375 Cheyenne Tactical (CheyTac), .408 CheyTac, .416 Barrett and .50 BMG.
+
+The bullpup design means the action is behind the trigger. As with all bullpups, this allows for a shorter overall length, without having to reduce barrel length.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Desert_Tech_HTI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+	  <MarketValue>1400</MarketValue>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.63</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.95</AccuracyLong>
+      <RangedWeapon_Cooldown>3.50</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_50BMG_Sniper</defaultProjectile>
+        <warmupTime>4.0</warmupTime>
+        <range>50.9</range>
+        <soundCast>RNShot_Generic50Bolt</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_AMR</li>
+	  <li>RN_HTI</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <!-- ================================= M24A2 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_M24A2_Sniper</defName>
+    <label>M24</label>
+    <description>The M24 Sniper Weapon System (SWS) is the military and police version of the Remington Model 700 rifle, M24 being the model name assigned by the United States Army after adoption as their standard sniper rifle in 1988. 
+	
+The M24 is referred to as a "weapon system" because it consists of not only a rifle, but also a detachable telescopic sight and other accessories.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/M24</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.87</AccuracyMedium>
+      <AccuracyLong>0.89</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_Sniper</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <range>47.9</range>
+        <soundCast>RNShot_GenericBoltSniper</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+      <li>RN_Coalition_Sniper</li>
+	  <li>RN_M24A2</li>
+    </weaponTags>
+  </ThingDef>
+  
+      <!-- ================================= L96A1 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_L96A1_Sniper</defName>
+    <label>L96A1</label>
+    <description>The Accuracy International Arctic Warfare rifle is a bolt-action sniper rifle designed and manufactured by the British company Accuracy International. 
+	
+It has proved popular as a civilian, police, and military rifle since its introduction in the 1980s. The rifles have some features that improve performance in very cold conditions, without impairing operation in less extreme conditions.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/L96A1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.48</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.92</AccuracyLong>
+      <RangedWeapon_Cooldown>2.15</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_Sniper</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>47.9</range>
+        <soundCast>RNShot_L96A1Sn</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_Coalition_Sniper</li>
+	  <li>RN_L96A1</li>
+    </weaponTags>
+  </ThingDef>
+  
+      <!-- ================================= Dragunov SVD ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_DragunovSVD_DMR</defName>
+    <label>Dragunov</label>
+    <description>The Dragunov sniper rifle is a semi-automatic sniper/designated marksman rifle chambered in 7.62×54mmR and developed in the Soviet Union.
+
+The Dragunov was designed as a squad support weapon since, according to Soviet and Soviet-derived military doctrines, the long-range engagement ability was lost to ordinary troops when submachine guns and assault rifles (which are optimized for close-range and medium-range, rapid-fire combat) were adopted. For that reason, it was originally named "Self-Loading Rifle, System of Dragunov, Model of the Year 1963".</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Dragunov_SVD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.61</AccuracyTouch>
+      <AccuracyShort>0.69</AccuracyShort>
+      <AccuracyMedium>0.87</AccuracyMedium>
+      <AccuracyLong>0.86</AccuracyLong>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x54_DMR</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>45.9</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>55</ticksBetweenBurstShots>
+        <soundCast>RNShotDragunov</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_Dragunov</li>
+    </weaponTags>
+  </ThingDef>
+  
+        <!-- ================================= OTs-03 SVU ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_SVU_DMR</defName>
+    <label>OTs-03 SVU</label>
+    <description>The OTs-03 SVU (Russian: Снайперская винтовка укороченная, Snayperskaya Vintovka Ukorochennaya, Sniper Rifle Shortened) is a bullpup configuration of the SVD sniper rifle. 
+	
+The SVU was developed to meet the needs of the security forces of the Russian Ministry of Internal Affairs, such as OMON. The SVU was first seen in use in the First Chechen War. Originally, the plan was to just slightly modernize the aging SVD, but the designers eventually realised that the configuration of the weapon would have to be completely altered, leading to the creation of the SVU.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/SVU</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.83</AccuracyMedium>
+      <AccuracyLong>0.81</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x54_DMR</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>46</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+        <soundCast>RNShot_DMRSDGeneric_II</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_SVU</li>
+    </weaponTags>
+  </ThingDef>
+  
+        <!-- ================================= PSL 54 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_PSL54_DMR</defName>
+    <label>PSL 54</label>
+    <description>The PSL (Romanian: Puşcă Semiautomată 7,62 mm cu Lunetă, model 1974, "scoped semi-automatic rifle") is a Romanian military designated marksman rifle. It is also called PSL-54C, Romak III, FPK and SSG-97 (Scharfschützengewehr 1997). Though similar in appearance, mission and specifications to the SVD Dragunov, the PSL rifle is mechanically completely different and based on the RPK light machine gun.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/PSL54</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.87</AccuracyLong>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x54_DMR</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>45.9</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>55</ticksBetweenBurstShots>
+        <soundCast>RNShotDragunov</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_PSL54</li>
+    </weaponTags>
+  </ThingDef>
+  
+       <!-- ================================= M14 DMR ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_M14_DMR</defName>
+    <label>M14 DMR</label>
+    <description>The M14 rifle, officially the United States Rifle, 7.62 mm, M14, is an American automatic rifle that fires 7.62×51mm NATO (.308 in) ammunition. 
+	
+It became the standard-issued rifle for the U.S. military in 1959 replacing the M1 Garand rifle in the U.S. Army by 1961 and the U.S. Marine Corps by 1965 until being replaced by the M16 rifle beginning in 1964.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/M14_DMR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.63</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_308Winchester_DMR</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>45.9</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>55</ticksBetweenBurstShots>
+        <soundCast>RNShot_EBRGeneric</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_Coalition_DMR</li>
+	  <li>RN_M14DMR</li>
+    </weaponTags>
+  </ThingDef>
+  
+          <!-- ================================= MK14 EBR ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_Mk14Mod0_DMR</defName>
+    <label>Mk 14 Mod 0</label>
+    <description>The Mk 14 Enhanced Battle Rifle (EBR) is an American selective fire military designated marksman rifle chambered for the 7.62×51mm NATO cartridge. 
+	
+It is a variant of the M14 battle rifle and was originally built for use with units of United States Special Operations Command, such as the United States Navy SEALs, Delta Force, and task specific ODA teams/units.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Mk14Mod0</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.67</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.76</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_308Winchester_DMR</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>44</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>50</ticksBetweenBurstShots>
+        <soundCast>RNShot_EBRGeneric</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_DMR</li>
+	  <li>RN_MK14Mod0</li>
+    </weaponTags>
+  </ThingDef>          <!-- ================================= MK EBR ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_Mk14EBRSD_DMR</defName>
+    <label>Mk 14 EBR SD</label>
+    <description>The Mk 14 Enhanced Battle Rifle (EBR) is an American selective fire military designated marksman rifle chambered for the 7.62×51mm NATO cartridge. 
+	
+It is a variant of the M14 battle rifle and was originally built for use with units of United States Special Operations Command, such as the United States Navy SEALs, Delta Force, and task specific ODA teams/units.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/M14_EBR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.77</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.81</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_308Winchester_DMR</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>45</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>50</ticksBetweenBurstShots>
+        <soundCast>RNShot_DMRSDGeneric_II</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_DMR</li>
+	  <li>RN_MK14EBRSD</li>
+    </weaponTags>
+  </ThingDef>
+  
+            <!-- ================================= SKS DMR ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_SKSModern_DMR</defName>
+    <label>SKS DMR</label>
+    <description>The SKS is a Soviet semi-automatic carbine chambered for the 7.62×39mm round, designed in 1943 by Sergei Gavrilovich Simonov. Its complete designation, SKS-45, is an initialism for Samozaryadny Karabin sistemy Simonova, 1945 (Russian: Самозарядный карабин системы Симонова, 1945; Self-loading Carbine of (the) Simonov system, 1945). 
+	
+The SKS-45 was manufactured at Tula Arsenal from 1949 to 1958 and at Izhevsk Arsenal in just 1953 and 1954, resulting in a total Soviet production of about 2.7 million carbines.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/SKS_Modern</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+	  <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.87</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x39_DMR</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>44</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>55</ticksBetweenBurstShots>
+        <soundCast>RNShotSKS</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_SKSDMR</li>
+    </weaponTags>
+  </ThingDef>
+  
+         <!-- ================================= SRS ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_DesertTechSRS_DMR</defName>
+    <label>Desert Tech SRS</label>
+    <description>The Desert Tech Stealth Recon Scout (SRS) is a bolt-action sniper rifle developed by the Utah-based firearm manufacturer Desert Tech (formerly Desert Tactical Arms). It was unveiled at the 2008 SHOT Show. It is known for its bullpup design.
+
+A shorter variant of the SRS, called the SRS Covert, shares all the same features of the SRS, but uses shorter barrels and therefore a shorter handguard.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Desert_Tech_SRS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.68</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_DMR</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>45.9</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>55</ticksBetweenBurstShots>
+        <soundCast>RNShot_GenericDMR</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_SRS</li>
+    </weaponTags>
+  </ThingDef>
+  
+    	    <!-- ================================= PSG-1 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_PSG1_DMR</defName>
+    <label>PSG-1</label>
+    <description>The PSG1 (Präzisionsschützengewehr, German for "precision shooter rifle") is a semi-automatic sniper rifle designed and produced by the German company Heckler and Koch of Oberndorf am Neckar.
+	
+This rifle is said to have been developed in response to the Munich massacre at the 1972 Summer Olympics. The West German police units could not engage the terrorists quickly enough to prevent them from killing their hostages. HK was then commissioned to create a high accuracy, large magazine capacity, semi-automatic rifle for police and military use.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/PSG1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.43</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>  
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_DMR</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>45.9</range>
+	    <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>57</ticksBetweenBurstShots>
+        <soundCast>RNShotPSG</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_PSG1</li>
+    </weaponTags>
+  </ThingDef>
+  
+        <!-- ================================= C14 Timberwolf ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_C14Timberwolf_Sniper</defName>
+    <label>C14 Timberwolf</label>
+    <description>The C14 Timberwolf MRSWS (Medium Range Sniper Weapon System) is a bolt-action sniper rifle built by the Canadian arms company PGW Defence Technologies Inc. In 2005 they won the contract to supply the Canadian Forces Land Command with the C14 Timberwolf MRSWS for $4.5 million.
+
+The military version of the rifle, which is being used to replace the C3A1 sniper rifle, started as a civilian precision sport rifle. The military rifle, however, has several modifications to make it better suited for military use, and many accessories are available.
+
+The official military designation for the rifle is C14 Timberwolf Medium Range Sniper Weapon System (MRSWS).</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/C14_Timberwolf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.44</AccuracyTouch>
+      <AccuracyShort>0.66</AccuracyShort>
+      <AccuracyMedium>0.93</AccuracyMedium>
+      <AccuracyLong>0.95</AccuracyLong>	  
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_338Lapua_Sniper</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>47.9</range>
+        <soundCast>RNShot_BoltGenericSD</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_C14Timberwolf</li>
+    </weaponTags>
+  </ThingDef>
+  
+  
+        <!-- ================================= C14 Timberwolf ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_MannlicherUltraLight_Sniper</defName>
+    <label>Mannlicher Ultra Light</label>
+    <description>The Mannlicher Ultra Light is a bolt action rifle produced by Steyr Mannlicher. The rifle has versions chambered in .222 Rem., 223 Rem., .243 Win., .308 Win. and 7mm-08 Rem. It's magazine capacity can fit up to 4 cartridges and was designed to be a lightweight option from other Mannlicher rifles.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Mannlicher_Ultra_Light</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>2.8</Mass>
+      <AccuracyTouch>0.54</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.87</AccuracyMedium>
+      <AccuracyLong>0.83</AccuracyLong>	  
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_308Winchester_Sniper</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>45.9</range>
+        <soundCast>RNShot_BoltGenericSD</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_MannlicherUltraLight</li>
+    </weaponTags>
+  </ThingDef>
+  
+      <!-- ================================= Mosin Nagant ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_MosinNagant</defName>
+    <label>Mosin Nagant</label>
+    <description>The 3-line rifle M1891, colloquially known as Mosin–Nagant is a five-shot, bolt-action, internal magazine–fed, military rifle developed from 1882 to 1891, and used by the armed forces of the Russian Empire, the Soviet Union and various other nations.
+	
+It is one of the most mass-produced military bolt-action rifles in history with over 37 million units having been made since its inception in 1891, and, in spite of its age, it has been used in various conflicts around the world up to the modern day.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Mosin_Nagant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.62</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.82</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x54_Rifle</defaultProjectile>
+        <warmupTime>1.70</warmupTime>
+        <range>41</range>
+        <soundCast>RNShot_BoltActionOldie</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	
+	<weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_MosinNagant</li>
+    </weaponTags>
+  </ThingDef>
+  
+        <!-- ================================= Kar98k ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_Kar98k</defName>
+    <label>Kar98k</label>
+    <description>The Karabiner 98 kurz (Often abbreviated Kar98k or K98k and often incorrectly referred to as a “K98”) is a bolt-action rifle chambered for the 7.92×57mm Mauser cartridge that was adopted on 21 June 1935 as the standard service rifle by the German Wehrmacht.
+	
+It was one of the final developments in the long line of Mauser military rifles. Although supplemented by semi- and fully automatic rifles during World War II, it remained the primary German service rifle until the end of the war in 1945.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Mauser_Kar98k</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>23000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_792x57Mauser_Rifle</defaultProjectile>
+        <warmupTime>1.70</warmupTime>
+        <range>40.9</range>
+        <soundCast>RNShot_BoltActionOldie</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	
+	<weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_Kar98k</li>
+    </weaponTags>
+  </ThingDef>
+  
+      <!-- ================================= GOL ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_GOLMagnum_Sniper</defName>
+    <label>GOL Magnum</label>
+    <description>The GOL-Sniper Magnum is a bolt-action sniper rifle designed by the German company Gol-Matic GmbH of Birkenau, Hessen. The rifle is available in tactical as well as sporting and match configurations. 
+	
+It is developed from Austrian Steyr SSG 69.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/GOL_Magnum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.81</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>2.35</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_Sniper</defaultProjectile>
+        <warmupTime>3.55</warmupTime>
+        <range>47.9</range>
+        <soundCast>RNShotGOL</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_GOLMagnum</li>
+    </weaponTags>
+  </ThingDef>
+  
+        <!-- ================================= SV-98 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_SV98_Sniper</defName>
+    <label>SV-98</label>
+    <description>The SV-98 (Snaiperskaya Vintovka Model 1998) is a Russian bolt-action sniper rifle designed by Vladimir Stronskiy. In 2003 special operations troops were armed with the 7.62 mm 6S11 sniper system comprising the SV-98 sniper rifle (index 6V10) and 7N14 sniper enhanced penetration round. 
+	
+The rifle has been used in combat during operations in Chechnya.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/SV98</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.47</AccuracyTouch>
+      <AccuracyShort>0.67</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.92</AccuracyLong>
+      <RangedWeapon_Cooldown>2.65</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x54_Sniper</defaultProjectile>
+        <warmupTime>3.55</warmupTime>
+        <range>47.9</range>
+        <soundCast>RNShotSV98</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_SV98</li>
+    </weaponTags>
+  </ThingDef>
+  
+        <!-- ================================= Mannlicher Schoenauer ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_MannlicherSchoenauer_Sniper</defName>
+    <label>Mannlicher–Schönauer</label>
+    <description>The Mannlicher–Schönauer (sometimes Anglicized as "Mannlicher Schoenauer", Hellenized as Τυφέκιον/Όπλον Μάνλιχερ, Óplon/Tyfékion Mannlicher) is a type of rotary-magazine bolt-action rifle produced by Steyr Mannlicher for the Greek Army in 1903 and later was also used in small numbers by the Austro-Hungarian Army. It was the main rifle of the Hellenic Army during the first half of the 20th century. Post war use was for civilian use, such as hunting and target practice. It's magazine capacity can hold up to 5 cartridges.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Mannlicher_Schoenauer_Model1910</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.62</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.83</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_7x64mmBrenneke_Rifle</defaultProjectile>
+        <warmupTime>1.70</warmupTime>
+        <range>46.9</range>
+        <soundCast>RNShot_BoltActionOldie</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	
+	<weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_MannlicherSchoenauer</li>
+    </weaponTags>
+  </ThingDef>
+  
+      	    <!-- ================================= WA 2000 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_WA2000_DMR</defName>
+    <label>WA 2000</label>
+    <description>The Walther WA 2000 is a semi-automatic bullpup sniper rifle that was produced by the Carl Walther GmbH Sportwaffen company. It was produced in three different calibers. Production of the rifle was limited and it was shortly stopped because it was too expensive to achieve widespread sales and not robust enough for military use as a sniper rifle.
+
+Only 176 were built due to its high cost, making it one of the rarest and most sought production firearms ever made. The Walther WA 2000 is extremely rare and valuable. 
+
+The WA 2000 was designed in the late 1970s and early 1980s, in response to the 1972 Summer Olympics Munich massacre.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/WA2000</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.44</AccuracyTouch>
+      <AccuracyShort>0.67</AccuracyShort>
+      <AccuracyMedium>0.87</AccuracyMedium>
+      <AccuracyLong>0.90</AccuracyLong>  
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_DMR</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>44.9</range>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>57</ticksBetweenBurstShots>
+        <soundCast>RNShotPSG</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_WA2000</li>
+    </weaponTags>
+  </ThingDef>
+  
+  	    <!-- ================================= G28 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_G28_DMR</defName>
+    <label>G28</label>
+    <description>The civilian MR308 was used to develop the G28, a designated marksman rifle for the German Bundeswehr (Federal Army) deployment to the War in Afghanistan. 
+	
+The semi-automatic G28 is chambered for 7.62×51mm NATO and has a factory warrantied accuracy of 45 mm dispersion at 100 meters (0.45 mil or 1.5 moa) when fired with 10 rounds using OTM/HPBT/Sierra Match King ammunition.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/G28</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.59</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_DMR</defaultProjectile>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>55</ticksBetweenBurstShots>
+        <warmupTime>1.2</warmupTime>
+        <range>45.9</range>
+        <soundCast>RNShot_GenericDMR</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_DMR</li>
+	  <li>RN_G28</li>
+    </weaponTags>
+  </ThingDef>
+  
+    <!-- ================================= M40A5 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_M40A5_Sniper</defName>
+    <label>M40A5</label>
+    <description>The M40 rifle is a bolt-action sniper rifle used by the United States Marine Corps. It has had four variants—the M40, M40A1, M40A3, and M40A5. 
+	
+The M40 was introduced in 1966. The changeover to the A1 model was completed in the 1970s, the A3 in the 2000s, and the A5 in 2009.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/M40A5</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.49</AccuracyTouch>
+      <AccuracyShort>0.69</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>2.15</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_Sniper</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>45.9</range>
+        <soundCast>RNShotM40Sniper</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_Sniper</li>
+	  <li>RN_M40A5</li>
+    </weaponTags>
+  </ThingDef>    
+  
+  <!-- ================================= M700 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_M700SAICS_Sniper</defName>
+    <label>M700-S AICS</label>
+    <description>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962. It is a development of the Remington 721 and 722 series of rifles, which were introduced in 1948. The M24 and M40 military sniper rifles, used by the US Army and Marine Corps, respectively, are both based on the Model 700 design.
+	
+	This version uses the Accuracy International Chassis System.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/R700</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.53</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.95</AccuracyLong>
+      <RangedWeapon_Cooldown>2.15</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_Sniper</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>45.9</range>
+        <soundCast>RNShot_SRSSD</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_Sniper</li>
+	  <li>RN_M700AICS</li>
+    </weaponTags>
+  </ThingDef>
+  
+              <!-- ================================= VSS Vintorez ==================================== -->
+
+<ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_VSSVintorez_DMR</defName>
+    <label>VSS Vintorez</label>
+    <description>The VSS (Russian: Винтовка Снайперская Специальная, Vintovka Snayperskaya Spetsialnaya or "Special Sniper Rifle", GRAU designation 6P29), also called the Vintorez ("thread cutter"/"tap"), is a suppressed sniper rifle that uses a heavy subsonic 9×39mm SP5 cartridge and armor-piercing SP6 cartridge.
+	
+It was developed in the late 1980s by TsNIITochMash and manufactured by the Tula Arsenal. It is issued primarily to Spetsnaz units for undercover or clandestine operations, a role made evident by its ability to be stripped down for transport in a specially fitted briefcase</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/VSS_Vintorez</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.71</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.85</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9x39mmSP6_DMR</defaultProjectile>
+        <warmupTime>1.55</warmupTime>
+        <range>42</range>
+		<burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>RNShotVSSVintorez</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_VSS</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <!-- Ironsight -->
+
+  <!-- ================================= Lee Enfield ==================================== -->
+
+<ThingDef ParentName="RNMakeableBoltAction">
+    <defName>RNGun_LeeEnfield_BoltAction</defName>
+    <label>Lee Enfield Mk III</label>
+    <description>The Lee–Enfield is a bolt-action, magazine-fed, repeating rifle that served as the main firearm used by the military forces of the British Empire and Commonwealth during the first half of the 20th century. 
+	
+It was the British Army's standard rifle from its official adoption in 1895 until 1957.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/Lee_Enfield</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.91</AccuracyMedium>
+      <AccuracyLong>0.84</AccuracyLong>
+      <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_303British_Rifle</defaultProjectile>
+        <warmupTime>1.65</warmupTime>
+        <range>41</range>
+        <soundCast>RNShot_BoltActionOldie</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	
+	<weaponTags Inherit="False">
+      <li>SniperRifle</li>
+	  <li>RN_LeeEnfield</li>
+    </weaponTags>
+  </ThingDef>
+  
+  		 <!-- ================================= L129A1 ==================================== -->
+
+  <ThingDef ParentName="RNMakeableDMR">
+    <defName>RNGun_L129A1_DMR</defName>
+    <label>L129A1</label>
+    <description>The L129A1 Sharpshooter is a marksman's rifle that has been fielded by UK forces since late 2010.
+
+The weapon was procured in order to fill a capability gap identified by experience in Afghanistan, where British infantry units were often engaged by small arms fire from outside the range of their own assault rifles and light machine guns.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Sharpshooter/L129A1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<equippedAngleOffset>40</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.59</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.87</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_762x51mm_DMR</defaultProjectile>
+		<burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>55</ticksBetweenBurstShots>
+        <warmupTime>1.2</warmupTime>
+        <range>45.9</range>
+        <soundCast>RNShot_GenericDMR</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags Inherit="False">
+      <!--<li>SniperRifle</li>-->
+	  <li>RN_Coalition_DMR</li>
+	  <li>RN_L129A1</li>
+    </weaponTags>
+  </ThingDef>
+  
+</Defs>

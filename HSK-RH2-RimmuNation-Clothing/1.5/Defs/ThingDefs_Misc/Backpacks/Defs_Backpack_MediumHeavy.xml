@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- RUSH 24 -->
+
+  <ThingDef ParentName="RH2_Backpack_MediumHeavy">
+    <defName>RNApparel_Backpack_RUSH24BP</defName>
+    <label>RUSH 24 backpack</label>
+    <description>The 5.11 RUSH 24 backpack. This backpack allows the wearer to carry up to 40 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/Rush24_Black</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/511/Rush24_Black</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.60,0.60)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.60,0.60)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.50,0.50)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(0.70,0.70)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(0.70,0.70)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>IndustrialMilitaryAdvanced</li>	
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>225</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.65</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>40</CarryingCapacity>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>	
+  
+    <!-- FAST Pack -->
+
+  <ThingDef ParentName="RH2_Backpack_MediumHeavy">
+    <defName>RNApparel_Backpack_FASTPack</defName>
+    <label>FAST pack</label>
+    <description>The Triple Aught Design FAST Pack Litespeed backpack. This backpack allows the wearer to carry up to 40 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/FASTPack_Litespeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/TAD/FASTPack_Litespeed</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.60,0.60)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.60,0.60)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.50,0.50)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(0.70,0.70)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(0.70,0.70)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>225</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.65</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>40</CarryingCapacity>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->	
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+  
+      <!-- Kelty Raven 2500 Pack -->
+
+  <ThingDef ParentName="RH2_Backpack_MediumHeavy">
+    <defName>RNApparel_Backpack_KeltyRaven2500Pack</defName>
+    <label>Raven 2500 backpack</label>
+    <description>The Kelty Raven 2500 backpack. This backpack allows the wearer to carry up to 40 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/Raven2500</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/Kelty/Raven2500</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.80,0.80)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.80,0.80)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.70,0.70)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(0.90,0.90)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(0.90,0.90)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>225</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.65</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>40</CarryingCapacity>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->	
+	
+		<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+  
+    <!-- Pegasus -->
+
+  <ThingDef ParentName="RH2_Backpack_MediumHeavy">
+    <defName>RNApparel_Backpack_WarriorPegasus</defName>
+    <label>Warrior Pegasus backpack</label>
+    <description>The Elite Ops Warrior Pegasus backpack. This backpack allows the wearer to carry up to 40 KG for caravan trips and other outdoor activities.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Backpack/Warrior_Pegasus_Daysack</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 	  
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Backpack/Warrior/Warrior_Pegasus_Daysack</wornGraphicPath>
+      <wornGraphicData>
+        <east>
+          <offset>(-0.30,-0.05)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+		  <female><offset>(0.02,0)</offset></female>
+        </east>
+        <west>
+          <offset>(0.30,-0.10)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+		  <female><offset>(-0.02,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> <!-- // (x,y) //--> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(0.90,0.90)</scale></male> <!-- // (0.75,0.75) //-->
+        <female><scale>(0.90,0.90)</scale></female> <!-- // (0.75,0.75) //-->
+        <thin>  <scale>(0.80,0.80)</scale></thin> <!-- // (0.7,0.7) //-->
+        <hulk>  <scale>(1.00,1.00)</scale></hulk> <!-- // (0.9,0.9) //-->
+        <fat>   <scale>(1.00,1.00)</scale></fat> <!-- // (0.9,0.9) //-->
+      </wornGraphicData>
+      <tags>
+		<li>RH2_Backpack</li>	
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <statBases>
+	  <MaxHitPoints>215</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.65</Mass>
+      <Flammability>0.4</Flammability>
+	  <Insulation_Cold>6</Insulation_Cold>	  
+      <EquipDelay>0.50</EquipDelay>
+    </statBases>	
+	
+	<equippedStatOffsets>
+	<CarryingCapacity>40</CarryingCapacity>
+	</equippedStatOffsets> <!-- Adds backpack capacity with the Backpack.dll-->
+	
+			<!-- Ingredients -->
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+  
+</Defs>

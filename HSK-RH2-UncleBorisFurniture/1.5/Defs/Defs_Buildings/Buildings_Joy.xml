@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- EVERYBODY GET UP ITS TIME TO JAM NOW -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_BasketballHoop</defName>
+    <label>basketball hoop</label>
+    <description>A small basketball hoop for basketball free throws. Everybody get up, it's time to jam now. This activity trains shooting skills.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/Basketball/Basketball_Hoop</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <!--<shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>-->
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <minTechLevelToBuild>Industrial</minTechLevelToBuild>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.0</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <joyKind>Gaming_Dexterity</joyKind>
+      <watchBuildingStandDistanceRange>5~5</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>6</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+	<size>(1,1)</size>
+    <costStuffCount>30</costStuffCount>
+    <pathCost>20</pathCost>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <designationCategory>Joy</designationCategory>
+    <!--<designationHotKey>Misc1</designationHotKey>-->
+  </ThingDef>
+
+<!-- Football's comin' home -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_FootballGoalpost</defName>
+    <label>goalpost</label>
+    <description>A small goalpost for a football/soccer penalty shootout. It's relaxing, and trains shooting skills.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/Football/Goalpost</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <!--<shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>-->
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <minTechLevelToBuild>Industrial</minTechLevelToBuild>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.0</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <joyKind>Gaming_Dexterity</joyKind>
+      <watchBuildingStandDistanceRange>5~5</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>6</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+	<size>(2,1)</size>
+    <costStuffCount>40</costStuffCount>
+    <pathCost>20</pathCost>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <designationCategory>Joy</designationCategory>
+    <!--<designationHotKey>Misc1</designationHotKey>-->
+  </ThingDef>
+
+<!-- NERF or nothing -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_NERFTarget</defName>
+    <label>NERF target</label>
+    <description>A simple target for a NERF toy gun. It's relaxing, and trains shooting skills.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/NERF/NERF_Target</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--<shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>-->
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+	  <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <minTechLevelToBuild>Industrial</minTechLevelToBuild>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>95</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.0</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <building>
+      <joyKind>Gaming_Dexterity</joyKind>
+      <watchBuildingStandDistanceRange>5~5</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>4</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <costStuffCount>25</costStuffCount>
+    <pathCost>20</pathCost>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <designationCategory>Joy</designationCategory>
+    <!--<designationHotKey>Misc1</designationHotKey>-->
+  </ThingDef>
+
+<!-- No, but I've a lot on TV! -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_Panasonic_Television</defName>
+    <label>Panasonic television</label>
+    <description>A cathode ray tube display for showing moving pictures with sound. Even on the rimworlds, there is often an old transmitter running something at least marginally interesting.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/PanasonicTV</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <!--<shadowData>
+        <volume>(0.5, 0.3, 0.4)</volume>
+      </shadowData>-->
+	   <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.40</fillPercent>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>4000</WorkToBuild>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>15</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.0</JoyGainFactor>
+    </statBases>
+    <costList>
+      <Glass>15</Glass>
+      <Rubber>10</Rubber>
+      <Plastic>30</Plastic>
+      <Electronics>3</Electronics>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+	
+	<size>(1,1)</size>
+	
+    <pathCost>42</pathCost>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <joyKind>Television</joyKind>
+      <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
+      <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
+      <watchBuildingStandDistanceRange>2~5</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <effectWatching>WatchingTelevision</effectWatching>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationCategory>Joy</designationCategory>
+    <designationHotKey>Misc4</designationHotKey>
+    <researchPrerequisites><li>TubeTelevision</li></researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  
+  <!-- LCD -->
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>RH2_Panasonic_LCDTelevision</defName>
+    <label>Panasonic LCD TV</label>
+    <description>A high-tech flat-screen television with crystal-clear image and rich color. Picks up transmissions from ancient satellites and ubiquitous data cards.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/PanasonicLCD</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <!--<shadowData>
+        <volume>(1.6, 0.6, 0.1)</volume>
+        <offset>(0, 0, 0.35)</offset>
+      </shadowData>-->
+	   <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.40</fillPercent>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>5000</WorkToBuild>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>12</Mass>
+      <JoyGainFactor>1.3</JoyGainFactor>
+    </statBases>
+    <costList>
+      <Glass>20</Glass>
+      <Rubber>12</Rubber>
+      <Plastic>40</Plastic>
+      <Electronics>5</Electronics>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+
+	<size>(2,1)</size>
+
+    <pathCost>42</pathCost>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <joyKind>Television</joyKind>
+      <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
+      <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
+      <watchBuildingStandDistanceRange>2~6</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>6</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <effectWatching>WatchingTelevision</effectWatching>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <!--<constructEffect>ConstructMetal</constructEffect>-->
+    <designationCategory>Joy</designationCategory>
+    <designationHotKey>Misc4</designationHotKey>
+    <researchPrerequisites><li>FlatscreenTelevision</li></researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  
+    <!-- TCL 65 -->
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>RH2_Xbox360_GameConsole</defName>
+    <label>Xbox 360 gaming console</label>
+    <description>A high-tech flat-screen television with crystal-clear image and rich color that comes with an Xbox 360 console. Picks up transmissions from ancient satellites and ubiquitous data cards, has a collection of classic video games that can be played offline.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/Xbox360Console/Xbox360_TCL65</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <!--<shadowData>
+        <volume>(1.6, 0.6, 0.1)</volume>
+        <offset>(0, 0, 0.35)</offset>
+      </shadowData>-->
+	   <drawSize>(2.75,2.75)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.40</fillPercent>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>5500</WorkToBuild>
+      <MaxHitPoints>95</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>12</Mass>
+      <JoyGainFactor>1.4</JoyGainFactor>
+    </statBases>
+    <costList>
+      <Glass>20</Glass>
+      <Rubber>15</Rubber>
+      <Plastic>45</Plastic>
+      <Electronics>6</Electronics>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+
+	<size>(2,1)</size>
+
+    <pathCost>42</pathCost>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <joyKind>Gaming_Dexterity</joyKind>
+      <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
+      <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
+      <watchBuildingStandDistanceRange>2~7</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>7</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <effectWatching>WatchingTelevision</effectWatching>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <!--<constructEffect>ConstructMetal</constructEffect>-->
+    <designationCategory>Joy</designationCategory>
+    <designationHotKey>Misc4</designationHotKey>
+    <researchPrerequisites><li>FlatscreenTelevision</li></researchPrerequisites>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+  
+</Defs>

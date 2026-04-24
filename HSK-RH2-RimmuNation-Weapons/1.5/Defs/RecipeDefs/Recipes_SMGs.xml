@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== SMG Recipes ==================== -->
+  <!-- WeaponCraftingWorkTable, BlowbackOperation, Crafting 6 -->
+
+  <!-- AK-74U -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AK74U_SMG</defName>
+    <label>Build AK-74U</label>
+    <description>Build AK-74U.</description>
+    <jobString>Building AK-74U.</jobString>
+    <workAmount>14000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_AK74U_SMG>1</RNGun_AK74U_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AKS-74UB -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AK7S4U_SMG</defName>
+    <label>Build AKS-74UB</label>
+    <description>Build AKS-74UB.</description>
+    <jobString>Building AKS-74UB.</jobString>
+    <workAmount>15000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <products><RNGun_AK7S4U_SMG>1</RNGun_AK7S4U_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Thompson SMG (WoodLog - wooden stock) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_ThompsonSubmachineGun_SMG</defName>
+    <label>Build Thompson SMG</label>
+    <description>Build Thompson SMG.</description>
+    <jobString>Building Thompson SMG.</jobString>
+    <workAmount>14000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_ThompsonSubmachineGun_SMG>1</RNGun_ThompsonSubmachineGun_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- MP5A2 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_MP5A2_SMG</defName>
+    <label>Build MP5A2</label>
+    <description>Build MP5A2.</description>
+    <jobString>Building MP5A2.</jobString>
+    <workAmount>13000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>16</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>13</count></li>
+    </ingredients>
+    <products><RNGun_MP5A2_SMG>1</RNGun_MP5A2_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- MP5SD -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_MP5SD_SMG</defName>
+    <label>Build MP5SD</label>
+    <description>Build MP5SD.</description>
+    <jobString>Building MP5SD.</jobString>
+    <workAmount>14500</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_MP5SD_SMG>1</RNGun_MP5SD_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- MP7A1 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_MP7A1_PDW</defName>
+    <label>Build MP7A1</label>
+    <description>Build MP7A1.</description>
+    <jobString>Building MP7A1.</jobString>
+    <workAmount>13500</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_MP7A1_PDW>1</RNGun_MP7A1_PDW></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- UMP45 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_UMP45_SMG</defName>
+    <label>Build UMP45</label>
+    <description>Build UMP45.</description>
+    <jobString>Building UMP45.</jobString>
+    <workAmount>13000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>16</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <products><RNGun_UMP45_SMG>1</RNGun_UMP45_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FN P90 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_P90_PDW</defName>
+    <label>Build FN P90</label>
+    <description>Build FN P90.</description>
+    <jobString>Building FN P90.</jobString>
+    <workAmount>15000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_P90_PDW>1</RNGun_P90_PDW></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FN P90-SD -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_P90SD_PDW</defName>
+    <label>Build FN P90-SD</label>
+    <description>Build FN P90-SD.</description>
+    <jobString>Building FN P90-SD.</jobString>
+    <workAmount>16000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_P90SD_PDW>1</RNGun_P90SD_PDW></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Uzi -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Uzi_SMG</defName>
+    <label>Build Uzi</label>
+    <description>Build Uzi.</description>
+    <jobString>Building Uzi.</jobString>
+    <workAmount>12000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>12</count></li>
+    </ingredients>
+    <products><RNGun_Uzi_SMG>1</RNGun_Uzi_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- MAC-10 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_MAC11_SMG</defName>
+    <label>Build MAC-10</label>
+    <description>Build MAC-10.</description>
+    <jobString>Building MAC-10.</jobString>
+    <workAmount>12000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>12</count></li>
+    </ingredients>
+    <products><RNGun_MAC11_SMG>1</RNGun_MAC11_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Skorpion vz. 61 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_SkorpionVZ61_SMG</defName>
+    <label>Build Skorpion vz. 61</label>
+    <description>Build Skorpion vz. 61.</description>
+    <jobString>Building Skorpion vz. 61.</jobString>
+    <workAmount>12500</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>13</count></li>
+    </ingredients>
+    <products><RNGun_SkorpionVZ61_SMG>1</RNGun_SkorpionVZ61_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- PPSh-41 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_PPSh41_SMG</defName>
+    <label>Build PPSh-41</label>
+    <description>Build PPSh-41.</description>
+    <jobString>Building PPSh-41.</jobString>
+    <workAmount>13000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>14</count></li>
+    </ingredients>
+    <products><RNGun_PPSh41_SMG>1</RNGun_PPSh41_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- PP-19 Bizon -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_PP19_SMG</defName>
+    <label>Build PP-19 Bizon</label>
+    <description>Build PP-19 Bizon.</description>
+    <jobString>Building PP-19 Bizon.</jobString>
+    <workAmount>14000</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>3</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <products><RNGun_PP19_SMG>1</RNGun_PP19_SMG></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- KRISS Vector -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_KrissVector_PDW</defName>
+    <label>Build KRISS Vector</label>
+    <description>Build KRISS Vector.</description>
+    <jobString>Building KRISS Vector.</jobString>
+    <workAmount>15500</workAmount>
+    <skillRequirements><Crafting>6</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>SMG_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_KrissVector_PDW>1</RNGun_KrissVector_PDW></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>WeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- ====================================== Trench Coat ============================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RHApparel_PUTrenchCoat_PUBG</defName>
+    <description>A tough trench coat for warmth, while at the same time protecting from grit of the outdoors.</description>
+    <label>trench coat</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/Trench</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.3</Mass> 
+	  <Flammability>0.25</Flammability>
+      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.70</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/PUBG_PU_Coat/Trench</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(48, 35, 29)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(156, 156, 156)</only>
+        </li>
+        <li>
+          <weight>30</weight>
+          <only>(64, 56, 48)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(82, 82, 82)</min>
+          <max>(36, 36, 36)</max>
+        </li>
+        <li>
+          <weight>2</weight>
+          <min>(89, 51, 51)</min>
+          <max>(64, 32, 32)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+  
+  <!-- ====================================== Trench Coat ============================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RHApparel_TrenchCoat_Vigilante</defName>
+    <description>A tough trench coat for warmth, while at the same time protecting from grit of the outdoors.</description>
+    <label>vigilante coat</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/VigilanteCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.3</Mass> 
+	  <Flammability>0.25</Flammability>
+      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.70</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Vigilante_Coat/VigilanteCoat</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(48, 35, 29)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(156, 156, 156)</only>
+        </li>
+        <li>
+          <weight>30</weight>
+          <only>(64, 56, 48)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(82, 82, 82)</min>
+          <max>(36, 36, 36)</max>
+        </li>
+        <li>
+          <weight>2</weight>
+          <min>(89, 51, 51)</min>
+          <max>(64, 32, 32)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef> 
+
+ <!-- ====================================== Trench Coat ============================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RHApparel_TrenchCoat_PUBG</defName>
+    <description>A long duster coat for blocking the sun and grit of the outdoors.</description>
+    <label>wasteland coat</label>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/PUBGTrenchCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2</Mass> 
+	  <Flammability>0.25</Flammability>
+      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.80</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/PUBG_Trench_Coat/PUBGTrenchCoat</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(48, 35, 29)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(156, 156, 156)</only>
+        </li>
+        <li>
+          <weight>30</weight>
+          <only>(64, 56, 48)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(82, 82, 82)</min>
+          <max>(36, 36, 36)</max>
+        </li>
+        <li>
+          <weight>2</weight>
+          <min>(89, 51, 51)</min>
+          <max>(64, 32, 32)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+
+ <!-- ====================================== Field Parka ============================== -->
+   <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_FieldParka_Generic</defName>
+    <label>field parka</label>
+    <description>A field parka for staying warm in even the coldest of temperatures, tailor made for tough use.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/ReconJacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>9500</WorkToMake>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Field_Parka/ReconJacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.5,0.5,0.5)</min>
+          <max>(1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef> 
+  
+  <!-- ====================================== Vintage Parka ============================== -->
+   <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_VintageParka_Generic</defName>
+    <label>vintage parka</label>
+    <description>A vintage parka for staying warm in even the coldest of temperatures, tailor made for tough use.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/VintageCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>9500</WorkToMake>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Vintage_Coat/VintageCoat</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.5,0.5,0.5)</min>
+          <max>(1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+ <!-- ====================================== Vest Coat =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_VestJacket_Generic</defName>
+    <label>vest jacket</label>
+    <description>A sleeveless jacket to keep warm in even the coldest of temperatures, tailor made for tough use.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/VestJacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>190</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Vest_Jacket/VestJacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Overcoat =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Overcoat_Generic</defName>
+    <label>overcoat</label>
+    <description>An overcoat is a type of long coat intended to be worn as the outermost garment, which usually extends below the knee. Overcoats are most commonly used in winter when warmth is more important.
+
+They are sometimes confused with or referred to as topcoats, which are shorter and end at or above the knees. Topcoats and overcoats together are known as outercoats. Unlike overcoats, topcoats are usually made from lighter weight cloth such as gabardine or covert, while overcoats are made from heavier cloth or fur.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/Overcoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>190</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Overcoat/Overcoat</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef> 
+  
+  <!-- ====================================== Noir Coat =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_TrenchCoat_Detective</defName>
+    <label>noir coat</label>
+    <description>A tough trench coat for warmth, while at the same time protecting from grit of the outdoors.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/NoirCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>190</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Noir_Coat/NoirCoat</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+   <!-- ====================================== Suit Jacket =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_SuitJacket_Generic</defName>
+    <label>suit jacket</label>
+    <description>A suit is a set of clothes comprising a suit jacket, or coat, and trousers. When of identical textile, and worn with a collared dress shirt, necktie, and dress shoes, it was traditionally considered informal wear in Western dress codes.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/Suit_Jacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>170</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Suit_Jacket/Suit_Jacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+     <!-- ====================================== Biker Jacket =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_BikerJacket_Generic</defName>
+    <label>biker jacket</label>
+    <description>A leather jacket is a jacket-length coat that is usually worn on top of other apparel or item of clothing, and made from the tanned hide of various animals. The leather material is typically dyed black, or various shades of brown, but a wide range of colors is possible. Leather jackets can be designed for many purposes, and specific styles have been associated with subcultures such as greasers, motorcyclists and bikers, mobsters, military aviators (especially during and directly after World War II) and music subcultures (punks, goths, metalheads, rivetheads), who have worn the garment for protective or fashionable reasons, and occasionally to create a potentially intimidating appearance.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/MotorcycleJacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>170</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Motorcycle_Jacket/MotorcycleJacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+       <!-- ====================================== Gunslinger Jacket =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_GunslingerJacket_Generic</defName>
+    <label>gunslinger jacket</label>
+    <description>A leather coat, donned by gunslingers, outlaws, cowboys, and more during the Gold Rush era, is a tanned hide jacket worn over attire. Crafted from the hides of diverse animals, these coats come in hues like deep black or various shades of brown, with a broad spectrum of colors available. These leather coats are tailored for various purposes and are closely linked to specific subcultures of that era. These subcultures, including frontier adventurers, rebels, and rugged pioneers, embraced these jackets for their protective qualities and rugged style, often using them to exude an air of strength and fearlessness.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/Gunslinger_Jacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>170</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Gunslinger_Jacket/Gunslinger</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+         <!-- ====================================== Combat Jacket =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_CombatJacket_Generic</defName>
+    <label>combat jacket</label>
+    <description>A tough military specification, combat jacket. Worn during a historical conflict by armed forces personnel, these coats typically came in olive and black. Later availability in the civilian market meant more variety for colours.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/CombatSmock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>175</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Combat_Smock/CombatSmock</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+     <!-- ====================================== Suede Jacket =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_SuedeJacket_Generic</defName>
+    <label>suede jacket</label>
+    <description>A leather jacket is a jacket-length coat that is usually worn on top of other apparel or item of clothing, and made from the tanned hide of various animals. The leather material is typically dyed black, or various shades of brown, but a wide range of colors is possible. Leather jackets can be designed for many purposes, and specific styles have been associated with subcultures such as greasers, motorcyclists and bikers, mobsters, military aviators (especially during and directly after World War II) and music subcultures (punks, goths, metalheads, rivetheads), who have worn the garment for protective or fashionable reasons, and occasionally to create a potentially intimidating appearance.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Shell/Seude_Jacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.82</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Shell/Seude_Jacket/Seude_Jacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+		<!-- Brown -->
+        <li>
+          <weight>10</weight>
+          <only>(129, 71, 51)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(74, 56, 48)</only>
+        </li>
+        <li>
+          <weight>30</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(145, 100, 77)</min>
+          <max>(67, 40, 29)</max>
+        </li>
+        <li>
+          <weight>2</weight>
+          <min>(51, 51, 51)</min>
+          <max>(56, 36, 3)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+</Defs>

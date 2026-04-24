@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ====================================== Trousers =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_511Stryke</defName>
+    <label>stryke pants</label>
+    <description>A tougher and heavier set of tactical pants designed for rough conditions.\n\nThis series of pants are of the 5.11 Stryke variant.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/511TacticalStryke_Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.75</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+  
+    <!-- ====================================== Pursuit Pants =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_BlackhawkPursuit</defName>
+    <label>pursuit pants</label>
+    <description>A tougher and heavier set of tactical pants designed for rough conditions.\n\nThis series of pants are of the BLACKHAWK! pursuit variant.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/Blackhawk_PursuitPants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.75</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+    
+	
+	<!-- ====================================== Trousers =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_511StrykeMulticam</defName>
+    <label>Stryke MultiCam pants</label>
+    <description>A tougher and heavier set of tactical pants designed for rough conditions.\n\nThis series of pants are of the 5.11 Stryke variant in multicam.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/511StrykeMulticam_Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.75</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Multi_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    <useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	</apparel>
+  </ThingDef>  
+  
+  
+    <!-- ====================================== Pilgrim Trousers =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_HelikonPilgrim</defName>
+    <label>pilgrim pants</label>
+    <description>A tougher and heavier set of trekking trousers designed for rough conditions.\n\nThis series of pants are of the Helikon Pilgrim variant.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/HelikonPilgrimTrousers_Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>225</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.85</Mass>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  
+  <!-- ====================================== Keb Trousers =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_FjallravenKeb</defName>
+    <label>keb pants</label>
+    <description>A tougher and heavier set of trekking trousers designed for rough conditions.\n\nThis series of pants are of the Fjallraven Keb variant.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/FjallravenKebTrousers_Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>225</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.85</Mass>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+    <!-- ====================================== Survival Trousers =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_BearGryllsSurvivor</defName>
+    <label>survivor pants</label>
+    <description>A tougher and heavier set of survival trousers designed for rough conditions.\n\nThis series of pants are of the Bear Grylls "Survivor" variant.\n\nNote: Please do not drink your own pee.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/BearGrylls_SurvivorPants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>230</MaxHitPoints>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>0.9</Mass>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(62, 82, 98)</only>
+        </li>           
+		<li>
+          <weight>9</weight>
+          <only>(73, 67, 54)</only>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <only>(51, 47, 44)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(73, 67, 54)</only>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(248, 72, 97)</min>
+          <max>(123, 29, 27)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(101, 118, 66)</min>
+          <max>(88, 101, 55)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(255, 255, 255)</min>
+          <max>(154, 154, 154)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(50, 53, 58)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+    <!-- ====================================== Keb Trousers =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_GORKA3Pants</defName>
+    <label>GORKA 3 pants</label>
+    <description>Part of the GORKA 3 BDU set, designed for cold and rough conditions. Gorka 3 Suit Bars is a Russian special forces military uniform suit designed for mountain divisions (the word "Gorka" originates from Russian word "mountain"). This BDU first appeared in the Soviet army during the Afghanistan war, then widely use during Chechen wars and other conflicts. It is mainly used by special forces (spetsnaz) of MVD, FSB, VDV (airborne), GRU.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/GORKA3_Pants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>230</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.9</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    
+  </ThingDef>
+  
+  
+  <!-- Season 7 -->
+  
+    <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Jeans_Generic</defName>
+    <label>jeans</label>
+    <description>Jeans are a type of pants or trousers, typically made from denim or dungaree cloth. Often the term "jeans" refers to a particular style of trousers, called "blue jeans", which were invented by Jacob W. Davis in partnership with Levi Strauss &amp; Co. in 1871 and patented by Jacob W. Davis and Levi Strauss on May 20, 1873. Prior to the Levi Strauss patented trousers, the term "blue jeans" had been long in use for various garments (including trousers, overalls, and coats), constructed from blue-colored denim.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/Uniqlo_HighCutJeans</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierArmor>0.51</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.38</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.09</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+  </ThingDef>
+  
+  	<!-- ====================================== ACU OCP =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_ACUUCP</defName>
+    <label>ACU pants (UCP)</label>
+    <description>A tougher and heavier set of tactical pants designed for rough conditions.\n\nThis variant is an Army Combat Uniform (ACU) pants in Universal Camo Pattern (UCP) camo.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/ACUPants_UCP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.8</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.51</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.31</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Urban_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    <useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	</apparel>
+  </ThingDef>  
+  
+  <!-- BDU -->
+  
+    <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_BDUDMARPAT</defName>
+    <label>BDU pants (D MARPAT)</label>
+    <description>A tougher and heavier set of tactical pants designed for rough conditions.\n\nThis variant is a Battle Dress Uniform (BDU) pants in Desert Marine Pattern (MARPAT) camo.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/BDUPants_DMARPAT</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.8</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.51</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.31</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    <useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	</apparel>
+  </ThingDef>   
+  
+  <!-- combat trousers -->
+  
+    <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_CombatsDDPM</defName>
+    <label>combat trousers (D DPM)</label>
+    <description>A tougher and heavier set of tactical pants designed for rough conditions.\n\nThis variant is a combat trousers in Desert Disruptive Pattern Material (DPM) camo.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/CombatTrousers_DDPM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.8</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.51</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.31</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Desert_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    <useWornGraphicMask>true</useWornGraphicMask>
+	<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	</apparel>
+  </ThingDef> 
+  
+  <!-- Suit pants -->
+  
+      <!-- ====================================== Suit Pants =========================================== -->
+
+  <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>RNApparel_Pants_SuitBrioni</defName>
+    <label>suit trousers</label>
+    <description>A suit is a set of clothes comprising a suit jacket, or coat, and trousers. When of identical textile, and worn with a collared dress shirt, necktie, and dress shoes, it was traditionally considered informal wear in Western dress codes.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Pants/Brioni_SuitPants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.55</Mass>
+	  <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <SocialImpact>0.05</SocialImpact>
+	  <TradePriceImprovement>0.02</TradePriceImprovement>
+	  <NegotiationAbility>0.02</NegotiationAbility>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+		<li>PassiveCamo_Colour_Set</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <min>(79, 87, 123)</min>
+          <max>(50, 57, 76)</max>
+        </li>           
+		<li>
+          <weight>8</weight>
+          <min>(58, 67, 110)</min>
+          <max>(43, 57, 104)</max>
+        </li>        
+		<li>
+          <weight>9</weight>
+          <only>(54, 54, 54)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <min>(31, 39, 62)</min>
+          <max>(54, 56, 79)</max>
+        </li>
+        <li>
+          <weight>4</weight>
+          <min>(98, 96, 97)</min>
+          <max>(66, 66, 68)</max>
+        </li>          
+		<li>
+          <weight>5</weight>
+          <min>(141, 120, 73)</min>
+          <max>(195, 175, 150)</max>
+        </li>    		
+		<li>
+          <weight>6</weight>
+          <min>(184, 183, 179)</min>
+          <max>(133, 132, 128)</max>
+        </li>        
+		<li>
+          <weight>8</weight>
+          <min>(116, 117, 112)</min>
+          <max>(71, 69, 70)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(180, 166, 165)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>  
+  
+</Defs>

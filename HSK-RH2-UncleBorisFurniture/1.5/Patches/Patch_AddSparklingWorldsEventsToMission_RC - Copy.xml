@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  <Operation Class="PatchOperationSequence">
+  	<success>Always</success>
+  	<operations>
+    	<li Class="PatchOperationTest">
+      	<xpath>*/IncidentDef[defName="ShipCrashSW"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableMissions</xpath>
+      	<value>
+        	<ShipCrashSW>Search for space ships in distress</ShipCrashSW>
+			<PsychicEmitterActivationSW>Search and destroy psychic emitters</PsychicEmitterActivationSW>
+			<!--<ThrumboSightingSW>Search for thrumbo sightings</ThrumboSightingSW>
+			<QuestDoctorRequestSW>Search for doctor opportunities</QuestDoctorRequestSW>
+			<TradeFairSW>Request a trade fair</TradeFairSW>-->
+			<!--<HuntingLodgeOppSW>Search for hunting lodge opportunity</HuntingLodgeOppSW>-->
+      	</value>
+    	</li>
+  	</operations>
+	</Operation>
+
+</Patch>

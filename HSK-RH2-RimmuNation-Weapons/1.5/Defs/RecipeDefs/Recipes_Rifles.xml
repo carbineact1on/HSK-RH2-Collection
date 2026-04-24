@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== Rifle Recipes ==================== -->
+  <!-- AdvWeaponCraftingWorkTable, Rifles_C2, Crafting 8 -->
+
+  <!-- DDM4 V11 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_DDM4V11_Rifle</defName>
+    <label>Build DDM4 V11</label>
+    <description>Build DDM4 V11.</description>
+    <jobString>Building DDM4 V11.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_DDM4V11_Rifle>1</RNGun_DDM4V11_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M4A1 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M4A1_Rifle</defName>
+    <label>Build M4A1</label>
+    <description>Build M4A1.</description>
+    <jobString>Building M4A1.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_M4A1_Rifle>1</RNGun_M4A1_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M4A1 (DEVGRU) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M4A1DEVGRU_Rifle</defName>
+    <label>Build M4A1 (DEVGRU)</label>
+    <description>Build M4A1 (DEVGRU).</description>
+    <jobString>Building M4A1 (DEVGRU).</jobString>
+    <workAmount>21000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <products><RNGun_M4A1DEVGRU_Rifle>1</RNGun_M4A1DEVGRU_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- TAR-21 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_TAR-21_Rifle</defName>
+    <label>Build TAR-21</label>
+    <description>Build TAR-21.</description>
+    <jobString>Building TAR-21.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <products><RNGun_TAR-21_Rifle>1</RNGun_TAR-21_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- SA80 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_SA80A2_Rifle</defName>
+    <label>Build SA80</label>
+    <description>Build SA80.</description>
+    <jobString>Building SA80.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_SA80A2_Rifle>1</RNGun_SA80A2_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- CZ 805 BREN A2 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_CZ805BrenA2_Rifle</defName>
+    <label>Build CZ 805 BREN A2</label>
+    <description>Build CZ 805 BREN A2.</description>
+    <jobString>Building CZ 805 BREN A2.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_CZ805BrenA2_Rifle>1</RNGun_CZ805BrenA2_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- LVOA-C -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_LVOAC_Rifle</defName>
+    <label>Build LVOA-C</label>
+    <description>Build LVOA-C.</description>
+    <jobString>Building LVOA-C.</jobString>
+    <workAmount>21000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <products><RNGun_LVOAC_Rifle>1</RNGun_LVOAC_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- HK416 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_HK416_Rifle</defName>
+    <label>Build HK416</label>
+    <description>Build HK416.</description>
+    <jobString>Building HK416.</jobString>
+    <workAmount>21000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_HK416_Rifle>1</RNGun_HK416_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- G36K -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_G36K_Rifle</defName>
+    <label>Build G36K</label>
+    <description>Build G36K.</description>
+    <jobString>Building G36K.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>19</count></li>
+    </ingredients>
+    <products><RNGun_G36K_Rifle>1</RNGun_G36K_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- C7A1 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_C7A1_Rifle</defName>
+    <label>Build C7A1</label>
+    <description>Build C7A1.</description>
+    <jobString>Building C7A1.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_C7A1_Rifle>1</RNGun_C7A1_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ACE 52 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_IWIACE52_Rifle</defName>
+    <label>Build ACE 52</label>
+    <description>Build ACE 52.</description>
+    <jobString>Building ACE 52.</jobString>
+    <workAmount>21000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_IWIACE52_Rifle>1</RNGun_IWIACE52_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AUG A1 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AUGA1_Rifle</defName>
+    <label>Build AUG A1</label>
+    <description>Build AUG A1.</description>
+    <jobString>Building AUG A1.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>20</count></li>
+    </ingredients>
+    <products><RNGun_AUGA1_Rifle>1</RNGun_AUGA1_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M16A2 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M16A2_Rifle</defName>
+    <label>Build M16A2</label>
+    <description>Build M16A2.</description>
+    <jobString>Building M16A2.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_M16A2_Rifle>1</RNGun_M16A2_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FAMAS F1 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_FAMAS_Rifle</defName>
+    <label>Build FAMAS F1</label>
+    <description>Build FAMAS F1.</description>
+    <jobString>Building FAMAS F1.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <products><RNGun_FAMAS_Rifle>1</RNGun_FAMAS_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- C8 CQB -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_C8CQB_Carbine</defName>
+    <label>Build C8 CQB</label>
+    <description>Build C8 CQB.</description>
+    <jobString>Building C8 CQB.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <products><RNGun_C8CQB_Carbine>1</RNGun_C8CQB_Carbine></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AK47 (WoodLog - wooden stock) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AK47_Rifle</defName>
+    <label>Build AK47</label>
+    <description>Build AK47.</description>
+    <jobString>Building AK47.</jobString>
+    <workAmount>18000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>18</count></li>
+    </ingredients>
+    <products><RNGun_AK47_Rifle>1</RNGun_AK47_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AKM-SD (WoodLog - wooden stock) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AKMSD_Rifle</defName>
+    <label>Build AKM-SD</label>
+    <description>Build AKM-SD.</description>
+    <jobString>Building AKM-SD.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_AKMSD_Rifle>1</RNGun_AKMSD_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AK74 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AK74_Rifle</defName>
+    <label>Build AK74</label>
+    <description>Build AK74.</description>
+    <jobString>Building AK74.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_AK74_Rifle>1</RNGun_AK74_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Type 56 (WoodLog - wooden stock) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Type56_Rifle</defName>
+    <label>Build Type 56</label>
+    <description>Build Type 56.</description>
+    <jobString>Building Type 56.</jobString>
+    <workAmount>18000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>4</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_Type56_Rifle>1</RNGun_Type56_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Type CQ -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_TypeCQ_Rifle</defName>
+    <label>Build Type CQ</label>
+    <description>Build Type CQ.</description>
+    <jobString>Building Type CQ.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_TypeCQ_Rifle>1</RNGun_TypeCQ_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AS VAL -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_ASVAL_Rifle</defName>
+    <label>Build AS VAL</label>
+    <description>Build AS VAL.</description>
+    <jobString>Building AS VAL.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <products><RNGun_ASVAL_Rifle>1</RNGun_ASVAL_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AK 5C -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AK5C_Carbine</defName>
+    <label>Build AK 5C</label>
+    <description>Build AK 5C.</description>
+    <jobString>Building AK 5C.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_AK5C_Carbine>1</RNGun_AK5C_Carbine></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- AK-103 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_AK103_Rifle</defName>
+    <label>Build AK-103</label>
+    <description>Build AK-103.</description>
+    <jobString>Building AK-103.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_AK103_Rifle>1</RNGun_AK103_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- MD97 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_MD97_Rifle</defName>
+    <label>Build MD97</label>
+    <description>Build MD97.</description>
+    <jobString>Building MD97.</jobString>
+    <workAmount>19000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>4</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>17</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_MD97_Rifle>1</RNGun_MD97_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FB Beryl -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_FBBeryl_Rifle</defName>
+    <label>Build FB Beryl</label>
+    <description>Build FB Beryl.</description>
+    <jobString>Building FB Beryl.</jobString>
+    <workAmount>20000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>17</count></li>
+    </ingredients>
+    <products><RNGun_FBBeryl_Rifle>1</RNGun_FBBeryl_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- R1 Para (FAL variant - WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_R1Para_Rifle</defName>
+    <label>Build R1 Para</label>
+    <description>Build R1 Para.</description>
+    <jobString>Building R1 Para.</jobString>
+    <workAmount>22000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>20</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>18</count></li>
+    </ingredients>
+    <products><RNGun_R1Para_Rifle>1</RNGun_R1Para_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FN FAL (WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_FNFAL_Rifle</defName>
+    <label>Build FN FAL</label>
+    <description>Build FN FAL.</description>
+    <jobString>Building FN FAL.</jobString>
+    <workAmount>22000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>21</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>19</count></li>
+    </ingredients>
+    <products><RNGun_FNFAL_Rifle>1</RNGun_FNFAL_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Romat FAL (WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_RomatFAL_Rifle</defName>
+    <label>Build Romat FAL</label>
+    <description>Build Romat FAL.</description>
+    <jobString>Building Romat FAL.</jobString>
+    <workAmount>22000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>6</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>21</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>20</count></li>
+    </ingredients>
+    <products><RNGun_RomatFAL_Rifle>1</RNGun_RomatFAL_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FN FAL-SD (Tatiana) (WoodLog) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_FNFALTatiana_Rifle</defName>
+    <label>Build FN FAL-SD (Tatiana)</label>
+    <description>Build FN FAL-SD (Tatiana).</description>
+    <jobString>Building FN FAL-SD (Tatiana).</jobString>
+    <workAmount>24000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>6</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>22</count></li>
+      <li><filter><categories><li>Woody</li></categories></filter><count>20</count></li>
+    </ingredients>
+    <products><RNGun_FNFALTatiana_Rifle>1</RNGun_FNFALTatiana_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FN F2000 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_F2000_Rifle</defName>
+    <label>Build FN F2000</label>
+    <description>Build FN F2000.</description>
+    <jobString>Building FN F2000.</jobString>
+    <workAmount>22000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>22</count></li>
+    </ingredients>
+    <products><RNGun_F2000_Rifle>1</RNGun_F2000_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- G3A2 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_G3A2_Rifle</defName>
+    <label>Build G3A2</label>
+    <description>Build G3A2.</description>
+    <jobString>Building G3A2.</jobString>
+    <workAmount>21000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>5</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <products><RNGun_G3A2_Rifle>1</RNGun_G3A2_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ACR -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_ACR_Rifle</defName>
+    <label>Build ACR</label>
+    <description>Build ACR.</description>
+    <jobString>Building ACR.</jobString>
+    <workAmount>21000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>19</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <products><RNGun_ACR_Rifle>1</RNGun_ACR_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ACR-SD -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_ACRSD_Rifle</defName>
+    <label>Build ACR-SD</label>
+    <description>Build ACR-SD.</description>
+    <jobString>Building ACR-SD.</jobString>
+    <workAmount>23000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>6</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>19</count></li>
+    </ingredients>
+    <products><RNGun_ACRSD_Rifle>1</RNGun_ACRSD_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- SCAR-L SD -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_SCARLSD_Rifle</defName>
+    <label>Build SCAR-L SD</label>
+    <description>Build SCAR-L SD.</description>
+    <jobString>Building SCAR-L SD.</jobString>
+    <workAmount>24000</workAmount>
+    <skillRequirements><Crafting>8</Crafting></skillRequirements>
+    <ingredients>
+      <li><filter><thingDefs><li>AdvRifle_Component</li></thingDefs></filter><count>1</count></li>
+      <li><filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter><count>6</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>6</count></li>
+      <li><filter><categories><li>Metallic</li></categories></filter><count>21</count></li>
+      <li><filter><thingDefs><li>Plastic</li></thingDefs></filter><count>20</count></li>
+    </ingredients>
+    <products><RNGun_SCARLSD_Rifle>1</RNGun_SCARLSD_Rifle></products>
+    <fixedIngredientFilter>
+      <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
+      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+    </fixedIngredientFilter>
+    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <researchPrerequisite>Rifles_C2</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

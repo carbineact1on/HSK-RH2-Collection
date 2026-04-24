@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================= Resistance Weapons ==================================== -->
+  
+      <!-- ================================= Auger Mk II ==================================== -->  
+   <ThingDef ParentName="RNMakeableSpacer">
+    <defName>RNSci_AugerMkII</defName>
+    <label>Auger Mk II</label>
+    <description>The Auger Mark II is an upgraded version of the standard Auger Rifle, allows users to aim at targets and fire through walls. The Auger Mark II comes with a transparent visor which reveals the thermal signature of any enemies through walls, making the Mark II perfect for neutralizing enemies without having to guess where they are as with the previous Auger.
+	
+The transient radiation charges of the Auger Mk II has improved firepower, along with the better accuracy that the rifle now has.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Spacer/Auger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.72</AccuracyMedium>
+      <AccuracyLong>0.63</AccuracyLong>
+      <RangedWeapon_Cooldown>1.80</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <!--<recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>-->
+    </recipeMaker>
+    <costList>
+      <Plasteel>65</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <!--<li>RN_SpacerGun</li>-->
+	  <li>RN_AugerMkII</li>
+    </weaponTags>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_AugerMkII</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>30</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>RNAugerMkIIShot</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+		<onlyManualCast>false</onlyManualCast>
+		<requireLineOfSight>false</requireLineOfSight>
+		<stopBurstWithoutLos>false</stopBurstWithoutLos>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>RNBullet_AugerMkII</defName>
+    <label>Transient Radiation charge</label>
+    <graphicData>
+      <texPath>Things/Projectile/Proj_AugerMkII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>RNBullet_Charge</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+	  <stoppingPower>3</stoppingPower>
+	  <armorPenetrationBase>2.5</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+		<modExtensions>
+	  <li Class="CPWeaponExt.ProjectileExtension">
+	    <passesWalls>true</passesWalls>
+	  </li>
+	</modExtensions>
+  </ThingDef>
+
+    <!-- ================================= Bullseye Mk II ==================================== -->  
+   <ThingDef ParentName="RNMakeableSpacer">
+    <defName>RNSci_BM003Razor</defName>
+    <label>BM003 Razor</label>
+    <description>The Razor BM (Bullseye Modified) 003 is an upgraded version of the BM001 Razor, based on the Mark II Bullseye design the charge is more also more powerful. The tracking system of the rifle is more accurate for close-mid range targets outside of cover. It is for this reason the weapon earn its nickname "Blue Death".</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Spacer/Bullseye</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>55000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.80</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <!--<recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>-->
+    </recipeMaker>
+    <costList>
+      <Plasteel>55</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <!--<li>RN_SpacerGun</li>-->
+      <li>SpacerGun</li>
+	  <li>RN_BullseyeMkII</li>
+    </weaponTags>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_BlueDeath</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>30</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>RNRazorShot</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>RNBullet_BlueDeath</defName>
+    <label>Razor charge</label>
+    <graphicData>
+      <texPath>Things/Projectile/Proj_Razor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>RNBullet_Charge</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+	  <!--<stoppingPower>1</stoppingPower>-->
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef> 
+  
+    <!-- ================================= Longbow 1S-1K ==================================== -->  
+   <ThingDef ParentName="RNMakeableSpacer">
+    <defName>RNSci_Longbow1S1K</defName>
+    <label>Longbow 1S-1K</label>
+    <description>The Longbow 1S-1K (1 Shot - 1 Kill) is a MDC energy rail weapon which is constructed by the Maquis, using the reverse-engineer based on Chimeran technology circa 1950s in an alternate Earth invaded by creatures known as the "Chimera".</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Spacer/Longbow_1S1K</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>55000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.67</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.83</AccuracyMedium>
+      <AccuracyLong>0.87</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <!--<recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>-->
+    </recipeMaker>
+    <costList>
+      <Plasteel>60</Plasteel>
+      <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <!--<li>RN_SpacerGun</li>-->
+	  <li>RN_Longbow1S1K</li>
+    </weaponTags>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_LongbowBeam</defaultProjectile>
+        <warmupTime>5</warmupTime>
+        <range>40</range>
+        <ticksBetweenBurstShots>22</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>RNLongbowShot</soundCast>
+		<soundAiming>RNLongbowCharge</soundAiming>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>RNBullet_LongbowBeam</defName>
+    <label>Longbow beam</label>
+    <graphicData>
+      <texPath>Things/Projectile/Proj_LongbowCharge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>RNBullet_Charge</damageDef>
+      <damageAmountBase>200</damageAmountBase>
+	  <stoppingPower>10</stoppingPower>
+	  <armorPenetrationBase>1</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef> 
+  
+
+</Defs>

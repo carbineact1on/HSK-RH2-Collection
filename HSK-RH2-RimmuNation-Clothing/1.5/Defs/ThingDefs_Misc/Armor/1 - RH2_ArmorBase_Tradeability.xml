@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--==================================== Ludeon wants me to manually add this trade tag for EVERY armor manually. No thanks. ====================================-->
+
+  <ThingDef Name="RH2_ArmorMachineableBase" Abstract="True" ParentName="ArmorIndustrialSimpleBase">
+	<tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

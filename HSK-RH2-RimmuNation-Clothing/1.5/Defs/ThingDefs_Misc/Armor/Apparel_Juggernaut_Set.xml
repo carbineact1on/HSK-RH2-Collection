@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Helmets -->
+  
+    	<!-- ================================== Juggernaut Helmet ====================================-->
+
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_Helmet_Juggernaut</defName>
+    <label>juggernaut helmet</label>
+    <description>Part of the Juggernaut suit, the Juggernaut helmet consists of an Altyn style ballistic helmet fitted with a ballistic face shield and a PBF respirator. This system allows the wearer to be more resistant to chemical attacks and have a great amount of protection for their head.</description>
+    <techLevel>Industrial</techLevel>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/Helmet/Juggernaut_Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Mass>5.0</Mass>
+      <StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+	
+		<equippedStatOffsets>
+		    <MoveSpeed>-0.10</MoveSpeed>
+			<ToxicEnvironmentResistance>0.85</ToxicEnvironmentResistance>  
+		</equippedStatOffsets>
+		
+		<generateCommonality>0.1</generateCommonality>
+	
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>28</costStuffCount>
+    <costList>
+      <Compaste>12</Compaste>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Kevlar>28</Kevlar>
+      <ReinforcedGlass>4</ReinforcedGlass>
+    </costList>
+    <apparel>
+	<immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+	<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Helmet/Juggernaut/Juggernaut_Helmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryBasic</li>-->
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+    <!-- ======================================= Juggernaut =======================================-->
+  
+  <ThingDef ParentName="ArmorIndustrialBase">
+    <defName>RNApparel_MedEng_JuggernautSuit</defName>
+    <label>juggernaut suit</label>
+    <description>The Juggernaut suit is a piece of equipment created with the combination of bomb suit parts and plate carriers stacked together in order to add layers and padding of protection for the user. It is given to "Juggernaut" units, hence the name. Often worn while carrying a machinegun, the juggernaut suit is designed to sustain damage and evidently create a walking "tank". It is often found to be highly unwieldy and mobility suffers as a result of the heavy weight this armour has.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Armour/Juggernaut</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.10</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <MaxHitPoints>360</MaxHitPoints>
+      <Mass>20</Mass>
+      <Flammability>0.25</Flammability>
+      <ArmorRating_Sharp>1.32</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
+      <Insulation_Cold>22</Insulation_Cold>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.80</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>RNApparel_BodyArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>48</costStuffCount>
+    <costList>
+      <Compaste>18</Compaste>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <SyntheticFibers>10</SyntheticFibers>
+      <Kevlar>35</Kevlar>
+    </costList>
+    <apparel>
+	<careIfWornByCorpse>true</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Armour/Juggernaut/Juggernaut</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <!--<li>IndustrialMilitaryAdvanced</li>-->
+		<li>PassiveCamo_Forest_Medium</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+</Defs>

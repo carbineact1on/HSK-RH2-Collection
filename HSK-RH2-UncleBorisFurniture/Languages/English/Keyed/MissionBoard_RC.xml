@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<SelectMissionBoardRC>Begin briefing</SelectMissionBoardRC>
+  
+  <SelectMissionRC>Select a mission from the options below.\nEach option costs 500 silver (finder's fee) to choose and requires to be within an orbital trade beacon.</SelectMissionRC>
+  
+</LanguageData>

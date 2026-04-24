@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[RH2] Rimmu-Nation² - Clothing</name>
+	<author>Chicken Plucker</author>
+	<packageId>CP.RimmuNation.2.Clothing</packageId>
+	<modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+    </modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>skyarkhangel.hsk</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+	<supportedVersions>
+	<li>1.2</li>
+	<li>1.3</li>
+	<li>1.4</li>
+	<li>1.5</li>
+	<li>1.6</li>
+	</supportedVersions>
+	<description>HSK/CE/Vile's conversion by CarbineAction. Balanced and converted to work with Hardcore SK, Combat Extended, and Vile's Materials Science. Self-contained — no manual edits needed. Drop in and play.
+
+Converted: 153 apparel (16 tops, 12 pants, 13 shells, 10 hats, 7 masks, 3 bandanas, 1 scarf, 5 eye/ear pro, 6 respirators, 20 webbing, 26 body armor, 26 helmets, 8 special sets, 31 backpacks)
+
+Changes:
+- 153 apparel items converted to HSK parent classes
+- Armor uses StrongMetallic stuff with HSK materials (Compaste, Kevlar, SyntheticFibers)
+- Clothing uses Fabric/Leathery stuff
+- CE apparel stats tuned to HSK values
+- Root Assemblies folder removed (Prepatcher compatibility)
+
+Credits:
+fiendakko - Apparel art
+Tittymcswaggy - Apparel art
+DanDMan68 - Apparel art
+JDS - Apparel art
+Odstriman - Apparel art
+Jecrell - Backpacks.dll C#
+Mehni - Backpacks.dll 1.2 update
+Taranchuk - Backpacks.dll 1.6 update
+
+Supporters:
+Sheriff
+Morphium
+
+Referenced Companies:
+5.11
+Flyye
+MIL-TEC
+Maxpedition
+Wasing
+Team Wendy
+TripleAughtDesign
+Vestguard</description>
+</ModMetaData>

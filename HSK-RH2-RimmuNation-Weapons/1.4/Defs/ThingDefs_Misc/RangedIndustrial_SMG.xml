@@ -1,0 +1,1144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================= SMG ==================================== -->
+  
+     <!-- ================================= AK74U ==================================== -->
+
+	<ThingDef ParentName="RNMakeablePDW">
+    <defName>RNGun_AK74U_SMG</defName>
+    <label>AK-74U</label>
+    <description>The AK-74 (Russian: Автомат Калашникова образца 1974 года or "Kalashnikov automatic rifle model 1974") is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It uses a smaller 5.45×39mm cartridge, replacing the 7.62×39mm chambering of earlier Kalashnikov-pattern weapons.
+	
+In terms of tactical deployment, the AKS-74U bridges the gap between a submachine gun and an assault rifle. It was intended for use mainly with special forces, airborne infantry, rear-echelon support units, helicopter and armored vehicle crews.</description>
+    <equippedAngleOffset>40</equippedAngleOffset>	
+	<graphicData>
+      <texPath>Things/Item/Equipment/SMG/AK74u</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>2.3</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+			
+		<weaponTags>
+			<li>Gun</li>
+	        <li>RN_AK74U</li>
+		</weaponTags>
+		
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_545x39_Rifle</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>25</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>RNShotAK74USMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+       <!-- ================================= AKS74U ==================================== -->
+
+	<ThingDef ParentName="RNMakeablePDW">
+    <defName>RNGun_AK7S4U_SMG</defName>
+    <label>AKS-74UB</label>
+    <description>The AK-74 (Russian: Автомат Калашникова образца 1974 года or "Kalashnikov automatic rifle model 1974") is an assault rifle developed in the early 1970s by Russian designer Mikhail Kalashnikov as the replacement for the earlier AKM (itself a refined version of the AK-47). It uses a smaller 5.45×39mm cartridge, replacing the 7.62×39mm chambering of earlier Kalashnikov-pattern weapons.
+	
+In terms of tactical deployment, the AKS-74U bridges the gap between a submachine gun and an assault rifle. It was intended for use mainly with special forces, airborne infantry, rear-echelon support units, helicopter and armored vehicle crews. This version is supressed</description>
+    <equippedAngleOffset>40</equippedAngleOffset>	
+	<graphicData>
+      <texPath>Things/Item/Equipment/SMG/AKS74U</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.10</drawSize>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>2.3</Mass>
+      <AccuracyTouch>0.82</AccuracyTouch>
+      <AccuracyShort>0.69</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.31</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+			
+		<weaponTags>
+			<li>Gun</li>
+	        <li>RN_AKS74U</li>
+		</weaponTags>
+		
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_545x39_Rifle</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>26.5</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>RNShot_SDAR</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  					   <!-- ================================= Thompson ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_ThompsonSubmachineGun_SMG</defName>
+		<label>Thompson SMG</label>
+		<description>The Thompson submachine gun is an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the Prohibition era, becoming a signature weapon of various crime syndicates in the United States. It was a common sight in the media of the time, being used by both law enforcement officers and criminals. 
+
+The Thompson submachine gun was also known informally as the "Tommy Gun", "Annihilator", "Chicago Typewriter", "Chicago Piano", "Chicago Style", "Chicago Organ Grinder", "Trench Broom", "Trench Sweeper", "The Chopper", and simply "The Thompson".</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/ThompsonSMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		
+		<equippedAngleOffset>40</equippedAngleOffset>	
+		
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2.5</Mass>
+            <AccuracyTouch>0.84</AccuracyTouch>
+            <AccuracyShort>0.66</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+			<RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		
+		<weaponTags>
+			<li>Gun</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>RN_ThompsonSMG</li>
+		</weaponTags>
+	
+	
+	<verbs>		
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>25.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<soundCast>RNP90Shot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>	
+	
+			   <!-- ================================= MP5A2 ==================================== -->
+   
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_MP5A2_SMG</defName>
+		<label>MP5A2</label>
+		<description>The MP5 (German: Maschinenpistole 5) is a 9mm submachine gun, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler and Koch GmbH (HK) of Oberndorf am Neckar. There are over 100 variants of the MP5, including some semi-automatic versions.
+
+The MP5 is one of the most widely used submachine guns in the world, having been adopted by 40 nations and numerous military, law enforcement, intelligence, and security organizations. It is widely used by SWAT teams in North America.
+
+In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successor</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/MP5</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>40</equippedAngleOffset>	
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2.1</Mass>
+            <AccuracyTouch>0.89</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.41</AccuracyMedium>
+            <AccuracyLong>0.29</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		
+		
+		<weaponTags>
+			<li>Gun</li>
+			<li>RN_Coalition_CQB</li>
+			<li>RN_MP5A2</li>
+		</weaponTags>
+	
+	
+	<verbs>		
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>25</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>RNShotMP5SMG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>				  
+
+	<!-- ================================= MP5A2 ==================================== -->
+   
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_MP5SD_SMG</defName>
+		<label>MP5SD</label>
+		<description>The MP5 (German: Maschinenpistole 5) is a 9mm submachine gun, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler and Koch GmbH (HK) of Oberndorf am Neckar. There are over 100 variants of the MP5, including some semi-automatic versions.
+
+The MP5 is one of the most widely used submachine guns in the world, having been adopted by 40 nations and numerous military, law enforcement, intelligence, and security organizations. It is widely used by SWAT teams in North America.
+
+In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successor</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/MP5SD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<equippedAngleOffset>40</equippedAngleOffset>	
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2.1</Mass>
+            <AccuracyTouch>0.89</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.41</AccuracyMedium>
+            <AccuracyLong>0.29</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		
+		
+		<weaponTags>
+			<li>Gun</li>
+			<li>RN_Coalition_CQB</li>
+			<li>RN_MP5A2</li>
+		</weaponTags>
+	
+	
+	<verbs>		
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>25</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>RNShotSMGSD</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>	
+	
+	  <!-- ================================= MP7 ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_MP7A1_PDW</defName>
+		<label>MP7A1</label>
+		<description>The Heckler and Koch MP7 (Maschinenpistole 7) is a German personal defence weapon (PDW) designed and manufactured by Heckler and Koch (HK) and chambered for the HK 4.6×30mm cartridge. It was designed with the new cartridge to meet NATO requirements published in 1989, as these requirements call for a personal defense weapon (PDW) class firearm, with a greater ability to penetrate body armor than current weapons limited to conventional pistol cartridges. The MP7 went into production in 2001. It is a direct rival to the FN P90, also developed in response to NATO's requirement. The weapon has been revised since its introduction and the latest production variants are the MP7A1 and MP7A2.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/MP7A1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	
+		<equippedAngleOffset>40</equippedAngleOffset>
+		
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+            <AccuracyTouch>0.93</AccuracyTouch>
+            <AccuracyShort>0.73</AccuracyShort>
+            <AccuracyMedium>0.39</AccuracyMedium>
+            <AccuracyLong>0.27</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+    	
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		    <li>RN_Coalition_CQB</li>
+			<li>RN_MP7</li>
+		</weaponTags>
+	
+	<verbs>		
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_46x30_Pistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>22.5</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>RNShotMP7SMG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>		
+	
+			   <!-- ================================= UMP45 ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_UMP45_SMG</defName>
+		<label>UMP45</label>
+		<description>The Heckler and Koch UMP (Universale Maschinenpistole, German for "Universal Submachine Gun") is a submachine gun developed and manufactured by Heckler and Koch. The UMP has been adopted by various agencies such as the U.S. Customs and Border Protection. Heckler and Koch developed the UMP as a lighter and cheaper successor to the MP5, though both remain in production.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/UMP45</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>40</equippedAngleOffset>	
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2.8</Mass>
+            <AccuracyTouch>0.88</AccuracyTouch>
+            <AccuracyShort>0.67</AccuracyShort>
+            <AccuracyMedium>0.40</AccuracyMedium>
+            <AccuracyLong>0.29</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>65</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		
+		<weaponTags>
+			<li>Gun</li>
+			<li>RN_Coalition_CQB</li>
+			<li>RN_UMP45</li>
+		</weaponTags>
+	
+	
+	<verbs>		
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>25.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>RNUMP45Shot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>		
+	
+					   <!-- ================================= P90 ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_P90_PDW</defName>
+		<label>FN P90</label>
+		<description>The FN P90, also known as the FN Project 1990, is a personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9×19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/P90</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.20</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>	
+	
+		<weaponTags>
+			<!--<li>Gun</li>-->
+			<li>IndustrialGunAdvanced</li>
+			<li>RN_Coalition_CQB</li>
+			<li>RN_P90</li>
+		</weaponTags>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_57_Pistol</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>25</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>RNP90Shot</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>					   
+	
+	<!-- ================================= P90SD ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_P90SD_PDW</defName>
+		<label>FN P90-SD</label>
+		<description>The FN P90, also known as the FN Project 1990, is a personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9×19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/P90SD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.77</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.31</AccuracyMedium>
+      <AccuracyLong>0.21</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>	
+	
+		<weaponTags>
+			<!--<li>Gun</li>-->
+			<li>IndustrialGunAdvanced</li>
+			<li>RN_Coalition_CQB</li>
+			<li>RN_P90SD</li>
+		</weaponTags>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_57_Pistol</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>25</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>RNShotSMG2SD</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+	
+			   <!-- ================================= Uzi ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_Uzi_SMG</defName>
+		<label>Uzi</label>
+		<description>The Uzi is a family of Israeli open-bolt, blowback-operated submachine guns. Smaller variants are often considered to be machine pistols. The Uzi was one of the first weapons to use a telescoping bolt design which allows the magazine to be housed in the pistol grip for a shorter weapon.
+
+The first Uzi submachine gun was designed by Major Uziel Gal in the late 1940s. The prototype was finished in 1950. First introduced to IDF special forces in 1954, the weapon was placed into general issue two years later.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/Uzi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>40</equippedAngleOffset>	
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>1</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.92</AccuracyTouch>
+      <AccuracyShort>0.62</AccuracyShort>
+      <AccuracyMedium>0.26</AccuracyMedium>
+      <AccuracyLong>0.19</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+	
+		<weaponTags>
+			<li>Gun</li>
+			<li>RN_Uzi</li>
+		</weaponTags>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>23</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>RNShotMAC11SMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>	
+	
+	
+			   <!-- ================================= MAC-10, go again ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_MAC11_SMG</defName>
+		<label>MAC-10</label>
+		<description>The Military Armament Corporation Model 10, officially abbreviated as "M10" or "M-10", and more commonly known as the MAC-10, is a compact, blowback operated machine pistol/submachine gun that was developed by Gordon B. Ingram in 1964. It is chambered in either .45 ACP or 9mm. A two-stage suppressor by Sionics was designed for the MAC-10, which not only abates the noise created, but makes it easier to control on full automatic (although it also makes the gun far less compact and concealable). For a decade, the semi-automatic pistol version of the weapon was forbidden in the U.S. under the assault weapons ban enacted by Congress in 1994.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/MAC10</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>1.9</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+	
+		<weaponTags>
+			<li>Gun</li>
+			<li>RN_MAC10</li>
+		</weaponTags>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>20.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>RNShotMAC11SMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+	
+			   <!-- ================================= Skorpion ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_SkorpionVZ61_SMG</defName>
+		<label>Skorpion vz. 61</label>
+		<description>The Škorpion vz. 61 is a Czechoslovak 7.65 mm machine pistol developed in 1959 by Miroslav Rybář (1924–1970) and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Česká zbrojovka arms factory in Uherský Brod from 1961 to 1979.
+
+Although it was developed for use with security forces and special forces, the weapon was also accepted into service with the Czechoslovak Army, as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces. Currently the weapon is in use with the armed forces of several countries as a sidearm.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/Skorpion_vz61</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.17</AccuracyMedium>
+      <AccuracyLong>0.08</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+	
+		<weaponTags>
+			<li>Gun</li>
+			<li>RN_SkorpionVz61</li>
+		</weaponTags>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_32ACP_Pistol</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>RNShotSkorpionVZ</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>	
+	
+					   <!-- ================================= PPsh-41 ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_PPSh41_SMG</defName>
+		<label>PPSh-41</label>
+		<description>The PPSh-41 (pistolet-pulemyot Shpagina; Russian: Пистолет-пулемёт Шпагина; "Shpagin machine pistol"); is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40. 
+		
+Common nicknames are "pe-pe-sha" (Russian: ППШ) from its three-letter acronym and "papasha" (Russian: папаша), meaning "daddy".</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/PPSh-41</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	<equippedAngleOffset>40</equippedAngleOffset>	
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2.5</Mass>
+            <AccuracyTouch>0.79</AccuracyTouch>
+            <AccuracyShort>0.69</AccuracyShort>
+            <AccuracyMedium>0.39</AccuracyMedium>
+            <AccuracyLong>0.27</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		
+		<weaponTags>
+			<li>Gun</li>
+			<li>RN_PPSh41</li>
+		</weaponTags>
+	
+	
+	<verbs>		
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_762Tokarev_Pistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>24.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>RNShotAK74USMG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>	
+	
+						   <!-- ================================= PP-19 ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_PP19_SMG</defName>
+		<label>PP-19 Bizon</label>
+		<description>The Bizon ("Bison") is a 9mm submachine gun developed in 1993 at Izhmash by a team of engineers headed by Victor Kalashnikov (son of engineer Mikhail Kalashnikov, creator of the AK-47 and AK-74). Alexei Dragunov, youngest son of Evgeny Dragunov (the creator of the SVD sniper rifle), was also a member of the design team.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/PPBizon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	
+	<equippedAngleOffset>40</equippedAngleOffset>
+	
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.4</Mass>
+      <AccuracyTouch>0.87</AccuracyTouch>
+      <AccuracyShort>0.53</AccuracyShort>
+      <AccuracyMedium>0.23</AccuracyMedium>
+      <AccuracyLong>0.13</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+	
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>RN_PP19</li>
+		</weaponTags>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RNBullet_9MM_Pistol</defaultProjectile>
+        <warmupTime>0.7</warmupTime>
+        <range>24</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>RNShotSMG_II</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+	
+			   <!-- ================================= KRISS Vector ==================================== -->
+   
+  
+	<ThingDef ParentName="RNMakeablePDW">
+		<defName>RNGun_KrissVector_PDW</defName>
+		<label>KRISS Vector</label>
+		<description>The KRISS Vector series are a family of weapons based upon the parent submachine gun design developed by KRISS USA. They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/SMG/KrissVector</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.31</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>80</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		
+		<equippedAngleOffset>40</equippedAngleOffset>
+		
+		<weaponTags>
+			<!--<li>Gun</li>-->
+			<li>RN_KRISSVector</li>
+		</weaponTags>
+		
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RNBullet_45ACP_Pistol</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>22</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>RNShotMP7SMG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+	
+</Defs>

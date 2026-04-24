@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+             <!--========================================= EarDefs =============================================--> 
+  
+    <ThingDef ParentName="ApparelMedievalBase">
+    <defName>RNApparel_EarDefs_PeltorOptimeII</defName>
+    <label>ear defenders (PELTOR Optime II)</label>
+    <description>The PELTOR Optime II ear defender. Ear Defenders are used to reduce loud volumes that may be damaging to one's hearing. Hearing defenders can supress 10% of psychic sensitivity.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Display/Headgear/PeltorOptime_EarDefs</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plastic>5</Plastic>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+	  <PsychicSensitivity>-0.10</PsychicSensitivity>
+    </equippedStatOffsets>
+    <apparel>
+	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <!--<li>RH2_Ears</li>-->
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Headgear/EarDefs/PeltorOptime_EarDefs</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>PassiveCamo_Forest_Low</li>
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	  	<renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+    </apparel>
+  </ThingDef>
+</Defs>

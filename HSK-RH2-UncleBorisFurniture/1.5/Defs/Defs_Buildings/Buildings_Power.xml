@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--==== Chemfuel Generator ====-->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_FIRMAN3650_Generator</defName>
+    <label>FIRMAN 3650 generator</label>
+    <description>Produces power by consuming chemfuel. Must be periodically refueled by hand. More efficient in fuel consumption than the original chemfuel generator but extremely loud and unpleasant to be around along with having less maximum fuel capacity.\n\nComboa emmission certified.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/FIRMAN_Generator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.75,1.75)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <rotatable>true</rotatable>
+	<defaultPlacingRot>South</defaultPlacingRot>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+	  <Mass>60</Mass>
+      <MaxHitPoints>275</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-25</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <Rubber>10</Rubber>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Mechanism>2</Mechanism>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-2500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+        <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>4.0</fuelConsumptionRate>
+        <fuelCapacity>22.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(255, 242, 194)</glowColor>
+      </li>
+      <li Class="SK.CompProperties_HeatPusherAdvanced">
+        <compClass>SK.CompHeatPusherAdvanced</compClass>
+        <heatPerSecond>20</heatPerSecond>
+        <heatPushMaxTemperature>75</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="Flecker.CompProperties_Smoker">
+        <particleOffset>(0.5,0,-0.3)</particleOffset>
+        <indoorAlt>Owl_SmokeIndoors</indoorAlt>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0</explosiveRadius>
+        <explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>
+          <min>70</min>
+          <max>150</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Generators_C3</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <!--==== Chemfuel Generator ====-->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_DEWEY2KW_Generator</defName>
+    <label>DEWEY 2KW generator</label>
+    <description>Produces power by consuming chemfuel. Must be periodically refueled by hand. More efficient in fuel consumption than FIRMAN 3650 generator, however louder and unpleasant to be around along with having less maximum fuel capacity.\n\nMilitary use certified.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/DEWEY2KW_Generator_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.75,1.75)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <rotatable>false</rotatable>
+	<defaultPlacingRot>South</defaultPlacingRot>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+	  <Mass>25</Mass>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-30</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <costList>
+      <Rubber>8</Rubber>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Mechanism>1</Mechanism>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+        <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>3.0</fuelConsumptionRate>
+        <fuelCapacity>12.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(255, 242, 194)</glowColor>
+      </li>
+      <li Class="SK.CompProperties_HeatPusherAdvanced">
+        <compClass>SK.CompHeatPusherAdvanced</compClass>
+        <heatPerSecond>20</heatPerSecond>
+        <heatPushMaxTemperature>75</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="Flecker.CompProperties_Smoker">
+        <particleOffset>(-0.5,0,-0.5)</particleOffset>
+        <indoorAlt>Owl_SmokeIndoors</indoorAlt>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0</explosiveRadius>
+        <explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>
+          <min>70</min>
+          <max>150</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Generators_C2</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <!--==== Military Generator ====-->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_MEP007B_Generator</defName>
+    <label>MEP-007B military generator</label>
+    <description>Produces power by consuming chemfuel. Has a higher fuel capacity than the normal chemfuel generator while maintaining the same fuel consumption rate.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/MilitaryGenerator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>325</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-30</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
+    <costList>
+      <Rubber>15</Rubber>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Mechanism>3</Mechanism>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-3200</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+        <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>4.5</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(80,112,180,0)</glowColor>
+      </li>
+      <li Class="SK.CompProperties_HeatPusherAdvanced">
+        <compClass>SK.CompHeatPusherAdvanced</compClass>
+        <heatPerSecond>20</heatPerSecond>
+        <heatPushMaxTemperature>75</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="Flecker.CompProperties_Smoker">
+        <particleOffset>(-0.5,0,-0.5)</particleOffset>
+        <indoorAlt>Owl_SmokeIndoors</indoorAlt>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0</explosiveRadius>
+        <explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>
+          <min>70</min>
+          <max>150</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Generators_C3</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+
+
+  <!-- Portable 1KW -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RH2_DEFENDER1_Generator</defName>
+    <label>DEFENDER 1.0 portable generator</label>
+    <description>Produces power by consuming chemfuel. Small and portable source of power, must be powered by hand. Consumes fuel in a slower rate than the normal chemfuel generator but has very low fuel capacity.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/SmallGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+	  <Mass>5</Mass>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(1,1)</size>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Mechanism>1</Mechanism>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-800</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+        <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.7</fuelConsumptionRate>
+        <fuelCapacity>8.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(80,112,180,0)</glowColor>
+      </li>
+      <li Class="SK.CompProperties_HeatPusherAdvanced">
+        <compClass>SK.CompHeatPusherAdvanced</compClass>
+        <heatPerSecond>20</heatPerSecond>
+        <heatPushMaxTemperature>75</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="Flecker.CompProperties_Smoker">
+        <particleOffset>(-0.5,0,-0.5)</particleOffset>
+        <indoorAlt>Owl_SmokeIndoors</indoorAlt>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0</explosiveRadius>
+        <explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>
+          <min>70</min>
+          <max>150</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+  </ThingDef>
+
+</Defs>

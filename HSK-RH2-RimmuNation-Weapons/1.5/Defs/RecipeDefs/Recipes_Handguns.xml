@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================= Revolvers ================================= -->
+  <!-- Revolvers use WoodLog (wooden grips) instead of Plastic -->
+
+  <!-- Colt Cobra -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_ColtCobra_Revolver</defName>
+    <label>Build Colt Cobra</label>
+    <description>Build Colt Cobra.</description>
+    <jobString>Building Colt Cobra.</jobString>
+    <workAmount>8000</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter><categories><li>Woody</li></categories></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products><RNGun_ColtCobra_Revolver>1</RNGun_ColtCobra_Revolver></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Leathers</li>
+      <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- S&W Model 36 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Model36_Revolver</defName>
+    <label>Build S&amp;W Model 36</label>
+    <description>Build S&amp;W Model 36.</description>
+    <jobString>Building S&amp;W Model 36.</jobString>
+    <workAmount>8500</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>11</count>
+      </li>
+      <li>
+        <filter><categories><li>Woody</li></categories></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNGun_Model36_Revolver>1</RNGun_Model36_Revolver></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Leathers</li>
+      <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Colt Python -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_ColtPython_Revolver</defName>
+    <label>Build Colt Python</label>
+    <description>Build Colt Python.</description>
+    <jobString>Building Colt Python.</jobString>
+    <workAmount>9500</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter><categories><li>Woody</li></categories></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_ColtPython_Revolver>1</RNGun_ColtPython_Revolver></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Leathers</li>
+      <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- MP-412 REX -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_MP412REX_Revolver</defName>
+    <label>Build MP-412 REX</label>
+    <description>Build MP-412 REX.</description>
+    <jobString>Building MP-412 REX.</jobString>
+    <workAmount>9000</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>13</count>
+      </li>
+      <li>
+        <filter><categories><li>Woody</li></categories></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNGun_MP412REX_Revolver>1</RNGun_MP412REX_Revolver></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+        <li>Leathers</li>
+      <li>Woody</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- ================================= Pistols ================================= -->
+
+  <!-- M1911A1 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M1911_Pistol</defName>
+    <label>Build M1911A1</label>
+    <description>Build M1911A1.</description>
+    <jobString>Building M1911A1.</jobString>
+    <workAmount>9000</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products><RNGun_M1911_Pistol>1</RNGun_M1911_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M1911 Silverballer -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M1911Silverballer_Pistol</defName>
+    <label>Build M1911 Silverballer</label>
+    <description>Build M1911 Silverballer.</description>
+    <jobString>Building M1911 Silverballer.</jobString>
+    <workAmount>10000</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_M1911Silverballer_Pistol>1</RNGun_M1911Silverballer_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Glock 17 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Glock17_Pistol</defName>
+    <label>Build Glock 17</label>
+    <description>Build Glock 17.</description>
+    <jobString>Building Glock 17.</jobString>
+    <workAmount>8500</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNGun_Glock17_Pistol>1</RNGun_Glock17_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Glock 17-SD -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Glock17SD_Pistol</defName>
+    <label>Build Glock 17-SD</label>
+    <description>Build Glock 17-SD.</description>
+    <jobString>Building Glock 17-SD.</jobString>
+    <workAmount>9500</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>11</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_Glock17SD_Pistol>1</RNGun_Glock17SD_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Glock 18 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Glock18_Pistol</defName>
+    <label>Build Glock 18</label>
+    <description>Build Glock 18.</description>
+    <jobString>Building Glock 18.</jobString>
+    <workAmount>9000</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>11</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNGun_Glock18_Pistol>1</RNGun_Glock18_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Glock 34 Combat Master -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Glock34CombatMaster_Pistol</defName>
+    <label>Build Glock 34 Combat Master</label>
+    <description>Build Glock 34 Combat Master.</description>
+    <jobString>Building Glock 34 Combat Master.</jobString>
+    <workAmount>11000</workAmount>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>11</count>
+      </li>
+    </ingredients>
+    <products><RNGun_Glock34CombatMaster_Pistol>1</RNGun_Glock34CombatMaster_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- STI 2011 Combat Master -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_STI2011CombatMaster_Pistol</defName>
+    <label>Build STI 2011 Combat Master</label>
+    <description>Build STI 2011 Combat Master.</description>
+    <jobString>Building STI 2011 Combat Master.</jobString>
+    <workAmount>11500</workAmount>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_STI2011CombatMaster_Pistol>1</RNGun_STI2011CombatMaster_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- M9A1 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_M9A1_Pistol</defName>
+    <label>Build M9A1</label>
+    <description>Build M9A1.</description>
+    <jobString>Building M9A1.</jobString>
+    <workAmount>8500</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>11</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNGun_M9A1_Pistol>1</RNGun_M9A1_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- XD-M (Springfield XD) -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_SpringfieldXD_Pistol</defName>
+    <label>Build XD-M</label>
+    <description>Build XD-M.</description>
+    <jobString>Building XD-M.</jobString>
+    <workAmount>9000</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_SpringfieldXD_Pistol>1</RNGun_SpringfieldXD_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Makarov -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_Makarov_Pistol</defName>
+    <label>Build Makarov</label>
+    <description>Build Makarov.</description>
+    <jobString>Building Makarov.</jobString>
+    <workAmount>8000</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products><RNGun_Makarov_Pistol>1</RNGun_Makarov_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- P320 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_P320_Pistol</defName>
+    <label>Build P320</label>
+    <description>Build P320.</description>
+    <jobString>Building P320.</jobString>
+    <workAmount>9000</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNGun_P320_Pistol>1</RNGun_P320_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- P226 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_P226_Pistol</defName>
+    <label>Build P226</label>
+    <description>Build P226.</description>
+    <jobString>Building P226.</jobString>
+    <workAmount>9500</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>13</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_P226_Pistol>1</RNGun_P226_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- P226 SD -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_P226SD_Pistol</defName>
+    <label>Build P226 SD</label>
+    <description>Build P226 SD.</description>
+    <jobString>Building P226 SD.</jobString>
+    <workAmount>10500</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>11</count>
+      </li>
+    </ingredients>
+    <products><RNGun_P226SD_Pistol>1</RNGun_P226SD_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FN Five-seven -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_FiveSeven_Pistol</defName>
+    <label>Build FN Five-seven</label>
+    <description>Build FN Five-seven.</description>
+    <jobString>Building FN Five-seven.</jobString>
+    <workAmount>10000</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>13</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_FiveSeven_Pistol>1</RNGun_FiveSeven_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- FN Five-seven SD -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_FiveSevenSD_Pistol</defName>
+    <label>Build FN Five-seven SD</label>
+    <description>Build FN Five-seven SD.</description>
+    <jobString>Building FN Five-seven SD.</jobString>
+    <workAmount>11000</workAmount>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>11</count>
+      </li>
+    </ingredients>
+    <products><RNGun_FiveSevenSD_Pistol>1</RNGun_FiveSevenSD_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- USP 45 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_USP45_Pistol</defName>
+    <label>Build USP 45</label>
+    <description>Build USP 45.</description>
+    <jobString>Building USP 45.</jobString>
+    <workAmount>9500</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <products><RNGun_USP45_Pistol>1</RNGun_USP45_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- USP-S 45 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_USPS45_Pistol</defName>
+    <label>Build USP-S 45</label>
+    <description>Build USP-S 45.</description>
+    <jobString>Building USP-S 45.</jobString>
+    <workAmount>10500</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>13</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_USPS45_Pistol>1</RNGun_USPS45_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- STK 100 -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_STK100_Pistol</defName>
+    <label>Build STK 100</label>
+    <description>Build STK 100.</description>
+    <jobString>Building STK 100.</jobString>
+    <workAmount>8500</workAmount>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>11</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products><RNGun_STK100_Pistol>1</RNGun_STK100_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Desert Eagle -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_DesertEagle_Pistol</defName>
+    <label>Build Desert Eagle</label>
+    <description>Build Desert Eagle.</description>
+    <jobString>Building Desert Eagle.</jobString>
+    <workAmount>10000</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products><RNGun_DesertEagle_Pistol>1</RNGun_DesertEagle_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- PT92 SF -->
+  <RecipeDef ParentName="RangedWeaponRecipeBase">
+    <defName>Build_RNGun_PT92SF_Pistol</defName>
+    <label>Build PT92 SF</label>
+    <description>Build PT92 SF.</description>
+    <jobString>Building PT92 SF.</jobString>
+    <workAmount>10500</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Pistol_Component</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Weapon_Parts</li></thingDefs></filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter><categories><li>Metallic</li></categories></filter>
+        <count>13</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plastic</li></thingDefs></filter>
+        <count>11</count>
+      </li>
+    </ingredients>
+    <products><RNGun_PT92SF_Pistol>1</RNGun_PT92SF_Pistol></products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Pistol_Component</li>
+        <li>Weapon_Parts</li>
+        <li>ComponentIndustrial</li>
+        <li>Plastic</li>
+      </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>WeaponCraftingWorkTable</li>
+    </recipeUsers>
+    <researchPrerequisite>Gunsmithing</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

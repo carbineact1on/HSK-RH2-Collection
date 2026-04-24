@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <JobDef>
+    <defName>CP_Job_NERF</defName>
+    <driverClass>JoyFacilities.JobDriver_PlayAtJoyFacility</driverClass>
+    <joyDuration>4000</joyDuration>
+    <reportString>playing NERF.</reportString>
+    <joyMaxParticipants>4</joyMaxParticipants>
+    <joySkill>Shooting</joySkill>
+    <joyXpPerTick>0.035</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<modExtensions>
+		<li Class="JoyFacilities.JobExtension">
+			<moteThrowObject>RH2_Mote_NERFDart</moteThrowObject>
+			<throwIntervalTicks>120</throwIntervalTicks>
+			<throwSoundDef>Bow_Small</throwSoundDef>
+			<pawnEffecterDef>CP_Effecter_NERF</pawnEffecterDef>
+		</li>
+	</modExtensions>
+  </JobDef>
+
+  <JoyGiverDef>
+    <defName>CP_JoyGiver_NERF</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>2.5</baseChance>
+    <thingDefs>
+      <li>RH2_NERFTarget</li>
+    </thingDefs>
+    <jobDef>CP_Job_NERF</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <!--<JoyGiverDef>
+    <defName>CP_WatchTelevision</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>3.5</baseChance>
+    <canDoWhileInBed>true</canDoWhileInBed>
+    <thingDefs>
+      <li>TubeTelevision</li>
+      <li>FlatscreenTelevision</li>
+      <li>MegascreenTelevision</li>
+    </thingDefs>
+    <jobDef>CP_WatchTelevision</jobDef>
+    <joyKind>Television</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <JobDef>
+    <defName>CP_WatchTelevision</defName>
+    <driverClass>JoyFacilities.JobDriver_PlayAtJoyFacilityPowered</driverClass>
+    <reportString>custom watching television.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>8</joyMaxParticipants>
+    <joyKind>Television</joyKind>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<modExtensions>
+		<li Class="JoyFacilities.JobExtension">
+			<pawnEffecterDef>CP_PlayPoker</pawnEffecterDef>
+		</li>
+	</modExtensions>
+  </JobDef>-->
+  
+  <EffecterDef>
+    <defName>CP_Effecter_NERF</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>RH2_Mote_NERFGun</moteDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+        <soundDef>Bow_Small</soundDef>
+        <intermittentSoundInterval><min>750</min><max>4300</max></intermittentSoundInterval>
+      </li>
+    </children>
+  </EffecterDef>
+  
+  <!-- MOTES NERF OR NUTHIN' -->
+  
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>RH2_Mote_NERFDart</defName>
+    <graphicData>
+      <texPath>Things/Building/Joy/NERF/NERF_Bullet</texPath>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <solidTime>10</solidTime>
+    <fadeOutTime>4</fadeOutTime>
+    <landSound>Interact_BeatFire</landSound>
+  </FleckDef>
+
+
+  <ThingDef ParentName="MoteBase">
+    <defName>RH2_Mote_NERFGun</defName>
+    <thingClass>MoteDualAttached</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <solidTime>25</solidTime>
+	  <fadeOutTime>4</fadeOutTime>
+      <rotateTowardsTarget>true</rotateTowardsTarget>
+    </mote>
+    <graphicData>
+      <texPath>Things/Building/Joy/NERF/NERF_Maverick</texPath>
+	  <drawSize>1.90</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <!-- END OF NERF -->
+  <!-- FOOTBALLS COMING HOME -->
+  
+    <JobDef>
+    <defName>CP_Job_PenaltyShootout</defName>
+    <driverClass>JoyFacilities.JobDriver_PlayAtJoyFacility</driverClass>
+    <joyDuration>4000</joyDuration>
+    <reportString>playing football.</reportString>
+    <joyMaxParticipants>3</joyMaxParticipants>
+    <joySkill>Shooting</joySkill>
+    <joyXpPerTick>0.025</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<modExtensions>
+		<li Class="JoyFacilities.JobExtension">
+			<moteThrowObject>RH2_Mote_Football</moteThrowObject>
+			<throwIntervalTicks>180</throwIntervalTicks>
+			<throwSoundDef>Pawn_Melee_Punch_HitPawn</throwSoundDef>
+		</li>
+	</modExtensions>
+  </JobDef>
+
+  <JoyGiverDef>
+    <defName>CP_JoyGiver_PenaltyShootout</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>2.5</baseChance>
+    <thingDefs>
+      <li>RH2_FootballGoalpost</li>
+    </thingDefs>
+    <jobDef>CP_Job_PenaltyShootout</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>RH2_Mote_Football</defName>
+    <graphicData>
+      <texPath>Things/Building/Joy/Football/Football</texPath>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <solidTime>8</solidTime>
+    <fadeOutTime>3</fadeOutTime>
+    <landSound>Pawn_Melee_SmallScratch_Miss</landSound>
+  </FleckDef>
+
+<!-- HEY YOU WATCHA GONN' DO?! SPACE JAAAM -->
+
+  
+  <!-- FOOTBALLS COMING HOME -->
+  
+    <JobDef>
+    <defName>CP_Job_BasketballFreethrow</defName>
+    <driverClass>JoyFacilities.JobDriver_PlayAtJoyFacility</driverClass>
+    <joyDuration>4000</joyDuration>
+    <reportString>playing basketball.</reportString>
+    <joyMaxParticipants>3</joyMaxParticipants>
+    <joySkill>Shooting</joySkill>
+    <joyXpPerTick>0.025</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<modExtensions>
+		<li Class="JoyFacilities.JobExtension">
+			<moteThrowObject>RH2_Mote_Basketball</moteThrowObject>
+			<throwIntervalTicks>120</throwIntervalTicks>
+			<throwSoundDef>Pawn_Melee_Punch_HitPawn</throwSoundDef>
+		</li>
+	</modExtensions>
+  </JobDef>
+
+  <JoyGiverDef>
+    <defName>CP_JoyGiver_BasketballFreethrow</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>2.5</baseChance>
+    <thingDefs>
+      <li>RH2_BasketballHoop</li>
+    </thingDefs>
+    <jobDef>CP_Job_BasketballFreethrow</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>RH2_Mote_Basketball</defName>
+    <graphicData>
+      <texPath>Things/Building/Joy/Basketball/Basketball</texPath>
+	  <drawSize>0.70</drawSize>
+    </graphicData>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <solidTime>4</solidTime>
+    <fadeOutTime>2</fadeOutTime>
+    <landSound>BuildingDestroyed_Wood_Small</landSound>
+  </FleckDef>
+  
+  
+  <!-- XBOX Console -->
+  
+    <JobDef>
+    <defName>CP_Job_Xbox360Gaming</defName>
+    <driverClass>JoyFacilities.JobDriver_PlayAtJoyFacility</driverClass>
+    <joyDuration>4000</joyDuration>
+    <reportString>playing on the Xbox.</reportString>
+    <joyMaxParticipants>4</joyMaxParticipants>
+    <joySkill>Shooting</joySkill>
+    <joyXpPerTick>0.035</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	<modExtensions>
+		<li Class="JoyFacilities.JobExtension">
+			<!--<moteThrowObject>RH2_Mote_NERFDart</moteThrowObject>
+			<throwIntervalTicks>120</throwIntervalTicks>
+			<throwSoundDef>Bow_Small</throwSoundDef>-->
+			<pawnEffecterDef>CP_Effecter_Xbox360Gaming</pawnEffecterDef>
+		</li>
+	</modExtensions>
+  </JobDef>
+
+  <JoyGiverDef>
+    <defName>CP_JoyGiver_Xbox360Gaming</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>2.5</baseChance>
+    <thingDefs>
+      <li>RH2_Xbox360_GameConsole</li>
+    </thingDefs>
+    <jobDef>CP_Job_Xbox360Gaming</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <EffecterDef>
+    <defName>CP_Effecter_Xbox360Gaming</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>RH2_Mote_Xbox360Controller</moteDef>
+      </li>
+      <!--<li>
+        <subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+        <soundDef>RHGTASA_DriveThru_Ambience</soundDef>
+        <intermittentSoundInterval><min>750</min><max>4300</max></intermittentSoundInterval>
+      </li>-->
+    </children>
+  </EffecterDef>
+  
+    <ThingDef ParentName="MoteBase">
+    <defName>RH2_Mote_Xbox360Controller</defName>
+    <thingClass>MoteDualAttached</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <solidTime>10</solidTime>
+	  <fadeOutTime>3</fadeOutTime>
+      <rotateTowardsTarget>true</rotateTowardsTarget>
+    </mote>
+    <graphicData>
+      <texPath>Things/Building/Joy/Xbox360Console/Xbox360_Controller</texPath>
+	  <drawSize>1.25</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+    <!-- Gaming -->
+
+  <JoyGiverDef>
+    <defName>RH_JoyGiver_ConsoleGaming</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>3.5</baseChance>
+    <canDoWhileInBed>true</canDoWhileInBed>
+    <thingDefs>
+      <li>RH2_Xbox360_GameConsole</li>
+    </thingDefs>
+    <jobDef>CP_Job_Xbox360Gaming</jobDef>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+	
+	
+	<!-- TV -->
+	
+  </JoyGiverDef>  <JoyGiverDef>
+    <defName>RH_WatchTelevision</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>3.5</baseChance>
+    <canDoWhileInBed>true</canDoWhileInBed>
+    <thingDefs>
+      <li>RH2_Panasonic_Television</li>
+      <li>RH2_Panasonic_LCDTelevision</li>
+    </thingDefs>
+    <jobDef>WatchTelevision</jobDef>
+    <joyKind>Television</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  
+</Defs>

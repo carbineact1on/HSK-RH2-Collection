@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Backpacks and Harness-->
+  
+  <ApparelLayerDef>
+    <defName>RH2_Webbing</defName>
+    <label>utility</label>
+    <drawOrder>400</drawOrder>
+  </ApparelLayerDef>
+  
+  <ApparelLayerDef> <!-- Backpack override -->
+    <defName>Belt</defName>
+    <label>utility</label>
+    <drawOrder>500</drawOrder>
+  </ApparelLayerDef>
+  
+</Defs>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Launcher research/costList patches removed — recipeMaker was removed for HSK compatibility -->
+	<!-- Launcher recipes are now in 1.5/Defs/RecipeDefs/Recipes_Launchers.xml -->
+</Patch>

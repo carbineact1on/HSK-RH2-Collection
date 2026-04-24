@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  <Operation Class="PatchOperationSequence">
+  	<success>Always</success>
+  	<operations>
+    	<li Class="PatchOperationTest">
+      	<xpath>*/IncidentDef[defName="Quest_Kidnapped"]</xpath>
+    	</li>
+    	<li Class="PatchOperationAdd">
+      	<xpath>*/ThingDef[defName="RH2_MissionBoard"]/comps/li[@Class="ReinforcementCall.CompProperties_MissionBoardRC"]/doableMissions</xpath>
+      	<value>
+			<Quest_Kidnapped>Search &amp; Rescue kidnapped hostages</Quest_Kidnapped>
+      	</value>
+    	</li>
+  	</operations>
+	</Operation>
+
+</Patch>
