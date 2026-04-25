@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -191,69 +191,135 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_300WinchesterMagnum_FMJ</defName>
-		<label>make .300 Winchester Magnum (FMJ) cartridge x200</label>
-		<description>Craft 200 .300 Winchester Magnum (FMJ) cartridges.</description>
+		<label>make .300 Winchester Magnum (FMJ) cartridge x60</label>
+		<description>Craft 60 .300 Winchester Magnum (FMJ) cartridges.</description>
 		<jobString>Making .300 Winchester Magnum (FMJ) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>16</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_300WinchesterMagnum_FMJ>200</Ammo_300WinchesterMagnum_FMJ>
+			<Ammo_300WinchesterMagnum_FMJ>60</Ammo_300WinchesterMagnum_FMJ>
 		</products>
-		<workAmount>1600</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_300WinchesterMagnum_AP</defName>
-		<label>make .300 Winchester Magnum (AP) cartridge x200</label>
-		<description>Craft 200 .300 Winchester Magnum (AP) cartridges.</description>
+		<label>make .300 Winchester Magnum (AP) cartridge x60</label>
+		<description>Craft 60 .300 Winchester Magnum (AP) cartridges.</description>
 		<jobString>Making .300 Winchester Magnum (AP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>16</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_300WinchesterMagnum_AP>200</Ammo_300WinchesterMagnum_AP>
+			<Ammo_300WinchesterMagnum_AP>60</Ammo_300WinchesterMagnum_AP>
 		</products>
-		<workAmount>1920</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_300WinchesterMagnum_Incendiary</defName>
-		<label>make .300 Winchester Magnum (AP-I) cartridge x200</label>
-		<description>Craft 200 .300 Winchester Magnum (AP-I) cartridges.</description>
+		<label>make .300 Winchester Magnum (AP-I) cartridge x60</label>
+		<description>Craft 60 .300 Winchester Magnum (AP-I) cartridges.</description>
 		<jobString>Making .300 Winchester Magnum (AP-I) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>16</count>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
@@ -261,34 +327,57 @@
 						<li>Prometheum</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Prometheum</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_300WinchesterMagnum_Incendiary>200</Ammo_300WinchesterMagnum_Incendiary>
+			<Ammo_300WinchesterMagnum_Incendiary>60</Ammo_300WinchesterMagnum_Incendiary>
 		</products>
-		<workAmount>2400</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_300WinchesterMagnum_HE</defName>
-		<label>make .300 Winchester Magnum (AP-HE) cartridge x200</label>
-		<description>Craft 200 .300 Winchester Magnum (AP-HE) cartridges.</description>
+		<label>make .300 Winchester Magnum (AP-HE) cartridge x60</label>
+		<description>Craft 60 .300 Winchester Magnum (AP-HE) cartridges.</description>
 		<jobString>Making .300 Winchester Magnum (AP-HE) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>16</count>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
@@ -296,63 +385,80 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_300WinchesterMagnum_HE>200</Ammo_300WinchesterMagnum_HE>
+			<Ammo_300WinchesterMagnum_HE>60</Ammo_300WinchesterMagnum_HE>
 		</products>
-		<workAmount>3200</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_300WinchesterMagnum_Sabot</defName>
-		<label>make .300 Winchester Magnum (Sabot) cartridge x200</label>
-		<description>Craft 200 .300 Winchester Magnum (Sabot) cartridges.</description>
+		<label>make .300 Winchester Magnum (Sabot) cartridge x60</label>
+		<description>Craft 60 .300 Winchester Magnum (Sabot) cartridges.</description>
 		<jobString>Making .300 Winchester Magnum (Sabot) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>10</count>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Uranium</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chemfuel</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Chemfuel</li>
-				<li>Steel</li>
-				<li>Uranium</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_300WinchesterMagnum_Sabot>200</Ammo_300WinchesterMagnum_Sabot>
+			<Ammo_300WinchesterMagnum_Sabot>60</Ammo_300WinchesterMagnum_Sabot>
 		</products>
-		<workAmount>2200</workAmount>
 	</RecipeDef>
 
         </value>

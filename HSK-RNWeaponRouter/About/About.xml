@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>HSK RN Weapon Router</name>
+  <packageId>carbineaction.hskrnweaponrouter</packageId>
+  <author>CarbineAction</author>
+  <url />
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Reroutes all craftable weapons to the three Rimmu-Nation² workbenches (RNBench_CQB, RNBench_LBW, RNBench_HeavyWeapons) based on weapon category.
+
+- Pistols / Revolvers / SMGs / PDWs / Shotguns → RNBench_CQB
+- Assault rifles / Bolt actions / DMRs / AMRs / Sniper rifles → RNBench_LBW
+- LMGs / HMGs / Launchers / Spacer weapons / Grenades → RNBench_HeavyWeapons
+- Anything else with a recipeMaker that doesn't match a category → RNBench_LBW (fallback)
+
+Replace mode: the original recipeUsers list is removed and replaced with the matching RN bench. Load AFTER all weapon mods.</description>
+  <modDependencies>
+    <li>
+      <packageId>Mlie.RimmuNation2Weapons</packageId>
+      <displayName>[RH2] Rimmu-Nation² - Weapons</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Mlie.RimmuNation2Weapons</li>
+  </loadAfter>
+</ModMetaData>

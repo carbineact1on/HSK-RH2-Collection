@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Universal weapon → RN bench router (REPLACE mode).
+  Order matters: HeavyWeapons FIRST, CQB SECOND, LBW LAST as fallback.
+  Each tier removes any existing recipeUsers and adds its own.
+  A weapon already routed to a more-specific tier won't be re-touched
+  because PatchOperationRemove only removes if present, and PatchOperationAdd
+  fails harmlessly if recipeUsers already exists (since recipeUsers is unique
+  inside recipeMaker).
+-->
+<Patch>
+
+  <!-- ============================================================
+       TIER 1: HEAVY WEAPONS  →  RNBench_HeavyWeapons
+       MGs, launchers, spacer weapons, grenades
+       ============================================================ -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[
+          recipeMaker
+          and (
+            weaponTags/li[contains(text(),"MG")]
+            or weaponTags/li[contains(text(),"MachineGun")]
+            or weaponTags/li[contains(text(),"LMG")]
+            or weaponTags/li[contains(text(),"HMG")]
+            or weaponTags/li[contains(text(),"Launcher")]
+            or weaponTags/li[contains(text(),"RocketLauncher")]
+            or weaponTags/li[contains(text(),"GrenadeLauncher")]
+            or weaponTags/li[contains(text(),"Spacer")]
+            or weaponTags/li[text()="GrenadeDestructive"]
+            or weaponTags/li[text()="GrenadeEMP"]
+            or weaponTags/li[contains(text(),"AMR")]
+            or weaponTags/li[contains(text(),"AntiMaterial")]
+            or weaponTags/li[contains(text(),"AntiMateriel")]
+            or weaponTags/li[contains(text(),"HeavyWeapon")]
+          )
+        ]/recipeMaker/recipeUsers</xpath>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+          recipeMaker
+          and (
+            weaponTags/li[contains(text(),"MG")]
+            or weaponTags/li[contains(text(),"MachineGun")]
+            or weaponTags/li[contains(text(),"LMG")]
+            or weaponTags/li[contains(text(),"HMG")]
+            or weaponTags/li[contains(text(),"Launcher")]
+            or weaponTags/li[contains(text(),"RocketLauncher")]
+            or weaponTags/li[contains(text(),"GrenadeLauncher")]
+            or weaponTags/li[contains(text(),"Spacer")]
+            or weaponTags/li[text()="GrenadeDestructive"]
+            or weaponTags/li[text()="GrenadeEMP"]
+            or weaponTags/li[contains(text(),"AMR")]
+            or weaponTags/li[contains(text(),"AntiMaterial")]
+            or weaponTags/li[contains(text(),"AntiMateriel")]
+            or weaponTags/li[contains(text(),"HeavyWeapon")]
+          )
+        ]/recipeMaker</xpath>
+        <value>
+          <recipeUsers>
+            <li>RNBench_HeavyWeapons</li>
+          </recipeUsers>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+
+  <!-- ============================================================
+       TIER 2: CQB  →  RNBench_CQB
+       Pistols, revolvers, SMGs, PDWs, shotguns
+       ============================================================ -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[
+          recipeMaker
+          and not(recipeMaker/recipeUsers/li[text()="RNBench_HeavyWeapons"])
+          and (
+            weaponTags/li[text()="Pistol"]
+            or weaponTags/li[contains(text(),"Pistol")]
+            or weaponTags/li[contains(text(),"Revolver")]
+            or weaponTags/li[contains(text(),"SMG")]
+            or weaponTags/li[contains(text(),"PDW")]
+            or weaponTags/li[contains(text(),"Shotgun")]
+            or weaponTags/li[contains(text(),"ShortShells")]
+            or weaponTags/li[contains(text(),"Carbine")]
+          )
+        ]/recipeMaker/recipeUsers</xpath>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+          recipeMaker
+          and not(recipeMaker/recipeUsers/li[text()="RNBench_HeavyWeapons"])
+          and (
+            weaponTags/li[text()="Pistol"]
+            or weaponTags/li[contains(text(),"Pistol")]
+            or weaponTags/li[contains(text(),"Revolver")]
+            or weaponTags/li[contains(text(),"SMG")]
+            or weaponTags/li[contains(text(),"PDW")]
+            or weaponTags/li[contains(text(),"Shotgun")]
+            or weaponTags/li[contains(text(),"ShortShells")]
+            or weaponTags/li[contains(text(),"Carbine")]
+          )
+        ]/recipeMaker</xpath>
+        <value>
+          <recipeUsers>
+            <li>RNBench_CQB</li>
+          </recipeUsers>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+
+  <!-- ============================================================
+       TIER 3: LBW (fallback)  →  RNBench_LBW
+       Catches everything else with a recipeMaker that has weaponTags
+       (rifles + anything not yet routed). Skips weapons already routed
+       to RNBench_HeavyWeapons or RNBench_CQB by previous tiers.
+       ============================================================ -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[
+          recipeMaker
+          and weaponTags
+          and not(recipeMaker/recipeUsers/li[text()="RNBench_HeavyWeapons"])
+          and not(recipeMaker/recipeUsers/li[text()="RNBench_CQB"])
+        ]/recipeMaker/recipeUsers</xpath>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+          recipeMaker
+          and weaponTags
+          and not(recipeMaker/recipeUsers/li[text()="RNBench_HeavyWeapons"])
+          and not(recipeMaker/recipeUsers/li[text()="RNBench_CQB"])
+        ]/recipeMaker</xpath>
+        <value>
+          <recipeUsers>
+            <li>RNBench_LBW</li>
+          </recipeUsers>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+
+</Patch>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -191,69 +191,135 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_338Lapua_FMJ</defName>
-		<label>make .338 Lapua Magnum (FMJ) cartridge x200</label>
-		<description>Craft 200 .338 Lapua Magnum (FMJ) cartridges.</description>
+		<label>make .338 Lapua Magnum (FMJ) cartridge x60</label>
+		<description>Craft 60 .338 Lapua Magnum (FMJ) cartridges.</description>
 		<jobString>Making .338 Lapua Magnum (FMJ) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_338Lapua_FMJ>200</Ammo_338Lapua_FMJ>
+			<Ammo_338Lapua_FMJ>60</Ammo_338Lapua_FMJ>
 		</products>
-		<workAmount>2000</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_338Lapua_AP</defName>
-		<label>make .338 Lapua Magnum (AP) cartridge x200</label>
-		<description>Craft 200 .338 Lapua Magnum (AP) cartridges.</description>
+		<label>make .338 Lapua Magnum (AP) cartridge x60</label>
+		<description>Craft 60 .338 Lapua Magnum (AP) cartridges.</description>
 		<jobString>Making .338 Lapua Magnum (AP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_338Lapua_AP>200</Ammo_338Lapua_AP>
+			<Ammo_338Lapua_AP>60</Ammo_338Lapua_AP>
 		</products>
-		<workAmount>2400</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_338Lapua_Incendiary</defName>
-		<label>make .338 Lapua Magnum (AP-I) cartridge x200</label>
-		<description>Craft 200 .338 Lapua Magnum (AP-I) cartridges.</description>
+		<label>make .338 Lapua Magnum (AP-I) cartridge x60</label>
+		<description>Craft 60 .338 Lapua Magnum (AP-I) cartridges.</description>
 		<jobString>Making .338 Lapua Magnum (AP-I) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>20</count>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
@@ -261,34 +327,57 @@
 						<li>Prometheum</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Prometheum</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_338Lapua_Incendiary>200</Ammo_338Lapua_Incendiary>
+			<Ammo_338Lapua_Incendiary>60</Ammo_338Lapua_Incendiary>
 		</products>
-		<workAmount>2800</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_338Lapua_HE</defName>
-		<label>make .338 Lapua Magnum (AP-HE) cartridge x200</label>
-		<description>Craft 200 .338 Lapua Magnum (AP-HE) cartridges.</description>
+		<label>make .338 Lapua Magnum (AP-HE) cartridge x60</label>
+		<description>Craft 60 .338 Lapua Magnum (AP-HE) cartridges.</description>
 		<jobString>Making .338 Lapua Magnum (AP-HE) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>20</count>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
@@ -296,63 +385,80 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_338Lapua_HE>200</Ammo_338Lapua_HE>
+			<Ammo_338Lapua_HE>60</Ammo_338Lapua_HE>
 		</products>
-		<workAmount>3600</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_338Lapua_Sabot</defName>
-		<label>make .338 Lapua Magnum (Sabot) cartridge x200</label>
-		<description>Craft 200 .338 Lapua Magnum (Sabot) cartridges.</description>
+		<label>make .338 Lapua Magnum (Sabot) cartridge x60</label>
+		<description>Craft 60 .338 Lapua Magnum (Sabot) cartridges.</description>
 		<jobString>Making .338 Lapua Magnum (Sabot) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>12</count>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Uranium</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chemfuel</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
-				<li>Uranium</li>
-				<li>Chemfuel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_338Lapua_Sabot>200</Ammo_338Lapua_Sabot>
+			<Ammo_338Lapua_Sabot>60</Ammo_338Lapua_Sabot>
 		</products>
-		<workAmount>2400</workAmount>
 	</RecipeDef>
 
         </value>

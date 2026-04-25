@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -213,135 +213,37 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_762x54mmR_FMJ</defName>
-		<label>make 7.62x54mmR (FMJ) cartridge x500</label>
-		<description>Craft 500 7.62x54mmR (FMJ) cartridges.</description>
+		<label>make 7.62x54mmR (FMJ) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (FMJ) cartridges.</description>
 		<jobString>Making 7.62x54mmR (FMJ) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>28</count>
+				<count>18</count>
 			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_762x54mmR_FMJ>500</Ammo_762x54mmR_FMJ>
-		</products>
-		<workAmount>2800</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_762x54mmR_AP</defName>
-		<label>make 7.62x54mmR (AP) cartridge x500</label>
-		<description>Craft 500 7.62x54mmR (AP) cartridges.</description>
-		<jobString>Making 7.62x54mmR (AP) cartridges.</jobString>
-		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
 				</filter>
-				<count>28</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_762x54mmR_AP>500</Ammo_762x54mmR_AP>
-		</products>
-		<workAmount>3360</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_762x54mmR_HP</defName>
-		<label>make 7.62x54mmR (HP) cartridge x500</label>
-		<description>Craft 500 7.62x54mmR (HP) cartridges.</description>
-		<jobString>Making 7.62x54mmR (HP) cartridges.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>28</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_762x54mmR_HP>500</Ammo_762x54mmR_HP>
-		</products>
-		<workAmount>2800</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
-		<defName>MakeAmmo_762x54mmR_Incendiary</defName>
-		<label>make 7.62x54mmR (AP-I) cartridge x500</label>
-		<description>Craft 500 7.62x54mmR (AP-I) cartridges.</description>
-		<jobString>Making 7.62x54mmR (AP-I) cartridges.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>28</count>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Prometheum</li>
-					</thingDefs>
-				</filter>
-				<count>3</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>Prometheum</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_762x54mmR_Incendiary>500</Ammo_762x54mmR_Incendiary>
-		</products>
-		<workAmount>4000</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
-		<defName>MakeAmmo_762x54mmR_HE</defName>
-		<label>make 7.62x54mmR (AP-HE) cartridge x500</label>
-		<description>Craft 500 7.62x54mmR (AP-HE) cartridges.</description>
-		<jobString>Making 7.62x54mmR (AP-HE) cartridges.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>28</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>FSX</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -349,58 +251,291 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
-				<li>FSX</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_762x54mmR_HE>500</Ammo_762x54mmR_HE>
+			<Ammo_762x54mmR_FMJ>60</Ammo_762x54mmR_FMJ>
 		</products>
-		<workAmount>4800</workAmount>
 	</RecipeDef>
-
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
-		<defName>MakeAmmo_762x54mmR_Sabot</defName>
-		<label>make 7.62x54mmR (Sabot) cartridge x500</label>
-		<description>Craft 500 7.62x54mmR (Sabot) cartridges.</description>
-		<jobString>Making 7.62x54mmR (Sabot) cartridges.</jobString>
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_762x54mmR_AP</defName>
+		<label>make 7.62x54mmR (AP) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (AP) cartridges.</description>
+		<jobString>Making 7.62x54mmR (AP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>18</count>
 			</li>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Uranium</li>
-					</thingDefs>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
 				</filter>
-				<count>3</count>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Chemfuel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
-				<li>Uranium</li>
-				<li>Chemfuel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_762x54mmR_Sabot>500</Ammo_762x54mmR_Sabot>
+			<Ammo_762x54mmR_AP>60</Ammo_762x54mmR_AP>
 		</products>
-		<workAmount>3600</workAmount>
+	</RecipeDef>
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_762x54mmR_HP</defName>
+		<label>make 7.62x54mmR (HP) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (HP) cartridges.</description>
+		<jobString>Making 7.62x54mmR (HP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x54mmR_HP>60</Ammo_762x54mmR_HP>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_762x54mmR_Incendiary</defName>
+		<label>make 7.62x54mmR (AP-I) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (AP-I) cartridges.</description>
+		<jobString>Making 7.62x54mmR (AP-I) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Prometheum</li>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x54mmR_Incendiary>60</Ammo_762x54mmR_Incendiary>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_762x54mmR_HE</defName>
+		<label>make 7.62x54mmR (AP-HE) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (AP-HE) cartridges.</description>
+		<jobString>Making 7.62x54mmR (AP-HE) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSX</li>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x54mmR_HE>60</Ammo_762x54mmR_HE>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_762x54mmR_Sabot</defName>
+		<label>make 7.62x54mmR (Sabot) cartridge x60</label>
+		<description>Craft 60 7.62x54mmR (Sabot) cartridges.</description>
+		<jobString>Making 7.62x54mmR (Sabot) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_762x54mmR_Sabot>60</Ammo_762x54mmR_Sabot>
+		</products>
 	</RecipeDef>
 
         </value>

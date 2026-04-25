@@ -129,80 +129,163 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_32ACP_FMJ</defName>
-		<label>make .32 ACP (FMJ) cartridge x500</label>
-		<description>Craft 500 .32 ACP (FMJ) cartridges.</description>
+		<label>make .32 ACP (FMJ) cartridge x100</label>
+		<description>Craft 100 .32 ACP (FMJ) cartridges.</description>
 		<jobString>Making .32 ACP (FMJ) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_32ACP_FMJ>500</Ammo_32ACP_FMJ>
+			<Ammo_32ACP_FMJ>100</Ammo_32ACP_FMJ>
 		</products>
-		<workAmount>800</workAmount>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_32ACP_AP</defName>
-		<label>make .32 ACP (AP) cartridge x500</label>
-		<description>Craft 500 .32 ACP (AP) cartridges.</description>
+		<label>make .32 ACP (AP) cartridge x100</label>
+		<description>Craft 100 .32 ACP (AP) cartridges.</description>
 		<jobString>Making .32 ACP (AP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_32ACP_AP>500</Ammo_32ACP_AP>
+			<Ammo_32ACP_AP>100</Ammo_32ACP_AP>
 		</products>
-		<workAmount>960</workAmount>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_32ACP_HP</defName>
-		<label>make .32 ACP (HP) cartridge x500</label>
-		<description>Craft 500 .32 ACP (HP) cartridges.</description>
+		<label>make .32 ACP (HP) cartridge x100</label>
+		<description>Craft 100 .32 ACP (HP) cartridges.</description>
 		<jobString>Making .32 ACP (HP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Plastic</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Plastic</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_32ACP_HP>500</Ammo_32ACP_HP>
+			<Ammo_32ACP_HP>100</Ammo_32ACP_HP>
 		</products>
-		<workAmount>800</workAmount>
 	</RecipeDef>
 
         </value>

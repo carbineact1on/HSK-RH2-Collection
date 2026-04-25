@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -166,134 +166,150 @@
 
 	<RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_8x35mmCharged</defName>
-		<label>make 8x35mm Charged cartridge x500</label>
-		<description>Craft 500 8x35mm Charged cartridges.</description>
+		<label>make 8x35mm Charged cartridge x80</label>
+		<description>Craft 80 8x35mm Charged cartridges.</description>
 		<jobString>Making 8x35mm Charged cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
 				</filter>
-				<count>18</count>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>MagneticMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>9</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Plasteel</li>
-				<li>Steel</li>
-				<li>ComponentIndustrial</li>
+				<li>MagneticMaterial</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_8x35mmCharged>500</Ammo_8x35mmCharged>
+			<Ammo_8x35mmCharged>80</Ammo_8x35mmCharged>
 		</products>
-		<workAmount>13600</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_8x35mmCharged_AP</defName>
-		<label>make 8x35mm Charged (Conc.) cartridge x500</label>
-		<description>Craft 500 8x35mm Charged (Conc.) cartridges.</description>
-		<jobString>Making 8x35mm Charged (Conc.) cartridges.</jobString>
+		<label>make 8x35mm Charged (AP) cartridge x80</label>
+		<description>Craft 80 8x35mm Charged (AP) cartridges.</description>
+		<jobString>Making 8x35mm Charged (AP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
 				</filter>
-				<count>18</count>
+				<count>14</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>14</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>MagneticMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>9</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Plasteel</li>
-				<li>Steel</li>
-				<li>ComponentIndustrial</li>
+				<li>MagneticMaterial</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_8x35mmCharged_AP>500</Ammo_8x35mmCharged_AP>
+			<Ammo_8x35mmCharged_AP>80</Ammo_8x35mmCharged_AP>
 		</products>
-		<workAmount>13600</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_8x35mmCharged_Ion</defName>
-		<label>make 8x35mm Charged (Ion) cartridge x500</label>
-		<description>Craft 500 8x35mm Charged (Ion) cartridges.</description>
+		<label>make 8x35mm Charged (Ion) cartridge x80</label>
+		<description>Craft 80 8x35mm Charged (Ion) cartridges.</description>
 		<jobString>Making 8x35mm Charged (Ion) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
 				</filter>
-				<count>18</count>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SyntheticAmmonia</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentIndustrial</li>
+						<li>MagneticMaterial</li>
 					</thingDefs>
 				</filter>
-				<count>9</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Plasteel</li>
-				<li>Steel</li>
-				<li>ComponentIndustrial</li>
+				<li>MagneticMaterial</li>
+				<li>SyntheticAmmonia</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_8x35mmCharged_Ion>500</Ammo_8x35mmCharged_Ion>
+			<Ammo_8x35mmCharged_Ion>80</Ammo_8x35mmCharged_Ion>
 		</products>
-		<workAmount>13600</workAmount>
 	</RecipeDef>
 
         </value>

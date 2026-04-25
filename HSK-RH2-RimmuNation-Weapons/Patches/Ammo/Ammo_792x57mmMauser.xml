@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -211,100 +211,37 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_792x57mmMauser_FMJ</defName>
-		<label>make 7.92x57mm Mauser (FMJ) cartridge x500</label>
-		<description>Craft 500 7.92x57mm Mauser (FMJ) cartridges.</description>
+		<label>make 7.92x57mm Mauser (FMJ) cartridge x80</label>
+		<description>Craft 80 7.92x57mm Mauser (FMJ) cartridges.</description>
 		<jobString>Making 7.92x57mm Mauser (FMJ) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C1</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>30</count>
+				<count>10</count>
 			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_792x57mmMauser_FMJ>500</Ammo_792x57mmMauser_FMJ>
-		</products>
-		<workAmount>3000</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_792x57mmMauser_AP</defName>
-		<label>make 7.92x57mm Mauser (AP) cartridge x500</label>
-		<description>Craft 500 7.92x57mm Mauser (AP) cartridges.</description>
-		<jobString>Making 7.92x57mm Mauser (AP) cartridges.</jobString>
-		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
 				</filter>
-				<count>30</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_792x57mmMauser_AP>500</Ammo_792x57mmMauser_AP>
-		</products>
-		<workAmount>3600</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_792x57mmMauser_HP</defName>
-		<label>make 7.92x57mm Mauser (HP) cartridge x500</label>
-		<description>Craft 500 7.92x57mm Mauser (HP) cartridges.</description>
-		<jobString>Making 7.92x57mm Mauser (HP) cartridges.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>30</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_792x57mmMauser_HP>500</Ammo_792x57mmMauser_HP>
-		</products>
-		<workAmount>3000</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
-		<defName>MakeAmmo_792x57mmMauser_Incendiary</defName>
-		<label>make 7.92x57mm Mauser (AP-I) cartridge x500</label>
-		<description>Craft 500 7.92x57mm Mauser (AP-I) cartridges.</description>
-		<jobString>Making 7.92x57mm Mauser (AP-I) cartridges.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>30</count>
+				<count>4</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Prometheum</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -312,29 +249,208 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
-				<li>Prometheum</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_792x57mmMauser_Incendiary>500</Ammo_792x57mmMauser_Incendiary>
+			<Ammo_792x57mmMauser_FMJ>80</Ammo_792x57mmMauser_FMJ>
 		</products>
-		<workAmount>4200</workAmount>
 	</RecipeDef>
-
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
-		<defName>MakeAmmo_792x57mmMauser_HE</defName>
-		<label>make 7.92x57mm Mauser (AP-HE) cartridge x500</label>
-		<description>Craft 500 7.92x57mm Mauser (AP-HE) cartridges.</description>
-		<jobString>Making 7.92x57mm Mauser (AP-HE) cartridges.</jobString>
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_792x57mmMauser_AP</defName>
+		<label>make 7.92x57mm Mauser (AP) cartridge x80</label>
+		<description>Craft 80 7.92x57mm Mauser (AP) cartridges.</description>
+		<jobString>Making 7.92x57mm Mauser (AP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C1</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_792x57mmMauser_AP>80</Ammo_792x57mmMauser_AP>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_792x57mmMauser_HP</defName>
+		<label>make 7.92x57mm Mauser (HP) cartridge x80</label>
+		<description>Craft 80 7.92x57mm Mauser (HP) cartridges.</description>
+		<jobString>Making 7.92x57mm Mauser (HP) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Range_C1</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_792x57mmMauser_HP>80</Ammo_792x57mmMauser_HP>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_792x57mmMauser_Incendiary</defName>
+		<label>make 7.92x57mm Mauser (AP-I) cartridge x80</label>
+		<description>Craft 80 7.92x57mm Mauser (AP-I) cartridges.</description>
+		<jobString>Making 7.92x57mm Mauser (AP-I) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Prometheum</li>
+				<li>Powder</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_792x57mmMauser_Incendiary>80</Ammo_792x57mmMauser_Incendiary>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_792x57mmMauser_HE</defName>
+		<label>make 7.92x57mm Mauser (AP-HE) cartridge x80</label>
+		<description>Craft 80 7.92x57mm Mauser (AP-HE) cartridges.</description>
+		<jobString>Making 7.92x57mm Mauser (AP-HE) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
+				</filter>
+				<count>4</count>
 			</li>
 			<li>
 				<filter>
@@ -342,63 +458,79 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>7</count>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_792x57mmMauser_HE>500</Ammo_792x57mmMauser_HE>
+			<Ammo_792x57mmMauser_HE>80</Ammo_792x57mmMauser_HE>
 		</products>
-		<workAmount>5800</workAmount>
 	</RecipeDef>
-
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
 		<defName>MakeAmmo_792x57mmMauser_Sabot</defName>
-		<label>make 7.92x57mm Mauser (Sabot) cartridge x500</label>
-		<description>Craft 500 7.92x57mm Mauser (Sabot) cartridges.</description>
+		<label>make 7.92x57mm Mauser (Sabot) cartridge x80</label>
+		<description>Craft 80 7.92x57mm Mauser (Sabot) cartridges.</description>
 		<jobString>Making 7.92x57mm Mauser (Sabot) cartridges.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>18</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Uranium</li>
-					</thingDefs>
+					<categories>
+						<li>USLDHBar</li>
+					</categories>
 				</filter>
 				<count>4</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Chemfuel</li>
+						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
-				<li>Uranium</li>
-				<li>Chemfuel</li>
+				<li>Powder</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_792x57mmMauser_Sabot>500</Ammo_792x57mmMauser_Sabot>
+			<Ammo_792x57mmMauser_Sabot>80</Ammo_792x57mmMauser_Sabot>
 		</products>
-		<workAmount>4200</workAmount>
 	</RecipeDef>
 
         </value>
