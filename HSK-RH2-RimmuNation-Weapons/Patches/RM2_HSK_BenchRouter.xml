@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  HSK ranged-firearm → RN bench router (PROPER VERSION).
+  HSK ranged-firearm → RN bench router (UNIVERSAL VERSION).
 
   Targets standalone RecipeDefs (NOT ThingDef.recipeMaker), so original
   ingredients are preserved — only <recipeUsers> is rewritten.
 
-  Migration scope: any RecipeDef currently at one of HSK's weapon benches
-  (WeaponCraftingWorkTable, AdvWeaponCraftingWorkTable,
-  MechWeaponCraftingWorkTable, WeaponsBench, HeavyArmsBench,
-  GunsmithingBench) whose defName matches a ranged firearm category.
+  TIER ORDER MATTERS: CQB runs FIRST, Heavy SECOND, LBW LAST.
+  This avoids the SMG/MG substring trap (e.g., BuildHeavySMG matches
+  CQB's "SMG" before Heavy ever sees it).
 
   EXCLUDED (left at original bench):
-  - Melee (sword/knife/axe/mace/hammer/spear/club/blade)
-  - Neolithic ranged (bow/crossbow/arrow)
-  - RH2 weapons (already correct — defName starts with "Build_RN")
-
-  Tier order matters: Heavy first, CQB second, LBW last as catch-all
-  for remaining ranged recipes that don't match heavy/CQB.
+  - Melee (Sword/Knife/Axe/Mace/Hammer/Spear/Club/Blade)
+  - Neolithic / thrown ranged (Bow/Crossbow/Arrow/Throwing/Javelin/Sling)
+  - Weapon components / parts (Component/_Parts)
+  - Turret crates / turrets (Crate/Turret)
+  - Grenades (Grenade)
+  - Other explosive throwables (Molotov, bundles, mines, etc.)
+  - RH2 weapons (Build_RN — already correct)
 -->
 <Patch>
 
   <!-- ============================================================
-       TIER 1: HEAVY WEAPONS  →  RNBench_HeavyWeapons
-       MGs, launchers, rockets, spacer, anti-material
+       TIER 1 (FIRST):  CQB  →  RNBench_CQB
+       Pistols, revolvers, SMGs, PDWs, shotguns, carbines.
+       Runs first so SMG/Carbine/Pistol-tagged weapons aren't grabbed
+       by Heavy's MG/Heavy/Plasma matchers via substring matching.
        ============================================================ -->
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
@@ -49,60 +51,26 @@
       and not(contains(defName, "_Bow"))
       and not(contains(defName, "Arrow"))
       and not(contains(defName, "Melee"))
-      and (
-        contains(defName, "MG")
-        or contains(defName, "MachineGun")
-        or contains(defName, "LMG")
-        or contains(defName, "HMG")
-        or contains(defName, "Launcher")
-        or contains(defName, "Rocket")
-        or contains(defName, "Spacer")
-        or contains(defName, "AntiMaterial")
-        or contains(defName, "AntiMateriel")
-        or contains(defName, "AMR")
-        or contains(defName, "Heavy")
-        or contains(defName, "Cannon")
-        or contains(defName, "Plasma")
-        or contains(defName, "Mortar")
-        or contains(defName, "Grenade")
-      )
-    ]/recipeUsers</xpath>
-    <value>
-      <recipeUsers>
-        <li>RNBench_HeavyWeapons</li>
-      </recipeUsers>
-    </value>
-  </Operation>
-
-  <!-- ============================================================
-       TIER 2: CQB  →  RNBench_CQB
-       Pistols, revolvers, SMGs, PDWs, shotguns, carbines
-       ============================================================ -->
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/RecipeDef[
-      recipeUsers/li[
-        text()="WeaponCraftingWorkTable"
-        or text()="AdvWeaponCraftingWorkTable"
-        or text()="MechWeaponCraftingWorkTable"
-        or text()="WeaponsBench"
-        or text()="HeavyArmsBench"
-        or text()="GunsmithingBench"
-      ]
-      and not(starts-with(defName, "Build_RN"))
-      and not(contains(defName, "Sword"))
-      and not(contains(defName, "Knife"))
-      and not(contains(defName, "Axe"))
-      and not(contains(defName, "Mace"))
-      and not(contains(defName, "Hammer"))
-      and not(contains(defName, "Spear"))
-      and not(contains(defName, "Club"))
-      and not(contains(defName, "Blade"))
-      and not(contains(defName, "Crossbow"))
-      and not(contains(defName, "Bow_"))
-      and not(contains(defName, "_Bow"))
-      and not(contains(defName, "Arrow"))
-      and not(contains(defName, "Melee"))
+      and not(contains(defName, "Throwing"))
+      and not(contains(defName, "Javelin"))
+      and not(contains(defName, "Sling"))
+      and not(contains(defName, "Component"))
+      and not(contains(defName, "_Parts"))
+      and not(contains(defName, "Crate"))
+      and not(contains(defName, "Turret"))
+      and not(contains(defName, "Grenade"))
+      and not(contains(defName, "Molotov"))
+      and not(contains(defName, "Bundle"))
+      and not(contains(defName, "Bottle"))
+      and not(contains(defName, "Smine"))
+      and not(contains(defName, "_Mine"))
+      and not(contains(defName, "Potato"))
+      and not(contains(defName, "ARLArcStar"))
+      and not(contains(defName, "PWM"))
+      and not(contains(defName, "RGO"))
+      and not(contains(defName, "Make4kg"))
+      and not(contains(defName, "M24Nb"))
+      and not(contains(defName, "M24w"))
       and (
         contains(defName, "Pistol")
         or contains(defName, "Revolver")
@@ -111,8 +79,18 @@
         or contains(defName, "Shotgun")
         or contains(defName, "ShortShells")
         or contains(defName, "Carbine")
+        or contains(defName, "carbine")
         or contains(defName, "Sidearm")
         or contains(defName, "Submachine")
+        or contains(defName, "MachinePistol")
+        or contains(defName, "Handgun")
+        or contains(defName, "HandGun")
+        or contains(defName, "Glock")
+        or contains(defName, "DesertEagle")
+        or contains(defName, "TT33")
+        or contains(defName, "M712")
+        or contains(defName, "Vektor")
+        or contains(defName, "ParaOrdnance")
       )
     ]/recipeUsers</xpath>
     <value>
@@ -123,10 +101,10 @@
   </Operation>
 
   <!-- ============================================================
-       TIER 3: LBW  →  RNBench_LBW
-       Rifles, snipers, DMRs, AMR-style, anything else ranged
-       (catch-all for remaining recipes at HSK weapon benches that
-       weren't already routed by Tier 1/2)
+       TIER 2 (SECOND):  HEAVY  →  RNBench_HeavyWeapons
+       MGs, launchers, anti-material, cannons. Bare "MG"/"Heavy"/
+       "Plasma" REMOVED to avoid false positives on SMGs/rifles.
+       Specific MG variants enumerated explicitly.
        ============================================================ -->
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
@@ -153,18 +131,135 @@
       and not(contains(defName, "_Bow"))
       and not(contains(defName, "Arrow"))
       and not(contains(defName, "Melee"))
+      and not(contains(defName, "Throwing"))
+      and not(contains(defName, "Javelin"))
+      and not(contains(defName, "Sling"))
+      and not(contains(defName, "Component"))
+      and not(contains(defName, "_Parts"))
+      and not(contains(defName, "Crate"))
+      and not(contains(defName, "Turret"))
+      and not(contains(defName, "Grenade"))
+      and not(contains(defName, "Molotov"))
+      and not(contains(defName, "Bundle"))
+      and not(contains(defName, "Bottle"))
+      and not(contains(defName, "Smine"))
+      and not(contains(defName, "_Mine"))
+      and not(contains(defName, "Potato"))
+      and not(contains(defName, "ARLArcStar"))
+      and not(contains(defName, "PWM"))
+      and not(contains(defName, "RGO"))
+      and not(contains(defName, "Make4kg"))
+      and not(contains(defName, "M24Nb"))
+      and not(contains(defName, "M24w"))
       and (
-        contains(defName, "Rifle")
-        or contains(defName, "Sniper")
-        or contains(defName, "DMR")
-        or contains(defName, "Marksman")
-        or contains(defName, "Bullpup")
-        or contains(defName, "AssaultRifle")
-        or contains(defName, "BattleRifle")
-        or contains(defName, "BoltAction")
-        or contains(defName, "Gun")
-        or contains(defName, "Firearm")
+        contains(defName, "LMG")
+        or contains(defName, "HMG")
+        or contains(defName, "GPMG")
+        or contains(defName, "MMG")
+        or contains(defName, "_MG_")
+        or contains(defName, "MG0")
+        or contains(defName, "MG3")
+        or contains(defName, "MG4")
+        or contains(defName, "MachineGun")
+        or contains(defName, "Incinerator")
+        or contains(defName, "Minigun")
+        or contains(defName, "Launcher")
+        or contains(defName, "Rocket")
+        or contains(defName, "Cannon")
+        or contains(defName, "Mortar")
+        or contains(defName, "Flamethrower")
+        or contains(defName, "Spacer")
+        or contains(defName, "AntiMaterial")
+        or contains(defName, "AntiMateriel")
+        or contains(defName, "AMR")
+        or contains(defName, "Autocannon")
+        or contains(defName, "LAW")
+        or contains(defName, "RPG")
+        or contains(defName, "RPzB")
+        or contains(defName, "PzF")
+        or contains(defName, "Bazooka")
+        or contains(defName, "M82")
+        or contains(defName, "M249")
+        or contains(defName, "M79")
+        or contains(defName, "M203")
+        or contains(defName, "MM1")
+        or contains(defName, "Hecate")
+        or contains(defName, "OSV96")
+        or contains(defName, "PTR127")
+        or contains(defName, "XM109")
+        or contains(defName, "XM25")
+        or contains(defName, "_M200_")
+        or contains(defName, "RT20")
+        or contains(defName, "VSSK")
+        or contains(defName, "SW50")
+        or contains(defName, "_PKM")
+        or contains(defName, "_PKP")
+        or contains(defName, "_RPD")
+        or contains(defName, "_RPK")
+        or contains(defName, "_RPL")
+        or contains(defName, "Huot")
+        or contains(defName, "Lewis")
+        or contains(defName, "Madsen")
+        or contains(defName, "SAW")
       )
+    ]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+        <li>RNBench_HeavyWeapons</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+  <!-- ============================================================
+       TIER 3 (LAST):  LBW catch-all  →  RNBench_LBW
+       Anything still at an HSK weapon bench after Tiers 1 & 2,
+       with all exclusions applied.
+       ============================================================ -->
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[
+      recipeUsers/li[
+        text()="WeaponCraftingWorkTable"
+        or text()="AdvWeaponCraftingWorkTable"
+        or text()="MechWeaponCraftingWorkTable"
+        or text()="WeaponsBench"
+        or text()="HeavyArmsBench"
+        or text()="GunsmithingBench"
+      ]
+      and not(starts-with(defName, "Build_RN"))
+      and not(contains(defName, "Sword"))
+      and not(contains(defName, "Knife"))
+      and not(contains(defName, "Axe"))
+      and not(contains(defName, "Mace"))
+      and not(contains(defName, "Hammer"))
+      and not(contains(defName, "Spear"))
+      and not(contains(defName, "Club"))
+      and not(contains(defName, "Blade"))
+      and not(contains(defName, "Crossbow"))
+      and not(contains(defName, "Bow_"))
+      and not(contains(defName, "_Bow"))
+      and not(contains(defName, "Arrow"))
+      and not(contains(defName, "Melee"))
+      and not(contains(defName, "Throwing"))
+      and not(contains(defName, "Javelin"))
+      and not(contains(defName, "Sling"))
+      and not(contains(defName, "Component"))
+      and not(contains(defName, "_Parts"))
+      and not(contains(defName, "Crate"))
+      and not(contains(defName, "Turret"))
+      and not(contains(defName, "Grenade"))
+      and not(contains(defName, "Molotov"))
+      and not(contains(defName, "Bundle"))
+      and not(contains(defName, "Bottle"))
+      and not(contains(defName, "Smine"))
+      and not(contains(defName, "_Mine"))
+      and not(contains(defName, "Potato"))
+      and not(contains(defName, "ARLArcStar"))
+      and not(contains(defName, "PWM"))
+      and not(contains(defName, "RGO"))
+      and not(contains(defName, "Make4kg"))
+      and not(contains(defName, "M24Nb"))
+      and not(contains(defName, "M24w"))
     ]/recipeUsers</xpath>
     <value>
       <recipeUsers>
