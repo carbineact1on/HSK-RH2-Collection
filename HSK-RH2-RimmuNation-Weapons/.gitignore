@@ -1,0 +1,4 @@
+# C# build artifacts
+Source/**/obj/
+Source/**/bin/
+Source/**/*.user
