@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Universal weapon → RN bench router (REPLACE mode).
-  Order matters: HeavyWeapons FIRST, CQB SECOND, LBW LAST as fallback.
-  Each tier removes any existing recipeUsers and adds its own.
-  A weapon already routed to a more-specific tier won't be re-touched
-  because PatchOperationRemove only removes if present, and PatchOperationAdd
-  fails harmlessly if recipeUsers already exists (since recipeUsers is unique
-  inside recipeMaker).
+  SOFT DEPENDENCY on RH2 Rimmu-Nation² Weapons (CP.RimmuNation.2.Weapons).
+  Every Operation has MayRequire="CP.RimmuNation.2.Weapons", so when RH2 is
+  not loaded, all patches no-op and weapons keep their original benches.
+
+  Tier order: HeavyWeapons FIRST, CQB SECOND, LBW LAST as fallback.
+  Each tier removes existing recipeUsers and adds its own.
 -->
 <Patch>
 
   <!-- ============================================================
        TIER 1: HEAVY WEAPONS  →  RNBench_HeavyWeapons
-       MGs, launchers, spacer weapons, grenades
+       MGs, launchers, spacer weapons, grenades, AMR
        ============================================================ -->
-  <Operation Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence" MayRequire="CP.RimmuNation.2.Weapons">
     <success>Always</success>
     <operations>
 
-      <li Class="PatchOperationRemove">
+      <li Class="PatchOperationRemove" MayRequire="CP.RimmuNation.2.Weapons">
         <xpath>Defs/ThingDef[
           recipeMaker
           and (
@@ -40,7 +40,7 @@
         ]/recipeMaker/recipeUsers</xpath>
       </li>
 
-      <li Class="PatchOperationAdd">
+      <li Class="PatchOperationAdd" MayRequire="CP.RimmuNation.2.Weapons">
         <xpath>Defs/ThingDef[
           recipeMaker
           and (
@@ -72,13 +72,13 @@
 
   <!-- ============================================================
        TIER 2: CQB  →  RNBench_CQB
-       Pistols, revolvers, SMGs, PDWs, shotguns
+       Pistols, revolvers, SMGs, PDWs, shotguns, carbines
        ============================================================ -->
-  <Operation Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence" MayRequire="CP.RimmuNation.2.Weapons">
     <success>Always</success>
     <operations>
 
-      <li Class="PatchOperationRemove">
+      <li Class="PatchOperationRemove" MayRequire="CP.RimmuNation.2.Weapons">
         <xpath>Defs/ThingDef[
           recipeMaker
           and not(recipeMaker/recipeUsers/li[text()="RNBench_HeavyWeapons"])
@@ -95,7 +95,7 @@
         ]/recipeMaker/recipeUsers</xpath>
       </li>
 
-      <li Class="PatchOperationAdd">
+      <li Class="PatchOperationAdd" MayRequire="CP.RimmuNation.2.Weapons">
         <xpath>Defs/ThingDef[
           recipeMaker
           and not(recipeMaker/recipeUsers/li[text()="RNBench_HeavyWeapons"])
@@ -122,15 +122,14 @@
 
   <!-- ============================================================
        TIER 3: LBW (fallback)  →  RNBench_LBW
-       Catches everything else with a recipeMaker that has weaponTags
-       (rifles + anything not yet routed). Skips weapons already routed
-       to RNBench_HeavyWeapons or RNBench_CQB by previous tiers.
+       Catches everything else with a recipeMaker + weaponTags.
+       Skips weapons already routed to HeavyWeapons or CQB.
        ============================================================ -->
-  <Operation Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence" MayRequire="CP.RimmuNation.2.Weapons">
     <success>Always</success>
     <operations>
 
-      <li Class="PatchOperationRemove">
+      <li Class="PatchOperationRemove" MayRequire="CP.RimmuNation.2.Weapons">
         <xpath>Defs/ThingDef[
           recipeMaker
           and weaponTags
@@ -139,7 +138,7 @@
         ]/recipeMaker/recipeUsers</xpath>
       </li>
 
-      <li Class="PatchOperationAdd">
+      <li Class="PatchOperationAdd" MayRequire="CP.RimmuNation.2.Weapons">
         <xpath>Defs/ThingDef[
           recipeMaker
           and weaponTags

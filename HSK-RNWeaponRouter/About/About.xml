@@ -8,21 +8,21 @@
     <li>1.5</li>
     <li>1.6</li>
   </supportedVersions>
-  <description>Reroutes all craftable weapons to the three Rimmu-Nation² workbenches (RNBench_CQB, RNBench_LBW, RNBench_HeavyWeapons) based on weapon category.
+  <description>Reroutes all craftable weapons to the three Rimmu-Nation² workbenches based on weapon category.
 
+ROUTING:
 - Pistols / Revolvers / SMGs / PDWs / Shotguns → RNBench_CQB
 - Assault rifles / Bolt actions / DMRs / AMRs / Sniper rifles → RNBench_LBW
 - LMGs / HMGs / Launchers / Spacer weapons / Grenades → RNBench_HeavyWeapons
 - Anything else with a recipeMaker that doesn't match a category → RNBench_LBW (fallback)
 
-Replace mode: the original recipeUsers list is removed and replaced with the matching RN bench. Load AFTER all weapon mods.</description>
-  <modDependencies>
-    <li>
-      <packageId>Mlie.RimmuNation2Weapons</packageId>
-      <displayName>[RH2] Rimmu-Nation² - Weapons</displayName>
-    </li>
-  </modDependencies>
+Replace mode: original recipeUsers list is removed and replaced with the matching RN bench.
+
+SOFT DEPENDENCY:
+This mod requires [RH2] Rimmu-Nation² - Weapons to provide the RN benches. If RH2 RN²-Weapons is not installed or disabled, this mod gracefully no-ops — every patch operation is wrapped with MayRequire="CP.RimmuNation.2.Weapons" so it only runs when RH2 is loaded. Weapons keep their original benches when RH2 is absent.
+
+Load AFTER all weapon mods.</description>
   <loadAfter>
-    <li>Mlie.RimmuNation2Weapons</li>
+    <li>CP.RimmuNation.2.Weapons</li>
   </loadAfter>
 </ModMetaData>
