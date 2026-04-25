@@ -71,7 +71,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -144,7 +144,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -217,7 +217,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -290,7 +290,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -363,7 +363,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -436,7 +436,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -509,7 +509,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -582,7 +582,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -655,7 +655,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -728,7 +728,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -801,7 +801,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -874,7 +874,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -947,7 +947,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -1020,7 +1020,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -1093,7 +1093,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -1166,7 +1166,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -1239,7 +1239,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_C1</researchPrerequisite>
 	</RecipeDef>
@@ -1314,7 +1314,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_D1</researchPrerequisite>
 	</RecipeDef>
@@ -1387,7 +1387,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_D1</researchPrerequisite>
 	</RecipeDef>
@@ -1460,7 +1460,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_LBW</li>
 		</recipeUsers>
 		<researchPrerequisite>Sniper_rifles_D1</researchPrerequisite>
 	</RecipeDef>

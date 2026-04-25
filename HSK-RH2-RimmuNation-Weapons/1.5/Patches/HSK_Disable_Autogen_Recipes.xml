@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK patch: kill the auto-generated "Build X" recipes from
+    RH2's RNMakeable* abstract bases.
+
+    Why?
+    Each RNMakeable* abstract def shipped with a <recipeMaker> block that
+    auto-generated a "Build X" recipe per concrete weapon. Those auto-gen
+    recipes use the weapon's <costList> (raw vanilla Steel + ComponentIndustrial
+    + WoodLog) and attach to the appropriate RN bench (CQB/LBW/HW) — but
+    in HSK that costList is wrong (Steel = Iron Ore in HSK, not refined),
+    so the auto-gen recipes show up at RN benches with broken ingredients.
+
+    Our HSK-tuned RecipeDefs in Defs/RecipeDefs/Recipes_*.xml replace those
+    with the correct refined materials (Pistol_Component, Weapon_Parts,
+    SteelBar / SLDBar, etc.) and now also point at the correct RN bench
+    via recipeUsers. So the auto-gen ones are pure duplicates with wrong
+    ingredients.
+
+    Removing <recipeMaker> from each RNMakeable* base disables the
+    auto-gen entirely. Concrete weapons inherit the change and lose
+    their broken recipe; the HSK-correct one stays.
+-->
+<Patch>
+
+    <!-- Generic umbrella bases (cover most weapons via inheritance) -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNBaseMakeableGun"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNBaseMakeableArtless"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNBaseMakeableGrenade"]/recipeMaker</xpath>
+    </Operation>
+
+    <!-- Specific category bases (each defines its own inline recipeMaker
+         pointing at a specific RN bench — these override the umbrella so
+         they need their own removal) -->
+
+    <!-- CQB-class -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeablePistol"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableRevolver"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeablePDW"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableShotgun"]/recipeMaker</xpath>
+    </Operation>
+
+    <!-- LBW-class (rifles + sharpshooters) -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableAKStyle"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableARStyle"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableAssaultRifle"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableBullpup"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableBoltAction"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableDMR"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableAMR"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableMiscRanged"]/recipeMaker</xpath>
+    </Operation>
+
+    <!-- HeavyWeapons-class (LMGs, launchers, spacer, grenades) -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableMG"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableGrenadeLauncher"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableRocketLauncher"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableOneTimeUseLauncher"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableGrenade"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableGrenadeNL"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableOneTimeUseThrown"]/recipeMaker</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="RNMakeableSpacer"]/recipeMaker</xpath>
+    </Operation>
+
+</Patch>

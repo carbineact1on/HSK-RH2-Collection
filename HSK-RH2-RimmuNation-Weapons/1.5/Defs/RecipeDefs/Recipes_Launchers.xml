@@ -82,7 +82,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>Rockets_C1</researchPrerequisite>
 	</RecipeDef>
@@ -166,7 +166,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>Rockets_C1</researchPrerequisite>
 	</RecipeDef>
@@ -239,7 +239,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>Rockets_C1</researchPrerequisite>
 	</RecipeDef>
@@ -312,7 +312,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>Rockets_C1</researchPrerequisite>
 	</RecipeDef>
@@ -385,7 +385,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>Rockets_C1</researchPrerequisite>
 	</RecipeDef>
@@ -458,7 +458,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>Rockets_C1</researchPrerequisite>
 	</RecipeDef>

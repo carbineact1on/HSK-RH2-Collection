@@ -82,7 +82,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -166,7 +166,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -250,7 +250,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -334,7 +334,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -418,7 +418,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -491,7 +491,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -564,7 +564,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -637,7 +637,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>
@@ -710,7 +710,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>HeavyTurrets</researchPrerequisite>
 	</RecipeDef>

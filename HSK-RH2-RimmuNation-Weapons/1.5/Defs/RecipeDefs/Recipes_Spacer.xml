@@ -71,7 +71,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>MechWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>ChargedShot</researchPrerequisite>
 	</RecipeDef>
@@ -144,7 +144,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>MechWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>ChargedShot</researchPrerequisite>
 	</RecipeDef>
@@ -217,7 +217,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>MechWeaponCraftingWorkTable</li>
+			<li>RNBench_HeavyWeapons</li>
 		</recipeUsers>
 		<researchPrerequisite>ChargedShot</researchPrerequisite>
 	</RecipeDef>

@@ -24,7 +24,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -48,7 +48,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -72,7 +72,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -96,7 +96,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -120,7 +120,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -144,7 +144,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -168,7 +168,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -192,7 +192,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -216,7 +216,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -240,7 +240,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -264,7 +264,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -288,7 +288,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -312,7 +312,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -336,7 +336,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -360,7 +360,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -384,7 +384,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -408,7 +408,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -432,7 +432,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -456,7 +456,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -480,7 +480,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -504,7 +504,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -528,7 +528,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -552,7 +552,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -576,7 +576,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -600,7 +600,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -624,7 +624,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -648,7 +648,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -672,7 +672,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -696,7 +696,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -720,7 +720,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -744,7 +744,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -768,7 +768,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -792,7 +792,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
@@ -816,7 +816,7 @@
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li><li>Plastic</li></thingDefs>
       <categories><li>SLDBar</li><li>USLDBar</li></categories>
     </fixedIngredientFilter>
-    <recipeUsers><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+    <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
   </RecipeDef>
 
