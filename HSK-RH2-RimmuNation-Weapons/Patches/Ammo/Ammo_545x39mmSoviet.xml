@@ -31,7 +31,6 @@
 			<Ammo_545x39mmSoviet_HE>Bullet_545x39mmSoviet_HE</Ammo_545x39mmSoviet_HE>
 			<Ammo_545x39mmSoviet_Sabot>Bullet_545x39mmSoviet_Sabot</Ammo_545x39mmSoviet_Sabot>
 		</ammoTypes>
-		<similarTo>AmmoSet_RifleIntermediate</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
@@ -45,7 +44,6 @@
 			<Ammo_545x39mmSoviet_HE>Bullet_545x39mmSoviet_HE_SB</Ammo_545x39mmSoviet_HE>
 			<Ammo_545x39mmSoviet_Sabot>Bullet_545x39mmSoviet_Sabot_SB</Ammo_545x39mmSoviet_Sabot>
 		</ammoTypes>
-		<similarTo>AmmoSet_RifleIntermediate</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->

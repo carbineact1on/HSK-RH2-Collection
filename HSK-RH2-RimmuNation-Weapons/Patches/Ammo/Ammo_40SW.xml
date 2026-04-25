@@ -28,7 +28,6 @@
 			<Ammo_40SW_AP>Bullet_40SW_AP</Ammo_40SW_AP>
 			<Ammo_40SW_HP>Bullet_40SW_HP</Ammo_40SW_HP>
 		</ammoTypes>
-		<similarTo>AmmoSet_Pistol</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->

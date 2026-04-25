@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -28,7 +28,6 @@
 			<Ammo_32ACP_AP>Bullet_32ACP_AP</Ammo_32ACP_AP>
 			<Ammo_32ACP_HP>Bullet_32ACP_HP</Ammo_32ACP_HP>
 		</ammoTypes>
-		<similarTo>AmmoSet_Pistol</similarTo>
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
