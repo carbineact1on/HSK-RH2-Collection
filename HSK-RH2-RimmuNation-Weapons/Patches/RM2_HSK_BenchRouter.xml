@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-  HSK ranged-firearm → RN bench router (UNIVERSAL VERSION).
+  HSK ranged-firearm â†’ RN bench router (UNIVERSAL VERSION).
 
   Targets standalone RecipeDefs (NOT ThingDef.recipeMaker), so original
-  ingredients are preserved — only <recipeUsers> is rewritten.
+  ingredients are preserved â€” only <recipeUsers> is rewritten.
 
   TIER ORDER MATTERS: CQB runs FIRST, Heavy SECOND, LBW LAST.
   This avoids the SMG/MG substring trap (e.g., BuildHeavySMG matches
@@ -16,12 +16,12 @@
   - Turret crates / turrets (Crate/Turret)
   - Grenades (Grenade)
   - Other explosive throwables (Molotov, bundles, mines, etc.)
-  - RH2 weapons (Build_RN — already correct)
+  - RH2 weapons (Build_RN â€” already correct)
 -->
 <Patch>
 
   <!-- ============================================================
-       TIER 1 (FIRST):  CQB  →  RNBench_CQB
+       TIER 1 (FIRST):  CQB  â†’  RNBench_CQB
        Pistols, revolvers, SMGs, PDWs, shotguns, carbines.
        Runs first so SMG/Carbine/Pistol-tagged weapons aren't grabbed
        by Heavy's MG/Heavy/Plasma matchers via substring matching.
@@ -29,7 +29,8 @@
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/RecipeDef[
-      recipeUsers/li[
+      not(@Abstract="True")
+      and recipeUsers/li[
         text()="WeaponCraftingWorkTable"
         or text()="AdvWeaponCraftingWorkTable"
         or text()="MechWeaponCraftingWorkTable"
@@ -58,6 +59,9 @@
       and not(contains(defName, "_Parts"))
       and not(contains(defName, "Crate"))
       and not(contains(defName, "Turret"))
+      and not(contains(defName, "Armament"))
+      and not(contains(defName, "armament"))
+      and not(starts-with(defName, "Unmake"))
       and not(contains(defName, "Grenade"))
       and not(contains(defName, "Molotov"))
       and not(contains(defName, "Bundle"))
@@ -101,7 +105,7 @@
   </Operation>
 
   <!-- ============================================================
-       TIER 2 (SECOND):  HEAVY  →  RNBench_HeavyWeapons
+       TIER 2 (SECOND):  HEAVY  â†’  RNBench_HeavyWeapons
        MGs, launchers, anti-material, cannons. Bare "MG"/"Heavy"/
        "Plasma" REMOVED to avoid false positives on SMGs/rifles.
        Specific MG variants enumerated explicitly.
@@ -109,7 +113,8 @@
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/RecipeDef[
-      recipeUsers/li[
+      not(@Abstract="True")
+      and recipeUsers/li[
         text()="WeaponCraftingWorkTable"
         or text()="AdvWeaponCraftingWorkTable"
         or text()="MechWeaponCraftingWorkTable"
@@ -138,6 +143,9 @@
       and not(contains(defName, "_Parts"))
       and not(contains(defName, "Crate"))
       and not(contains(defName, "Turret"))
+      and not(contains(defName, "Armament"))
+      and not(contains(defName, "armament"))
+      and not(starts-with(defName, "Unmake"))
       and not(contains(defName, "Grenade"))
       and not(contains(defName, "Molotov"))
       and not(contains(defName, "Bundle"))
@@ -211,14 +219,15 @@
   </Operation>
 
   <!-- ============================================================
-       TIER 3 (LAST):  LBW catch-all  →  RNBench_LBW
+       TIER 3 (LAST):  LBW catch-all  â†’  RNBench_LBW
        Anything still at an HSK weapon bench after Tiers 1 & 2,
        with all exclusions applied.
        ============================================================ -->
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/RecipeDef[
-      recipeUsers/li[
+      not(@Abstract="True")
+      and recipeUsers/li[
         text()="WeaponCraftingWorkTable"
         or text()="AdvWeaponCraftingWorkTable"
         or text()="MechWeaponCraftingWorkTable"
@@ -247,6 +256,9 @@
       and not(contains(defName, "_Parts"))
       and not(contains(defName, "Crate"))
       and not(contains(defName, "Turret"))
+      and not(contains(defName, "Armament"))
+      and not(contains(defName, "armament"))
+      and not(starts-with(defName, "Unmake"))
       and not(contains(defName, "Grenade"))
       and not(contains(defName, "Molotov"))
       and not(contains(defName, "Bundle"))
