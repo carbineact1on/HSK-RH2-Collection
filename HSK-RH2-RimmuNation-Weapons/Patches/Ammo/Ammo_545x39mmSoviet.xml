@@ -315,7 +315,7 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C1</researchPrerequisite>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -367,7 +367,7 @@
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C1</researchPrerequisite>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -421,7 +421,7 @@
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>Range_C1</researchPrerequisite>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
