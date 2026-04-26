@@ -25,15 +25,6 @@ The transient radiation charges of the Auger Mk II has improved firepower, along
       <AccuracyLong>0.63</AccuracyLong>
       <RangedWeapon_Cooldown>1.80</RangedWeapon_Cooldown>
     </statBases>
-    <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>12</Crafting>
-      </skillRequirements>
-      <!--<recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>-->
-    </recipeMaker>
     <costList>
       <Plasteel>65</Plasteel>
       <ComponentSpacer>6</ComponentSpacer>
@@ -124,15 +115,6 @@ The transient radiation charges of the Auger Mk II has improved firepower, along
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.80</RangedWeapon_Cooldown>
     </statBases>
-    <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-      </skillRequirements>
-      <!--<recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>-->
-    </recipeMaker>
     <costList>
       <Plasteel>55</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
@@ -216,15 +198,6 @@ The transient radiation charges of the Auger Mk II has improved firepower, along
       <AccuracyLong>0.87</AccuracyLong>
       <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
     </statBases>
-    <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>15</Crafting>
-      </skillRequirements>
-      <!--<recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>-->
-    </recipeMaker>
     <costList>
       <Plasteel>60</Plasteel>
       <ComponentSpacer>10</ComponentSpacer>

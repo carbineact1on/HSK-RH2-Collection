@@ -20,12 +20,6 @@ The M4 carbine is extensively used by the United States Armed Forces and is larg
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -95,12 +89,6 @@ The M4 carbine is extensively used by the United States Armed Forces and is larg
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -170,12 +158,6 @@ The M4 carbine is extensively used by the United States Armed Forces and is larg
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -242,12 +224,6 @@ The Tavor is designed and produced by Israel Weapon Industries (IWI). It is prod
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -316,12 +292,6 @@ The Tavor is designed and produced by Israel Weapon Industries (IWI). It is prod
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -391,12 +361,6 @@ In November 2016, the Czech Army received its first batch of CZ BREN 2 next gene
     </graphicData>
 	<equippedAngleOffset>40</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -466,12 +430,6 @@ The LVOA-C weighs 7 pounds (3.2 kg) unloaded (7.5 pounds (3.4 kg) with a 30-roun
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -540,12 +498,6 @@ It was the standard assault rifle of the French Armed Forces and Norwegian Armed
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -613,12 +565,6 @@ It was accepted into service with the Bundeswehr in 1997, replacing the G3.</des
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -686,12 +632,6 @@ The C7 and its variants have been adopted as the standard issue rifle by the mil
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<!--<equippedAngleOffset>40</equippedAngleOffset>-->
 	
@@ -760,12 +700,6 @@ The C7 and its variants have been adopted as the standard issue rifle by the mil
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -838,12 +772,6 @@ It was adopted by the Austrian Army as the StG 77 (Sturmgewehr 77) in 1978, wher
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -914,12 +842,6 @@ In 1964, the M16 entered U.S. military service and the following year was deploy
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
@@ -989,12 +911,6 @@ It was later replaced as the service rifle of the French military by the HK416F.
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1065,12 +981,6 @@ The C8 Canadian-made weapons serve as the standard assault rifle for the UKSF, r
     </graphicData>
 	<equippedAngleOffset>40</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3</Mass>
@@ -1146,12 +1056,6 @@ It is the originating firearm of the Kalashnikov rifle (or "AK") family.</descri
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>4.5</Mass>
@@ -1219,12 +1123,6 @@ It is the originating firearm of the Kalashnikov rifle (or "AK") family.</descri
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>4.5</Mass>
@@ -1295,12 +1193,6 @@ It uses a smaller 5.45×39mm cartridge, replacing the 7.62×39mm chambering of e
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>4.0</Mass>
@@ -1369,12 +1261,6 @@ During the Cold War period, the Type 56 was exported to many countries and guerr
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.55</Mass>
@@ -1441,12 +1327,6 @@ It can be distinguished from other AR-15 and M-16 pattern rifles by its long, re
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -1529,12 +1409,6 @@ The lead designer of the rifle is Pyotr Serdyukov. The AS Val and VSS proved to 
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-	  <researchPrerequisite>GasOperation</researchPrerequisite>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -1585,12 +1459,6 @@ The lead designer of the rifle is Pyotr Serdyukov. The AS Val and VSS proved to 
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1659,12 +1527,6 @@ It uses plastic components where possible instead of wood or metal, with such co
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1731,12 +1593,6 @@ It uses plastic components where possible instead of wood or metal, with such co
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1805,12 +1661,6 @@ The rifle is to replace the 7.62×39mm AKM and 5.45×39mm FB Tantal used in the 
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1885,12 +1735,6 @@ The FAL was produced under licence in South Africa by Lyttleton Engineering Work
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1962,12 +1806,6 @@ During the Cold War the FAL was adopted by many countries of the North Atlantic 
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -2036,12 +1874,6 @@ During the Cold War the FAL was adopted by many countries of the North Atlantic 
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -2110,12 +1942,6 @@ During the Cold War the FAL was adopted by many countries of the North Atlantic 
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -2182,12 +2008,6 @@ During the Cold War the FAL was adopted by many countries of the North Atlantic 
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -2256,12 +2076,6 @@ The G3 was the service rifle of the armed forces of Germany until it was replace
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -2330,12 +2144,6 @@ In late January 2008, Bushmaster Firearms International entered into a licensing
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -2405,12 +2213,6 @@ In late January 2008, Bushmaster Firearms International entered into a licensing
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -2478,12 +2280,6 @@ In late January 2008, Bushmaster Firearms International entered into a licensing
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	

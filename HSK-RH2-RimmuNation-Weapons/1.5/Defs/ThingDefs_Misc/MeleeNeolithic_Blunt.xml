@@ -27,11 +27,6 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-    </recipeMaker>
     <tools>
       <li>
         <label>handle</label>
@@ -77,12 +72,6 @@
 	<costList>
       <WoodLog>55</WoodLog>
     </costList>
-    <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
-      <skillRequirements>
-      <Crafting>3</Crafting>
-	  </skillRequirements>
-    </recipeMaker>
     <tools>
       <li>
         <label>handle</label>

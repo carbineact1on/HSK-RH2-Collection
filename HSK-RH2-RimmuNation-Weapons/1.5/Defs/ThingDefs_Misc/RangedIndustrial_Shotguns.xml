@@ -16,12 +16,6 @@
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
     <soundInteract>Interact_Shotgun</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>31000</WorkToMake>
       <Mass>2.8</Mass>
@@ -107,11 +101,6 @@
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -178,12 +167,6 @@
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-	  <researchPrerequisite>GasOperation</researchPrerequisite>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -247,11 +230,6 @@
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -314,11 +292,6 @@
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -383,12 +356,6 @@
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-	  <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -454,11 +421,6 @@
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -502,12 +464,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>30000</WorkToMake>
       <Mass>3.2</Mass>
@@ -578,12 +534,6 @@ The USAS-12 is a gas-operated, selective fire weapon, designed to provide sustai
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
 	<equippedAngleOffset>40</equippedAngleOffset>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>30000</WorkToMake>
       <Mass>3.5</Mass>
@@ -670,12 +620,6 @@ The USAS-12 is a gas-operated, selective fire weapon, designed to provide sustai
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-	  <researchPrerequisite>GasOperation</researchPrerequisite>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -744,12 +688,6 @@ On May 4, 1998, the United States Army's Armaments Research, Development and Eng
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-	  <researchPrerequisite>GasOperation</researchPrerequisite>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -820,12 +758,6 @@ On May 4, 1998, the United States Army's Armaments Research, Development and Eng
       <Steel>65</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-	  <researchPrerequisite>GasOperation</researchPrerequisite>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -892,11 +824,6 @@ The Coach Gun is a side-by-side shotgun. While suitable for bird hunting, clay t
       <Steel>60</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -945,12 +872,6 @@ The Coach Gun is a side-by-side shotgun. While suitable for bird hunting, clay t
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
     <soundInteract>Interact_Shotgun</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>31000</WorkToMake>
       <Mass>4</Mass>

@@ -14,12 +14,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>33000</WorkToMake>
 			<Mass>10</Mass>
@@ -87,12 +81,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>33000</WorkToMake>
 			<Mass>10</Mass>
@@ -160,12 +148,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>33000</WorkToMake>
 			<Mass>7</Mass>
@@ -233,12 +215,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>33000</WorkToMake>
 			<Mass>9.5</Mass>
@@ -308,12 +284,6 @@ The original PK was a development of Kalashnikov's AKM assault rifle and the acc
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>33000</WorkToMake>
 			<Mass>9</Mass>
@@ -380,12 +350,6 @@ The original PK was a development of Kalashnikov's AKM assault rifle and the acc
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>29000</WorkToMake>
 			<Mass>7</Mass>
@@ -452,12 +416,6 @@ The original PK was a development of Kalashnikov's AKM assault rifle and the acc
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>29000</WorkToMake>
 			<Mass>7</Mass>
@@ -527,12 +485,6 @@ It's a small arms family that consist of the Type 81, the Type 81-1 and the Type
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>29000</WorkToMake>
 			<Mass>7</Mass>
@@ -599,12 +551,6 @@ It's a small arms family that consist of the Type 81, the Type 81-1 and the Type
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>33000</WorkToMake>
 			<Mass>10</Mass>

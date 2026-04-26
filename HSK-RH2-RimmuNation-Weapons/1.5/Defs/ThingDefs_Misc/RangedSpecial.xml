@@ -32,21 +32,6 @@
       <li>SingleUseWeapon</li>
     </thingSetMakerTags>
 	
-		<recipeMaker>
-		      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-	  <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-	  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite>MultiAnalyzer</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>12</Crafting>
-        <Intellectual>10</Intellectual>
-      </skillRequirements>
-    </recipeMaker>
 
 		
   </ThingDef>

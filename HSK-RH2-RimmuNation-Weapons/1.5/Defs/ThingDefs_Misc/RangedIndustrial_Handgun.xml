@@ -37,11 +37,6 @@ The Cobra was chambered in .38 Special, .38 New police, .32 Colt New Police, and
       <Steel>30</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -106,11 +101,6 @@ The Cobra was chambered in .38 Special, .38 New police, .32 Colt New Police, and
       <Steel>30</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -177,11 +167,6 @@ Now discontinued, the Colt Python was intended for the premium revolver market s
       <Steel>30</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>3</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -246,11 +231,6 @@ Now discontinued, the Colt Python was intended for the premium revolver market s
       <Steel>30</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -298,12 +278,6 @@ Now discontinued, the Colt Python was intended for the premium revolver market s
       <drawSize>0.85</drawSize>    
 	</graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_M1911</li>
@@ -371,12 +345,6 @@ Now discontinued, the Colt Python was intended for the premium revolver market s
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_M1911_Silverballer</li>
@@ -443,12 +411,6 @@ Glocks are also popular firearms among civilians for recreational and competitio
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_Glock17</li>
@@ -515,12 +477,6 @@ Glocks are also popular firearms among civilians for recreational and competitio
 	  <drawSize>0.90</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -592,12 +548,6 @@ Glocks are also popular firearms among civilians for recreational and competitio
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_Glock18</li>
@@ -667,12 +617,6 @@ The Glock 34 Combat Master has been beautifully tuned from the original version 
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <!--<li>SimpleGun</li>-->
 	  <li>RN_Glock34_CM</li>
@@ -739,12 +683,6 @@ The STI 2011 Combat Master has been beautifully tuned from the original version 
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <!--<li>SimpleGun</li>-->
 	  <li>RN_STI2011_CM</li>
@@ -811,12 +749,6 @@ The M9 won a competition in the 1980s to replace the M1911A1 as the primary side
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_M9</li>
@@ -885,12 +817,6 @@ This version is chambered in .45 ACP.</description>
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_HS2000</li>
@@ -955,12 +881,6 @@ This version is chambered in .45 ACP.</description>
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>3</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_Makarov</li>
@@ -1027,12 +947,6 @@ On 19 January 2017, it was announced that a customized version of the SIG Sauer 
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_P320</li>
@@ -1098,12 +1012,6 @@ On 19 January 2017, it was announced that a customized version of the SIG Sauer 
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_P226</li>
@@ -1168,12 +1076,6 @@ On 19 January 2017, it was announced that a customized version of the SIG Sauer 
 	  <drawSize>0.90</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1241,12 +1143,6 @@ On 19 January 2017, it was announced that a customized version of the SIG Sauer 
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_FiveSeven</li>
@@ -1311,12 +1207,6 @@ On 19 January 2017, it was announced that a customized version of the SIG Sauer 
 	  <drawSize>0.95</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1386,12 +1276,6 @@ This USP version is chambered in .45 ACP.</description>
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <!--<li>SimpleGun</li>-->
 	  <li>RN_USP45</li>
@@ -1458,12 +1342,6 @@ This USP version is chambered in .45 ACP.</description>
 	  <drawSize>0.90</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1532,12 +1410,6 @@ This USP version is chambered in .45 ACP.</description>
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_STK100</li>
@@ -1602,12 +1474,6 @@ This USP version is chambered in .45 ACP.</description>
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
 	  <li>RN_DesertEagle</li>
@@ -1670,12 +1536,6 @@ This USP version is chambered in .45 ACP.</description>
 	  <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	

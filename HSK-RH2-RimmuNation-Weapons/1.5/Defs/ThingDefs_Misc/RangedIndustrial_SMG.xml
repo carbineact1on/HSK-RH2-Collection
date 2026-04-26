@@ -17,12 +17,6 @@ In terms of tactical deployment, the AKS-74U bridges the gap between a submachin
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>24000</WorkToMake>
       <Mass>2.3</Mass>
@@ -92,12 +86,6 @@ In terms of tactical deployment, the AKS-74U bridges the gap between a submachin
 	  <drawSize>1.10</drawSize>
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>24000</WorkToMake>
       <Mass>2.3</Mass>
@@ -169,12 +157,6 @@ The Thompson submachine gun was also known informally as the "Tommy Gun", "Annih
 		<equippedAngleOffset>40</equippedAngleOffset>	
 		
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>3</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>2.5</Mass>
@@ -247,12 +229,6 @@ In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successo
 		</graphicData>
 		<equippedAngleOffset>40</equippedAngleOffset>	
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>2.1</Mass>
@@ -327,12 +303,6 @@ In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successo
 		</graphicData>
 		<equippedAngleOffset>40</equippedAngleOffset>	
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>2.1</Mass>
@@ -405,12 +375,6 @@ In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successo
 		<equippedAngleOffset>40</equippedAngleOffset>
 		
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>2</Mass>
@@ -479,12 +443,6 @@ In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successo
 		</graphicData>
 		<equippedAngleOffset>40</equippedAngleOffset>	
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>2.8</Mass>
@@ -553,12 +511,6 @@ In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successo
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>11000</WorkToMake>
       <Mass>2.5</Mass>
@@ -630,12 +582,6 @@ In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successo
 			<drawSize>1.1</drawSize>
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>11000</WorkToMake>
       <Mass>2.5</Mass>
@@ -709,12 +655,6 @@ The first Uzi submachine gun was designed by Major Uziel Gal in the late 1940s. 
 		</graphicData>
 		<equippedAngleOffset>40</equippedAngleOffset>	
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>1</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>11000</WorkToMake>
       <Mass>1.5</Mass>
@@ -782,12 +722,6 @@ The first Uzi submachine gun was designed by Major Uziel Gal in the late 1940s. 
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>11000</WorkToMake>
       <Mass>1.9</Mass>
@@ -856,12 +790,6 @@ Although it was developed for use with security forces and special forces, the w
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>2</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <Mass>1.2</Mass>
@@ -931,12 +859,6 @@ Common nicknames are "pe-pe-sha" (Russian: ППШ) from its three-letter acronym
 		</graphicData>
 	<equippedAngleOffset>40</equippedAngleOffset>	
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>3</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>2.5</Mass>
@@ -1004,12 +926,6 @@ Common nicknames are "pe-pe-sha" (Russian: ППШ) from its three-letter acronym
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>3</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>
 	
@@ -1079,12 +995,6 @@ Common nicknames are "pe-pe-sha" (Russian: ППШ) from its three-letter acronym
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>2</Mass>

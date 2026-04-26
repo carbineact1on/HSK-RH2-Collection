@@ -3,17 +3,6 @@
 
 	<!-- Base RN Launcher -->
 	<ThingDef Name="RH2_BaseMakeableGun" ParentName="BaseGun" Abstract="True">
-		<recipeMaker>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Smith</soundWorking>
-			<recipeUsers>
-				<li>TableMachining</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-			<researchPrerequisite>Gunsmithing</researchPrerequisite>
-		</recipeMaker>
 	</ThingDef>
 
 	<!-- Projectile -->
@@ -153,12 +142,6 @@ The ruggedness, simplicity, low cost, and effectiveness of the RPG-7 has made it
 			<li>RN_RPG7</li>
 		</weaponTags>
 
-		<recipeMaker>
-			<researchPrerequisite>GasOperation</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
-		</recipeMaker>
 		<costList>
 			<Steel>120</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
@@ -229,12 +212,6 @@ The ruggedness, simplicity, low cost, and effectiveness of the RPG-7 has made it
 			<li>RN_M79</li>
 		</weaponTags>
 
-		<recipeMaker>
-			<researchPrerequisite>GasOperation</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>6</Crafting>
-			</skillRequirements>
-		</recipeMaker>
 		<costList>
 			<Steel>100</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
@@ -312,12 +289,6 @@ The ruggedness, simplicity, low cost, and effectiveness of the RPG-7 has made it
 			<li>RN_HK69A1</li>
 		</weaponTags>
 
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>6</Crafting>
-			</skillRequirements>
-			<researchPrerequisite>GasOperation</researchPrerequisite>
-		</recipeMaker>
 		<costList>
 			<Steel>100</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
@@ -387,12 +358,6 @@ The ruggedness, simplicity, low cost, and effectiveness of the RPG-7 has made it
 			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
 		</statBases>
 
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>10</Crafting>
-			</skillRequirements>
-			<researchPrerequisite>GasOperation</researchPrerequisite>
-		</recipeMaker>
 		<costList>
 			<Steel>125</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
@@ -471,12 +436,6 @@ The missile is using a soft-launch system and is guided by predicted line of sig
 			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
 		</statBases>
 
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>12</Crafting>
-			</skillRequirements>
-			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
-		</recipeMaker>
 		<costList>
 			<Steel>150</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
@@ -552,12 +511,6 @@ It uses an automatic infrared guidance that allows the user to seek cover immedi
 			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
 		</statBases>
 
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>15</Crafting>
-			</skillRequirements>
-			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
-		</recipeMaker>
 		<costList>
 			<Steel>150</Steel>
 			<ComponentIndustrial>8</ComponentIndustrial>
