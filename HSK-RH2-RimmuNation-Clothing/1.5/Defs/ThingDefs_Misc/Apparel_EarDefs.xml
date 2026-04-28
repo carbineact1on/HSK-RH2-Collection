@@ -14,9 +14,6 @@
       <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Plastic>5</Plastic>
       <ComponentIndustrial>1</ComponentIndustrial>

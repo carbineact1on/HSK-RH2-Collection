@@ -30,9 +30,6 @@
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -94,9 +91,6 @@
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -159,16 +153,10 @@
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
     <costStuffCount>21</costStuffCount>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -230,9 +218,6 @@
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -294,16 +279,10 @@
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
     <costStuffCount>22</costStuffCount>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -367,9 +346,6 @@
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -435,9 +411,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -503,9 +476,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -569,9 +539,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -634,9 +601,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -699,9 +663,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -763,9 +724,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -828,9 +786,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -892,9 +847,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -956,9 +908,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1020,9 +969,6 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1086,9 +1032,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1151,9 +1094,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1214,9 +1154,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1277,9 +1214,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1340,9 +1274,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1403,9 +1334,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1467,9 +1395,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1530,9 +1455,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1593,9 +1515,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1656,9 +1575,6 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>

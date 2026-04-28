@@ -16,9 +16,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Plastic>10</Plastic>
       <ComponentIndustrial>1</ComponentIndustrial>
@@ -78,9 +75,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Plastic>10</Plastic>
       <ComponentIndustrial>1</ComponentIndustrial>
@@ -140,9 +134,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Plastic>10</Plastic>
       <ComponentIndustrial>1</ComponentIndustrial>
@@ -204,9 +195,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Plastic>10</Plastic>
       <ComponentIndustrial>1</ComponentIndustrial>
@@ -270,9 +258,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Plastic>10</Plastic>
       <ComponentIndustrial>1</ComponentIndustrial>
@@ -334,9 +319,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <Plastic>10</Plastic>
       <ComponentIndustrial>1</ComponentIndustrial>

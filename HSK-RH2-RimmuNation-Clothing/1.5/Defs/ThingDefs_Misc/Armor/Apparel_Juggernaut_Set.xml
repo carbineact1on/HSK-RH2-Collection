@@ -34,9 +34,6 @@
 		
 		<generateCommonality>0.1</generateCommonality>
 	
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -100,9 +97,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>

@@ -12,9 +12,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>2</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -109,9 +106,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -209,9 +203,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -309,9 +300,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -406,9 +394,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -460,9 +445,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -515,9 +497,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>2</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -572,9 +551,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -671,9 +647,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -772,9 +745,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -869,9 +839,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -988,9 +955,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -1093,9 +1057,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -1200,9 +1161,6 @@ The combat uniform is generally camouflaged, either in monochrome such as a shad
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -1304,9 +1262,6 @@ The combat uniform is generally camouflaged, either in monochrome such as a shad
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -1405,9 +1360,6 @@ The combat uniform is generally camouflaged, either in monochrome such as a shad
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.0</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>

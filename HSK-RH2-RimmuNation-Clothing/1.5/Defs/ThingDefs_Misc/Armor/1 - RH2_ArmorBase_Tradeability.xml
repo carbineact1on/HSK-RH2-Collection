@@ -3,7 +3,12 @@
 
   <!--==================================== Ludeon wants me to manually add this trade tag for EVERY armor manually. No thanks. ====================================-->
 
-  <ThingDef Name="RH2_ArmorMachineableBase" Abstract="True" ParentName="ArmorIndustrialSimpleBase">
+  <!-- HSK conversion: parent changed from ArmorIndustrialSimpleBase to ArmorIndustrialBase
+       so body armor inheriting from this gets HSK's craftable recipeMaker
+       (ElectricTailoringBench, Crafting 10, SmithingSpeed). Without this change,
+       stripping the inline <recipeMaker> blocks on the 26 RH2 body armor concrete
+       defs would leave them loot-only. -->
+  <ThingDef Name="RH2_ArmorMachineableBase" Abstract="True" ParentName="ArmorIndustrialBase">
 	<tradeTags>
       <li>Armor</li>
     </tradeTags>

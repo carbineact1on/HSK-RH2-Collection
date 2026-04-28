@@ -48,9 +48,6 @@
 	<techLevel>Industrial</techLevel>
 	<tradeability>All</tradeability>
 	<resourceReadoutPriority>Middle</resourceReadoutPriority>
-	<recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
 	<graphicData>
       <graphicClass>Graphic_Single</graphicClass>	
     </graphicData>		

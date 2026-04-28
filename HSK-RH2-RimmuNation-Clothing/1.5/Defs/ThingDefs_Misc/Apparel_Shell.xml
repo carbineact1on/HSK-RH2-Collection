@@ -12,9 +12,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -91,9 +88,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -170,9 +164,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -248,9 +239,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -326,9 +314,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -405,9 +390,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -500,9 +482,6 @@ They are sometimes confused with or referred to as topcoats, which are shorter a
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -594,9 +573,6 @@ They are sometimes confused with or referred to as topcoats, which are shorter a
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -688,9 +664,6 @@ They are sometimes confused with or referred to as topcoats, which are shorter a
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -782,9 +755,6 @@ They are sometimes confused with or referred to as topcoats, which are shorter a
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -876,9 +846,6 @@ They are sometimes confused with or referred to as topcoats, which are shorter a
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -970,9 +937,6 @@ They are sometimes confused with or referred to as topcoats, which are shorter a
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -1064,9 +1028,6 @@ They are sometimes confused with or referred to as topcoats, which are shorter a
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>

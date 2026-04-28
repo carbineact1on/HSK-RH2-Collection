@@ -16,9 +16,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -96,9 +93,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -177,9 +171,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -257,9 +248,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -337,9 +325,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -416,9 +401,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -536,9 +518,6 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.70</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>

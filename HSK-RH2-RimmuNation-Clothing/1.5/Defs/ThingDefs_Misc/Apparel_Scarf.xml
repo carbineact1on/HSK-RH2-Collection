@@ -15,9 +15,6 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>0.90</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>

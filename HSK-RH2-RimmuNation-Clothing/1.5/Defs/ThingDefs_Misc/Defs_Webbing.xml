@@ -13,9 +13,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -85,9 +82,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -157,9 +151,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -230,9 +221,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -302,9 +290,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -374,9 +359,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -446,9 +428,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -518,9 +497,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -590,9 +566,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>8</SyntheticFibers>
       <Cloth>10</Cloth>
@@ -661,9 +634,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>8</SyntheticFibers>
       <Cloth>10</Cloth>
@@ -732,9 +702,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>8</SyntheticFibers>
       <Cloth>10</Cloth>
@@ -803,9 +770,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>8</SyntheticFibers>
       <Cloth>10</Cloth>
@@ -874,9 +838,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -946,9 +907,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -1018,9 +976,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -1090,9 +1045,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -1162,9 +1114,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>15</SyntheticFibers>
       <Cloth>20</Cloth>
@@ -1236,9 +1185,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>8</SyntheticFibers>
       <Cloth>10</Cloth>
@@ -1307,9 +1253,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>8</SyntheticFibers>
       <Cloth>10</Cloth>
@@ -1378,9 +1321,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1.00</drawSize>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>Armor_C1</researchPrerequisite>
-    </recipeMaker>
     <costList>
       <SyntheticFibers>8</SyntheticFibers>
       <Cloth>10</Cloth>

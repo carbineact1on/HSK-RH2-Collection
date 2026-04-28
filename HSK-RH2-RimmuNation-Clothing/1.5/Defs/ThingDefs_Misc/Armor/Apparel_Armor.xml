@@ -31,9 +31,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -96,9 +93,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -162,9 +156,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -227,9 +218,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -292,9 +280,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -359,9 +344,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -425,9 +407,6 @@
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -493,9 +472,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -558,9 +534,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -623,9 +596,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -688,9 +658,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -755,9 +722,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -820,9 +784,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -885,9 +846,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -950,9 +908,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1015,9 +970,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1080,9 +1032,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1145,9 +1094,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1210,9 +1156,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1275,9 +1218,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1340,9 +1280,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1405,9 +1342,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1471,9 +1405,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1537,9 +1468,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1602,9 +1530,6 @@ The IBA system consists of its core component: the outer tactical vest (OTV), wh
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
@@ -1669,9 +1594,6 @@ It also has a removable neck protector which is held onto the front with velcro.
     <thingCategories>
       <li>RNApparel_BodyArmor</li>
     </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>

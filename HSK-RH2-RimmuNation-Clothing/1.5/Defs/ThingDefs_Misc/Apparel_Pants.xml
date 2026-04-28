@@ -11,9 +11,6 @@
       <texPath>Things/Apparel/Pants/511TacticalStryke_Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -104,9 +101,6 @@
       <texPath>Things/Apparel/Pants/Blackhawk_PursuitPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -198,9 +192,6 @@
       <texPath>Things/Apparel/Pants/511StrykeMulticam_Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -249,9 +240,6 @@
       <texPath>Things/Apparel/Pants/HelikonPilgrimTrousers_Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -342,9 +330,6 @@
       <texPath>Things/Apparel/Pants/FjallravenKebTrousers_Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -434,9 +419,6 @@
       <texPath>Things/Apparel/Pants/BearGrylls_SurvivorPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -526,9 +508,6 @@
       <texPath>Things/Apparel/Pants/GORKA3_Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -578,9 +557,6 @@
       <texPath>Things/Apparel/Pants/Uniqlo_HighCutJeans</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -627,9 +603,6 @@
       <texPath>Things/Apparel/Pants/ACUPants_UCP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -677,9 +650,6 @@
       <texPath>Things/Apparel/Pants/BDUPants_DMARPAT</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -727,9 +697,6 @@
       <texPath>Things/Apparel/Pants/CombatTrousers_DDPM</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
@@ -779,9 +746,6 @@
       <texPath>Things/Apparel/Pants/Brioni_SuitPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
