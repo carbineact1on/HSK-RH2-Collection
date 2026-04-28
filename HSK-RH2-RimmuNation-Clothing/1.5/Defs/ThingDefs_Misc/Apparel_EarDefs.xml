@@ -3,7 +3,7 @@
   
              <!--========================================= EarDefs =============================================--> 
   
-    <ThingDef ParentName="ApparelMedievalBase">
+    <ThingDef ParentName="ArmorIndustrialBase">
     <defName>RNApparel_EarDefs_PeltorOptimeII</defName>
     <label>ear defenders (PELTOR Optime II)</label>
     <description>The PELTOR Optime II ear defender. Ear Defenders are used to reduce loud volumes that may be damaging to one's hearing. Hearing defenders can supress 10% of psychic sensitivity.</description>

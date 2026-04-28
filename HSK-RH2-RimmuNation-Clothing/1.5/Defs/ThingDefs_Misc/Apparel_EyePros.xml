@@ -3,7 +3,7 @@
   
              <!--========================================= Terminator =============================================--> 
   
-    <ThingDef ParentName="ApparelMedievalBase">
+    <ThingDef ParentName="ArmorIndustrialBase">
     <defName>RNApparel_EyePros_RB3025AviatorGlasses</defName>
     <label>sunglasses (Ray-Bans Aviator)</label>
     <description>Eye protection is protective gear for the eyes, and sometimes face, designed to reduce the risk of injury. Examples of risks requiring eye protection can include: impact from particles or debris, light or radiation, wind blast, heat, sea spray or impact from some type of ball or puck used in sports.\n\nThis brand of eyewear comes from the Ray-Bans "RB3025" Aviator sunglasses series.</description>
@@ -65,7 +65,7 @@
   
                <!--========================================= Terminator =============================================--> 
   
-    <ThingDef ParentName="ApparelMedievalBase">
+    <ThingDef ParentName="ArmorIndustrialBase">
     <defName>RNApparel_EyePros_TerminatorGlasses</defName>
     <label>sunglasses (Ray-Bans PREDATOR 2)</label>
     <description>Eye protection is protective gear for the eyes, and sometimes face, designed to reduce the risk of injury. Examples of risks requiring eye protection can include: impact from particles or debris, light or radiation, wind blast, heat, sea spray or impact from some type of ball or puck used in sports.\n\nThis brand of eyewear comes from the Ray-Bans PREDATOR 2 sunglasses series.</description>
@@ -127,7 +127,7 @@
   
   <!--========================================= 8X10 =============================================--> 
   
-    <ThingDef ParentName="ApparelMedievalBase">
+    <ThingDef ParentName="ArmorIndustrialBase">
     <defName>RNApparel_EyePros_8X10BallisticGoggles</defName>
     <label>ballistic goggles (8X10)</label>
     <description>Eye protection is protective gear for the eyes, and sometimes face, designed to reduce the risk of injury. Examples of risks requiring eye protection can include: impact from particles or debris, light or radiation, wind blast, heat, sea spray or impact from some type of ball or puck used in sports.\n\nThis brand of eyewear comes from the 8X10 ballistic goggle series.</description>
@@ -190,7 +190,7 @@
   
   <!--========================================= 8X10 =============================================--> 
   
-    <ThingDef ParentName="ApparelMedievalBase">
+    <ThingDef ParentName="ArmorIndustrialBase">
     <defName>RNApparel_EyePros_SIBallisticMFrame</defName>
     <label>eye protection (SI Ballistic M frame)</label>
     <description>Eye protection is protective gear for the eyes, and sometimes face, designed to reduce the risk of injury. Examples of risks requiring eye protection can include: impact from particles or debris, light or radiation, wind blast, heat, sea spray or impact from some type of ball or puck used in sports.\n\nThis brand of eyewear comes from the Oakley's SI Ballistic M Frame sunglasses series.</description>
