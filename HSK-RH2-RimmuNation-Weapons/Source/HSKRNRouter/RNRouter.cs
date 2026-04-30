@@ -92,7 +92,6 @@ namespace HSKRNRouter
             // Wolfein racial taser cells -> CQB (HG-class non-lethal stun gun)
             ("Wolfein_AmmoSet_TaserCharged",   BenchCQB),
             // Misc CQB (added v2 from log audit)
-            ("AmmoSet_44Rimfire",              BenchCQB),
             ("AmmoSet_762x25mmTT",             BenchCQB),
             ("AmmoSet_Flare",                  BenchCQB),
             ("AmmoSet_SlugthrowerShell",       BenchCQB),
@@ -179,10 +178,7 @@ namespace HSKRNRouter
             // Pacas Even More Content — big poison darts (Acid Scourge SMG)
             ("AmmoSet_DartsBio",               BenchLBW),
             // Misc LBW (added v2 from log audit)
-            ("AmmoSet_5070Govt",               BenchLBW),
             ("AmmoSet_5x50mmCaseless",         BenchLBW),
-            ("AmmoSet_69Musket",               BenchLBW),
-            ("AmmoSet_MinieBall",              BenchLBW),
             ("AmmoSet_BlasterBolt",            BenchLBW),
             ("AmmoSet_BlasterPelletBolt",      BenchLBW),
             ("AmmoSet_ChargedLaser",           BenchLBW),
