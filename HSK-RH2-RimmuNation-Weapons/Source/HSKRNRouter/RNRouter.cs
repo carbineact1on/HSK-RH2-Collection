@@ -83,10 +83,14 @@ namespace HSKRNRouter
             ("AmmoSet_Shotgun",                BenchCQB),
             ("AmmoSet_Slugthrower",            BenchCQB),
             // Charged pistol-tier
+            ("AmmoSet_5x16mmCharged",          BenchCQB),
             ("AmmoSet_5x35mmCharged",          BenchCQB),
             ("AmmoSet_8x50mmCharged",          BenchCQB),
             ("AmmoSet_10x18mmCharged",         BenchCQB),
             ("AmmoSet_ChargedPistol",          BenchCQB),
+            ("AmmoSet_PlasmaCellPistol",       BenchCQB),
+            // Wolfein racial taser cells -> CQB (HG-class non-lethal stun gun)
+            ("Wolfein_AmmoSet_TaserCharged",   BenchCQB),
             // Misc CQB (added v2 from log audit)
             ("AmmoSet_44Rimfire",              BenchCQB),
             ("AmmoSet_762x25mmTT",             BenchCQB),
@@ -159,13 +163,21 @@ namespace HSKRNRouter
             ("AmmoSet_AssaultRifle",           BenchLBW),
             ("AmmoSet_SniperRifle",            BenchLBW),
             // Charged rifle-tier
+            ("AmmoSet_6x18mmCharged",          BenchLBW),
             ("AmmoSet_6x22mmCharged",          BenchLBW),
             ("AmmoSet_6x24mmCharged",          BenchLBW),
             ("AmmoSet_8x35mmCharged",          BenchLBW),
+            ("AmmoSet_8x40mmCharged",          BenchLBW),
             ("AmmoSet_12x64mmCharged",         BenchLBW),
             ("AmmoSet_12x72mmCharged",         BenchLBW),
             ("AmmoSet_ChargedRifle",           BenchLBW),
             ("AmmoSet_ChargedShot",            BenchLBW),
+            // Caseless rifle variants
+            ("AmmoSet_5x50mmCaselessToxic",    BenchLBW),
+            ("AmmoSet_5x50mmCaseless_HV",      BenchLBW),
+            ("AmmoSet_5x50mmCaseless_LV",      BenchLBW),
+            // Pacas Even More Content — big poison darts (Acid Scourge SMG)
+            ("AmmoSet_DartsBio",               BenchLBW),
             // Misc LBW (added v2 from log audit)
             ("AmmoSet_5070Govt",               BenchLBW),
             ("AmmoSet_5x50mmCaseless",         BenchLBW),
@@ -276,6 +288,17 @@ namespace HSKRNRouter
             ("AmmoSet_ChargedHeavy",           BenchHeavy),
             ("AmmoSet_HeavyCharged",           BenchHeavy),
             ("AmmoSet_MechCharged",            BenchHeavy),
+            ("AmmoSet_PlasmaCellHeavy",        BenchHeavy),
+            ("AmmoSet_20x105mmCharged",        BenchHeavy),
+            // Mechanoid grenade
+            ("AmmoSet_70mmMechanoidGrenade",   BenchHeavy),
+            // Railguns
+            ("AmmoSet_6mmRailgun",             BenchHeavy),
+            ("AmmoSet_8mmRailgun",             BenchHeavy),
+            ("AmmoSet_12mmRailgun",            BenchHeavy),
+            // Massive cannon shells
+            ("AmmoSet_60x225mmGamma",          BenchHeavy),
+            ("AmmoSet_164x284mmDemo",          BenchHeavy),
             // Misc Heavy (added v2 from log audit)
             ("AmmoSet_81mm",                   BenchHeavy),
             ("AmmoSet_90mm",                   BenchHeavy),
@@ -360,6 +383,47 @@ namespace HSKRNRouter
             };
             var hskCanonicalRecipes = new HashSet<RecipeDef>();
             var weaponsWithHskRecipe = new HashSet<ThingDef>();
+
+            // Diagnostic: dump ingredient detection for the 3 problem recipes
+            var debugDefNames = new HashSet<string> {
+                "Build_RN_AugerMkII", "Build_RN_BM003Razor", "Build_RN_Longbow1S1K"
+            };
+            foreach (var r in DefDatabase<RecipeDef>.AllDefs)
+            {
+                if (r != null && debugDefNames.Contains(r.defName))
+                {
+                    var sb = new System.Text.StringBuilder("[HSK Router DIAG] " + r.defName + " ingredients:");
+                    if (r.ingredients != null)
+                    {
+                        for (int i = 0; i < r.ingredients.Count; i++)
+                        {
+                            var ing = r.ingredients[i];
+                            if (ing?.filter == null) { sb.Append("\n  [" + i + "] (null filter)"); continue; }
+                            var allowed = new List<string>();
+                            foreach (var td in ing.filter.AllowedThingDefs)
+                                if (td != null) allowed.Add(td.defName);
+                            sb.Append("\n  [" + i + "] " + (allowed.Count > 8 ? allowed.Count + " defs (truncated): " + string.Join(", ", allowed.Take(8).ToArray()) + "..." : string.Join(", ", allowed.ToArray())));
+                        }
+                    }
+                    Log.Message(sb.ToString());
+                }
+            }
+            // Also dump every recipe producing RNSci_AugerMkII so we can see all variants
+            var augerDef = DefDatabase<ThingDef>.GetNamedSilentFail("RNSci_AugerMkII");
+            if (augerDef != null)
+            {
+                Log.Message("[HSK Router DIAG] All recipes producing RNSci_AugerMkII:");
+                foreach (var r in DefDatabase<RecipeDef>.AllDefs)
+                {
+                    if (r?.products == null) continue;
+                    if (r.products.Any(p => p.thingDef == augerDef))
+                    {
+                        var users = r.recipeUsers != null ? string.Join(",", r.recipeUsers.Select(u => u?.defName).ToArray()) : "(null)";
+                        Log.Message("  " + r.defName + " | label='" + r.label + "' | users=[" + users + "]");
+                    }
+                }
+            }
+
             foreach (var r in DefDatabase<RecipeDef>.AllDefs)
             {
                 if (r == null || r.ingredients == null) continue;
@@ -450,12 +514,39 @@ namespace HSKRNRouter
                 //
                 // If this weapon has a HSK-canonical recipe and THIS recipe
                 // isn't it, treat this recipe as a duplicate. Clear its
-                // recipeUsers so it doesn't appear at any bench. The
-                // HSK canonical recipe (with proper ingredients) handles it.
+                // recipeUsers AND remove it from each recipeUser ThingDef's
+                // direct .recipes list (auto-gen recipes get added to BOTH
+                // places). The HSK canonical recipe (with proper ingredients)
+                // remains visible.
                 if (weaponsWithHskRecipe.Contains(weapon)
                     && !hskCanonicalRecipes.Contains(recipe))
                 {
+                    if (recipe.recipeUsers != null)
+                    {
+                        foreach (var bench in recipe.recipeUsers.ToList())
+                        {
+                            if (bench != null && bench.recipes != null)
+                            {
+                                bench.recipes.Remove(recipe);
+                            }
+                        }
+                    }
+                    if (weapon.recipes != null) weapon.recipes.Remove(recipe);
+                    // Also iterate ALL ThingDefs and remove this recipe from
+                    // any bench.recipes list it might be in (defensive — in
+                    // case the auto-gen got injected into a bench's recipes
+                    // outside its declared recipeUsers list).
+                    foreach (var td in DefDatabase<ThingDef>.AllDefs)
+                    {
+                        if (td?.recipes != null && td.recipes.Contains(recipe))
+                        {
+                            td.recipes.Remove(recipe);
+                        }
+                    }
                     recipe.recipeUsers = new List<ThingDef>();
+                    // Also clear products so the recipe is functionally dead
+                    // even if some other code path re-injects it.
+                    if (recipe.products != null) recipe.products.Clear();
                     skippedAutoGenDuplicate++;
                     continue;
                 }
