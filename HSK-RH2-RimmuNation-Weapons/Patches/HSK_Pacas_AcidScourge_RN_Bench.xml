@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK patch: reroute Pacas Even More Content's Acid Scourge SMG
+    from HSK's AdvWeaponCraftingWorkTable to the RN LBW bench.
+
+    Why?
+    The Build_AcidScourge recipe is hard-coded to AdvWeaponCraftingWorkTable
+    in Pacas's mod XML. For HSK + RH2 setups where players use the RN
+    benches as their primary weapon crafting workspace, the Acid Scourge
+    appears at the "wrong" bench.
+
+    The Acid Scourge is an SMG-class poison-dart weapon — fits RNBench_LBW
+    (Light Battle Weapons) per the standard RH2 weapon-class routing.
+
+    Replace recipeUsers with RNBench_LBW so the recipe ONLY appears at
+    the RN bench. (If you want it to ALSO appear at Adv bench, change
+    PatchOperationReplace to PatchOperationAdd with the RN bench.)
+
+    Gated by both Pacas Even More Content AND RH2 RimmuNation² Weapons
+    being active.
+-->
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Pacas Even More Content</li>
+        </mods>
+        <match Class="PatchOperationFindMod">
+            <mods>
+                <li>[RH2] Rimmu-Nation² - Weapons</li>
+            </mods>
+            <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/RecipeDef[defName="Build_AcidScourge"]/recipeUsers</xpath>
+                        <value>
+                            <recipeUsers>
+                                <li>RNBench_LBW</li>
+                            </recipeUsers>
+                        </value>
+                    </li>
+
+                </operations>
+            </match>
+        </match>
+    </Operation>
+
+</Patch>
