@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Extracted costList and researchPrerequisite ops from the RM2_CE_*.xml
+    weapon CE patches. HSK has disabled <costList> and <researchPrerequisite>
+    inside CombatExtended.PatchOperationMakeGunCECompatible — they are silently
+    dropped. Extracting them as standalone PatchOperationReplace ops here so
+    the values actually apply.
+-->
+<Patch>
+
+    <!-- RNGun_C14Timberwolf_Sniper  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_C14Timberwolf_Sniper"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>23</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_DesertTechHTI_AMR  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_DesertTechHTI_AMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>11</Weapon_Parts>
+			<ComponentIndustrial>11</ComponentIndustrial>
+			<ComponentAdvanced>15</ComponentAdvanced>
+			<Plastic>24</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_GOLMagnum_Sniper  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_GOLMagnum_Sniper"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>22</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_L96A1_Sniper  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_L96A1_Sniper"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>22</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M24A2_Sniper  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M24A2_Sniper"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>21</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M40A5_Sniper  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M40A5_Sniper"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>21</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M200Intervention_AMR  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M200Intervention_AMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>12</Weapon_Parts>
+			<ComponentIndustrial>11</ComponentIndustrial>
+			<ComponentAdvanced>15</ComponentAdvanced>
+			<Plastic>25</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M700SAICS_Sniper  (source: RM2_CE_BoltAction.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M700SAICS_Sniper"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>22</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AUGA1_Rifle  (source: RM2_CE_BullpupAR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AUGA1_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FAMAS_Rifle  (source: RM2_CE_BullpupAR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FAMAS_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SA80A2_Rifle  (source: RM2_CE_BullpupAR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SA80A2_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>17</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SVU_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SVU_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>20</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SKSModern_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SKSModern_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>7</Weapon_Parts>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentAdvanced>12</ComponentAdvanced>
+			<Plastic>18</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_G28_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_G28_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>9</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>22</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_L129A1_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_L129A1_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>20</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M14_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M14_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>21</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M82A1_AMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M82A1_AMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>15</ComponentAdvanced>
+			<Plastic>24</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Mk14Mod0_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Mk14Mod0_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>9</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>21</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_DesertTechSRS_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_DesertTechSRS_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentAdvanced>15</ComponentAdvanced>
+			<Plastic>23</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_PSG1_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_PSG1_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>9</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>20</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_VSSVintorez_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_VSSVintorez_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>7</Weapon_Parts>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentAdvanced>11</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_WA2000_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_WA2000_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>9</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>19</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Mk14EBRSD_DMR  (source: RM2_CE_DMR.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Mk14EBRSD_DMR"]/costList</xpath>
+        <value>
+            <costList>
+                <Sniper_Component>1</Sniper_Component>
+			<Weapon_Parts>9</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>22</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FNMAG_GPMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FNMAG_GPMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>22</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Ksp58B_GPMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Ksp58B_GPMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>21</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M60_GPMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M60_GPMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>7</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>12</ComponentAdvanced>
+			<Plastic>20</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M249_LMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M249_LMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>7</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>12</ComponentAdvanced>
+			<Plastic>21</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_PKM_GPMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_PKM_GPMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>7</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>11</ComponentAdvanced>
+			<WoodLog>15</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_RPD_LMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_RPD_LMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>6</Weapon_Parts>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<WoodLog>14</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Type81_LMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Type81_LMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>7</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>11</ComponentAdvanced>
+			<WoodLog>16</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_RPK_LMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_RPK_LMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>6</Weapon_Parts>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentAdvanced>11</ComponentAdvanced>
+			<Plastic>18</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_MG42_GPMG  (source: RM2_CE_LMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_MG42_GPMG"]/costList</xpath>
+        <value>
+            <costList>
+                <Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>12</ComponentAdvanced>
+			<WoodLog>15</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_HK69A1_GrenadeLauncher  (source: RM2_CE_Launchers.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_HK69A1_GrenadeLauncher"]/costList</xpath>
+        <value>
+            <costList>
+                <Launcher_Component>1</Launcher_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>11</ComponentAdvanced>
+			<Plastic>23</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M79_GrenadeLauncher  (source: RM2_CE_Launchers.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M79_GrenadeLauncher"]/costList</xpath>
+        <value>
+            <costList>
+                <Launcher_Component>1</Launcher_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<WoodLog>10</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M72LAW_RocketLauncher  (source: RM2_CE_Launchers.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M72LAW_RocketLauncher"]/costList</xpath>
+        <value>
+            <costList>
+                <Launcher_Component>1</Launcher_Component>
+			<Weapon_Parts>6</Weapon_Parts>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentAdvanced>11</ComponentAdvanced>
+			<Plastic>24</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_RPG7_RocketLauncher  (source: RM2_CE_Launchers.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_RPG7_RocketLauncher"]/costList</xpath>
+        <value>
+            <costList>
+                <Launcher_Component>1</Launcher_Component>
+			<Weapon_Parts>6</Weapon_Parts>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<WoodLog>10</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_NLAW_RocketLauncher  (source: RM2_CE_Launchers.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_NLAW_RocketLauncher"]/costList</xpath>
+        <value>
+            <costList>
+                <Launcher_Component>1</Launcher_Component>
+			<Weapon_Parts>7</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentAdvanced>13</ComponentAdvanced>
+			<Plastic>26</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FGM148Javelin_RocketLauncher  (source: RM2_CE_Launchers.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FGM148Javelin_RocketLauncher"]/costList</xpath>
+        <value>
+            <costList>
+                <Launcher_Component>1</Launcher_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<ComponentAdvanced>14</ComponentAdvanced>
+			<Plastic>28</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FiveSeven_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FiveSeven_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_STK100_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_STK100_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>7</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Glock17_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Glock17_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Glock18_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Glock18_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Glock34CombatMaster_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Glock34CombatMaster_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>9</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SpringfieldXD_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SpringfieldXD_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>7</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M1911_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M1911_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plastic>6</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_STI2011CombatMaster_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_STI2011CombatMaster_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>7</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M9A1_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M9A1_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Makarov_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Makarov_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plastic>6</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_P226_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_P226_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_P320_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_P320_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>9</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_USP45_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_USP45_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FiveSevenSD_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FiveSevenSD_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>9</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Glock17SD_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Glock17SD_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M1911Silverballer_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M1911Silverballer_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>7</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_P226SD_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_P226SD_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plastic>8</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_USPS45_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_USPS45_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plastic>9</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_DesertEagle_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_DesertEagle_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plastic>10</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_PT92SF_Pistol  (source: RM2_CE_Pistols.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_PT92SF_Pistol"]/costList</xpath>
+        <value>
+            <costList>
+                <Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plastic>7</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Type56_Rifle  (source: RM2_CE_Rifle1_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Type56_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>7</ComponentAdvanced>
+			<WoodLog>10</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AK47_Rifle  (source: RM2_CE_Rifle1_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AK47_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<WoodLog>10</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AK74_Rifle  (source: RM2_CE_Rifle1_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AK74_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AK103_Rifle  (source: RM2_CE_Rifle1_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AK103_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_ASVAL_Rifle  (source: RM2_CE_Rifle1_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_ASVAL_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<Plastic>12</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_ASVAL_Rifle research  (source: RM2_CE_Rifle1_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_ASVAL_Rifle"]/recipeMaker/researchPrerequisite</xpath>
+        <value><researchPrerequisite>PrecisionRifling</researchPrerequisite></value>
+    </Operation>
+    <!-- RNGun_DDM4V11_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_DDM4V11_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_HK416_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_HK416_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_LVOAC_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_LVOAC_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M16A2_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M16A2_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M4A1_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M4A1_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_F2000_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_F2000_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_ACR_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_ACR_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_TAR-21_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_TAR-21_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_C8CQB_Carbine  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_C8CQB_Carbine"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_TypeCQ_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_TypeCQ_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_C7A1_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_C7A1_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_IWIACE52_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_IWIACE52_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_MD97_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_MD97_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AK5C_Carbine  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AK5C_Carbine"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_CZ805BrenA2_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_CZ805BrenA2_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<Plastic>13</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_G36K_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_G36K_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FBBeryl_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FBBeryl_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<Plastic>13</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_R1Para_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_R1Para_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FNFAL_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FNFAL_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<WoodLog>12</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_RomatFAL_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_RomatFAL_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<WoodLog>11</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_G3A2_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_G3A2_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M4A1DEVGRU_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M4A1DEVGRU_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>17</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AKMSD_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AKMSD_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>8</ComponentAdvanced>
+			<WoodLog>10</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_ACRSD_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_ACRSD_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_FNFALTatiana_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_FNFALTatiana_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentAdvanced>9</ComponentAdvanced>
+			<WoodLog>11</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SCARLSD_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SCARLSD_Rifle"]/costList</xpath>
+        <value>
+            <costList>
+                <AdvRifle_Component>1</AdvRifle_Component>
+			<Weapon_Parts>5</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentAdvanced>10</ComponentAdvanced>
+			<Plastic>16</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AK74U_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AK74U_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>11</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_MAC11_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_MAC11_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plastic>10</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_KrissVector_PDW  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_KrissVector_PDW"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_MP5A2_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_MP5A2_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>12</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_MP7A1_PDW  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_MP7A1_PDW"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>11</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_P90_PDW  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_P90_PDW"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plastic>13</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SkorpionVZ61_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SkorpionVZ61_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plastic>10</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_ThompsonSubmachineGun_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_ThompsonSubmachineGun_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<WoodLog>12</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_PP19_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_PP19_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>11</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AK7S4U_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AK7S4U_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>12</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_P90SD_PDW  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_P90SD_PDW"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plastic>14</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_MP5SD_SMG  (source: RM2_CE_SMG.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_MP5SD_SMG"]/costList</xpath>
+        <value>
+            <costList>
+                <SMG_Component>1</SMG_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>13</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_AA12_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_AA12_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plastic>12</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Remington870MCS_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Remington870MCS_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<WoodLog>8</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Model1897_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Model1897_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<WoodLog>7</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_IZh43_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_IZh43_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<WoodLog>7</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_StoegerCoachGun_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_StoegerCoachGun_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<WoodLog>8</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_BenelliMontefeltro_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_BenelliMontefeltro_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<WoodLog>9</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Mossberg500_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Mossberg500_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<WoodLog>9</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_Saiga12_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_Saiga12_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>10</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SPAS12_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SPAS12_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>11</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_USAS12_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_USAS12_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plastic>12</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_SpartanMarine_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_SpartanMarine_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plastic>9</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M1014_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M1014_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>10</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_PancorJackhammer_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_PancorJackhammer_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plastic>13</Plastic>
+            </costList>
+        </value>
+    </Operation>
+    <!-- RNGun_M1014SD_Shotgun  (source: RM2_CE_Shotguns.xml) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RNGun_M1014SD_Shotgun"]/costList</xpath>
+        <value>
+            <costList>
+                <Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>11</Plastic>
+            </costList>
+        </value>
+    </Operation>
+
+</Patch>

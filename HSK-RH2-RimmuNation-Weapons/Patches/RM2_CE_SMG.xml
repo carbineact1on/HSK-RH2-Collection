@@ -13,12 +13,6 @@
 			<Bulk>4.90</Bulk>
 			<WorkToMake>29000</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>11</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.53</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -65,12 +59,6 @@
 			<Bulk>2.48</Bulk>
 			<WorkToMake>24500</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>1</Weapon_Parts>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<Plastic>10</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.99</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -114,12 +102,6 @@
 			<Bulk>6.06</Bulk>
 			<WorkToMake>32000</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>3</Weapon_Parts>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Plastic>14</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.47</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -163,12 +145,6 @@
 			<Bulk>6.80</Bulk>
 			<WorkToMake>27500</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>12</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.53</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -215,12 +191,6 @@
 			<Bulk>4.15</Bulk>
 			<WorkToMake>29000</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>11</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.37</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -264,12 +234,6 @@
 			<Bulk>5.05</Bulk>
 			<WorkToMake>37000</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>3</Weapon_Parts>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Plastic>13</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.05</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -315,12 +279,6 @@
 			<Bulk>2.70</Bulk>
 			<WorkToMake>24500</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>1</Weapon_Parts>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<Plastic>10</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.89</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -367,12 +325,6 @@
 			<Bulk>8.60</Bulk>
 			<WorkToMake>27500</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<WoodLog>12</WoodLog>
-		</costList>
 		<Properties>
 			<recoilAmount>1.32</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -422,12 +374,6 @@
 			<Bulk>4.25</Bulk>
 			<WorkToMake>28000</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>11</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.35</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -474,12 +420,6 @@
 			<Bulk>4.90</Bulk>
 			<WorkToMake>29000</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>12</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.53</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -526,12 +466,6 @@
 			<Bulk>5.05</Bulk>
 			<WorkToMake>37000</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>3</Weapon_Parts>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Plastic>14</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.05</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -575,12 +509,6 @@
 			<Bulk>6.80</Bulk>
 			<WorkToMake>27500</WorkToMake>
 		</statBases>
-		<costList>
-			<SMG_Component>1</SMG_Component>
-			<Weapon_Parts>3</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>13</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.60</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>

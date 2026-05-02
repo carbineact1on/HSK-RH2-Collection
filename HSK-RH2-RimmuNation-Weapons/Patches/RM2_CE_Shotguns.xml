@@ -13,12 +13,6 @@
 			<Bulk>10.66</Bulk>
 			<WorkToMake>33000</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>3</Weapon_Parts>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Plastic>12</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>2.26</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -64,12 +58,6 @@
 			<Bulk>9.78</Bulk>
 			<WorkToMake>19500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<WoodLog>8</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -112,12 +100,6 @@
 			<Bulk>10.00</Bulk>
 			<WorkToMake>10000</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>1</Weapon_Parts>
-			<ComponentIndustrial>3</ComponentIndustrial>
-			<WoodLog>7</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -160,12 +142,6 @@
 			<Bulk>8.25</Bulk>
 			<WorkToMake>7500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>1</Weapon_Parts>
-			<ComponentIndustrial>3</ComponentIndustrial>
-			<WoodLog>7</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -208,12 +184,6 @@
 			<Bulk>9.27</Bulk>
 			<WorkToMake>7500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>1</Weapon_Parts>
-			<ComponentIndustrial>3</ComponentIndustrial>
-			<WoodLog>8</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -256,12 +226,6 @@
 			<Bulk>12.00</Bulk>
 			<WorkToMake>17500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<WoodLog>9</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -304,12 +268,6 @@
 			<Bulk>12.07</Bulk>
 			<WorkToMake>11500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<WoodLog>9</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -352,12 +310,6 @@
 			<Bulk>10.60</Bulk>
 			<WorkToMake>22500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>10</Plastic>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -399,12 +351,6 @@
 			<Bulk>8.20</Bulk>
 			<WorkToMake>17500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>11</Plastic>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -447,12 +393,6 @@
 			<Bulk>9.60</Bulk>
 			<WorkToMake>30500</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>3</Weapon_Parts>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Plastic>12</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>2.36</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -498,12 +438,6 @@
 			<Bulk>10.13</Bulk>
 			<WorkToMake>12000</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>1</Weapon_Parts>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<Plastic>9</Plastic>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -546,12 +480,6 @@
 			<Bulk>10.10</Bulk>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>10</Plastic>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -594,12 +522,6 @@
 			<Bulk>7.87</Bulk>
 			<WorkToMake>33000</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>3</Weapon_Parts>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Plastic>13</Plastic>
-		</costList>
 		<Properties>
 			<recoilAmount>1.94</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -645,12 +567,6 @@
 			<Bulk>10.10</Bulk>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
-		<costList>
-			<Shotgun_Component>1</Shotgun_Component>
-			<Weapon_Parts>2</Weapon_Parts>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>11</Plastic>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
