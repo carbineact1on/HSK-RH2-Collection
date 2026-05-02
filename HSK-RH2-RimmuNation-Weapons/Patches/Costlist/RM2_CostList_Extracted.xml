@@ -807,11 +807,28 @@
             </costList>
         </value>
     </Operation>
-    <!-- RNGun_ASVAL_Rifle research  (source: RM2_CE_Rifle1_Style.xml) -->
-    <Operation Class="PatchOperationReplace">
-        <success>Always</success>
-        <xpath>Defs/ThingDef[defName="RNGun_ASVAL_Rifle"]/recipeMaker/researchPrerequisite</xpath>
-        <value><researchPrerequisite>PrecisionRifling</researchPrerequisite></value>
+    <!-- RNGun_ASVAL_Rifle research  (source: RM2_CE_Rifle1_Style.xml)
+         ASVAL has no own <recipeMaker> — inherits from RNMakeableAssaultRifle
+         which inherits from RNBaseMakeableGun. PatchOperationReplace on a
+         recipeMaker child fails because the element doesn't exist on this def.
+         Instead, Add a full recipeMaker that mirrors the inheritance chain
+         (workSpeedStat / workSkill / effectWorking / soundWorking /
+         unfinishedThingDef / recipeUsers) but with PrecisionRifling research. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="RNGun_ASVAL_Rifle"]</xpath>
+        <value>
+            <recipeMaker>
+                <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                <workSkill>Crafting</workSkill>
+                <effectWorking>Smith</effectWorking>
+                <soundWorking>Recipe_Smith</soundWorking>
+                <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+                <recipeUsers>
+                    <li>RNBench_LBW</li>
+                </recipeUsers>
+                <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            </recipeMaker>
+        </value>
     </Operation>
     <!-- RNGun_DDM4V11_Rifle  (source: RM2_CE_Rifle2_Style.xml) -->
     <Operation Class="PatchOperationReplace">
