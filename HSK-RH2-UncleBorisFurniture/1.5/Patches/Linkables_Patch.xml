@@ -1,34 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<!-- DOUBLE WARDROBE -->
+	<!-- Only RH2_LampEndTable is bundled in this HSK fork. Wardrobe,
+	     Footlocker, and Military Crate Dresser were removed (art didn't
+	     match HSK aesthetic). They're stripped from the linkableFacilities
+	     lists below to avoid 100+ "Could not resolve cross-reference"
+	     errors at load. -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "HospitalBed"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 		<value>
-			<li>RH2_DoubleWardrobe</li>
-			<li>RH2_ClassicFootlocker</li>
-			<li>RH2_MilitaryCrateDresser</li>
 			<li>RH2_LampEndTable</li>
 		</value>
-	</Operation>	
-	
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[@Name = "BasicBedBase"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 		<value>
-			<li>RH2_DoubleWardrobe</li>
-			<li>RH2_ClassicFootlocker</li>
-			<li>RH2_MilitaryCrateDresser</li>
 			<li>RH2_LampEndTable</li>
 		</value>
-	</Operation>	
+	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Bedroll"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 		<value>
-			<li>RH2_DoubleWardrobe</li>
-			<li>RH2_ClassicFootlocker</li>
-			<li>RH2_MilitaryCrateDresser</li>
 			<li>RH2_LampEndTable</li>
 		</value>
 	</Operation>
