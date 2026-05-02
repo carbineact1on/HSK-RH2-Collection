@@ -809,6 +809,7 @@
     </Operation>
     <!-- RNGun_ASVAL_Rifle research  (source: RM2_CE_Rifle1_Style.xml) -->
     <Operation Class="PatchOperationReplace">
+        <success>Always</success>
         <xpath>Defs/ThingDef[defName="RNGun_ASVAL_Rifle"]/recipeMaker/researchPrerequisite</xpath>
         <value><researchPrerequisite>PrecisionRifling</researchPrerequisite></value>
     </Operation>
