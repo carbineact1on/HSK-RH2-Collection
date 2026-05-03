@@ -147,6 +147,10 @@ namespace HSKRNRouter
             ("AmmoSet_762x54",                 BenchLBW),
             ("AmmoSet_762x54mm",               BenchLBW),
             ("AmmoSet_762x54mmR",              BenchLBW),
+            // AUR bundled rifle calibers (loot weapons routed to LBW)
+            ("AmmoSet_277Fury",                BenchLBW),
+            ("AmmoSet_300AACBlackout",         BenchLBW),
+            ("AmmoSet_65x50mmSRArisaka",       BenchLBW),
             ("AmmoSet_792x57",                 BenchLBW),
             ("AmmoSet_792x57mm",               BenchLBW),
             ("AmmoSet_792x57mmMauser",         BenchLBW),
@@ -171,6 +175,11 @@ namespace HSKRNRouter
             ("AmmoSet_12x72mmCharged",         BenchLBW),
             ("AmmoSet_ChargedRifle",           BenchLBW),
             ("AmmoSet_ChargedShot",            BenchLBW),
+            // NOTE: AmmoSet_VQEC_CryptoBolt (Cryptobolter from VQE Cryptoforge)
+            // intentionally NOT routed — Cryptobolter is quest-locked to
+            // VQE_AncientCryptoforge by upstream design. Router will log it
+            // as "unknown ammoSet" and skip (recipeUsers stays at the
+            // quest-only bench, which is the desired behavior).
             // Caseless rifle variants
             ("AmmoSet_5x50mmCaselessToxic",    BenchLBW),
             ("AmmoSet_5x50mmCaseless_HV",      BenchLBW),
