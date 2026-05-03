@@ -46,7 +46,7 @@
     <products><RNGun_Remington870MCS_Shotgun>1</RNGun_Remington870MCS_Shotgun></products>
     <fixedIngredientFilter>
       <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_CQB</li></recipeUsers>
     <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -94,7 +94,7 @@
     <products><RNGun_Model1897_Shotgun>1</RNGun_Model1897_Shotgun></products>
     <fixedIngredientFilter>
       <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_CQB</li></recipeUsers>
     <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -118,7 +118,7 @@
     <products><RNGun_IZh43_Shotgun>1</RNGun_IZh43_Shotgun></products>
     <fixedIngredientFilter>
       <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_CQB</li></recipeUsers>
     <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -166,7 +166,7 @@
     <products><RNGun_Mossberg500_Shotgun>1</RNGun_Mossberg500_Shotgun></products>
     <fixedIngredientFilter>
       <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_CQB</li></recipeUsers>
     <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -310,7 +310,7 @@
     <products><RNGun_StoegerCoachGun_Shotgun>1</RNGun_StoegerCoachGun_Shotgun></products>
     <fixedIngredientFilter>
       <thingDefs><li>Shotgun_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_CQB</li></recipeUsers>
     <researchPrerequisite>GasOperation</researchPrerequisite>

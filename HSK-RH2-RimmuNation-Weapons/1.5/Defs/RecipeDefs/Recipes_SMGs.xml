@@ -70,7 +70,7 @@
     <products><RNGun_ThompsonSubmachineGun_SMG>1</RNGun_ThompsonSubmachineGun_SMG></products>
     <fixedIngredientFilter>
       <thingDefs><li>SMG_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_CQB</li></recipeUsers>
     <researchPrerequisite>BlowbackOperation</researchPrerequisite>

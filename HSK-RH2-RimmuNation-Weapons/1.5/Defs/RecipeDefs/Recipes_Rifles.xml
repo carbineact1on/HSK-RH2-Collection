@@ -382,7 +382,7 @@
     <products><RNGun_AK47_Rifle>1</RNGun_AK47_Rifle></products>
     <fixedIngredientFilter>
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
@@ -406,7 +406,7 @@
     <products><RNGun_AKMSD_Rifle>1</RNGun_AKMSD_Rifle></products>
     <fixedIngredientFilter>
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
@@ -454,7 +454,7 @@
     <products><RNGun_Type56_Rifle>1</RNGun_Type56_Rifle></products>
     <fixedIngredientFilter>
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
@@ -622,7 +622,7 @@
     <products><RNGun_R1Para_Rifle>1</RNGun_R1Para_Rifle></products>
     <fixedIngredientFilter>
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
@@ -646,7 +646,7 @@
     <products><RNGun_FNFAL_Rifle>1</RNGun_FNFAL_Rifle></products>
     <fixedIngredientFilter>
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
@@ -670,7 +670,7 @@
     <products><RNGun_RomatFAL_Rifle>1</RNGun_RomatFAL_Rifle></products>
     <fixedIngredientFilter>
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
@@ -694,7 +694,7 @@
     <products><RNGun_FNFALTatiana_Rifle>1</RNGun_FNFALTatiana_Rifle></products>
     <fixedIngredientFilter>
       <thingDefs><li>AdvRifle_Component</li><li>Weapon_Parts</li><li>ComponentIndustrial</li></thingDefs>
-      <categories><li>SLDBar</li><li>USLDBar</li></categories>
+      <categories><li>SLDBar</li><li>USLDBar</li><li>Woody</li></categories>
     </fixedIngredientFilter>
     <recipeUsers><li>RNBench_LBW</li></recipeUsers>
     <researchPrerequisite>Rifles_C2</researchPrerequisite>
