@@ -105,10 +105,9 @@
 	<stuffCategories>
       <li>RuggedMetallic</li>
     </stuffCategories>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>125</costStuffCount>
 
     <costList>
-      <Rubber>25</Rubber>
       <ComponentIndustrial>8</ComponentIndustrial>
       <Mechanism>3</Mechanism>
     </costList>
@@ -186,10 +185,9 @@
 	<stuffCategories>
       <li>RuggedMetallic</li>
     </stuffCategories>
-    <costStuffCount>130</costStuffCount>
+    <costStuffCount>170</costStuffCount>
 
     <costList>
-      <Rubber>40</Rubber>
       <ComponentIndustrial>12</ComponentIndustrial>
       <Mechanism>5</Mechanism>
       <Electronics>3</Electronics>
