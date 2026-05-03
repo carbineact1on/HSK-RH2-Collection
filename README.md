@@ -20,9 +20,34 @@ Full HSK/CE conversion of **[RH2] Uncle Boris — Used Furniture**. All furnitur
 Full HSK/CE conversion of **[RH2] Rimmu-Nation² — Clothing**. 153 apparel items (tops, pants, shells, hats, masks, body armor, helmets, webbing, backpacks) re-recipe'd to HSK benches with HSK material conventions. Auto-generated `recipeMaker` blocks stripped — all recipes are explicit `RecipeDef`s using HSK's tailoring + electric tailoring benches.
 
 ### 🔫 HSK-RH2-RimmuNation-Weapons
-Full HSK/CE conversion of **[RH2] Rimmu-Nation² — Weapons**. Includes the **HSKRNRouter** Harmony patch, which auto-routes weapon recipes to the correct RN bench (CQB / LBW / Sharpshooter / etc.) based on each weapon's CE `ammoSet`. Modern calibers go to RN benches; preindustrial calibers (musket, Minie, Govt, Rimfire) stay at the cast-iron armory.
+Full HSK/CE conversion of **[RH2] Rimmu-Nation² — Weapons**. Includes the **HSKRNRouter** Harmony patch, which auto-routes weapon recipes to the correct RN bench (CQB / LBW / HeavyWeapons) based on each weapon's CE `ammoSet`. Modern calibers go to RN benches; preindustrial calibers (musket, Minie, Govt, Rimfire) stay at the cast-iron armory.
 
-**HSKRNRouter is mod-friendly:** the routing table is data-driven — adding new weapons / calibers to the right bench just means appending a line to the routing list and rebuilding the DLL. No hardcoded recipe paths.
+**HSKRNRouter is mod-friendly:** the routing table is data-driven — adding new weapons / calibers to the right bench just means appending a line to the routing list and rebuilding the DLL. No hardcoded recipe paths. Currently routes 280+ weapons across the modlist with explicit support for AUR rifle calibers (.277 Fury, .300 BLK, 6.5x50mm Arisaka).
+
+#### RN Bench Tier Costs
+
+Tuned to slot into HSK's weapon-bench progression as sub-basic / basic-tier / sub-advanced (HSK reference: `WeaponCraftingWorkTable` 140 stuff + 500W, `AdvWeaponCraftingWorkTable` 160 stuff + 55 Rubber + 500W).
+
+| Bench | Stuff (RuggedMetallic) | Rubber | Components | Power |
+|---|---|---|---|---|
+| **CQB** *(pistol)* | 85 | — | 5 ComponentIndustrial + 2 Mechanism | 100W |
+| **LBW** *(rifle)* | 125 | — | 8 ComponentIndustrial + 3 Mechanism | 250W |
+| **HeavyWeapons** | 130 | 40 | 12 ComponentIndustrial + 5 Mechanism + 3 Electronics | 400W |
+
+Only the Heavy bench requires Rubber. CQB and LBW build from steel bars + standard components. Power scales with tier: CQB needs ~1 small generator, LBW needs proper grid, Heavy needs heavy industrial draw. All gated behind `Gunsmithing` research.
+
+#### Bundled Ammo
+
+Re-bundles two CE-deactivated rocket projectiles that RH2 launcher patches still reference, so the FGM-148 Javelin and NLAW launchers actually fire:
+
+- `Bullet_127mmJavelinMissile` (Javelin)
+- `Bullet_150mmMBTLAWMissile` (NLAW)
+
+Each bundled with `PatchOperationTest`+`Invert` so they no-op gracefully if any other mod also brings the def back.
+
+#### Recipe Filter Fixes
+
+Per a community bug report: 13 wood-stock weapon recipes (Thompson SMG, AK47/AKMSD/Type56/R1Para/FNFAL family, Mossberg/Remington/IZh43/Stoeger shotguns) had `<Woody>` in their ingredient list but only `SLDBar/USLDBar` in the `fixedIngredientFilter` — meaning the bench couldn't toggle wooden material as accepted, making the recipe unfulfillable. Added `<li>Woody</li>` to all 13 filters so wooden boards / bamboo / cardboard / ironwood are now valid stock material.
 
 ## Installation
 
