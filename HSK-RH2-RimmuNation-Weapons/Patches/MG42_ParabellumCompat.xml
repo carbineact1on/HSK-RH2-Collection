@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MG-42 caliber unification with Parabellum.
+
+    When Parabellum is loaded, redirect the RH2 RN MG-42 GPMG to share
+    Parabellum's AmmoSet_8mmM (their 7.92x57mm Mauser implementation,
+    used by ~10 Parabellum weapons including stationary MGs). Both mods
+    represent the same real-world caliber but bundle their own def names,
+    creating two parallel ammo pools where there should be one.
+
+    Parabellum's AmmoSet_8mmM ammo types:
+      Ammo_8mmM_SP  (FMJ - standard ball)
+      Ammo_8mmM_KP  (AP - armor-piercing)
+      Ammo_8mmM_BP  (HE-Tracer)
+      Ammo_8mmM_P88M (special)
+
+    Wrapped in PatchOperationFindMod so it no-ops when Parabellum isn't
+    active (MG-42 keeps its RH2-bundled AmmoSet_792x57mmMauser in that case).
+
+    Per Kirkiness's request - 7.92x57 is historically the correct MG-42
+    caliber, and unifying ammo pools means colonies don't need to stockpile
+    two parallel 7.92x57 inventories.
+-->
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Parabellum</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_MG42_GPMG"]/verbs/li[verbClass="CombatExtended.Verb_ShootCE"]/defaultProjectile</xpath>
+                    <value>
+                        <defaultProjectile>Bullet_8mmM_SP</defaultProjectile>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_MG42_GPMG"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
+                    <value>
+                        <ammoSet>AmmoSet_8mmM</ammoSet>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
