@@ -104,6 +104,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
     
     		   <!-- FACE Bandana -->
@@ -203,6 +206,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
   
       		   <!-- Shemagh Scarf -->
@@ -308,5 +314,8 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
 </Defs>

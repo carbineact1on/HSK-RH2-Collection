@@ -74,6 +74,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>  
 
 	<!-- Beanie -->
@@ -150,6 +153,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>	
   
   <!-- Skullcap -->
@@ -226,6 +232,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
 
 <!-- Cap -->
@@ -300,6 +309,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>  
   
   <!-- Helikon-Tex Patrol cap -->
@@ -374,6 +386,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>  
   
   
@@ -448,6 +463,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
   
     <!-- MILTEC Jungle Hat -->
@@ -521,6 +539,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>    
   
   <!-- Fedora -->
@@ -611,6 +632,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
   
     <!-- Gunslinger -->
@@ -703,6 +727,9 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
   
   <!-- Military Beret -->

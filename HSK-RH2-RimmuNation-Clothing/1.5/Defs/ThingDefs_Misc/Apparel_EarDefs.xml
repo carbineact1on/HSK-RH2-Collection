@@ -53,5 +53,8 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
 </Defs>

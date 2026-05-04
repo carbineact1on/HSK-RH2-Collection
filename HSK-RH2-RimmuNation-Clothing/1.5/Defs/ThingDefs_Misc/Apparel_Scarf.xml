@@ -116,5 +116,8 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
 </Defs>

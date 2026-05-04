@@ -77,7 +77,10 @@
 		
     </apparel>
 	<generateCommonality>0.10</generateCommonality>
-	<generateAllowChance>0.10</generateAllowChance>  
+	<generateAllowChance>0.10</generateAllowChance>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>    
   
   <!-- Balaclava 511 -->
@@ -154,7 +157,10 @@
 		
     </apparel>
 	<generateCommonality>0.10</generateCommonality>
-	<generateAllowChance>0.10</generateAllowChance>  
+	<generateAllowChance>0.10</generateAllowChance>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>  
   
   
@@ -232,7 +238,10 @@
 	  
     </apparel>
 	<generateCommonality>0.10</generateCommonality>
-	<generateAllowChance>0.10</generateAllowChance>  
+	<generateAllowChance>0.10</generateAllowChance>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef> 
   
     <!-- Balaclava Reaper -->
@@ -309,7 +318,10 @@
 	  
     </apparel>
 	<generateCommonality>0.10</generateCommonality>
-	<generateAllowChance>0.10</generateAllowChance>  
+	<generateAllowChance>0.10</generateAllowChance>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>     
   
   <!-- Balaclava Clown -->
@@ -386,7 +398,10 @@
 	  
     </apparel>
 	<generateCommonality>0.10</generateCommonality>
-	<generateAllowChance>0.10</generateAllowChance>  
+	<generateAllowChance>0.10</generateAllowChance>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef> 
   
   <!-- Balaclava Highlander -->
@@ -502,7 +517,10 @@
       </options>
     </colorGenerator>
 	<generateCommonality>0.10</generateCommonality>
-	<generateAllowChance>0.10</generateAllowChance>  
+	<generateAllowChance>0.10</generateAllowChance>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>
   
     <!-- Balaclava Aikuer -->
@@ -579,7 +597,10 @@
 	  
     </apparel>
 	<generateCommonality>0.10</generateCommonality>
-	<generateAllowChance>0.10</generateAllowChance>  
+	<generateAllowChance>0.10</generateAllowChance>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef> 
   
 </Defs>

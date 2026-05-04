@@ -60,6 +60,9 @@
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
         <!-- ================================== FAST BUMP ====================================-->
@@ -120,6 +123,9 @@
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
   
@@ -186,6 +192,9 @@
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>    	
   
   <!-- ================================== 3M F70 ====================================-->
@@ -247,6 +256,9 @@
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
       	<!-- ================================== EXFIL Ballistic ====================================-->
@@ -312,6 +324,9 @@
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>     
 
   <!-- TOR-D -->
@@ -375,6 +390,9 @@
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>    
 
   <!-- VestGuard FAST -->
@@ -440,6 +458,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>  
   
   <!-- Ops Core FAST series -->
@@ -505,6 +526,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
       <!-- ================================== FAST LE ====================================-->
@@ -568,6 +592,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
       <!-- ================================== FAST BUMP ====================================-->
@@ -630,6 +657,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
         <!-- ================================== FAST Carbon ====================================-->
@@ -692,6 +722,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
   <!-- ================================== MICH 2000 ====================================-->
@@ -753,6 +786,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>  
   
   
@@ -815,6 +851,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>  
   
     <!-- ================================== Mk 6 DDPM ====================================-->
@@ -876,6 +915,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>      
   
   <!-- ================================== Mk 6 ====================================-->
@@ -937,6 +979,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>    
   
   <!-- ================================== Mk 6A ====================================-->
@@ -998,6 +1043,9 @@ The FAST helmet series is characteristic for its shell shape – ear cut geometr
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
   <!-- ================================== Mk 7 ====================================-->
@@ -1061,6 +1109,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
   <!-- PASGT HELMETS -->
@@ -1123,6 +1174,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
       	<!-- ================================== PAS101 VestGuard PRESS ====================================-->
@@ -1183,6 +1237,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>      	
   
   <!-- ================================== PASGT ====================================-->
@@ -1243,6 +1300,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>  
   
   <!-- ================================== PASGT ENVO ====================================-->
@@ -1303,6 +1363,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
       	<!-- ================================== LWH USMC ====================================-->
@@ -1363,6 +1426,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>      	
   
     <!-- ================================== MICH 2000 ====================================-->
@@ -1424,6 +1490,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>  
   
   <!-- ================================== LWH USMC ====================================-->
@@ -1484,6 +1553,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
       <!-- ================================== STSh-81 ====================================-->
@@ -1544,6 +1616,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>  
   
     <!-- ================================== 6B48 ====================================-->
@@ -1604,6 +1679,9 @@ The Mk 7 helmet was introduced in June 2009 as an UOR (urgent operational requir
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>  
   
 </Defs>

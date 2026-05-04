@@ -60,6 +60,9 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>        
   
   <!-- S6 -->
@@ -119,6 +122,9 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>    
   
     <!-- S6 -->
@@ -178,6 +184,9 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef> 
   
     <!--============ Russia ========-->
@@ -241,6 +250,9 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>
 
   <!--============ Yugoslavia ========-->
@@ -302,6 +314,9 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>     
   
   <!--============ Others ========-->
@@ -363,6 +378,9 @@
         <li>None</li>
       </renderSkipFlags>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Masks</li>
+    </thingCategories>
   </ThingDef>     
   
 </Defs>

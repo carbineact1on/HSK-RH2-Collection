@@ -64,6 +64,9 @@
       </defaultOutfitTags>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Helmets</li>
+    </thingCategories>
   </ThingDef>
   
       <!-- ======================================= Juggernaut =======================================-->

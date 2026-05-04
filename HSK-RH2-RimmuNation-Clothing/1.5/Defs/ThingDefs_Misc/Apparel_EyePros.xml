@@ -61,6 +61,9 @@
         </dataNorth>
       </drawData>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>             
   
                <!--========================================= Terminator =============================================--> 
@@ -123,6 +126,9 @@
         </dataNorth>
       </drawData>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>             
   
   <!--========================================= 8X10 =============================================--> 
@@ -186,6 +192,9 @@
         </dataNorth>
       </drawData>
     </apparel>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>  
   
   <!--========================================= 8X10 =============================================--> 
@@ -271,5 +280,8 @@
         </li>
       </options>
     </colorGenerator>
+    <thingCategories>
+      <li>RNHeadgear_Hats</li>
+    </thingCategories>
   </ThingDef>
 </Defs>
