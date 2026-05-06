@@ -220,4 +220,38 @@
 			]/equippedStatOffsets/MoveSpeed </xpath>
 	</Operation>
 
+	<!-- HSK: add baseline ArmorRating_Sharp / Blunt to all chest rigs + webbing.
+	     Without these CE warns "penAmount or armorAmount are zero" every time
+	     a hit lands on a wearer (Player.log). Tiny values reflect fabric/
+	     synthetic-fiber webbing - bullets pass through but minor blunt
+	     cushioning. -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[
+			defName = "RHApparel_M56Webbing_Vietnam" or
+			defName = "RHApparel_ALICEWebbing_ColdWar" or
+			defName = "RHApparel_RRV_ChestRig" or
+			defName = "RHApparel_USMC_ChestRig" or
+			defName = "RHApparel_CondorRecon_ChestRig" or
+			defName = "RHApparel_CryeAVSTan_ChestRig" or
+			defName = "RHApparel_MilTec_ChestRig" or
+			defName = "RHApparel_WarriorFalcon_ChestRig" or
+			defName = "RHApparel_Type56Webbing_ColdWar" or
+			defName = "RHApparel_Type63Webbing_ColdWar" or
+			defName = "RHApparel_M23_ChestRig" or
+			defName = "RHApparel_KulaMongoose_ChestRig" or
+			defName = "RHApparel_Arktis_TacticalVest" or
+			defName = "RHApparel_SuperBelt_Tan" or
+			defName = "RHApparel_VTACBattleBelt_Tan" or
+			defName = "RHApparel_CondorBattleBelt_Tan" or
+			defName = "RHApparel_TexShoemakerPoliceBelt_Python" or
+			defName = "RHApparel_SafarilandPoliceBelt_Beretta" or
+			defName = "RHApparel_SafarilandPoliceBelt_Glock" or
+			defName = "RHApparel_MaxpeditionBattleBelt_Olive"
+			]/statBases </xpath>
+		<value>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
 </Patch>
