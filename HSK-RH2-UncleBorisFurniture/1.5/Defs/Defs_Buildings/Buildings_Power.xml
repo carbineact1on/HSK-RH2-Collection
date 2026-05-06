@@ -94,7 +94,7 @@
     </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
-    <constructEffect>ConstructMetal</constructEffect>
+    <!-- HSK: removed <constructEffect> - madeFromStuff overrides it with stuff's animation (Player.log warning). -->
     <researchPrerequisites>
       <li>Generators_C3</li>
     </researchPrerequisites>
@@ -194,7 +194,7 @@
     </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
-    <constructEffect>ConstructMetal</constructEffect>
+    <!-- HSK: removed <constructEffect> - madeFromStuff overrides it with stuff's animation (Player.log warning). -->
     <researchPrerequisites>
       <li>Generators_C2</li>
     </researchPrerequisites>
@@ -288,7 +288,7 @@
     </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
-    <constructEffect>ConstructMetal</constructEffect>
+    <!-- HSK: removed <constructEffect> - madeFromStuff overrides it with stuff's animation (Player.log warning). -->
     <researchPrerequisites>
       <li>Generators_C3</li>
     </researchPrerequisites>
@@ -387,7 +387,7 @@
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
-    <constructEffect>ConstructMetal</constructEffect>
+    <!-- HSK: removed <constructEffect> - madeFromStuff overrides it with stuff's animation (Player.log warning). -->
     <researchPrerequisites>
       <li>Electricity</li>
     </researchPrerequisites>
