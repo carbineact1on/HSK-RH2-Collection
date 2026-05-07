@@ -9,6 +9,7 @@
 			<!-- Pistol: RNShotPistol_III → uses generic pistol sound -->
 			<SoundDef>
 				<defName>RNShotPistol_III</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Pistol/RNShotPistol_II</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -16,6 +17,7 @@
 			<!-- Pistol: RNShotDeagle → uses Deagle clip -->
 			<SoundDef>
 				<defName>RNShotDeagle</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Pistol/RNDeagleShot</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -23,6 +25,7 @@
 			<!-- LMG: RNShotM60 → uses M60 LMG clip -->
 			<SoundDef>
 				<defName>RNShotM60</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>LMG/RNShotM60LMG</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -30,6 +33,7 @@
 			<!-- LMG: RNShotPKM → uses M240B clip (similar GPMG) -->
 			<SoundDef>
 				<defName>RNShotPKM</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>LMG/RNShotM240B</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -37,6 +41,7 @@
 			<!-- Rifle: RNShot_FAMAS → uses generic bullpup II -->
 			<SoundDef>
 				<defName>RNShot_FAMAS</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Rifle/RNShot_GenericBullpup_II</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -44,6 +49,7 @@
 			<!-- Rifle: RNShot_AK47 → uses AK47 clip -->
 			<SoundDef>
 				<defName>RNShot_AK47</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Rifle/RNShot_AK47Rifle</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -51,6 +57,7 @@
 			<!-- Rifle: RNShot_AK74 → uses AK74U SMG clip -->
 			<SoundDef>
 				<defName>RNShot_AK74</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotSMGAK</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -58,6 +65,7 @@
 			<!-- Rifle: RNShot_AK103 → uses AKM clip -->
 			<SoundDef>
 				<defName>RNShot_AK103</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Rifle/RNShot_AKM</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -65,6 +73,7 @@
 			<!-- Sniper: RNShotBarrett → uses 50Cal clip -->
 			<SoundDef>
 				<defName>RNShotBarrett</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Sniper/RNShot50Cal</clipPath></li></grains><volumeRange>55~55</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -72,6 +81,7 @@
 			<!-- Sniper: RNShotM40A5 → uses M40 clip -->
 			<SoundDef>
 				<defName>RNShotM40A5</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Sniper/RNShotM40Sniper</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -79,6 +89,7 @@
 			<!-- Tail: GunTail_Sniper → uses generic bolt sniper for echo effect -->
 			<SoundDef>
 				<defName>GunTail_Sniper</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>Sniper/RNShot_GenericBoltSniper_II</clipPath></li></grains><volumeRange>30~30</volumeRange><pitchRange>0.85~0.95</pitchRange></li></subSounds>
 			</SoundDef>
@@ -86,6 +97,7 @@
 			<!-- Shotgun: RNShotAA12 → uses USAS auto-shotgun clip -->
 			<SoundDef>
 				<defName>RNShotAA12</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotUSAS</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -93,6 +105,7 @@
 			<!-- Shotgun: RNShotRem870 → uses 870 clip -->
 			<SoundDef>
 				<defName>RNShotRem870</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RN870Shot</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -100,6 +113,7 @@
 			<!-- Tail: GunTail_Shotgun → uses pump shotgun for echo -->
 			<SoundDef>
 				<defName>GunTail_Shotgun</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotPumpShot</clipPath></li></grains><volumeRange>30~30</volumeRange><pitchRange>0.85~0.95</pitchRange></li></subSounds>
 			</SoundDef>
@@ -107,6 +121,7 @@
 			<!-- Shotgun: RNShotBenelliMontefeltro → uses M1014 clip -->
 			<SoundDef>
 				<defName>RNShotBenelliMontefeltro</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotM1014</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -114,6 +129,7 @@
 			<!-- Shotgun: RNShotMossberg500 → uses 870 clip -->
 			<SoundDef>
 				<defName>RNShotMossberg500</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RN870Shot</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -121,6 +137,7 @@
 			<!-- Shotgun: RNShotSaiga12 → uses SAIGA clip -->
 			<SoundDef>
 				<defName>RNShotSaiga12</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotSAIGA</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -128,6 +145,7 @@
 			<!-- Shotgun: RNShotUSAS12 → uses USAS clip -->
 			<SoundDef>
 				<defName>RNShotUSAS12</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotUSAS</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -135,6 +153,7 @@
 			<!-- Shotgun: RNShotM1014 → uses M1014 clip -->
 			<SoundDef>
 				<defName>RNShotM1014</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotM1014</clipPath></li></grains><volumeRange>50~50</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -142,6 +161,7 @@
 			<!-- SMG: RNShotUMP45 → uses UMP45 clip -->
 			<SoundDef>
 				<defName>RNShotUMP45</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNUMP45Shot</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -149,6 +169,7 @@
 			<!-- SMG: RNShotUzi → uses MAC11 clip -->
 			<SoundDef>
 				<defName>RNShotUzi</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotMAC11</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
@@ -156,6 +177,7 @@
 			<!-- SMG: RNShotPPSh41 → uses AK SMG clip -->
 			<SoundDef>
 				<defName>RNShotPPSh41</defName>
+				<context>MapOnly</context>
 				<sustain>false</sustain>
 				<subSounds><li><grains><li Class="AudioGrain_Clip"><clipPath>CQB/RNShotSMGAK</clipPath></li></grains><volumeRange>45~45</volumeRange><pitchRange>0.93~1.06</pitchRange></li></subSounds>
 			</SoundDef>
