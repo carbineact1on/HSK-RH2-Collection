@@ -32,9 +32,13 @@
     </equippedStatOffsets>
     <apparel>
 	<countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <!-- HSK: ear defenders cover RH2_Ears (custom body part group defined in
+           BodyPartGroups.xml), not UpperHead. UpperHead conflicted with hats,
+           coifs, and other head gear that earmuffs should realistically be worn
+           over. Original author had RH2_Ears commented out - we uncomment and
+           drop UpperHead. -->
       <bodyPartGroups>
-        <!--<li>RH2_Ears</li>-->
-        <li>UpperHead</li>
+        <li>RH2_Ears</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/Headgear/EarDefs/PeltorOptime_EarDefs</wornGraphicPath>
       <layers>
