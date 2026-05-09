@@ -55,14 +55,8 @@
 		</value>
 	</Operation>
 
-	<!-- Body parts: Nose only.
-	     Discord report (qcuepi 2026-05-08): HMC Vile's Pre-Industrial Mail Coif
-	     (Apparel_SkulkerHood) covers [UpperHead, Neck, Teeth]. Initial fix used
-	     HSK's Apparel_Respirator pattern [Teeth, Nose] but Teeth still collided
-	     with the coif - "nothing has changed". Dropped Teeth, leaving just Nose,
-	     which is fully disjoint from the coif's coverage so both equip together
-	     without one kicking the other. Gas mask still covers the airway (its
-	     functional purpose for ToxicEnvironmentResistance + smoke filtering). -->
+	<!-- Body parts: Teeth + Nose (matches HSK Apparel_Respirator, no jaw/eye
+	     overlap with helmets or coifs). -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[
 			defName = "RNApparel_Gasmask_P1944WWI"
@@ -74,6 +68,7 @@
 			]/apparel/bodyPartGroups </xpath>
 		<value>
 			<bodyPartGroups>
+				<li>Teeth</li>
 				<li>Nose</li>
 			</bodyPartGroups>
 		</value>
