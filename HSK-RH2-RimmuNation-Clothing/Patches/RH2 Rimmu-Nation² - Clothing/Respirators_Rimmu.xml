@@ -32,13 +32,6 @@
 		</value>
 	</Operation>
 
-	<!-- HSK: match the layer + body part pattern of Core_SK's Apparel_Respirator
-	     (Overhead layer + Teeth/Nose body parts). Was StrappedHead + [Eyes, Jaw]
-	     which collided with HMC Vile's Mail Coif (Strapped + jaw) - the coif got
-	     auto-unequipped whenever a gas mask was forced. With the HSK respirator
-	     pattern, the gas mask occupies the same Overhead layer as hats/coifs but
-	     covers Teeth+Nose only, so it coexists with anything covering UpperHead
-	     (coifs, helmets) or other body parts. -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[
 			defName = "RNApparel_Gasmask_P1944WWI"
@@ -50,27 +43,8 @@
 			]/apparel/layers </xpath>
 		<value>
 			<layers>
-				<li>Overhead</li>
+				<li>StrappedHead</li>
 			</layers>
-		</value>
-	</Operation>
-
-	<!-- Body parts: Teeth + Nose (matches HSK Apparel_Respirator, no jaw/eye
-	     overlap with helmets or coifs). -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[
-			defName = "RNApparel_Gasmask_P1944WWI"
-			or defName = "RNApparel_Gasmask_S6NBC"
-			or defName = "RNApparel_Gasmask_S10NBC"
-			or defName = "RNApparel_Gasmask_GP5Soviet"
-			or defName = "RNApparel_Gasmask_M1Yugoslavian"
-			or defName = "RNApparel_Gasmask_MSAMillenium"
-			]/apparel/bodyPartGroups </xpath>
-		<value>
-			<bodyPartGroups>
-				<li>Teeth</li>
-				<li>Nose</li>
-			</bodyPartGroups>
 		</value>
 	</Operation>
 
