@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK patch: add 6x24mm Charged ammo recipes to RH2 RN benches.
-
-    Why?
-    6x24mm Charged is a HSK-CE-active light charged caliber used by:
-      - Wolfein Charge Rapid-Fire Pistol
-      - Wolfein Charge SMG
-      - Wolfein Taser Gun (charged taser cells via Wolfein_AmmoSet_TaserCharged)
-
-    By default the ammo recipes (MakeAmmo_6x24mmCharged + _AP + _Ion variants)
-    only load onto HSK's standard ammo bench via the ChargeAmmoRecipeBase
-    parent. RH2 RN-bench players couldn't craft the cartridges there.
-
-    Patch adds the 3 RN benches to each variant's recipeUsers list.
-    Additive — HSK ammo bench routing preserved.
-
-    Gated by RH2 RimmuNation² Weapons being active. If the mod isn't
-    loaded, the operation is silently skipped via <success>Always</success>.
--->
+<!-- HSK patch: add 6x24mm Charged ammo recipes to RH2 RN benches -->
 <Patch>
 
     <Operation Class="PatchOperationFindMod">

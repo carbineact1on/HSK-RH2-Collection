@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    Extracted costList and researchPrerequisite ops from the RM2_CE_*.xml
-    weapon CE patches. HSK has disabled <costList> and <researchPrerequisite>
-    inside CombatExtended.PatchOperationMakeGunCECompatible — they are silently
-    dropped. Extracting them as standalone PatchOperationReplace ops here so
-    the values actually apply.
--->
+<!-- Extracted costList and researchPrerequisite ops from the RM2_CE_*.xml -->
 <Patch>
 
     <!-- RNGun_C14Timberwolf_Sniper  (source: RM2_CE_BoltAction.xml) -->
@@ -807,13 +801,7 @@
             </costList>
         </value>
     </Operation>
-    <!-- RNGun_ASVAL_Rifle research  (source: RM2_CE_Rifle1_Style.xml)
-         ASVAL has no own <recipeMaker> — inherits from RNMakeableAssaultRifle
-         which inherits from RNBaseMakeableGun. PatchOperationReplace on a
-         recipeMaker child fails because the element doesn't exist on this def.
-         Instead, Add a full recipeMaker that mirrors the inheritance chain
-         (workSpeedStat / workSkill / effectWorking / soundWorking /
-         unfinishedThingDef / recipeUsers) but with PrecisionRifling research. -->
+<!-- RNGun_ASVAL_Rifle research (source: RM2_CE_Rifle1_Style.xml) -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="RNGun_ASVAL_Rifle"]</xpath>
         <value>

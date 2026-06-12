@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK patch: kill the auto-generated "Build X" recipes from
-    RH2's RNMakeable* abstract bases.
-
-    Why?
-    Each RNMakeable* abstract def shipped with a <recipeMaker> block that
-    auto-generated a "Build X" recipe per concrete weapon. Those auto-gen
-    recipes use the weapon's <costList> (raw vanilla Steel + ComponentIndustrial
-    + WoodLog) and attach to the appropriate RN bench (CQB/LBW/HW) — but
-    in HSK that costList is wrong (Steel = Iron Ore in HSK, not refined),
-    so the auto-gen recipes show up at RN benches with broken ingredients.
-
-    Our HSK-tuned RecipeDefs in Defs/RecipeDefs/Recipes_*.xml replace those
-    with the correct refined materials (Pistol_Component, Weapon_Parts,
-    SteelBar / SLDBar, etc.) and now also point at the correct RN bench
-    via recipeUsers. So the auto-gen ones are pure duplicates with wrong
-    ingredients.
-
-    Removing <recipeMaker> from each RNMakeable* base disables the
-    auto-gen entirely. Concrete weapons inherit the change and lose
-    their broken recipe; the HSK-correct one stays.
--->
+<!-- HSK patch: kill the auto-generated "Build X" recipes from -->
 <Patch>
 
     <!-- Generic umbrella bases (cover most weapons via inheritance) -->

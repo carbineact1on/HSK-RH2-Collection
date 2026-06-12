@@ -220,11 +220,7 @@
 			]/equippedStatOffsets/MoveSpeed </xpath>
 	</Operation>
 
-	<!-- HSK: add baseline ArmorRating_Sharp / Blunt to all chest rigs + webbing.
-	     Without these CE warns "penAmount or armorAmount are zero" every time
-	     a hit lands on a wearer (Player.log). Tiny values reflect fabric/
-	     synthetic-fiber webbing - bullets pass through but minor blunt
-	     cushioning. -->
+<!-- HSK: add baseline ArmorRating_Sharp / Blunt to all chest rigs + webbing -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[
 			defName = "RHApparel_M56Webbing_Vietnam" or

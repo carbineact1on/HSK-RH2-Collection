@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    HSK: add baseline ArmorRating_Sharp / ArmorRating_Blunt to all RH2
-    Rimmu-Nation² clothing defs that lack inline values.
-
-    Why: CE warns "penAmount or armorAmount are zero" every time a hit
-    lands on apparel that has StuffEffectMultiplierArmor but no base
-    ArmorRating to multiply. Without these baselines, the multiplier
-    has nothing to scale and the deflection calc trips the warning.
-
-    Coverage: every RNApparel_* / RHApparel_* ThingDef whose statBases
-    does NOT already declare ArmorRating_Sharp. Body armor defs in
-    Apparel_Armor.xml and the special-set files all declare inline
-    ArmorRating_Sharp (e.g. 1.01 for vests) and are excluded by the
-    not() predicate. Only clothing/hats/masks/eye+ear pro/scarves/
-    bandanas/jackets/pants/shirts pick up the baseline.
-
-    Values: Sharp 0.05 / Blunt 0.10 reflect cloth/synthetic-fiber gear -
-    bullets pass through, modest blunt cushioning. The wearer's chosen
-    stuff scales these via StuffEffectMultiplierArmor (existing 0.10-0.20
-    on most clothing).
-
-    Loads as ZZ_* so it runs after the existing CE patches that may
-    inject statBases - we add to whatever final shape the upstream
-    patches produced.
--->
+<!-- HSK: add baseline ArmorRating_Sharp / ArmorRating_Blunt to all RH2 -->
 <Patch>
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[(starts-with(defName, "RNApparel_") or starts-with(defName, "RHApparel_")) and not(statBases/ArmorRating_Sharp)]/statBases</xpath>

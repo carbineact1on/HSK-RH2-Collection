@@ -94,11 +94,7 @@
 		</value>
 	</Operation>
 
-	<!-- HSK: add baseline ArmorRating_Sharp / Blunt so CE has non-zero values to
-	     compute deflection against. Without these, CE warns "penAmount or
-	     armorAmount are zero" every time the gasmask is hit (Player.log).
-	     Light values reflect rubber + filter: tiny bullet protection, modest
-	     blunt cushioning. -->
+<!-- HSK: add baseline ArmorRating_Sharp / Blunt so CE has non-zero values to -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[
 			defName = "RNApparel_Gasmask_P1944WWI"
