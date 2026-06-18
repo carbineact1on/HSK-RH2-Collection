@@ -57,7 +57,6 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Leathers</li>
       <li>Woody</li>
 					</categories>
 				</filter>
@@ -77,7 +76,6 @@
 			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
-				<li>Leathers</li>
       <li>Woody</li>
 			</categories>
 		</fixedIngredientFilter>
@@ -141,7 +139,6 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Leathers</li>
       <li>Woody</li>
 					</categories>
 				</filter>
@@ -161,7 +158,6 @@
 			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
-				<li>Leathers</li>
       <li>Woody</li>
 			</categories>
 		</fixedIngredientFilter>
