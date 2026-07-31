@@ -2,20 +2,11 @@
 <Patch>
 	<!--=============== Eye and Ear Pro ====================-->
 
-	<!--layer fix-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[
-			defName="RNApparel_EyePros_8X10BallisticGoggles" or
-			defName="RNApparel_EyePros_RB3025AviatorGlasses" or
-			defName="RNApparel_EyePros_SIBallisticMFrame" or
-			defName="RNApparel_EyePros_TerminatorGlasses"
-			]/apparel/layers </xpath>
-		<value>
-			<layers>
-				<li>StrappedHead</li>
-			</layers>
-		</value>
-	</Operation>
+	<!-- Eyewear stays on EyeCover (RH2's original layer, and HSK Core_SK's own convention:
+	     Apparello_Pilot / Brimsk / Visoor sunglasses+goggles are all EyeCover).
+	     Do NOT move these to CE's StrappedHead: the art is drawn for EyeCover at
+	     drawSize 1.20 and renders wrong in the other slot (gachi "glasses and masks
+	     do not work" report 2026-07). -->
 
 	<!--Ballistic Goggles + Ear Pro-->
 	<Operation Class="PatchOperationAdd">
