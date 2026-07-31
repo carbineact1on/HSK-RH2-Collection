@@ -47,6 +47,14 @@
 		</value>
 	</Operation>
 
+	<!-- NOTE: do NOT move balaclavas to the OnHead layer. That is the full-helmet slot:
+	     the game then renders the small face-mask art (drawSize 0.70, drawn for Overhead)
+	     across the whole head and hides the hair, which shows up as a big black blob over
+	     the face (gachi report 2026-07; only in HSK, vanilla RH2 renders fine).
+	     HSK Core_SK's own masks all sit on Overhead — Marine_TacticalMask even uses
+	     UpperHead coverage while staying on Overhead. Keeping RH2's original Overhead
+	     layer and Neck/Teeth/Mouth coverage; only the CE stat changes above are ours. -->
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[
 			defName="RNApparel_Balaclava_EXF"
@@ -58,26 +66,8 @@
 			or defName="RNApparel_Balaclava_Clown"]/apparel/layers </xpath>
 		<value>
 			<layers>
-				<li>OnHead</li>
+				<li>Overhead</li>
 			</layers>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[
-			defName="RNApparel_Balaclava_EXF"
-			or defName="RNApparel_Balaclava_511M"
-			or defName="RNApparel_Balaclava_AikuerSkull"
-			or defName="RNApparel_Balaclava_Highlander"
-			or defName="RNApparel_Balaclava_CheekiBreeki"
-			or defName="RNApparel_Balaclava_Reaper"
-			or defName="RNApparel_Balaclava_Clown"
-			]/apparel/bodyPartGroups </xpath>
-		<value>
-			<bodyPartGroups>
-				<li>UpperHead</li>
-				<li>Teeth</li>
-			</bodyPartGroups>
 		</value>
 	</Operation>
 
