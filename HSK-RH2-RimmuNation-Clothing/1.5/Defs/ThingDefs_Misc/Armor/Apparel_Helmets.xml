@@ -162,10 +162,6 @@
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>
-    <costStuffCount>21</costStuffCount>
-    <stuffCategories>
-      <li>StrongMetallic</li>
-    </stuffCategories>
     <costStuffCount>23</costStuffCount>
     <costList>
       <Compaste>9</Compaste>
@@ -291,10 +287,6 @@
 		
 		<generateCommonality>0.1</generateCommonality>	
 	
-    <stuffCategories>
-      <li>StrongMetallic</li>
-    </stuffCategories>
-    <costStuffCount>22</costStuffCount>
     <stuffCategories>
       <li>StrongMetallic</li>
     </stuffCategories>

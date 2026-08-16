@@ -31,7 +31,9 @@
 			<Ammo_243Winchester_HE>Bullet_243Winchester_HE</Ammo_243Winchester_HE>
 			<Ammo_243Winchester_Sabot>Bullet_243Winchester_Sabot</Ammo_243Winchester_Sabot>
 		</ammoTypes>
-		<similarTo>AmmoSet_Rifle</similarTo>
+		<!-- no similarTo: CE's generic AmmoSet_Rifle is .bak-disabled in HSK (Defs/Ammo/GENERIC/),
+		     so referencing it logs "Could not resolve cross-reference" at boot (Shielder report).
+		     similarTo only matters for CE's generic-ammo mode, which HSK does not use. -->
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
